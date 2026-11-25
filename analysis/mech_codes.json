@@ -1810,20 +1810,20 @@
  "R0804": {
   "rid": "R0804",
   "validated_subsystems": [
-   "NA"
+   "none"
   ],
   "validation_independent": "NA",
   "validation_duration": "NA",
   "goodness_of_fit_reported": "NA",
-  "crop_representation": "NA",
-  "model_time_step": "NA",
+  "crop_representation": "NR",
+  "model_time_step": "NR",
   "feedbacks_represented": [
    "none"
   ],
   "operational_benefit_measured": "NA",
   "governance_or_security": "no",
   "compute_footprint": "no",
-  "evidence": "none"
+  "evidence": "Re-adjudicated: the design enters sensor data into mathematical models of growth and irrigation that calculate the irrigation rate (Sections 4 and 5); the models are named but not specified and not validated."
  },
  "R3225": {
   "rid": "R3225",

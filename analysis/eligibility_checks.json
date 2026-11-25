@@ -1,0 +1,106 @@
+[
+  {
+    "rid": "R0933",
+    "question": "I1: is the grassland under the array 'crops or pasture' or natural vegetation? E2: does the study build a model or sensing system, or only measure outcomes?",
+    "current": "INCLUDE",
+    "decision": "INCLUDE",
+    "exclusion_code": "",
+    "changed": false,
+    "quotes": [
+      "Methods, Site (p. 5): \"Underneath the panels is a near monodominant patch of smooth brome (Bromus inermis), a common C3 pasture grass. [...] Prior to the solar array installation, this land was a hay farm for 50 years, consisting primarily of Bromus inermis.\"",
+      "Results and discussion (p. 3): \"by simulating an AV system with a between-panel spacing of 6 m (an approximate average width of commonly used harvesters) we estimate reductions in scaled whole-AV ET of 4.5% and a negligible decrease in carbon uptake of 0.6%.\""
+    ],
+    "reason": "I1 is met: the vegetation is a near-monoculture of an introduced pasture grass on a former 50-year hay farm, which the authors frame as forage production in a managed grassland. It is not natural vegetation, although the paper does not say the grass is currently cut or grazed. It is not E2, because a plant hydraulic and soil water model parameterized with site traits, run hourly for 23 years, validated against measured plant water potential (Methods, p. 7), and used to test a 6 m row-spacing design meets I2(c). This is consistent with the earlier grassland records R0731 and R0843, which were excluded under E2 rather than E1."
+  },
+  {
+    "rid": "R1988",
+    "question": "I1: is there agricultural production at the PV facility (possibly a desert PV plant)? E2: model or outcome-only?",
+    "current": "INCLUDE",
+    "decision": "INCLUDE",
+    "exclusion_code": "",
+    "changed": false,
+    "quotes": [
+      "Section 2.1.1, Study site (p. 3): \"Herbs and cash crops, such as Astragali Radix, Bupleurum chinense, Saposhnikovia divaricate, and Medicago sativa, have been planted underneath the PV panels, forming an agricultural–PV system\"",
+      "Abstract (p. 1): \"we developed a novel soil–plant–PV–atmosphere continuum (SPPVAC) model that integrates airflow, heat, and moisture transport processes with vegetation dynamics. The model was validated with field observations and applied to a representative PV site in Zhangjiakou, northern China.\""
+    ],
+    "reason": "I1 is met: the site, Desheng PV station in Hebei, is a semi-arid station with medicinal herbs and alfalfa planted under the panels, and its control plots are in nearby farmland under 'similar ... crop management' (Section 2.1.2). It is not a desert solar farm without agriculture. It is not E2, because the authors develop a coupled CFD soil–plant–PV–atmosphere model, validate it against field microclimate and soil data (Section 3.1, RMSE and R2 reported), and use it for crop-specific microclimate and biomass prediction, which meets I2(c)."
+  },
+  {
+    "rid": "R2195",
+    "question": "I1 and E3 (and other criteria as applicable) for a Community Land Model (CLM5) simulation of agrivoltaics.",
+    "current": "INCLUDE",
+    "decision": "INCLUDE",
+    "exclusion_code": "",
+    "changed": false,
+    "quotes": [
+      "Abstract (p. 1): \"we developed a process‐based agrivoltaic model within the Community Land model 5 to assess the impacts of agrivoltaics on water, energy, and carbon cycles. The model was validated using data from agrivoltaic sites in Illinois and Colorado\"",
+      "Section 3.3, Simulation Experiment Design (p. 7): \"After calibration and validation, we performed several single‐point simulations for maize and soybean at SF 2.0, and C3 grass at JSG, each with specific objectives\""
+    ],
+    "reason": "I1 is met: the model represents two named agrivoltaic installations with crop production under single-axis trackers (soybean yield was measured at Solar Farm 2.0, and pasture grass grows at Jack's Solar Garden; Section 3.1). It is not E3, because CLM5 is run as single-point simulations at those sites at patch and system level, not as a regional, national, or global potential or suitability map. It meets I2(c) as a calibrated and validated process model used for design (sensitivity to ground coverage ratio), it is a peer-reviewed journal article (I4), and no exclusion applies."
+  },
+  {
+    "rid": "R0349",
+    "question": "E2: an outcome-only field experiment, or does it build or apply a model or sensing system?",
+    "current": "INCLUDE",
+    "decision": "INCLUDE",
+    "exclusion_code": "",
+    "changed": false,
+    "quotes": [
+      "Results (accepted manuscript p. 15): \"Using the System Advisor Model (SAM) for a traditional and a co-location PV system in Tucson, AZ, we calculated that temperature reductions in the growing months of May-July from the co-location system lead to a 3% increase in generation\"",
+      "Methods, Monitoring Equipment & Variables Monitored (accepted manuscript p. 24): \"We used the System Advisor Model (SAM) parameterized for Tucson, Arizona, USA, to quantify normal power generation for an example 200 kW DC system [...] The only variable we differed between the adjacent traditional and agrivoltaic installations was PV panel temperature.\""
+    ],
+    "reason": "This is borderline, so the current decision is kept. The study is mainly a field experiment, and its standard sensors and datalogger would not on their own meet I2(d). However, it does more than report measured outcomes: it applies a computational PV energy model (SAM), driven by the measured agrivoltaic panel temperatures, to estimate electrical yield. This fits I2(c) ('PV energy or electrical yield ... used for estimation') and matches how R1616 and R2860 (field trials plus PVsyst or SAM) were treated. The model step is minor and uses SAM defaults for an example system. Page numbers refer to the DOE public-access accepted manuscript."
+  },
+  {
+    "rid": "R2710",
+    "question": "E2: an outcome-only field experiment, or does it build or apply a model or sensing system (as for R0349)?",
+    "current": "INCLUDE",
+    "decision": "INCLUDE",
+    "exclusion_code": "",
+    "changed": false,
+    "quotes": [
+      "Abstract (p. 1): \"Sixty-day-old hibiscus plants were grown in pots for thirty days either beneath photovoltaic (PV) panels or in open conditions, and PV operational parameters were monitored using wireless sensors connected to an Arduino-based data acquisition system.\"",
+      "Materials and methods, Solar PV panel setup (p. 3): \"The Arduino microcontroller board (Leonardo with ZigBee Socket Module) receives the sensor output signals and uses the ZigBee wireless sensor network, which is dispersed throughout the PV subsystem monitoring area, to gather and send all data.\""
+    ],
+    "reason": "This is borderline, so the current decision is kept. The study applies an IoT data-acquisition system for agrivoltaic PV data: current, voltage and temperature sensors feed an Arduino and a ZigBee wireless sensor network, with automatic SQL logging every 20 s (p. 3). That meets the wording of I2(d), 'develops or applies ... IoT, monitoring, data-acquisition ... system', and matches how R0867 was treated. Against this, the system is not developed or evaluated in the paper, the temperature–voltage regression is only descriptive, and on a strict 'develops' reading the study would be E2. There is also an I1 concern: the plants are potted ornamentals purchased from a nursery and kept under a low ground-mounted array for 30 days with no yield, which is close to the R1084 (pollinator plants) precedent. Neither issue is clear enough to change the decision."
+  },
+  {
+    "rid": "R1384",
+    "question": "I1: is a solar greenhouse with a smart artificial lighting system agrivoltaic (PV and crop production sharing land or structure)?",
+    "current": "INCLUDE",
+    "decision": "INCLUDE",
+    "exclusion_code": "",
+    "changed": false,
+    "quotes": [
+      "Abstract: \"as a closed agrivoltaic system, the solar greenhouse experiences a problem of optimizing the natural light in generating electricity and producing crops at the same time. The roofing solar modules prevent the plants from receiving adequate amount of sunlight\"",
+      "Section II.D, Experimental Setup: \"There were three solar modules in the setup with the crops placed under the middle PV.\""
+    ],
+    "reason": "I1 is met: PV modules form the roof of a greenhouse in which romaine lettuce is grown and harvested directly beneath them. This is the 'PV greenhouses or PV-shaded protected cultivation in which plants are grown' case that I1 names, not PV on a building with no plants under it. The rooftop location and small prototype scale do not fail I1 or I3. I2 is met by the IoT monitoring system and the fitted irradiance-to-indoor-light model that controls LED dimming."
+  },
+  {
+    "rid": "R0978",
+    "question": "I1 and E2 for an optimization of the water-energy-food nexus (charted from the abstract only).",
+    "current": "INCLUDE",
+    "decision": "INCLUDE",
+    "exclusion_code": "",
+    "changed": false,
+    "quotes": [
+      "Abstract: \"To generate the necessary experimental data for a meaningful case study, a year-long field study was carried out to generate experimental data for three fields were constructed in Kuwait using open-field, agrivoltaic, and greenhouse farming methods.\"",
+      "Abstract: \"formulating WEF nexus problems as multi-objective, multi-period optimization problems with data-driven models based on field work [...] An optimization formulation is developed to determine the optimal system configuration, water and energy uses and sources, and crop mix selection.\""
+    ],
+    "reason": "I1 is met at abstract level: an agrivoltaic field was built and run for a year, and it is one of the candidate farming configurations in the optimization superstructure. The abstract does not describe the agrivoltaic layout, and agrivoltaics is only one option within a wider desalination and energy system, so the judgement rests on the abstract. It is not E2: the study develops data-driven models fitted to field data and a multi-objective, multi-period optimization of configuration, water, energy and crop mix (I2(a) and I2(c)), not an economic-only analysis. It is a case-study system, not a regional mapping (not E3)."
+  },
+  {
+    "rid": "R1758",
+    "question": "I1: is PV co-located with crops in the 'Green Village' integrated water-energy-food system (abstract only)?",
+    "current": "INCLUDE",
+    "decision": "INCLUDE",
+    "exclusion_code": "",
+    "changed": false,
+    "quotes": [
+      "Abstract: \"The integrated design comprises two 15 m3 ReedBox® natural wastewater treatment units and a 75 kWp agrivoltaic array above olive orchards.\"",
+      "Abstract: \"We used a mixed-methods design: semi-structured interviews with residents and experts informed the system requirements, and PVsyst simulations and field monitoring quantified expected performance.\""
+    ],
+    "reason": "I1 is met: the abstract states that the 75 kWp array sits 'above olive orchards', so PV is co-located with a crop on the same land unit, and the system is not PV-powered farm equipment. I2(c) is met by the PVsyst energy simulation and field monitoring of the specific pilot design (I3), and the interviews are an addition to that technical analysis, not the whole study. The decision rests on the abstract because the full text was not retrieved."
+  }
+]

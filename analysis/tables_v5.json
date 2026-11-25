@@ -452,9 +452,9 @@
    ],
    [
     "Digital shadow or twin (designed)",
-    "9",
+    "8",
     "10",
-    "78% (45–94%)",
+    "88% (53–98%)",
     "70% (40–89%)",
     "98%"
    ],
@@ -1456,16 +1456,16 @@
    ],
    [
     "Digital twin",
-    "8",
+    "7",
     "1",
-    "8",
-    "4"
+    "7",
+    "3"
    ],
    [
     "Not applicable",
-    "58",
+    "59",
     "10",
-    "20",
+    "21",
     "9"
    ],
    [
@@ -1616,7 +1616,7 @@
     "42"
    ]
   ],
-  "note": "N = 594. Deployment and decision timescale are multi-valued, so a study can appear under several tiers; a multi-tier architecture can be coded together with the tiers it combines. Offline under deployment means that no deployment beyond a desktop or server is reported, and simulation studies that report no deployment are coded offline; offline under real-time operation means that the study does not operate on live data. Digital twin levels follow Kritzinger et al. {Kritzinger2018}: the designed level is the level of the system as described, and the demonstrated level is the highest level whose data flows were run on an installation, prototype, or testbed with results reported; none demonstrated marks shadows and twins that were only designed. Not applicable marks sensing or control systems without a virtual model, and, for implementation status, pure simulations or analyses with no system to implement. A validation setting of none means that no validation is reported. The last two columns give the counts among the 224 studies charted from full text, which are the better guide for fields that abstracts rarely report (Table 5). In the full-text core, 204 studies have a virtual model by the level coding and 208 by the full-text model-structure coding (Supplementary Table S5.3); the two codings differ for 4 studies."
+  "note": "N = 594. Deployment and decision timescale are multi-valued, so a study can appear under several tiers; a multi-tier architecture can be coded together with the tiers it combines. Offline under deployment means that no deployment beyond a desktop or server is reported, and simulation studies that report no deployment are coded offline; offline under real-time operation means that the study does not operate on live data. Digital twin levels follow Kritzinger et al. {Kritzinger2018}: the designed level is the level of the system as described, and the demonstrated level is the highest level whose data flows were run on an installation, prototype, or testbed with results reported; none demonstrated marks shadows and twins that were only designed. Not applicable marks sensing or control systems without a virtual model, and, for implementation status, pure simulations or analyses with no system to implement. A validation setting of none means that no validation is reported. The last two columns give the counts among the 224 studies charted from full text, which are the better guide for fields that abstracts rarely report (Table 5). In the full-text core, 203 studies have a virtual model by the level coding and 209 by the full-text model-structure coding (Supplementary Table S5.3); the two codings disagree for 10 studies (2 with a virtual model by the level coding only, 8 by the model-structure coding only). Categories are not mutually exclusive, so counts can sum to more than the column total. Of all 594 studies, 535 have a virtual model; the other 59 are sensing, data, or computing studies without one."
  },
  "T11_twins": {
   "caption": "Table 11 Included Studies at the Digital Shadow and Digital Twin Levels, With the Evidence for Each Level",
@@ -1664,17 +1664,6 @@
     "AI steering algorithm combining sensors with mechanistic crop models (designed); Penman-Monteith ETo analysis",
     "Model output sets actuators automatically (designed only): “we propose to use an artificial intelligence to pilot the orientation of solar panels using environmental and plant indicators derived from both”",
     "“Variables that are difficult to evaluate continuously in the field such as predawn water potential can be estimated by crop models and used to take decisions”"
-   ],
-   [
-    "{R1149}",
-    "2024",
-    "Digital twin",
-    "Sensing system without a model",
-    "Prototype or testbed",
-    "Full text",
-    "Proposed AI predictive model of soil evapotranspiration; planned, not implemented",
-    "Model output sets actuators automatically (designed only): “Based on these analyses, the system will be able to generate automatic fertigation events, optimizing the use of water resources and ensuring”",
-    "“Data transmitted over LoRaWan frequencies, after being interpreted by the gateway, are processed, stored, and analyzed within the AWS cloud environment”"
    ],
    [
     "{R1443}",
@@ -1845,9 +1834,9 @@
    ],
    [
     "Digital shadow or twin, as designed",
-    "9 (11%)",
+    "8 (10%)",
     "0 (0%)",
-    "+11 (+5 to +20)"
+    "+10 (+5 to +19)"
    ],
    [
     "Digital shadow or twin, as demonstrated",
@@ -2138,7 +2127,7 @@
    [
     "F6",
     "17 (11 at arid sites): soiling modeled or dust considered",
-    "10 (6 at arid sites): soiling modeled",
+    "9 (6 at arid sites): soiling modeled",
     "2: edge, cloud, or multi-tier"
    ],
    [
@@ -2190,7 +2179,7 @@
    [
     "Tracking and shading control",
     "Light, PV output, crop",
-    62,
+    63,
     0,
     0,
     0,
@@ -2201,7 +2190,7 @@
    [
     "Irrigation scheduling",
     "Water, crop",
-    43,
+    44,
     3,
     3,
     3,
@@ -2212,13 +2201,13 @@
    [
     "Module cleaning",
     "Soiling, PV output",
-    5,
+    4,
     0,
     0,
     0,
     0,
     0,
-    1
+    0
    ],
    [
     "Any of the three decisions",
@@ -2229,9 +2218,9 @@
     3,
     0,
     0,
-    16
+    15
    ]
   ],
-  "note": "Full-text core, 208 studies with a virtual model. Each column counts the studies in the previous column that also meet the stated condition, so each row nests; the 'any' row counts studies that meet the conditions for at least one decision. Readiness is judged from the model's capability, whatever decision the study itself addresses. Every traded-off output validated = crop and PV output for tracking and shading control; water and crop for irrigation; PV output and soiling loss for cleaning; each compared with field or laboratory measurements with a reported error statistic. Links the subsystems = one-way or two-way coupling, or a physical feedback represented within one integrated model. Time step fine enough = hourly or finer for tracking, daily or finer for irrigation and cleaning. Base rule = covers the subsystems, at least one decision output validated against any measurements, linked, and of a specific installation (S5, Section Q). No model at any stage is designed to receive installation data automatically (0). A recode of all candidates from the original PDFs, including tables and figures, also found no ready model after adjudication (S2, sheets 'PDF recheck' and 'PDF recheck summary')."
+  "note": "Full-text core, 209 studies with a virtual model. Each column counts the studies in the previous column that also meet the stated condition, so each row nests; the 'any' row counts studies that meet the conditions for at least one decision. Readiness is judged from the model's capability, whatever decision the study itself addresses. Every traded-off output validated = crop and PV output for tracking and shading control; water and crop for irrigation; PV output and soiling loss for cleaning; each compared with field or laboratory measurements with a reported error statistic. Links the subsystems = one-way or two-way coupling, or a physical feedback represented within one integrated model. Time step fine enough = hourly or finer for tracking, daily or finer for irrigation and cleaning. Base rule = covers the subsystems, at least one decision output validated against any measurements, linked, and of a specific installation (S5, Section Q). No model at any stage is designed to receive installation data automatically (0). A recode of all candidates from the original PDFs, including tables and figures, also found no ready model after adjudication (S2, sheets 'PDF recheck' and 'PDF recheck summary')."
  }
 }

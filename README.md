@@ -1,6 +1,6 @@
 # Are Agrivoltaic Models Ready for Digital Twins? Data and code
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24544901.svg)](https://doi.org/10.5281/zenodo.24544901)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24544900.svg)](https://doi.org/10.5281/zenodo.24544900)
 
 Data, protocols, and analysis code for the scoping review *Are Agrivoltaic Models Ready for Digital Twins? A Scoping Review of Modeling, Data, AI, and Computing Studies, with Implications for Arid Regions* (Nabulsi, Abu Talib, Ghenai, Nasir, Bettayeb, and Dakalbab; manuscript submitted for publication).
 
@@ -49,6 +49,7 @@ Main data files in `analysis/`:
 | `ext_ref.json`, `xr_recheck.json` | Comparison with per-study codes tabulated in published reviews |
 | `ra_check_results.json`, `hc_adjudications.json` | The first author's manual check against the original publications, and the resulting corrections |
 | `adjudications_readiness.json` | Adjudicated readiness codes |
+| `eligibility_checks.json`, `level_checks.json` | Re-adjudication of borderline eligibility decisions and of level and model codes, with quotations from the texts |
 
 ## How the decisions were made
 
@@ -66,6 +67,6 @@ Data and documentation: [CC BY 4.0](LICENSE-DATA.md). Code: [MIT](LICENSE).
 
 ## Citation
 
-Nabulsi, O., Abu Talib, M., Ghenai, C., Nasir, Q., Bettayeb, M., and Dakalbab, F. (2026). *Are Agrivoltaic Models Ready for Digital Twins? Data and code for a scoping review* (version 1.0.0). Zenodo. https://doi.org/10.5281/zenodo.24544901
+Nabulsi, O., Abu Talib, M., Ghenai, C., Nasir, Q., Bettayeb, M., and Dakalbab, F. (2026). *Are Agrivoltaic Models Ready for Digital Twins? Data and code for a scoping review* (version 1.1.0). Zenodo. https://doi.org/10.5281/zenodo.24544900
 
-This DOI identifies version 1.0.0, the version analysed in the manuscript. To cite all versions, use https://doi.org/10.5281/zenodo.24544900. Please also cite the article once it is published. Citation details are also in `CITATION.cff`.
+This DOI always resolves to the latest version. Version 1.1.0 is the version analysed in the manuscript; version 1.0.0 (https://doi.org/10.5281/zenodo.24544901) matches an earlier draft. Please also cite the article once it is published. Citation details are also in `CITATION.cff`.

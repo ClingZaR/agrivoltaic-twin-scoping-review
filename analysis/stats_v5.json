@@ -44,8 +44,8 @@
  },
  "dt_maturity": {
   "digital_model": 526,
-  "NA": 58,
-  "digital_twin": 8,
+  "NA": 59,
+  "digital_twin": 7,
   "digital_shadow": 2
  },
  "ai_used": {
@@ -126,7 +126,7 @@
   "economics": 161,
   "microclimate": 147,
   "water": 125,
-  "soiling": 10
+  "soiling": 9
  },
  "method_families": {
   "physics_based": 494,
@@ -236,10 +236,10 @@
   "United Arab Emirates": 2,
   "Indonesia": 2,
   "Switzerland": 1,
-  "Latvia": 1,
-  "Lithuania": 1,
   "Estonia": 1,
+  "Latvia": 1,
   "Iceland": 1,
+  "Lithuania": 1,
   "Serbia": 1,
   "Peru": 1,
   "Kuwait": 1,
@@ -292,13 +292,13 @@
    "none": 1
   },
   "monitoring_state_estimation": {
-   "statistical": 32,
    "physics_based": 53,
+   "statistical": 32,
    "rule_based_control": 36,
    "none": 12,
    "deep_learning": 13,
-   "mathematical_programming": 6,
    "model_predictive_control": 3,
+   "mathematical_programming": 6,
    "classical_ml": 4,
    "metaheuristic_optimization": 1,
    "reinforcement_learning": 1,
@@ -309,8 +309,8 @@
   "prediction": {
    "simulated_synthetic": 314,
    "crop_plant_measurements": 106,
-   "meteorological_irradiance": 343,
    "pv_electrical": 62,
+   "meteorological_irradiance": 343,
    "microclimate_under_array": 102,
    "public_dataset_or_database": 115,
    "soil": 47,
@@ -318,8 +318,8 @@
    "remote_sensing": 8
   },
   "optimization_control": {
-   "simulated_synthetic": 176,
    "crop_plant_measurements": 70,
+   "simulated_synthetic": 176,
    "meteorological_irradiance": 187,
    "microclimate_under_array": 63,
    "soil": 34,
@@ -330,11 +330,11 @@
   },
   "monitoring_state_estimation": {
    "microclimate_under_array": 62,
-   "meteorological_irradiance": 63,
-   "soil": 36,
    "crop_plant_measurements": 45,
-   "simulated_synthetic": 22,
+   "soil": 36,
+   "meteorological_irradiance": 63,
    "public_dataset_or_database": 16,
+   "simulated_synthetic": 22,
    "pv_electrical": 34,
    "NR": 6,
    "remote_sensing": 4
@@ -347,16 +347,16 @@
    "NR": 11,
    "cloud": 11,
    "NA": 7,
-   "multi_tier": 5,
-   "fog_or_gateway": 4
+   "fog_or_gateway": 4,
+   "multi_tier": 5
   },
   "optimization_control": {
    "offline_desktop_or_server": 239,
    "NR": 26,
    "edge_or_embedded": 35,
    "cloud": 16,
-   "multi_tier": 9,
    "fog_or_gateway": 8,
+   "multi_tier": 9,
    "NA": 5
   },
   "monitoring_state_estimation": {
@@ -364,8 +364,8 @@
    "cloud": 19,
    "edge_or_embedded": 31,
    "NR": 23,
-   "multi_tier": 11,
-   "fog_or_gateway": 8
+   "fog_or_gateway": 8,
+   "multi_tier": 11
   }
  },
  "x_maturity_deploy": {
@@ -375,23 +375,23 @@
    "NR": 12,
    "cloud": 8,
    "NA": 7,
-   "multi_tier": 2,
-   "fog_or_gateway": 2
+   "fog_or_gateway": 2,
+   "multi_tier": 2
   },
   "NA": {
    "NR": 20,
-   "cloud": 10,
-   "edge_or_embedded": 25,
+   "cloud": 11,
+   "edge_or_embedded": 26,
    "offline_desktop_or_server": 12,
-   "multi_tier": 5,
-   "fog_or_gateway": 3
+   "fog_or_gateway": 4,
+   "multi_tier": 6
   },
   "digital_twin": {
    "NR": 2,
-   "multi_tier": 3,
-   "fog_or_gateway": 3,
-   "edge_or_embedded": 4,
-   "cloud": 3,
+   "cloud": 2,
+   "fog_or_gateway": 2,
+   "multi_tier": 2,
+   "edge_or_embedded": 3,
    "offline_desktop_or_server": 3
   },
   "digital_shadow": {
@@ -409,14 +409,14 @@
    "NR": 4
   },
   "NA": {
-   "real_time_operation_demonstrated": 27,
+   "real_time_operation_demonstrated": 28,
    "designed_for_real_time": 17,
    "NR": 5,
    "offline": 9
   },
   "digital_twin": {
    "designed_for_real_time": 6,
-   "real_time_operation_demonstrated": 2
+   "real_time_operation_demonstrated": 1
   },
   "digital_shadow": {
    "designed_for_real_time": 1,
@@ -426,8 +426,8 @@
  "x_dtterm_maturity": {
   "no": {
    "digital_model": 518,
-   "NA": 57,
-   "digital_twin": 7,
+   "NA": 58,
+   "digital_twin": 6,
    "digital_shadow": 1
   },
   "yes": {
@@ -471,8 +471,8 @@
    "NR": 8,
    "cloud": 9,
    "edge_or_embedded": 13,
-   "multi_tier": 3,
    "fog_or_gateway": 2,
+   "multi_tier": 3,
    "NA": 6
   },
   "minutes_to_hours": {
@@ -481,21 +481,21 @@
    "edge_or_embedded": 25,
    "cloud": 10,
    "NA": 1,
-   "multi_tier": 6,
-   "fog_or_gateway": 4
+   "fog_or_gateway": 4,
+   "multi_tier": 6
   },
   "days_to_weeks": {
    "offline_desktop_or_server": 27,
    "cloud": 8,
    "NR": 12,
    "edge_or_embedded": 13,
-   "multi_tier": 6,
    "fog_or_gateway": 5,
+   "multi_tier": 6,
    "NA": 1
   },
   "seconds_or_faster": {
-   "offline_desktop_or_server": 7,
    "edge_or_embedded": 5,
+   "offline_desktop_or_server": 7,
    "cloud": 1,
    "NR": 1
   }
@@ -547,14 +547,14 @@
    "rule_based_control": 38,
    "none": 8,
    "deep_learning": 8,
-   "hybrid_physics_ml": 2,
-   "classical_ml": 5,
    "metaheuristic_optimization": 10,
+   "classical_ml": 5,
+   "hybrid_physics_ml": 2,
    "reinforcement_learning": 1
   },
   "water": {
-   "statistical": 27,
    "physics_based": 96,
+   "statistical": 27,
    "rule_based_control": 38,
    "metaheuristic_optimization": 5,
    "classical_ml": 3,
@@ -574,11 +574,10 @@
    "model_predictive_control": 2
   },
   "soiling": {
-   "physics_based": 9,
-   "mathematical_programming": 2,
-   "model_predictive_control": 1,
+   "physics_based": 8,
    "none": 1,
-   "rule_based_control": 2
+   "rule_based_control": 2,
+   "mathematical_programming": 1
   }
  },
  "x_aid_year": {
@@ -685,7 +684,7 @@
     103
    ],
    [
-    4,
+    3,
     491
    ]
   ],
@@ -854,17 +853,17 @@
     94
    ],
    "nonB": [
-    2,
+    1,
     287
    ],
-   "p": 0.0035655655327466477,
+   "p": 0.0011149898743586424,
    "ciB": [
     2.9579332197396004,
     13.23313479223077
    ],
    "ciNonB": [
-    0.1913097540734947,
-    2.504865758645456
+    0.061531732199650996,
+    1.9469842435067128
    ]
   },
   "cmp_measured": {
@@ -951,7 +950,7 @@
     594
    ],
    "shadow_or_twin": [
-    10,
+    9,
     594
    ],
    "coupled": [
@@ -1009,7 +1008,7 @@
     176
    ],
    "shadow_or_twin": [
-    10,
+    9,
     176
    ],
    "coupled": [
@@ -1103,7 +1102,7 @@
    "ai": 7.528424075065506e-06,
    "realtime_demo": 3.840111032011962e-18,
    "online_tier": 1.0817755046527575e-16,
-   "shadow_or_twin": 4.3375596702585325e-06,
+   "shadow_or_twin": 1.5194445551504439e-05,
    "coupled": 0.00022812905125473042,
    "two_way": 0.4634819605401506,
    "assimilation": 0.2962962962962963,
@@ -1133,7 +1132,7 @@
    "B": 4,
    "A": 1
   },
-  "n_with_model": 536,
+  "n_with_model": 535,
   "n_lim_text": 217,
   "n_fut_text": 188,
   "n_operational": 176,
@@ -1242,14 +1241,14 @@
    },
    "shadow_or_twin": {
     "full": [
-     9,
+     8,
      224
     ],
     "abs": [
      1,
      370
     ],
-    "p": 0.0009321378183687247
+    "p": 0.002286594782416
    },
    "limitations_stated": {
     "full": [

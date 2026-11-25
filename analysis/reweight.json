@@ -26,13 +26,13 @@
   ],
   [
    "Model compared with no measurements",
-   208,
-   "119 (57%)",
+   209,
+   "120 (57%)",
    "56% (48 to 64)"
   ],
   [
    "Model validated and coupled",
-   208,
+   209,
    "28 (13%)",
    "16% (10 to 22)"
   ]
@@ -71,15 +71,15 @@
    "hi": 18
   },
   "Model compared with no measurements": {
-   "n": 208,
-   "k": 119,
+   "n": 209,
+   "k": 120,
    "raw": 57,
    "rw": 56,
    "lo": 48,
    "hi": 64
   },
   "Model validated and coupled": {
-   "n": 208,
+   "n": 209,
    "k": 28,
    "raw": 13,
    "rw": 16,

@@ -1,0 +1,93 @@
+[
+  {
+    "rid": "R2039",
+    "question": "Q1: Does installation data flow automatically into the virtual model during operation on the testbed (demonstrated digital shadow), or is that only designed?",
+    "field": "demonstrated",
+    "current": "digital_model (designed level digital_shadow)",
+    "decision": "digital_model",
+    "changed": false,
+    "quotes": [
+      "The Raspberry Pi gateway (network layer) continuously receives the current state from the Arduino (perception layer) and publishes it. The Cesium web application (application layer) receives and displays this data. [Section 3.3.2]",
+      "Specifically, all simulations were performed for a single clear-sky day. [Section 3.2.3]"
+    ],
+    "reason": "Rule M counts automated input only when installation data reach the virtual model, and a dashboard of raw sensor values is not a virtual model. On the lab tracker kit (a Keyestudio KS0530 kit, Section 3.3.1), MQTT carries azimuth and tilt to the dashboard for display, while the pvlib model runs on user-defined clear-sky inputs. The sentence quoted in Table 10 ('real-time sensor data from the hardware is fed back into the digital twin') comes from the Section 3 architecture overview, so it supports the designed shadow only."
+  },
+  {
+    "rid": "R0804",
+    "question": "Q2: Does the paper describe a virtual model (a computational model of the installation beyond dashboards, data storage or rules)? If so, which one?",
+    "field": "virtual_model",
+    "current": "no virtual model in mech_codes (validated_subsystems NA); dt_maturity digital_twin",
+    "decision": "yes: the unspecified 'mathematical models of growth, irrigation' that compute section irrigation rates, which are passed to the automatic railer. dt_maturity stays digital_twin (designed, low confidence). Correct mech_codes: validated_subsystems NA -> none, crop_representation NA -> NR, model_time_step NA -> NR.",
+    "changed": true,
+    "quotes": [
+      "The obtained data are sent to the control center, where they are entered into mathematical models of growth, irrigation, etc. [Section 4, Adaptation of precision farming methods]",
+      "In the proposed complex, natural and artificial irrigation can be used, and irrigation models are used to calculate the correct irrigation rate. [Section 5, Irrigation system]"
+    ],
+    "reason": "Rule L defines a virtual model as a physics-based or data-driven model of a subsystem such as crop or water. The proposed design sends section sensor data into growth and irrigation models whose computed rates go to the railer, which meets the designed-twin rule; the models are named but not specified and nothing was built, so the model-structure code should record a described but unvalidated model rather than NA. Panel rotation follows the qualitative hour-by-hour rules of Section 2 and is not a model."
+  },
+  {
+    "rid": "R1149",
+    "question": "Q2: Does the paper describe a virtual model (a computational model of the installation beyond dashboards, data storage or rules)? If not, what designed level do the rules give?",
+    "field": "dt_maturity",
+    "current": "digital_twin (demonstrated NA)",
+    "decision": "NA",
+    "changed": true,
+    "quotes": [
+      "In its final version, this cloud will have to execute data analysis using artificial intelligence algorithms to identify a predictive model related to soil evapotranspiration values and other agronomic parameters. [Section 1, Introduction]",
+      "Once the model is fully validated and the cloud has reached a sufficiently developed state, new research opportunities will emerge. Specifically, there will be a focus on more advanced levels, such as the integration of artificial intelligence. [Section 6.2]"
+    ],
+    "reason": "The only model is an AI predictive model that is still to be identified and is deferred to future research, so no virtual model is part of the system described. What is described and run (LoRaWAN-to-AWS storage, a Grafana dashboard, user-scheduled fertigation and tank-level threshold control) is the case Rule L1 assigns to NA. The mech_codes NA is correct; audit_virtual_model 'yes' should read 'no'."
+  },
+  {
+    "rid": "R0909",
+    "question": "Q3: Does the paper specify a designed two-way loop (model output automatically acting on the installation), or only state intentions or aspirations?",
+    "field": "dt_maturity",
+    "current": "digital_twin (demonstrated digital_model)",
+    "decision": "digital_twin",
+    "changed": false,
+    "quotes": [
+      "The solar panels are oriented using information collected from environmental and plant sensors. Variables that are difficult to evaluate continuously in the field such as predawn water potential can be estimated by crop models and used to take decisions … [Section 3.4]",
+      "Therefore, as implemented in Tresserre, we propose to use an artificial intelligence to pilot the orientation of solar panels using environmental and plant indicators derived from both sensors and crop models. [Section 4, Conclusions]"
+    ],
+    "reason": "Rule M takes the designed level from 'the system as described or proposed'. The paper proposes, for the specific Tresserre installation, a loop in which sensor data and crop-model estimates pilot the panel orientation; it names the models and the actuated variable, which is more than a bare aspiration (unlike R1149). The loop is only a 'conceptual algorithm' (Figure 3) with no specified data link and no results, so it stays a designed twin, and the demonstrated level stays digital_model (fixed afternoon-shading policy at Piolenc)."
+  },
+  {
+    "rid": "R1384",
+    "question": "Q4 (sensitivity, facts only): Is the controller a lookup table derived offline from a model, or a rule set not derived from a model? What demonstrated level would it have if model-derived lookup tables counted as a virtual model?",
+    "field": "lookup_table_fact",
+    "current": "dt_maturity NA; dt_demonstrated NA",
+    "decision": "Rule set, not a table of model outputs. Table II maps the ambient light, estimated online (about every 1.3 s) from pyranometer GHI by the fitted power-law Eq. (1), to 11 LED duty-cycle bands. The band limits were set by dividing the equation's predicted maximum (23,116 lux at 1000 W/m2) by 11. Sensitivity: if the fitted equation with its table counted as a virtual model, the designed and demonstrated level would be digital_twin (automatic input and LED actuation on the greenhouse prototype during the 30-day trial). Under a narrow definition (the table must hold model-computed outputs), it stays NA.",
+    "changed": false,
+    "quotes": [
+      "the maximum expected ambient light was 23116 lux approximately. This value was divided by 11 to create ranges of values that will be used to manipulate the duty cycle of the LEDs from 0% to 100% … [Section III.B.1]",
+      "The solar irradiance measured by the pyranometer was used to estimate the ambient light inside the solar greenhouse. Depending on the computed ambient light, the dimming level of the LEDs will be changed … [Section III.A]"
+    ],
+    "reason": "Only the band width of the table is scaled from the empirical fit, and the fit itself runs online on live data, so any move for R1384 depends on counting the fitted equation as a virtual model, not on counting offline lookup tables. Inconsistency to note: mech_codes treats the same equation as a validated light model (light_shading, R2 about 1) while the level is NA, and audit_threshold reads 'no' although the audit reason calls it threshold control. No code changed."
+  },
+  {
+    "rid": "R1814",
+    "question": "Q4 (sensitivity, facts only): Is the controller a lookup table derived offline from a model, or a rule set not derived from a model? What demonstrated level would it have if model-derived lookup tables counted as a virtual model?",
+    "field": "lookup_table_fact",
+    "current": "dt_maturity digital_model; dt_demonstrated digital_model",
+    "decision": "Model-derived lookup table: generated offline from Pareto-optimal runs of the first-principles multi-objective model. During operation, an Arduino maps live sensor readings to actuator set-points by table lookup and conditional rules. Sensitivity: if counted as a virtual model, designed digital_twin and demonstrated digital_twin (low confidence; digital_model under the unclear rule).",
+    "changed": false,
+    "quotes": [
+      "A precomputed lookup table was generated offline using Pareto-optimal simulation outcomes across different environmental states. During operation, a low-cost Arduino Mega 2560 microcontroller reads real-time sensor inputs (e.g., radiation, temperature, humidity) and maps them to optimal actuator settings … [Section 4]",
+      "Field deployment during the 97-day crop cycle confirmed that the control loop executed reliably within a sub-2-second latency … [Section 4]"
+    ],
+    "reason": "The paper reports the lookup-table control loop running in the 97-day field deployment, which would be a demonstrated twin if the table counted as a virtual model. But Section 4 also describes 'a retrospective validation strategy using data from a previously deployed' greenhouse, so it is unclear whether the table controller drove that installation. Under the unclear rule the lower level, digital_model, would apply. No code changed."
+  },
+  {
+    "rid": "R1200",
+    "question": "Q5: Does the model represent soiling loss as a modelled variable, or does the paper only measure soiling or PV output? Should it count as a model covering both PV output and soiling?",
+    "field": "soiling_modelled",
+    "current": "yes (subsystems = pv_energy, soiling; meets cleaning-decision coverage)",
+    "decision": "no: soiling is not modelled. Remove 'soiling' from subsystems (keep pv_energy and the dust_soiling arid constraint). Not a model covering both PV output and soiling.",
+    "changed": true,
+    "quotes": [
+      "Compare the actual annual production of the ST-PVG with the theoretical annual production. Calculate the difference between the actual data and the theoretical estimate. Calculate the loss of energy production according to ( 1 ). [Section 3.1]",
+      "This tendency to lose production is mainly governed by the inevitable progressive loss of efficiency of the PV system and by the dirt accumulated on the panels. [Section 5, Discussion]"
+    ],
+    "reason": "The PV model is a Solar Explorer simulation with a fixed 14% total loss. The 6.8% annual loss is the residual between inverter-measured and simulated output, which the authors attribute jointly to efficiency loss and dirt, so soiling is neither predicted nor measured on its own. Section D codes modelled subsystems, so 'soiling' should be dropped and R1200 fails cleaning coverage (condition 1), consistent with the existing readiness adjudication that 'soiling is not modeled'."
+  }
+]

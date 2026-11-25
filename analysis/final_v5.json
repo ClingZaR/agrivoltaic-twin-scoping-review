@@ -21036,7 +21036,7 @@
 "water_scarcity_irrigation"
 ],
 "dt_term_used": "no",
-"dt_maturity": "digital_twin",
+"dt_maturity": "NA",
 "dt_functions": [
 "monitoring_state_estimation",
 "optimization_control"
@@ -21112,18 +21112,19 @@
 "audit_basis": "full_text",
 "audit_confidence": "low",
 "audit_ft_could_change": "no",
-"audit_virtual_model": "yes",
+"audit_virtual_model": "no",
 "audit_model": "Proposed AI predictive model of soil evapotranspiration; planned, not implemented",
 "audit_input": "yes",
 "audit_input_ev": "Data transmitted over LoRaWan frequencies, after being interpreted by the gateway, are processed, stored, and analyzed within the AWS cloud environment",
 "audit_actuation": "yes",
 "audit_actuation_ev": "Based on these analyses, the system will be able to generate automatic fertigation events, optimizing the use of water resources and ensuring optimal crop growth.",
 "audit_threshold": "yes",
-"audit_reason": "The paper proposes a final version in which a cloud AI model fed automatically by sensor data triggers fertigation events, a designed twin, but the model is unspecified and left as future work. What ran in the field trial was LoRaWAN-to-AWS sensing, a Grafana dashboard, farmer-scheduled fertigation and tank-level threshold control, with no virtual model, so the demonstrated level is NA.",
+"audit_reason": "The paper proposes a final version in which a cloud AI model fed automatically by sensor data triggers fertigation events, a designed twin, but the model is unspecified and left as future work. What ran in the field trial was LoRaWAN-to-AWS sensing, a Grafana dashboard, farmer-scheduled fertigation and tank-level threshold control, with no virtual model, so the demonstrated level is NA. Re-adjudicated: the only model is an unspecified AI model deferred to future research, so no virtual model is described and the designed level is NA (Rule L1).",
 "audit_d1": "digital_twin",
 "audit_d2": "digital_twin",
 "audit_m1": "NA",
 "audit_m2": "NA",
+"level_readjudicated": true,
 "verified": true,
 "verification_note": "",
 "title": "Analysis and Development of an IoT System for an Agrivoltaics Plant",
@@ -22785,8 +22786,7 @@
 "operation"
 ],
 "subsystems": [
-"pv_energy",
-"soiling"
+"pv_energy"
 ],
 "method_families": [
 "physics_based",
@@ -22840,6 +22840,8 @@
 "uncertainty_quantification": "no",
 "fault_or_anomaly_detection": "yes",
 "recharted_full_text": true,
+"verified": true,
+"verification_note": "Re-adjudicated: the PV model applies a fixed total loss; the soiling share is neither predicted nor measured separately, so soiling is not a modeled subsystem. The PV model is a Solar Explorer simulation with a fixed 14% total loss. The 6.8% annual loss is the residual between inverter-measured and simulated output, which the authors attribute jointly to efficiency loss and dirt, so soiling is neither predicted nor measured on its own. Section D codes mode",
 "title": "Design and Performance Evaluation of a Photovoltaic Greenhouse as an Energy Hub with Battery Storage and an Electric Vehicle Charger",
 "year": 2024,
 "venue": "Sustainability",

@@ -5173,7 +5173,7 @@
     "no_or_NR",
     "INCLUDE",
     "no",
-    "digital_twin",
+    "NA",
     "['operation']",
     "specific_installation",
     "field_measurements_single_site",
@@ -7162,15 +7162,15 @@
     "optimization_control",
     251,
     2,
-    8,
-    35
+    7,
+    36
    ],
    [
     "monitoring_state_estimation",
     50,
     2,
-    8,
-    44
+    7,
+    45
    ]
   ]
  },
@@ -7212,9 +7212,9 @@
     "Arid site (Köppen B)",
     "model soiling",
     "6/94 (6%, 3–13%)",
-    "2/287 (1%, 0–3%)",
+    "1/287 (0%, 0–2%)",
     "+6 (+2 to +13)",
-    "0.004"
+    "0.001"
    ],
    [
     "Arid site (Köppen B)",
@@ -7260,9 +7260,9 @@
     "Hot arid site (BWh or BSh)",
     "model soiling",
     "4/61 (7%, 3–16%)",
-    "4/320 (1%, 0–3%)",
-    "+5 (+1 to +14)",
-    "0.03"
+    "3/320 (1%, 0–3%)",
+    "+6 (+1 to +15)",
+    "0.01"
    ],
    [
     "Hot arid site (BWh or BSh)",
@@ -7308,9 +7308,9 @@
     "MENA site",
     "model soiling",
     "2/29 (7%, 2–22%)",
-    "6/352 (2%, 1–4%)",
-    "+5 (0 to +20)",
-    "0.12"
+    "5/352 (1%, 1–3%)",
+    "+5 (0 to +21)",
+    "0.09"
    ],
    [
     "MENA site",
@@ -7554,13 +7554,13 @@
     "Digital twin",
     1,
     1,
-    6
+    5
    ],
    [
     "Not applicable",
     0,
     4,
-    54
+    55
    ]
   ]
  },
@@ -7699,8 +7699,8 @@
    [
     "Digital shadow or twin, as designed",
     "7 (5%)",
-    "3 (1%)",
-    "+4 (+1 to +9)"
+    "2 (0%)",
+    "+4 (+2 to +9)"
    ],
    [
     "Digital shadow or twin, as demonstrated",
@@ -9508,15 +9508,6 @@
    ],
    [
     "Soiling modeled",
-    "S223",
-    2024,
-    "Chile",
-    "pv_greenhouse; semi_transparent_or_spectral",
-    "full_text",
-    "Design and Performance Evaluation of a Photovoltaic Greenhouse as an Energy Hub with Battery Storage and an Electric Vehicle Charger"
-   ],
-   [
-    "Soiling modeled",
     "S295",
     2025,
     "United Arab Emirates",
@@ -9985,15 +9976,6 @@
    ],
    [
     "Digital shadow or twin (designed)",
-    "S206",
-    2024,
-    "Italy",
-    "interspace_ground_mounted",
-    "full_text",
-    "Analysis and Development of an IoT System for an Agrivoltaics Plant"
-   ],
-   [
-    "Digital shadow or twin (designed)",
     "S283",
     2025,
     "Lebanon",
@@ -10171,7 +10153,7 @@
    ],
    [
     "None",
-    "119",
+    "120",
     "57"
    ],
    [
@@ -10281,8 +10263,8 @@
    ],
    [
     "Not stated",
-    "65",
-    "31"
+    "66",
+    "32"
    ],
    [
     "**Two-way physical feedbacks represented**",
@@ -10291,7 +10273,7 @@
    ],
    [
     "None",
-    "160",
+    "161",
     "77"
    ],
    [
@@ -10320,7 +10302,7 @@
     "2"
    ]
   ],
-  "note": "Studies charted from full text that develop or use a virtual model (n = 208). Fields coded from the full text with the protocol in Supplementary Material S4. Categories within the first and last blocks are multi-valued."
+  "note": "Studies charted from full text that develop or use a virtual model (n = 209). Fields coded from the full text with the protocol in Supplementary Material S4. Categories within the first and last blocks are multi-valued."
  },
  "field_inventory": {
   "header": [
@@ -12517,13 +12499,13 @@
    ],
    [
     "Model compared with no measurements",
-    208,
-    "119 (57%)",
+    209,
+    "120 (57%)",
     "56% (48 to 64)"
    ],
    [
     "Model validated and coupled",
-    208,
+    209,
     "28 (13%)",
     "16% (10 to 22)"
    ]
@@ -17934,7 +17916,7 @@
    [
     "Digital shadow or twin (designed)",
     "1/2 (50%)",
-    "6/7 (86%)"
+    "6/6 (100%)"
    ],
    [
     "Operational decisions addressed",
@@ -18098,8 +18080,8 @@
    ],
    [
     "Digital shadow or twin, as designed",
-    "+11 (+5 to +20)",
-    "+5 to +19",
+    "+10 (+5 to +19)",
+    "+4 to +17",
     "yes",
     "yes"
    ],
@@ -18116,6 +18098,485 @@
     "−14 to +2",
     "no",
     "no"
+   ]
+  ]
+ },
+ "readiness_by_model": {
+  "title": "Candidate Models Closest to Readiness",
+  "header": [
+   "Record ID",
+   "First author (year)",
+   "Decision",
+   "Model families",
+   "Every traded-off output validated, with an error statistic",
+   "Links the subsystems",
+   "Specific installation",
+   "Independent validation data",
+   "Model time step",
+   "Strict conditions not met",
+   "Meets the base rule",
+   "Arid site"
+  ],
+  "rows": [
+   [
+    "R0149",
+    "Marrou (2013)",
+    "Irrigation",
+    "physics based, statistical",
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "daily",
+    "every traded-off output validated with an error statistic; independent validation data",
+    "yes",
+    "no"
+   ],
+   [
+    "R0341",
+    "Elamri (2018)",
+    "Irrigation",
+    "physics based, statistical, rule based control",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "sub hourly",
+    "independent validation data",
+    "yes",
+    "no"
+   ],
+   [
+    "R0915",
+    "Peng (2023)",
+    "Tracking",
+    "physics based, statistical, rule based control",
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "NR",
+    "every traded-off output validated with an error statistic; independent validation data; adequate time step",
+    "yes",
+    "no"
+   ],
+   [
+    "R0922",
+    "Campana (2023)",
+    "Tracking",
+    "physics based, metaheuristic optimization, statistical",
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "NR",
+    "every traded-off output validated with an error statistic; independent validation data; adequate time step",
+    "yes",
+    "no"
+   ],
+   [
+    "R0933",
+    "Kannenberg (2023)",
+    "Irrigation",
+    "physics based, statistical",
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "hourly",
+    "every traded-off output validated with an error statistic; independent validation data",
+    "yes",
+    "yes"
+   ],
+   [
+    "R0967",
+    "Fleischmann (2023)",
+    "Tracking",
+    "physics based, mathematical programming",
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "NR",
+    "every traded-off output validated with an error statistic; independent validation data; adequate time step",
+    "yes",
+    "no"
+   ],
+   [
+    "R0979",
+    "Grubbs (2023)",
+    "Tracking",
+    "physics based, statistical",
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "sub hourly",
+    "every traded-off output validated with an error statistic; independent validation data",
+    "yes",
+    "no"
+   ],
+   [
+    "R0984",
+    "Willockx (2023)",
+    "Tracking",
+    "physics based, statistical, rule based control",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "hourly",
+    "every traded-off output validated with an error statistic",
+    "yes",
+    "no"
+   ],
+   [
+    "R1330",
+    "Gupta (2024)",
+    "Tracking",
+    "physics based",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "hourly",
+    "every traded-off output validated with an error statistic",
+    "no",
+    "no"
+   ],
+   [
+    "R1759",
+    "Moretta (2025)",
+    "Irrigation",
+    "physics based",
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "hourly",
+    "every traded-off output validated with an error statistic; independent validation data",
+    "yes",
+    "no"
+   ],
+   [
+    "R1814",
+    "Tomar (2025)",
+    "Irrigation",
+    "physics based, metaheuristic optimization, rule based control",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "hourly",
+    "independent validation data",
+    "yes",
+    "yes"
+   ],
+   [
+    "R1988",
+    "Sun (2025)",
+    "Irrigation",
+    "physics based",
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "NR",
+    "every traded-off output validated with an error statistic; independent validation data; adequate time step",
+    "yes",
+    "yes"
+   ],
+   [
+    "R2195",
+    "Jia (2026)",
+    "Irrigation",
+    "physics based, statistical",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "NR",
+    "independent validation data; adequate time step",
+    "yes",
+    "yes"
+   ],
+   [
+    "R2207",
+    "Carvalho (2026)",
+    "Tracking",
+    "physics based",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "hourly",
+    "every traded-off output validated with an error statistic",
+    "yes",
+    "no"
+   ],
+   [
+    "R2509",
+    "Biso (2026)",
+    "Irrigation",
+    "physics based, statistical",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "daily",
+    "every traded-off output validated with an error statistic",
+    "yes",
+    "no"
+   ],
+   [
+    "R2523",
+    "Sanchez (2026)",
+    "Irrigation",
+    "physics based, statistical, deep learning",
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "seasonal or static",
+    "every traded-off output validated with an error statistic; independent validation data; adequate time step",
+    "yes",
+    "no"
+   ]
+  ],
+  "note": "Models in the full-text core that meet the base rule (15) or fail only one condition of the strict rule (6), 16 in all. Each model is shown for the decision whose conditions it comes closest to meeting. Conditions are coded from the text-based model-structure coding, after adjudication; the recode from the original PDFs found independent validation data for more models and is reported separately (S2, sheet 'PDF recheck')."
+ },
+ "greenhouse_split": {
+  "title": "Twin-Relevant Indicators in PV Greenhouses and Open-Field Systems",
+  "header": [
+   "Indicator (full-text core)",
+   "PV greenhouse (n = 52)",
+   "Open field and other (n = 172)",
+   "Difference, percentage points (95% CI)"
+  ],
+  "rows": [
+   [
+    "AI used",
+    "3 (6%)",
+    "11 (6%)",
+    "−1 (−7 to +10)"
+   ],
+   [
+    "Uses measured data",
+    "36 (69%)",
+    "88 (51%)",
+    "+18 (+3 to +31)"
+   ],
+   [
+    "Measured data over more than one season",
+    "8 (15%)",
+    "27 (16%)",
+    "0 (−10 to +13)"
+   ],
+   [
+    "Field validation",
+    "24 (46%)",
+    "74 (43%)",
+    "+3 (−12 to +18)"
+   ],
+   [
+    "Real-time operation demonstrated",
+    "9 (17%)",
+    "14 (8%)",
+    "+9 (0 to +22)"
+   ],
+   [
+    "Models or instruments a specific installation",
+    "34 (65%)",
+    "75 (44%)",
+    "+22 (+6 to +35)"
+   ],
+   [
+    "Subsystems coupled (one-way or two-way)",
+    "20 (38%)",
+    "105 (61%)",
+    "−23 (−36 to −7)"
+   ],
+   [
+    "Digital shadow or twin, as designed",
+    "2 (4%)",
+    "6 (3%)",
+    "0 (−4 to +10)"
+   ],
+   [
+    "Digital shadow or twin, as demonstrated",
+    "1 (2%)",
+    "0 (0%)",
+    "+2 (−1 to +10)"
+   ]
+  ],
+  "note": "PV greenhouse = agrivoltaic configuration coded as a PV greenhouse (a study can have more than one configuration). Newcombe intervals, not adjusted for multiple comparisons."
+ },
+ "eligibility_checks": {
+  "header": [
+   "Record ID",
+   "Question",
+   "Decision",
+   "Exclusion code",
+   "Changed",
+   "Quotations",
+   "Reason"
+  ],
+  "rows": [
+   [
+    "R0933",
+    "I1: is the grassland under the array 'crops or pasture' or natural vegetation? E2: does the study build a model or sensing system, or only measure outcomes?",
+    "INCLUDE",
+    "",
+    "no",
+    "Methods, Site (p. 5): \"Underneath the panels is a near monodominant patch of smooth brome (Bromus inermis), a common C3 pasture grass. [...] Prior to the solar array installation, this land was a hay farm for 50 years, consisting primarily of Bromus inermis.\" | Results and discussion (p. 3): \"by simulating an AV system with a between-panel spacing of 6 m (an approximate average width of commonly used harvesters) we estimate reductions in scaled whole-AV ET of 4.5% and a negligible decrease in carbon uptake of 0.6%.\"",
+    "I1 is met: the vegetation is a near-monoculture of an introduced pasture grass on a former 50-year hay farm, which the authors frame as forage production in a managed grassland. It is not natural vegetation, although the paper does not say the grass is currently cut or grazed. It is not E2, because a plant hydraulic and soil water model parameterized with site traits, run hourly for 23 years, validated against measured plant water potential (Methods, p. 7), and used to test a 6 m row-spacing design meets I2(c). This is consistent with the earlier grassland records R0731 and R0843, which were excluded under E2 rather than E1."
+   ],
+   [
+    "R1988",
+    "I1: is there agricultural production at the PV facility (possibly a desert PV plant)? E2: model or outcome-only?",
+    "INCLUDE",
+    "",
+    "no",
+    "Section 2.1.1, Study site (p. 3): \"Herbs and cash crops, such as Astragali Radix, Bupleurum chinense, Saposhnikovia divaricate, and Medicago sativa, have been planted underneath the PV panels, forming an agricultural–PV system\" | Abstract (p. 1): \"we developed a novel soil–plant–PV–atmosphere continuum (SPPVAC) model that integrates airflow, heat, and moisture transport processes with vegetation dynamics. The model was validated with field observations and applied to a representative PV site in Zhangjiakou, northern China.\"",
+    "I1 is met: the site, Desheng PV station in Hebei, is a semi-arid station with medicinal herbs and alfalfa planted under the panels, and its control plots are in nearby farmland under 'similar ... crop management' (Section 2.1.2). It is not a desert solar farm without agriculture. It is not E2, because the authors develop a coupled CFD soil–plant–PV–atmosphere model, validate it against field microclimate and soil data (Section 3.1, RMSE and R2 reported), and use it for crop-specific microclimate and biomass prediction, which meets I2(c)."
+   ],
+   [
+    "R2195",
+    "I1 and E3 (and other criteria as applicable) for a Community Land Model (CLM5) simulation of agrivoltaics.",
+    "INCLUDE",
+    "",
+    "no",
+    "Abstract (p. 1): \"we developed a process‐based agrivoltaic model within the Community Land model 5 to assess the impacts of agrivoltaics on water, energy, and carbon cycles. The model was validated using data from agrivoltaic sites in Illinois and Colorado\" | Section 3.3, Simulation Experiment Design (p. 7): \"After calibration and validation, we performed several single‐point simulations for maize and soybean at SF 2.0, and C3 grass at JSG, each with specific objectives\"",
+    "I1 is met: the model represents two named agrivoltaic installations with crop production under single-axis trackers (soybean yield was measured at Solar Farm 2.0, and pasture grass grows at Jack's Solar Garden; Section 3.1). It is not E3, because CLM5 is run as single-point simulations at those sites at patch and system level, not as a regional, national, or global potential or suitability map. It meets I2(c) as a calibrated and validated process model used for design (sensitivity to ground coverage ratio), it is a peer-reviewed journal article (I4), and no exclusion applies."
+   ],
+   [
+    "R0349",
+    "E2: an outcome-only field experiment, or does it build or apply a model or sensing system?",
+    "INCLUDE",
+    "",
+    "no",
+    "Results (accepted manuscript p. 15): \"Using the System Advisor Model (SAM) for a traditional and a co-location PV system in Tucson, AZ, we calculated that temperature reductions in the growing months of May-July from the co-location system lead to a 3% increase in generation\" | Methods, Monitoring Equipment & Variables Monitored (accepted manuscript p. 24): \"We used the System Advisor Model (SAM) parameterized for Tucson, Arizona, USA, to quantify normal power generation for an example 200 kW DC system [...] The only variable we differed between the adjacent traditional and agrivoltaic installations was PV panel temperature.\"",
+    "This is borderline, so the current decision is kept. The study is mainly a field experiment, and its standard sensors and datalogger would not on their own meet I2(d). However, it does more than report measured outcomes: it applies a computational PV energy model (SAM), driven by the measured agrivoltaic panel temperatures, to estimate electrical yield. This fits I2(c) ('PV energy or electrical yield ... used for estimation') and matches how R1616 and R2860 (field trials plus PVsyst or SAM) were treated. The model step is minor and uses SAM defaults for an example system. Page numbers refer to the DOE public-access accepted manuscript."
+   ],
+   [
+    "R2710",
+    "E2: an outcome-only field experiment, or does it build or apply a model or sensing system (as for R0349)?",
+    "INCLUDE",
+    "",
+    "no",
+    "Abstract (p. 1): \"Sixty-day-old hibiscus plants were grown in pots for thirty days either beneath photovoltaic (PV) panels or in open conditions, and PV operational parameters were monitored using wireless sensors connected to an Arduino-based data acquisition system.\" | Materials and methods, Solar PV panel setup (p. 3): \"The Arduino microcontroller board (Leonardo with ZigBee Socket Module) receives the sensor output signals and uses the ZigBee wireless sensor network, which is dispersed throughout the PV subsystem monitoring area, to gather and send all data.\"",
+    "This is borderline, so the current decision is kept. The study applies an IoT data-acquisition system for agrivoltaic PV data: current, voltage and temperature sensors feed an Arduino and a ZigBee wireless sensor network, with automatic SQL logging every 20 s (p. 3). That meets the wording of I2(d), 'develops or applies ... IoT, monitoring, data-acquisition ... system', and matches how R0867 was treated. Against this, the system is not developed or evaluated in the paper, the temperature–voltage regression is only descriptive, and on a strict 'develops' reading the study would be E2. There is also an I1 concern: the plants are potted ornamentals purchased from a nursery and kept under a low ground-mounted array for 30 days with no yield, which is close to the R1084 (pollinator plants) precedent. Neither issue is clear enough to change the decision."
+   ],
+   [
+    "R1384",
+    "I1: is a solar greenhouse with a smart artificial lighting system agrivoltaic (PV and crop production sharing land or structure)?",
+    "INCLUDE",
+    "",
+    "no",
+    "Abstract: \"as a closed agrivoltaic system, the solar greenhouse experiences a problem of optimizing the natural light in generating electricity and producing crops at the same time. The roofing solar modules prevent the plants from receiving adequate amount of sunlight\" | Section II.D, Experimental Setup: \"There were three solar modules in the setup with the crops placed under the middle PV.\"",
+    "I1 is met: PV modules form the roof of a greenhouse in which romaine lettuce is grown and harvested directly beneath them. This is the 'PV greenhouses or PV-shaded protected cultivation in which plants are grown' case that I1 names, not PV on a building with no plants under it. The rooftop location and small prototype scale do not fail I1 or I3. I2 is met by the IoT monitoring system and the fitted irradiance-to-indoor-light model that controls LED dimming."
+   ],
+   [
+    "R0978",
+    "I1 and E2 for an optimization of the water-energy-food nexus (charted from the abstract only).",
+    "INCLUDE",
+    "",
+    "no",
+    "Abstract: \"To generate the necessary experimental data for a meaningful case study, a year-long field study was carried out to generate experimental data for three fields were constructed in Kuwait using open-field, agrivoltaic, and greenhouse farming methods.\" | Abstract: \"formulating WEF nexus problems as multi-objective, multi-period optimization problems with data-driven models based on field work [...] An optimization formulation is developed to determine the optimal system configuration, water and energy uses and sources, and crop mix selection.\"",
+    "I1 is met at abstract level: an agrivoltaic field was built and run for a year, and it is one of the candidate farming configurations in the optimization superstructure. The abstract does not describe the agrivoltaic layout, and agrivoltaics is only one option within a wider desalination and energy system, so the judgement rests on the abstract. It is not E2: the study develops data-driven models fitted to field data and a multi-objective, multi-period optimization of configuration, water, energy and crop mix (I2(a) and I2(c)), not an economic-only analysis. It is a case-study system, not a regional mapping (not E3)."
+   ],
+   [
+    "R1758",
+    "I1: is PV co-located with crops in the 'Green Village' integrated water-energy-food system (abstract only)?",
+    "INCLUDE",
+    "",
+    "no",
+    "Abstract: \"The integrated design comprises two 15 m3 ReedBox® natural wastewater treatment units and a 75 kWp agrivoltaic array above olive orchards.\" | Abstract: \"We used a mixed-methods design: semi-structured interviews with residents and experts informed the system requirements, and PVsyst simulations and field monitoring quantified expected performance.\"",
+    "I1 is met: the abstract states that the 75 kWp array sits 'above olive orchards', so PV is co-located with a crop on the same land unit, and the system is not PV-powered farm equipment. I2(c) is met by the PVsyst energy simulation and field monitoring of the specific pilot design (I3), and the interviews are an addition to that technical analysis, not the whole study. The decision rests on the abstract because the full text was not retrieved."
+   ]
+  ]
+ },
+ "level_checks": {
+  "header": [
+   "Record ID",
+   "Question",
+   "Field",
+   "Current code",
+   "Decision",
+   "Changed",
+   "Quotations",
+   "Reason"
+  ],
+  "rows": [
+   [
+    "R2039",
+    "Q1: Does installation data flow automatically into the virtual model during operation on the testbed (demonstrated digital shadow), or is that only designed?",
+    "demonstrated",
+    "digital_model (designed level digital_shadow)",
+    "digital_model",
+    "no",
+    "The Raspberry Pi gateway (network layer) continuously receives the current state from the Arduino (perception layer) and publishes it. The Cesium web application (application layer) receives and displays this data. [Section 3.3.2] | Specifically, all simulations were performed for a single clear-sky day. [Section 3.2.3]",
+    "Rule M counts automated input only when installation data reach the virtual model, and a dashboard of raw sensor values is not a virtual model. On the lab tracker kit (a Keyestudio KS0530 kit, Section 3.3.1), MQTT carries azimuth and tilt to the dashboard for display, while the pvlib model runs on user-defined clear-sky inputs. The sentence quoted in Table 10 ('real-time sensor data from the hardware is fed back into the digital twin') comes from the Section 3 architecture overview, so it supports the designed shadow only."
+   ],
+   [
+    "R0804",
+    "Q2: Does the paper describe a virtual model (a computational model of the installation beyond dashboards, data storage or rules)? If so, which one?",
+    "virtual_model",
+    "no virtual model in mech_codes (validated_subsystems NA); dt_maturity digital_twin",
+    "yes: the unspecified 'mathematical models of growth, irrigation' that compute section irrigation rates, which are passed to the automatic railer. dt_maturity stays digital_twin (designed, low confidence). Correct mech_codes: validated_subsystems NA -> none, crop_representation NA -> NR, model_time_step NA -> NR.",
+    "yes",
+    "The obtained data are sent to the control center, where they are entered into mathematical models of growth, irrigation, etc. [Section 4, Adaptation of precision farming methods] | In the proposed complex, natural and artificial irrigation can be used, and irrigation models are used to calculate the correct irrigation rate. [Section 5, Irrigation system]",
+    "Rule L defines a virtual model as a physics-based or data-driven model of a subsystem such as crop or water. The proposed design sends section sensor data into growth and irrigation models whose computed rates go to the railer, which meets the designed-twin rule; the models are named but not specified and nothing was built, so the model-structure code should record a described but unvalidated model rather than NA. Panel rotation follows the qualitative hour-by-hour rules of Section 2 and is not a model."
+   ],
+   [
+    "R1149",
+    "Q2: Does the paper describe a virtual model (a computational model of the installation beyond dashboards, data storage or rules)? If not, what designed level do the rules give?",
+    "dt_maturity",
+    "digital_twin (demonstrated NA)",
+    "NA",
+    "yes",
+    "In its final version, this cloud will have to execute data analysis using artificial intelligence algorithms to identify a predictive model related to soil evapotranspiration values and other agronomic parameters. [Section 1, Introduction] | Once the model is fully validated and the cloud has reached a sufficiently developed state, new research opportunities will emerge. Specifically, there will be a focus on more advanced levels, such as the integration of artificial intelligence. [Section 6.2]",
+    "The only model is an AI predictive model that is still to be identified and is deferred to future research, so no virtual model is part of the system described. What is described and run (LoRaWAN-to-AWS storage, a Grafana dashboard, user-scheduled fertigation and tank-level threshold control) is the case Rule L1 assigns to NA. The mech_codes NA is correct; audit_virtual_model 'yes' should read 'no'."
+   ],
+   [
+    "R0909",
+    "Q3: Does the paper specify a designed two-way loop (model output automatically acting on the installation), or only state intentions or aspirations?",
+    "dt_maturity",
+    "digital_twin (demonstrated digital_model)",
+    "digital_twin",
+    "no",
+    "The solar panels are oriented using information collected from environmental and plant sensors. Variables that are difficult to evaluate continuously in the field such as predawn water potential can be estimated by crop models and used to take decisions … [Section 3.4] | Therefore, as implemented in Tresserre, we propose to use an artificial intelligence to pilot the orientation of solar panels using environmental and plant indicators derived from both sensors and crop models. [Section 4, Conclusions]",
+    "Rule M takes the designed level from 'the system as described or proposed'. The paper proposes, for the specific Tresserre installation, a loop in which sensor data and crop-model estimates pilot the panel orientation; it names the models and the actuated variable, which is more than a bare aspiration (unlike R1149). The loop is only a 'conceptual algorithm' (Figure 3) with no specified data link and no results, so it stays a designed twin, and the demonstrated level stays digital_model (fixed afternoon-shading policy at Piolenc)."
+   ],
+   [
+    "R1384",
+    "Q4 (sensitivity, facts only): Is the controller a lookup table derived offline from a model, or a rule set not derived from a model? What demonstrated level would it have if model-derived lookup tables counted as a virtual model?",
+    "lookup_table_fact",
+    "dt_maturity NA; dt_demonstrated NA",
+    "Rule set, not a table of model outputs. Table II maps the ambient light, estimated online (about every 1.3 s) from pyranometer GHI by the fitted power-law Eq. (1), to 11 LED duty-cycle bands. The band limits were set by dividing the equation's predicted maximum (23,116 lux at 1000 W/m2) by 11. Sensitivity: if the fitted equation with its table counted as a virtual model, the designed and demonstrated level would be digital_twin (automatic input and LED actuation on the greenhouse prototype during the 30-day trial). Under a narrow definition (the table must hold model-computed outputs), it stays NA.",
+    "no",
+    "the maximum expected ambient light was 23116 lux approximately. This value was divided by 11 to create ranges of values that will be used to manipulate the duty cycle of the LEDs from 0% to 100% … [Section III.B.1] | The solar irradiance measured by the pyranometer was used to estimate the ambient light inside the solar greenhouse. Depending on the computed ambient light, the dimming level of the LEDs will be changed … [Section III.A]",
+    "Only the band width of the table is scaled from the empirical fit, and the fit itself runs online on live data, so any move for R1384 depends on counting the fitted equation as a virtual model, not on counting offline lookup tables. Inconsistency to note: mech_codes treats the same equation as a validated light model (light_shading, R2 about 1) while the level is NA, and audit_threshold reads 'no' although the audit reason calls it threshold control. No code changed."
+   ],
+   [
+    "R1814",
+    "Q4 (sensitivity, facts only): Is the controller a lookup table derived offline from a model, or a rule set not derived from a model? What demonstrated level would it have if model-derived lookup tables counted as a virtual model?",
+    "lookup_table_fact",
+    "dt_maturity digital_model; dt_demonstrated digital_model",
+    "Model-derived lookup table: generated offline from Pareto-optimal runs of the first-principles multi-objective model. During operation, an Arduino maps live sensor readings to actuator set-points by table lookup and conditional rules. Sensitivity: if counted as a virtual model, designed digital_twin and demonstrated digital_twin (low confidence; digital_model under the unclear rule).",
+    "no",
+    "A precomputed lookup table was generated offline using Pareto-optimal simulation outcomes across different environmental states. During operation, a low-cost Arduino Mega 2560 microcontroller reads real-time sensor inputs (e.g., radiation, temperature, humidity) and maps them to optimal actuator settings … [Section 4] | Field deployment during the 97-day crop cycle confirmed that the control loop executed reliably within a sub-2-second latency … [Section 4]",
+    "The paper reports the lookup-table control loop running in the 97-day field deployment, which would be a demonstrated twin if the table counted as a virtual model. But Section 4 also describes 'a retrospective validation strategy using data from a previously deployed' greenhouse, so it is unclear whether the table controller drove that installation. Under the unclear rule the lower level, digital_model, would apply. No code changed."
+   ],
+   [
+    "R1200",
+    "Q5: Does the model represent soiling loss as a modelled variable, or does the paper only measure soiling or PV output? Should it count as a model covering both PV output and soiling?",
+    "soiling_modelled",
+    "yes (subsystems = pv_energy, soiling; meets cleaning-decision coverage)",
+    "no: soiling is not modelled. Remove 'soiling' from subsystems (keep pv_energy and the dust_soiling arid constraint). Not a model covering both PV output and soiling.",
+    "yes",
+    "Compare the actual annual production of the ST-PVG with the theoretical annual production. Calculate the difference between the actual data and the theoretical estimate. Calculate the loss of energy production according to ( 1 ). [Section 3.1] | This tendency to lose production is mainly governed by the inevitable progressive loss of efficiency of the PV system and by the dirt accumulated on the panels. [Section 5, Discussion]",
+    "The PV model is a Solar Explorer simulation with a fixed 14% total loss. The 6.8% annual loss is the residual between inverter-measured and simulated output, which the authors attribute jointly to efficiency loss and dirt, so soiling is neither predicted nor measured on its own. Section D codes modelled subsystems, so 'soiling' should be dropped and R1200 fails cleaning coverage (condition 1), consistent with the existing readiness adjudication that 'soiling is not modeled'."
    ]
   ]
  }

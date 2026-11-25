@@ -637,7 +637,9 @@ for tk in ["T9_data", "T10_deployment", "T7_climate"]:
     t["note"] = t["note"] + f" The last two columns give the counts among the {_nf} studies charted from full text, which are the better guide for fields that abstracts rarely report (Table 5)."
     if tk == "T10_deployment" and "n_mech_model" in f:
         _vmL = sum(1 for s in ftS if s["dt_maturity"] != "NA")
-        t["note"] += f" In the full-text core, {_vmL} studies have a virtual model by the level coding and {f['n_mech_model']} by the full-text model-structure coding (Supplementary Table S5.3); the two codings differ for {abs(_vmL - f['n_mech_model'])} studies."
+        _MCn = json.load(open(_mp, encoding="utf-8")) if os.path.exists(_mp) else {}
+        _sL = {s["rid"] for s in ftS if s["dt_maturity"] != "NA"}; _sM = {s["rid"] for s in ftS if s["rid"] in _MCn and "NA" not in _MCn[s["rid"]]["validated_subsystems"]}
+        t["note"] += f" In the full-text core, {_vmL} studies have a virtual model by the level coding and {f['n_mech_model']} by the full-text model-structure coding (Supplementary Table S5.3); the two codings disagree for {len(_sL ^ _sM)} studies ({len(_sL - _sM)} with a virtual model by the level coding only, {len(_sM - _sL)} by the model-structure coding only). Categories are not mutually exclusive, so counts can sum to more than the column total. Of all {N} studies, {sum(1 for s in F if s['dt_maturity'] != 'NA')} have a virtual model; the other {sum(1 for s in F if s['dt_maturity'] == 'NA')} are sensing, data, or computing studies without one."
 # representativeness of the full-text subset
 def _share(G, fn): return pct(sum(1 for s in G if fn(s)), len(G))
 f["ftr_sim_ft"] = _share(ftS, lambda s: s["study_type"] == "simulation_modeling"); f["ftr_sim_abs"] = _share(abS, lambda s: s["study_type"] == "simulation_modeling")
@@ -1069,6 +1071,103 @@ for key, lab in [("meas", "meas"), ("fv", "fv")]:
         f[f"c5s_{key}_{nm}_n"] = f"{len(A_)} and {len(N_)}"
         if A_ and N_: f[f"c5s_{key}_{nm}_diff"] = ndiff(sum(fn(s) for s in A_), len(A_), sum(fn(s) for s in N_), len(N_))
 f["n_simF_arid"] = sum(1 for s in _simF if "B" in s["koppen_main"]); f["n_nsF_arid"] = sum(1 for s in _nsF if "B" in s["koppen_main"])
+
+
+# ---------- 9p. reconciliations, per-model readiness, greenhouse split ----------
+def _exz(nd):
+    m = re.match(r"([+−-]?\d+) \(([+−-]?\d+) to ([+−-]?\d+)\)", nd or "")
+    if not m: return False
+    g = lambda x: -int(x[1:]) if x.startswith("−") else int(x.replace("+", ""))
+    return g(m.group(2)) > 0 or g(m.group(3)) < 0
+for lab, key in {"AI used": "ai", "Measured data over more than one season": "ms", "Real-time operation demonstrated": "rt"}.items():
+    if lab in INDO:
+        k = sum(1 for s in ftS if INDO[lab](s)); f[f"hs_{key}_n"] = k; f[f"hs_{key}_pct"] = pct(k, len(ftS)); f[f"hs_{key}_ci"] = wci(k, len(ftS))
+if os.path.exists(_mp):
+    _MCp = json.load(open(_mp, encoding="utf-8"))
+    _fbq = lambda s: s["rid"] in _MCp and "none" not in _MCp[s["rid"]]["feedbacks_represented"] and "NA" not in _MCp[s["rid"]]["feedbacks_represented"]
+    _2w = lambda s: s.get("coupling") == "two_way_or_integrated"
+    f["lk_2w"] = sum(1 for s in ftS if _2w(s)); f["lk_fb"] = sum(1 for s in ftS if _fbq(s)); f["lk_both"] = sum(1 for s in ftS if _2w(s) and _fbq(s))
+    f["lk_union"] = sum(1 for s in ftS if _2w(s) or _fbq(s)); f["lk_fb_only"] = f["lk_union"] - f["lk_2w"]; f["lk_union_pct"] = pct(f["lk_union"], len(ftS))
+    _sL2 = {s["rid"] for s in ftS if s["dt_maturity"] != "NA"}; _sM2 = {s["rid"] for s in ftS if s["rid"] in _MCp and "NA" not in _MCp[s["rid"]]["validated_subsystems"]}
+    f["vm_L"] = len(_sL2); f["vm_M"] = len(_sM2); f["vm_L_only"] = len(_sL2 - _sM2); f["vm_M_only"] = len(_sM2 - _sL2); f["vm_dis"] = len(_sL2 ^ _sM2)
+if "_core" in globals():
+    _CN = {"val": "every traded-off output validated with an error statistic", "link": "links the subsystems", "spec": "specific installation", "ind": "independent validation data", "ts": "adequate time step"}
+    _pm = {}
+    for lab, subs, outs, need, vok, key in _DEC:
+        for s in _core:
+            if not need(s): continue
+            ok = {"val": _VALL[key](_V(s)) and _gof(s), "link": _ln(s), "spec": _sp(s), "ind": _ind(s), "ts": _MC[s["rid"]]["model_time_step"] in _TS[key]}
+            fl = [c for c in _CN if not ok[c]]
+            if s["rid"] not in _pm or len(fl) < len(_pm[s["rid"]][1]): _pm[s["rid"]] = (key, fl, ok)
+    _f1 = {r: v for r, v in _pm.items() if len(v[1]) == 1}
+    f["rm_cand"] = len(_pm); f["rm0_n"] = sum(1 for v in _pm.values() if not v[1]); f["rm1_n"] = len(_f1); f["rm2_n"] = sum(1 for v in _pm.values() if len(v[1]) == 2)
+    for c in _CN: f[f"rm1_{c}"] = sum(1 for v in _f1.values() if v[1] == [c])
+    f["rm1_cites"] = "".join("{" + r + "}" for r in sorted(_f1))
+    f["rs3_only_ind"] = sum(1 for r in _SU["e"] if r in _f1 and _f1[r][1] == ["ind"])
+    _dn = {"trk": "Tracking", "irr": "Irrigation", "cln": "Cleaning"}
+    _rowsM = []
+    for r in sorted(set(_U["e"]) | set(_f1)):
+        st = FM[r]; key, fl, ok = _pm[r]; rec = RECS.get(r, {})
+        au = (rec.get("authors") or [""])[0].split()[-1] if rec.get("authors") else ""
+        _rowsM.append([r, f"{au} ({rec.get('year', '')})", _dn[key], ", ".join(x.replace("_", " ") for x in st["method_families"]),
+                       *("yes" if ok[c] else "no" for c in ("val", "link", "spec", "ind")), _MC[r]["model_time_step"].replace("_", " "),
+                       "; ".join(_CN[c] for c in fl) or "none", "yes" if r in _U["e"] else "no", "yes" if "B" in st["koppen_main"] else "no"])
+    SUP["readiness_by_model"] = {"title": "Candidate Models Closest to Readiness",
+        "header": ["Record ID", "First author (year)", "Decision", "Model families", "Every traded-off output validated, with an error statistic", "Links the subsystems", "Specific installation", "Independent validation data", "Model time step", "Strict conditions not met", "Meets the base rule", "Arid site"],
+        "rows": _rowsM,
+        "note": (f"Models in the full-text core that meet the base rule ({len(_U['e'])}) or fail only one condition of the strict rule ({len(_f1)}), {len(_rowsM)} in all. "
+                 "Each model is shown for the decision whose conditions it comes closest to meeting. Conditions are coded from the text-based model-structure coding, after adjudication; "
+                 "the recode from the original PDFs found independent validation data for more models and is reported separately (S2, sheet 'PDF recheck').")}
+_gh = lambda s: "pv_greenhouse" in s["av_configuration"]
+_Gh = [s for s in ftS if _gh(s)]; _Of = [s for s in ftS if not _gh(s)]
+f["gh_n"] = len(_Gh); f["of_n"] = len(_Of); f["gh_n_all"] = sum(1 for s in F if _gh(s)); f["gh_pct_core"] = pct(len(_Gh), len(ftS))
+_ghrows = []; _ghc = []
+for lab in ["AI used", "Uses measured data", "Measured data over more than one season", "Field validation", "Real-time operation demonstrated",
+            "Models or instruments a specific installation", "Subsystems coupled (one-way or two-way)", "Digital shadow or twin, as designed", "Digital shadow or twin, as demonstrated"]:
+    if lab not in INDO: continue
+    a = sum(1 for s in _Gh if INDO[lab](s)); c = sum(1 for s in _Of if INDO[lab](s)); nd = ndiff(a, len(_Gh), c, len(_Of))
+    _ghrows.append([lab, f"{a} ({pct(a, len(_Gh))}%)", f"{c} ({pct(c, len(_Of))}%)", nd])
+    if _exz(nd): _ghc.append(f"{lab.lower()} ({nd})")
+SUP["greenhouse_split"] = {"title": "Twin-Relevant Indicators in PV Greenhouses and Open-Field Systems",
+    "header": ["Indicator (full-text core)", f"PV greenhouse (n = {len(_Gh)})", f"Open field and other (n = {len(_Of)})", "Difference, percentage points (95% CI)"],
+    "rows": _ghrows, "note": "PV greenhouse = agrivoltaic configuration coded as a PV greenhouse (a study can have more than one configuration). Newcombe intervals, not adjusted for multiple comparisons."}
+f["gh_clear"] = "; ".join(_ghc) if _ghc else "none"; f["gh_n_clear"] = len(_ghc)
+f["gh_demo_twin"] = sum(1 for s in _Gh if s.get("_demo") == "digital_twin")
+_onl = [s for s in ftS if s["real_time"] == "real_time_operation_demonstrated"]
+f["rt_onl"] = len(_onl); f["rt_onl_nomodel"] = sum(1 for s in _onl if s["dt_maturity"] == "NA")
+_onlA = [s for s in F if s["real_time"] == "real_time_operation_demonstrated"]
+f["rt_onl_all"] = len(_onlA); f["rt_onl_all_nomodel"] = sum(1 for s in _onlA if s["dt_maturity"] == "NA")
+_Bs = [s for s in siteF if "B" in s["koppen_main"]]; _Ns = [s for s in siteF if "B" not in s["koppen_main"]]
+_a = sum(1 for s in _Bs if s["study_type"] == "simulation_modeling"); _c = sum(1 for s in _Ns if s["study_type"] == "simulation_modeling")
+f["c5_sim_arid_pct"] = pct(_a, len(_Bs)); f["c5_sim_other_pct"] = pct(_c, len(_Ns)); f["c5_sim_diff"] = ndiff(_a, len(_Bs), _c, len(_Ns))
+_rpp = os.path.join(os.path.dirname(os.path.abspath(__file__)), "review_pool.json")
+if os.path.exists(_rpp):
+    _XE = {s["rid"] for s in json.load(open(os.path.join(os.path.dirname(os.path.abspath(sys.argv[1])), "final_v5_excluded.json"), encoding="utf-8"))}
+    _rp = [x["rid"] for x in json.load(open(_rpp, encoding="utf-8"))]
+    f["rp_auto"] = sum(1 for r in _rp if RECS.get(r, {}).get("auto_exclusion")); f["rp_elig"] = sum(1 for r in _rp if not RECS.get(r, {}).get("auto_exclusion") and r in _XE)
+    f["rp_screen"] = len(_rp) - f["rp_auto"] - f["rp_elig"]
+f["ne_auto"] = sum(1 for r in RECS.values() if str(r.get("auto_exclusion") or "").startswith("E6 not English"))
+f["n_ft_excl_full"] = FL.get("n_assessed_full", 0) - len(ftS); f["n_assessed_full"] = FL.get("n_assessed_full", 0)
+
+
+_ep = os.path.join(os.path.dirname(os.path.abspath(__file__)), "eligibility_checks.json")
+if os.path.exists(_ep):
+    _EL = json.load(open(_ep, encoding="utf-8"))
+    f["n_elig_recheck"] = len(_EL); f["n_elig_changed"] = sum(1 for x in _EL if x.get("changed")); f["n_elig_borderline"] = sum(1 for x in _EL if "borderline" in str(x.get("decision", "")).lower() or "borderline" in x.get("reason", "").lower())
+    f["elig_recheck_cites"] = "".join("{" + x["rid"] + "}" for x in _EL)
+    SUP["eligibility_checks"] = {"header": ["Record ID", "Question", "Decision", "Exclusion code", "Changed", "Quotations", "Reason"],
+        "rows": [[x["rid"], x["question"], x["decision"], x.get("exclusion_code", ""), "yes" if x.get("changed") else "no", " | ".join(x.get("quotes", [])), x["reason"]] for x in _EL]}
+
+
+_lp = os.path.join(os.path.dirname(os.path.abspath(__file__)), "level_checks.json")
+if os.path.exists(_lp):
+    _LV = json.load(open(_lp, encoding="utf-8"))
+    f["n_level_recheck"] = len({x["rid"] for x in _LV}); f["n_level_changed"] = sum(1 for x in _LV if x.get("changed"))
+    _lk = [x for x in _LV if x["field"] == "lookup_table_fact" and "digital_twin" in json.dumps(x)]
+    f["n_demo_twin_sens"] = f.get("n_demo_twin", 0) + len(_lk); f["demo_twin_sens_cites"] = "".join("{" + x["rid"] + "}" for x in _lk)
+    f["level_recheck_cites"] = "".join("{" + r + "}" for r in dict.fromkeys(x["rid"] for x in _LV))
+    SUP["level_checks"] = {"header": ["Record ID", "Question", "Field", "Current code", "Decision", "Changed", "Quotations", "Reason"],
+        "rows": [[x["rid"], x["question"], x["field"], str(x.get("current", "")), str(x["decision"]), "yes" if x.get("changed") else "no", " | ".join(x.get("quotes", [])), x["reason"]] for x in _LV]}
 
 # ---------- 10. miscellaneous reconciliations ----------
 f["n_validation_multi"] = sum(s["validation_setting"] == "field_measurements_multi_site" for s in F)
