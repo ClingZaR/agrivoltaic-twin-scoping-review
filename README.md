@@ -69,4 +69,4 @@ Data and documentation: [CC BY 4.0](LICENSE-DATA.md). Code: [MIT](LICENSE).
 
 Nabulsi, O., Abu Talib, M., Ghenai, C., Nasir, Q., Bettayeb, M., and Dakalbab, F. (2026). *Are Agrivoltaic Models Ready for Digital Twins? Data and code for a scoping review* (version 1.1.0). Zenodo. https://doi.org/10.5281/zenodo.24544900
 
-This DOI always resolves to the latest version. Version 1.1.0 is the version analysed in the manuscript; version 1.0.0 (https://doi.org/10.5281/zenodo.24544901) matches an earlier draft. Please also cite the article once it is published. Citation details are also in `CITATION.cff`.
+This DOI always resolves to the latest version. Version 1.1.0 (https://doi.org/10.5281/zenodo.24545388) is the version analysed in the manuscript; version 1.0.0 (https://doi.org/10.5281/zenodo.24544901) matches an earlier draft. Please also cite the article once it is published. Citation details are also in `CITATION.cff`.
