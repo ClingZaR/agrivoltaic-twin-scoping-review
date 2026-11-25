@@ -1,0 +1,157 @@
+[
+ {
+  "rid": "R2073",
+  "part": "A",
+  "change": {
+   "eligible": "EXCLUDE",
+   "exclusion_code": "E1",
+   "exclusion_reason": "Solar-powered electrocoagulation and pump unit for irrigation water; crop-side agrivoltaic effects are cited from literature, not modeled or measured (PV-powered farm equipment).",
+   "elig_adjudicated": true
+  },
+  "reason": "Consistent with the exclusion of other PV-powered farm equipment found in the library round."
+ },
+ {
+  "rid": "R0644",
+  "part": "A",
+  "change": {
+   "model coding": {
+    "validated_subsystems": [
+     "crop"
+    ],
+    "goodness_of_fit_reported": "yes",
+    "validation_independent": "no"
+   }
+  },
+  "reason": "The yield regression is compared with measured yield (MAE 0.04, RMSE 0.25 kg per m2) on the data it was fitted to."
+ },
+ {
+  "rid": "R2661",
+  "part": "A",
+  "change": {
+   "model coding": {
+    "validated_subsystems": [
+     "crop"
+    ],
+    "validation_independent": "yes",
+    "goodness_of_fit_reported": "no"
+   }
+  },
+  "reason": "The crop sub-models are compared with published field campaigns on the same tracker geometry; the crop parameters were not fitted to them."
+ },
+ {
+  "rid": "R1808",
+  "part": "A",
+  "change": {
+   "decision_stage": [
+    "design"
+   ]
+  },
+  "reason": "Layouts are designed for a one-hectare vineyard; no operational decision is addressed."
+ },
+ {
+  "rid": "R0644",
+  "part": "A",
+  "change": {
+   "decision_stage": [
+    "design"
+   ]
+  },
+  "reason": "The result is a design trade-off (PV cover ratio), not an operational decision."
+ },
+ {
+  "rid": "R2509",
+  "part": "A",
+  "change": {
+   "decision_stage": []
+  },
+  "reason": "The study calibrates and validates a crop model; decision support is only proposed."
+ },
+ {
+  "rid": "R1322",
+  "part": "A",
+  "change": {
+   "country": [
+    "Netherlands"
+   ],
+   "site_name": "Naaldwijk, Westland",
+   "koppen_main": [
+    "C"
+   ],
+   "koppen_subclass": [
+    "Cfb"
+   ]
+  },
+  "reason": "A site is named (Naaldwijk, Netherlands, temperate oceanic)."
+ },
+ {
+  "rid": "R2039",
+  "part": "B",
+  "change": {
+   "dt_demonstrated": "digital_model",
+   "audit_reason": "Adjudicated after verification: the live MQTT link carries tracker-kit angles to a dashboard, and the pvlib model is run by the user with hand-set inputs for a clear-sky day, so installation data do not reach the model in the implementation; the design describes synchronisation, so the designed level stays a digital shadow."
+  },
+  "reason": "Part B: the demonstrated data flow reaches only a dashboard, not the model."
+ },
+ {
+  "rid": "R2317",
+  "part": "A",
+  "change": "none",
+  "reason": "Validation cited from an earlier paper and comparison with county yield statistics do not count as the study's own validation."
+ },
+ {
+  "rid": "R2668",
+  "part": "A",
+  "change": "none",
+  "reason": "Comparison with district-level average yields is a plausibility check, not validation of the modeled field."
+ },
+ {
+  "rid": "R2280",
+  "part": "A",
+  "change": "none",
+  "reason": "Published yield-response relationships are compared with the study's own measurements, which counts as validation."
+ },
+ {
+  "rid": "R1811",
+  "part": "A",
+  "change": "none",
+  "reason": "The planned system includes tracking control of the PV modules, an operational decision."
+ },
+ {
+  "rid": "R1423",
+  "part": "A",
+  "change": "none",
+  "reason": "Golden, Colorado, the validation site, is classed as BSk (semi-arid)."
+ },
+ {
+  "rid": "R0341",
+  "part": "A",
+  "change": "none",
+  "reason": "Part B: crop yield was validated on independent data, but the water output was not, so the strict rule is still failed."
+ },
+ {
+  "rid": "R2195",
+  "part": "A",
+  "change": "none",
+  "reason": "Part B: water was validated on independent data, but crop was calibrated to the compared data, so the strict rule is still failed."
+ },
+ {
+  "rid": "R1200",
+  "part": "A",
+  "change": "none",
+  "reason": "Part B: the PV-output comparison is independent, but soiling is not modeled and the soiling-loss estimate is unvalidated; the cleaning rule requires the soiling output."
+ },
+ {
+  "rid": "R1618",
+  "part": "A",
+  "change": "none",
+  "reason": "Part B: cannot be checked without the full text; the code is unchanged."
+ },
+ {
+  "rid": "R1084",
+  "part": "Review",
+  "change": {
+   "eligible": "EXCLUDE (E1)"
+  },
+  "reason": "Flagged on internal review: native pollinator plants are neither crops nor pasture (criterion I1)."
+ }
+]

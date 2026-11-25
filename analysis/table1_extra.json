@@ -1,0 +1,128 @@
+[
+ {
+  "key": "Pereira2026",
+  "monitoring_guidance": "✓",
+  "monitoring_evidence": "Title: 'deployment guidelines for agrivoltaic and floating PV systems'; Section 4 'Monitoring system design guidelines', 4.2 'AgriPV-specific monitoring guidelines': 'specify sensor classes and installation, calibration and maintenance considerations'.",
+  "techno_economics": "△",
+  "techno_evidence": "One of seven RQs. Table 1 RQ6: 'Are AgriPV/FPV systems economically viable...?'; 'RQ5 and RQ6 were addressed by 49 and 47 papers'. No LCOE, NPV or payback analysis."
+ },
+ {
+  "key": "DiDomenico2026",
+  "monitoring_guidance": "✓",
+  "monitoring_evidence": "Abstract: 'providing practical guidance for designing more scalable and goal-oriented smart monitoring systems'. Table 7: 'minimum descriptors for documenting sensing architecture, spatial deployment, acquisition infrastructure'.",
+  "techno_economics": "△",
+  "techno_evidence": "Section 3 cost classes cover monitoring hardware only: 'refers exclusively to the order of magnitude of the sensor or instrument purchase price'. No system LCOE, NPV or revenue. ✓ arguable."
+ },
+ {
+  "key": "Cosme2025",
+  "monitoring_guidance": "✓",
+  "monitoring_evidence": "Section 9 'Minimum Viable Monitoring' framework, 'mandating simultaneous measurements in three distinct zones'; 'monitoring should adopt a dual-scale temporal strategy'.",
+  "techno_economics": "✗",
+  "techno_evidence": "No economic assessment. Passing only: Introduction cites earlier work on 'social and economic dimensions'; MVM is an 'essential, cost-effective set of measurements'."
+ },
+ {
+  "key": "Qiao2026",
+  "monitoring_guidance": "△",
+  "monitoring_evidence": "Evidence file only, no local full text. Section 6.1 'Environmental Sensing Beneath Photovoltaic Arrays'; 'Table 8. Performance, cost, and applicability of different environmental-monitoring schemes'. Main theme is equipment control.",
+  "techno_economics": "△",
+  "techno_evidence": "Evidence file only, low confidence. Cost appears only for monitoring schemes: 'Table 8. Performance, cost, and applicability of different environmental-monitoring schemes'. LCOE, NPV and payback are not mentioned."
+ },
+ {
+  "key": "Villagran2025",
+  "monitoring_guidance": "△",
+  "monitoring_evidence": "Passing only, in the outlook: 'will require strengthening open-data infrastructures, incorporating cross-validation methodologies between simulations and field measurements'. Section 3.12 describes the IoT systems of individual studies.",
+  "techno_economics": "△",
+  "techno_evidence": "Study descriptions only: 'a payback period of 8.63 years'. Future work: '(iv) techno-economic and life-cycle assessments that evaluate long-term sustainability'."
+ },
+ {
+  "key": "Ranganathan2026",
+  "monitoring_guidance": "△",
+  "monitoring_evidence": "Section 5.1 'Control and monitoring' is descriptive. Guidance only as future work: 'establishing standardized data collection protocols for diverse APV environments'; 'improved sensor deployment'.",
+  "techno_economics": "△",
+  "techno_evidence": "Section 6.2.1: 'Economically, they reduce maintenance costs, minimize resource waste and increase agricultural and energy revenues. However, high initial capital...remain barriers.' No LCOE or NPV."
+ },
+ {
+  "key": "Sharma2025",
+  "monitoring_guidance": "△",
+  "monitoring_evidence": "Abstract only (closed access): \"focusing on AI-enabled monitoring, precision agriculture, and energy optimization\". Monitoring is a stated focus, but the abstract shows no sensors, placement or frequency guidance.",
+  "techno_economics": "✗",
+  "techno_evidence": "Abstract only: covers \"key technological developments, agricultural benefits, and environmental impacts\". It never mentions costs, LCOE, NPV, payback or revenue."
+ },
+ {
+  "key": "Monasterio2026",
+  "monitoring_guidance": "△",
+  "monitoring_evidence": "Roadmap, Section 2.4.2: \"Data layer; comprising, for example, irradiance sensors, soil moisture probes, thermal imaging, and crop growth metrics.\" It lists inputs only, with no protocol.",
+  "techno_economics": "△",
+  "techno_evidence": "Abstract names it as a gap only: \"Key research gaps include ... the limited integration of economic considerations within optimisation frameworks\". No economic assessment is performed."
+ },
+ {
+  "key": "Pillai2026",
+  "monitoring_guidance": "△",
+  "monitoring_evidence": "Table 1, arid design guidance: \"Single axis tracking likely offers the best balance for APV in arid climates\". Monitoring appears only in passing (Section 3.2): \"climate-adapted materials, continuous monitoring, and optimized operation\".",
+  "techno_economics": "✓",
+  "techno_evidence": "Section 5 \"Global APV technoeconomic potential assessment for arid regions\". Section 5.3 \"Integrated energy-crop revenue perspectives in arid regions\" models PV and crop revenues by pixel."
+ },
+ {
+  "key": "Abdulmouti2026",
+  "monitoring_guidance": "△",
+  "monitoring_evidence": "Section 4.2: \"Agrivoltaic design in the MENA region must account for multiple environmental, economic, and social constraints\". Sensors appear only in study descriptions, e.g. \"further sensor calibration needed\".",
+  "techno_economics": "△",
+  "techno_evidence": "Section 6.6: \"AVSs are shown to be economically promising: Dual revenue from crops and electricity shortens payback periods.\" Payback and NPV are reported per study; there is no assessment of its own."
+ },
+ {
+  "key": "Zainali2025",
+  "monitoring_guidance": "△",
+  "monitoring_evidence": "Abstract: \"Collaborative efforts, publicly available datasets, and benchmarking initiatives are essential for validating models\". Section 3.1: PAR models \"require fitting with on-site historical measurements\". There is no monitoring section.",
+  "techno_economics": "△",
+  "techno_evidence": "Table 10 KPIs define LCOE and NPV. Section 3.5: \"there remains a notable gap in the incorporation of comprehensive optimisation approaches, also including economic aspects.\""
+ },
+ {
+  "key": "Jain2026",
+  "monitoring_guidance": "✗",
+  "monitoring_evidence": "Measurement is excluded by design. Table 1 excludes \"Sensors or field records\". Section 1: \"This review does not test the studies against measurements\".",
+  "techno_economics": "✗",
+  "techno_evidence": "Economics is mentioned only during screening: the IEEE records \"concerned photovoltaic engineering, monitoring or techno-economic assessment without a water calculation\". It is otherwise absent."
+ },
+ {
+  "key": "Pylianidis2021",
+  "monitoring_guidance": "△",
+  "monitoring_evidence": "Passing, from the evidence file (no local full text). Section 4.3: \"Data analysis and simulation would happen in local or guaranteed cloud infrastructure to ensure data privacy.\" Section 4.2 mentions only \"data acquisition from sensors\". No variables, placement, frequency or calibration.",
+  "techno_economics": "✗",
+  "techno_evidence": "The full-text evidence file records no economic content (costs, LCOE, NPV, revenue). The full text is not in the local folder, so this ✗ is unverified and worth a manual check of the use-case benefits in Table 3."
+ },
+ {
+  "key": "Purcell2023",
+  "monitoring_guidance": "△",
+  "monitoring_evidence": "Passing. Section 5.1 only lists sensing methods in general terms (remote sensing, IoT, CPS, HMI). Section 6.2: \"Improvements in outlier detection, data generation and development of gold standard data-sets are needed\". No variables, placement, frequency or calibration.",
+  "techno_economics": "△",
+  "techno_evidence": "Passing; ✗ is also defensible. Section 6.3, on Kampker et al.: \"This work shows the ability of the Digital Twin to contribute directly to a products monetary value.\" Business-model research is called \"mandatory\". There is no cost or financial analysis."
+ },
+ {
+  "key": "Yuan2024",
+  "monitoring_guidance": "△",
+  "monitoring_evidence": "Passing, PV only (no agricultural variables). Section IV.B: \"Edge computing units, capable of executing signal filtering and lightweight algorithms, enable prompt responses to potential hazards while transmitting only relevant data to the cloud\". There is also a private-blockchain recommendation for data security. No sensor placement, frequency or calibration guidance.",
+  "techno_economics": "✗",
+  "techno_evidence": "Costs appear only as a general barrier: \"the complexity and cost of implementing and maintaining a digital twin can be substantial\" (Section III); the Conclusion says \"high implementation and maintenance costs\". No economic assessment or metrics."
+ },
+ {
+  "key": "Elnosh2026",
+  "monitoring_guidance": "△",
+  "monitoring_evidence": "Passing, PV only. PVDT eligibility criterion 2: \"The implementation should incorporate real-time or near real-time bidirectional communication between the physical PV system and its digital representation.\" It adds that synchronization rates \"can vary\". No guidance on variables, sensors or calibration.",
+  "techno_economics": "△",
+  "techno_evidence": "Section 2 background: \"long-term models provide the parameters needed for financial assessment of PV projects, e.g. LCOE, net present value (NPV) and internal rate of return (IRR)\". Section 4: economic assessments appear in only two reviewed LCA studies."
+ },
+ {
+  "key": "DeFrancesco2025",
+  "monitoring_guidance": "△",
+  "monitoring_evidence": "Borderline, since the abstract says the review is \"focused on monitoring techniques\". Section 3.5: \"Table 3 provides a detailed overview of the environmental parameters and technologies relevant to the analysis ... assessing characteristics, costs, compatibility with AVSs, and required skills.\" This is a catalogue, with no placement, frequency, calibration or protocol guidance.",
+  "techno_economics": "△",
+  "techno_evidence": "Section 3.4 \"Socio-Economic Analysis\" covers the market (\"expected to reach USD 9.3 billion by 2031\"), regulation and incentives. The review notes \"economic and social dimensions remain underexplored\". No LCOE, NPV or payback."
+ },
+ {
+  "key": "Pereira2025",
+  "monitoring_guidance": "✓",
+  "monitoring_evidence": "From the evidence file (no local full text). Sections 3.2 \"Categories of sensors\" and 3.3 \"Data acquisition practices\". Section 3.3 recommends \"a one-line \"how data leave the field\" (e.g., LoRaWAN to cloud or inverter portal) plus time-synchronization notes\".",
+  "techno_economics": "✗",
+  "techno_evidence": "The full-text evidence file records no economic content; its research questions cover monitoring, sensors and IoT/control/ML. The full text is not in the local folder, so this ✗ is unverified and worth a manual check of the six research questions."
+ }
+]

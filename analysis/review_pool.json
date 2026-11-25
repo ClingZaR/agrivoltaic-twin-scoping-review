@@ -1,0 +1,1553 @@
+[
+ {
+  "rid": "R0004",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Title only: agrivoltaics as dual-use energy infrastructure, covering pathways, barriers and design principles; none of the listed topics are signalled."
+ },
+ {
+  "rid": "R0012",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Overview of agro-photovoltaic systems, including crop shading and actively controlled panels; no modelling, AI, IoT or arid focus."
+ },
+ {
+  "rid": "R0022",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "monitoring_sensing_iot",
+   "modeling_simulation"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Intelligent farming in agrivoltaics via the Internet of Agricultural Things; also covers fluid dynamic methods and LER analysis."
+ },
+ {
+  "rid": "R0133",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Discussion of photovoltaic greenhouses and PV in controlled environment agriculture."
+ },
+ {
+  "rid": "R0195",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Title only: general development of photovoltaic agriculture."
+ },
+ {
+  "rid": "R0208",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "modeling_simulation"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Reviews agrivoltaic experiments and builds a coupled PVSyst plus STICS crop simulation model."
+ },
+ {
+  "rid": "R0221",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Overview and conceptual design framework for a co-located PV-agriculture system in Malaysia."
+ },
+ {
+  "rid": "R0253",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Concept of agri-voltaics in India and screening of crops for it."
+ },
+ {
+  "rid": "R0275",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Photovoltaic greenhouses: synergies and R&D needs."
+ },
+ {
+  "rid": "R0281",
+  "agrivoltaic_focus": "partly",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "PV agriculture in China; PV greenhouses and PV livestock breeding sit beside non-agrivoltaic modes such as water pumping, wastewater treatment and rural power stations."
+ },
+ {
+  "rid": "R0289",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Greenhouse-integrated PV, including semi-transparent DSC glazing, and its effect on crop production."
+ },
+ {
+  "rid": "R0337",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Title only: the case for agrivoltaic systems."
+ },
+ {
+  "rid": "R0378",
+  "agrivoltaic_focus": "partly",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Agricultural energy internet in China; a PV greenhouse in Gansu is one of two case examples."
+ },
+ {
+  "rid": "R0389",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Photovoltaic greenhouses for Moldova."
+ },
+ {
+  "rid": "R0411",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Essay on organic PV for PV greenhouses and polytunnels; theoretical efficiency limit only, no system modelling."
+ },
+ {
+  "rid": "R0413",
+  "agrivoltaic_focus": "partly",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Mostly about solar power plant growth and publication trends; agro-PV is in the title but only touched on."
+ },
+ {
+  "rid": "R0435",
+  "agrivoltaic_focus": "partly",
+  "topics": [
+   "ai_ml"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Food-energy-water nexus review of four technologies, one of which is agrivoltaics; also covers precision agriculture with big data and machine learning."
+ },
+ {
+  "rid": "R0453",
+  "agrivoltaic_focus": "partly",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "On-farm solar PV applications; agrophotovoltaics is one of several (pumping, desalination, drying, greenhouses)."
+ },
+ {
+  "rid": "R0460",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "monitoring_sensing_iot"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Photovoltaic Agricultural IoT: farming combined with PV generation and controlled through an IoT platform."
+ },
+ {
+  "rid": "R0510",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Opportunities and challenges for agrivoltaics in East Africa; arid conditions are not explicitly the focus."
+ },
+ {
+  "rid": "R0547",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "How agrivoltaic farms developed in Japan: statistics, crops, shading rates and the feed-in tariff."
+ },
+ {
+  "rid": "R0559",
+  "agrivoltaic_focus": "no",
+  "topics": [
+   "ai_ml",
+   "monitoring_sensing_iot"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Editorial on intelligent phytoprotection (diagnosis, monitoring); PV agriculture gets only a passing citation."
+ },
+ {
+  "rid": "R0636",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Progress of photovoltaic plus agriculture in China."
+ },
+ {
+  "rid": "R0674",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Title only: agrivoltaics opportunities for agriculture and the energy transition."
+ },
+ {
+  "rid": "R0676",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Agro-PV systems as an agriculture-energy synergy; digital solutions get only a passing mention."
+ },
+ {
+  "rid": "R0688",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Meta-analysis of crop yield response to shade, aimed at crop suitability for agrivoltaics; statistical response curves, not simulation."
+ },
+ {
+  "rid": "R0784",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "modeling_simulation"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "APV review plus a theoretical study using the NOCT model, NSRDB and SAM on PV thermal management, and a tomato experiment."
+ },
+ {
+  "rid": "R0801",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "monitoring_sensing_iot"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Mini-review and preliminary design for an Indonesian agrivoltaic pilot that defines monitored parameters (cell temperature, radiation, humidity, current, voltage)."
+ },
+ {
+  "rid": "R0826",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Mini-review of agrivoltaics trends and integration with agriculture; precision and smart farming only mentioned in general terms."
+ },
+ {
+  "rid": "R0847",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "modeling_simulation"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Review of dynamic agrivoltaics for fruit trees, including a crop model combining water, energy and carbon balances."
+ },
+ {
+  "rid": "R0853",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "modeling_simulation"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Commentary on spectrally selective agrivoltaics, built around a numerical photosynthesis model."
+ },
+ {
+  "rid": "R0856",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Agrivoltaics crop suitability in India; arid regions get only a passing mention."
+ },
+ {
+  "rid": "R0869",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Synthesis of published data proposing ground coverage ratio as a proxy for crop yield in agrivoltaics."
+ },
+ {
+  "rid": "R0877",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Title only: Central Java natural conditions for agrivoltaic development."
+ },
+ {
+  "rid": "R0907",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Title only: discussion piece on soil erosion from agrivoltaics."
+ },
+ {
+  "rid": "R0923",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "arid_or_mena"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Reviews agrivoltaic technologies to recommend a system for the UAE, including a date farm and issues with dust and sand."
+ },
+ {
+  "rid": "R0964",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Agrovoltaics in the EU Green Deal and the water-energy-food-land nexus."
+ },
+ {
+  "rid": "R0986",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Perspective on perovskite solar cells for agrivoltaics."
+ },
+ {
+  "rid": "R0990",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Title only: effects of photovoltaics on plant productivity."
+ },
+ {
+  "rid": "R1009",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "modeling_simulation"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Title only: shading analysis of agrivoltaic systems, which is likely simulation-based."
+ },
+ {
+  "rid": "R1011",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Overview of semi-transparent organic PV for agrivoltaic greenhouses, including economic viability."
+ },
+ {
+  "rid": "R1020",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Systems-thinking conceptual and design framework for smart, sustainable agrivoltaics; no specific sensing or AI methods named."
+ },
+ {
+  "rid": "R1025",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "monitoring_sensing_iot",
+   "modeling_simulation"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Systematic review of IoT monitoring in solar-powered greenhouses that also models energy transfer."
+ },
+ {
+  "rid": "R1111",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Title only: agrivoltaic systems for New Zealand."
+ },
+ {
+  "rid": "R1117",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Multi-dimensional examination of agrivoltaics in India: projects, policy and barriers."
+ },
+ {
+  "rid": "R1138",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "General overview of agrivoltaics."
+ },
+ {
+  "rid": "R1152",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Reviews 567 US agrivoltaic plants to identify success factors."
+ },
+ {
+  "rid": "R1176",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Planning, construction and farming challenges with vertical agrivoltaics; precision farming is mentioned only as a solution."
+ },
+ {
+  "rid": "R1179",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "modeling_simulation"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "State of the art of agrivoltaics, using a crop model to simulate shading and yield (LER)."
+ },
+ {
+  "rid": "R1182",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "modeling_simulation"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Agro-PV complementary systems, with optimisation methods for operation, energy dispatch and storage."
+ },
+ {
+  "rid": "R1185",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Combining conservation agriculture practices with agrivoltaics."
+ },
+ {
+  "rid": "R1228",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Review of agrovoltaics for rural farming; smart farming only mentioned in general terms."
+ },
+ {
+  "rid": "R1263",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Editorial commentary on the growth of agrivoltaics."
+ },
+ {
+  "rid": "R1297",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Agrivoltaics for food, energy and water access in Sub-Saharan Africa; arid conditions not explicitly the focus."
+ },
+ {
+  "rid": "R1341",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Perspectives and guidelines for agrivoltaics in Italy."
+ },
+ {
+  "rid": "R1356",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Preface to the AgriVoltaics World Conference proceedings."
+ },
+ {
+  "rid": "R1458",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "arid_or_mena"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Systematic review of agrivoltaic productivity and co-benefits; finds that synergies are amplified in arid, semi-arid and hot conditions."
+ },
+ {
+  "rid": "R1470",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "modeling_simulation",
+   "monitoring_sensing_iot",
+   "ai_ml"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Review of adapting RUSLE erosion models to APV; calls for high-resolution monitoring and machine-learning-assisted models."
+ },
+ {
+  "rid": "R1478",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "arid_or_mena"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Agrivoltaics as climate-smart technology in India, with case studies from ICAR-CAZRI (the Central Arid Zone Research Institute)."
+ },
+ {
+  "rid": "R1487",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "arid_or_mena"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Agrivoltaics in hot arid and semi-arid climates."
+ },
+ {
+  "rid": "R1501",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Overview of agrivoltaic systems and green hydrogen, including classification and agricultural robots."
+ },
+ {
+  "rid": "R1509",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "AgriPV in Germany, including DIN SPEC standards."
+ },
+ {
+  "rid": "R1511",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Challenges, opportunities and laws for agrivoltaics in India."
+ },
+ {
+  "rid": "R1512",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Title only: agrivoltaics in India and the SDGs."
+ },
+ {
+  "rid": "R1521",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Agrivoltaics research in Indonesia compared with global work."
+ },
+ {
+  "rid": "R1525",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "arid_or_mena"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Agrivoltaics for the western arid regions of India."
+ },
+ {
+  "rid": "R1529",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "modeling_simulation"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Global perspective on agrivoltaics, citing simulation-based economic feasibility studies."
+ },
+ {
+  "rid": "R1530",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Agrivoltaics in fruit production: microclimate, yield and design."
+ },
+ {
+  "rid": "R1536",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Title only: agrovoltaics in Cote d'Ivoire."
+ },
+ {
+  "rid": "R1577",
+  "agrivoltaic_focus": "partly",
+  "topics": [
+   "arid_or_mena",
+   "monitoring_sensing_iot",
+   "ai_ml",
+   "modeling_simulation"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Riesling adaptation in the US desert southwest; agrivoltaics is one strategy among IoT sensors, AI irrigation, climate modelling and remote sensing."
+ },
+ {
+  "rid": "R1582",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Meta-analysis across 20 countries of agrivoltaic design, microclimate and yield tipping points."
+ },
+ {
+  "rid": "R1589",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "modeling_simulation",
+   "arid_or_mena"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Systematic review of agrivoltaics focused on the Middle East, with techno-economic lumped modelling for Eastern Saudi Arabia."
+ },
+ {
+  "rid": "R1597",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Review-based decision support model for crop selection in Agri-PV."
+ },
+ {
+  "rid": "R1602",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "ai_ml"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Status of agrivoltaics in Japan; highlights expectations for AI-driven smart agriculture."
+ },
+ {
+  "rid": "R1603",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Agrivoltaics with netting in temperate fruit orchards."
+ },
+ {
+  "rid": "R1646",
+  "agrivoltaic_focus": "no",
+  "topics": [
+   "ai_ml",
+   "monitoring_sensing_iot"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Editorial on remote sensing and machine learning for SDG 6 water quality; not agrivoltaic."
+ },
+ {
+  "rid": "R1647",
+  "agrivoltaic_focus": "no",
+  "topics": [
+   "digital_twin",
+   "ai_ml",
+   "modeling_simulation"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Editorial on food processing that summarises a digital twin review; the categories it reports (application level, technique, function) are not the model, shadow and twin levels."
+ },
+ {
+  "rid": "R1661",
+  "agrivoltaic_focus": "partly",
+  "topics": [
+   "ai_ml",
+   "monitoring_sensing_iot"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Energy-efficient farming review; agrivoltaics falls under one of four domains, alongside AI and IoT precision agriculture and sensor-based irrigation."
+ },
+ {
+  "rid": "R1665",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "modeling_simulation"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Uses InVEST modelling of habitat-enhancing scenarios for agrivoltaics in Germany."
+ },
+ {
+  "rid": "R1667",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Framework for combining cattle grazing with PV (Solar Savannas)."
+ },
+ {
+  "rid": "R1678",
+  "agrivoltaic_focus": "partly",
+  "topics": [
+   "ai_ml",
+   "monitoring_sensing_iot"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Review of DSSC applications in which agrivoltaics is one section; also covers IoT and biosensor uses and AI/ML-driven design."
+ },
+ {
+  "rid": "R1686",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Fruiting crops in rooftop agrivoltaics."
+ },
+ {
+  "rid": "R1715",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Agrivoltaics for the Himalayan and Gangetic plains: biodiversity and water-use efficiency."
+ },
+ {
+  "rid": "R1742",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Systematic review of agrivoltaic effects on microclimate, water-use efficiency and yield; arid climates are noted only as underrepresented."
+ },
+ {
+  "rid": "R1765",
+  "agrivoltaic_focus": "partly",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Vertical farming with LEDs powered by novel solar cells, framed as agrivoltaics; not crops under PV in the usual sense."
+ },
+ {
+  "rid": "R1853",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Overview of PV-integrated greenhouses with light-dispersion technology and the design requirements that follow from it."
+ },
+ {
+  "rid": "R1888",
+  "agrivoltaic_focus": "partly",
+  "topics": [
+   "modeling_simulation",
+   "ai_ml",
+   "monitoring_sensing_iot"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Update on the DayCent biogeochemical model. New agrivoltaic algorithms are one of several advances, alongside remote-sensing (SIF) integration and KGML surrogate models."
+ },
+ {
+  "rid": "R1893",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Literature review and case analysis of the greenhouse + PV model in Shouguang, China."
+ },
+ {
+  "rid": "R1944",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "modeling_simulation"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Reviews whether PV degradation models suit agrivoltaic settings and how they should be adapted."
+ },
+ {
+  "rid": "R2010",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "modeling_simulation"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Meta-analysis of crop yield under agrivoltaic shading that adds a drought index (SPEI) to multiple linear regression models."
+ },
+ {
+  "rid": "R2053",
+  "agrivoltaic_focus": "partly",
+  "topics": [
+   "ai_ml",
+   "monitoring_sensing_iot"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Systematic review of hyperspectral sensing and ML for plant disease detection. Agrivoltaic farms are one of three deployment scenarios."
+ },
+ {
+  "rid": "R2076",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "General review of agrivoltaic configurations and benefits. The abstract does not mention modelling, AI or sensing."
+ },
+ {
+  "rid": "R2079",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "modeling_simulation",
+   "ai_ml",
+   "digital_twin"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Synthesizes agrivoltaic results and risks. Lists microclimate modelling, digital twins and AI tracking control as research priorities, but does not classify studies by twin level."
+ },
+ {
+  "rid": "R2135",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "ai_ml",
+   "digital_twin",
+   "monitoring_sensing_iot"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Critical geography paper on AI in agrivoltaics, using case studies on predictive modelling, 3D digital twins, GIS/UAV monitoring and sensor platforms. No twin-level classification."
+ },
+ {
+  "rid": "R2140",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "arid_or_mena"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Agrivoltaics in India covering policy and projects. Cites a 30% yield gain in arid and semi-arid regions."
+ },
+ {
+  "rid": "R2151",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Review of Indian agrivoltaics: LER, crop choice, ground coverage ratio, tariffs and policy."
+ },
+ {
+  "rid": "R2156",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "arid_or_mena"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Agrivoltaics in the Middle East and MENA under heat, dust and water scarcity."
+ },
+ {
+  "rid": "R2160",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Perspective on row-crop agrivoltaics on US Midwest cropland: barriers and business models."
+ },
+ {
+  "rid": "R2164",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "arid_or_mena"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Evaluates agrivoltaic dual land use in semi-arid climates."
+ },
+ {
+  "rid": "R2211",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "arid_or_mena"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "PRISMA systematic review of bifacial agrivoltaics in Nigeria. The semi-arid north is highlighted as the highest-potential region."
+ },
+ {
+  "rid": "R2212",
+  "agrivoltaic_focus": "partly",
+  "topics": [
+   "arid_or_mena"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Talk on Rocky Mountain native plants in semi-arid climates. Rooftop agrivoltaic pollinator plantings are one part."
+ },
+ {
+  "rid": "R2269",
+  "agrivoltaic_focus": "no",
+  "topics": [
+   "ai_ml",
+   "monitoring_sensing_iot",
+   "digital_twin",
+   "modeling_simulation"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Systematic review of urban and vertical farming. Agrivoltaics appears only as one item in an architecture list. IoT, AI, digital twins and modelling are among its themes."
+ },
+ {
+  "rid": "R2322",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Editorial summarizing a research topic on agrivoltaic crop production (vineyard economics, raspberries)."
+ },
+ {
+  "rid": "R2337",
+  "agrivoltaic_focus": "partly",
+  "topics": [
+   "monitoring_sensing_iot"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Systematic review of energy-efficient agri-food innovations. Agrivoltaics sits within the renewable-energy pathway, and IoT monitoring within the digital pathway."
+ },
+ {
+  "rid": "R2344",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "arid_or_mena"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Systematic review of Agri-PV impacts on local ecosystems. Emphasizes benefits in arid and semi-arid environments."
+ },
+ {
+  "rid": "R2386",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Conceptual framework for agrivoltaic community microgrids. Quantitative modelling is left for future work."
+ },
+ {
+  "rid": "R2390",
+  "agrivoltaic_focus": "no",
+  "topics": [
+   "monitoring_sensing_iot"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Review of modernizing irrigated agriculture, including IoT monitoring. Agrophotovoltaics gets only a passing mention."
+ },
+ {
+  "rid": "R2391",
+  "agrivoltaic_focus": "partly",
+  "topics": [
+   "arid_or_mena",
+   "ai_ml"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Perspective on renewable-powered biomanufacturing in China's Three-North drylands. Agrivoltaic forage is one module, AI-assisted photobioreactors another."
+ },
+ {
+  "rid": "R2392",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "ai_ml",
+   "monitoring_sensing_iot"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Review of AI and ML in agrophotovoltaics, with a use-case taxonomy and IoT sensor integration."
+ },
+ {
+  "rid": "R2412",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "modeling_simulation"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Systematic review of agrivoltaic spatial suitability mapping, dominated by GIS-based modelling."
+ },
+ {
+  "rid": "R2433",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Classifies the factors used to evaluate open-field agrivoltaic systems into seven categories."
+ },
+ {
+  "rid": "R2462",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Review of thin-film semi-transparent PV materials for greenhouse agrivoltaics and their effects on crops."
+ },
+ {
+  "rid": "R2469",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "ai_ml",
+   "monitoring_sensing_iot"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Conceptual IoT-enabled, AI/ML-driven building-integrated agrivoltaic system with real-time sensing and control."
+ },
+ {
+  "rid": "R2506",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "arid_or_mena"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Review of agrivoltaics with emphasis on arid Middle Eastern environments."
+ },
+ {
+  "rid": "R2546",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "modeling_simulation"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Synthesis of agrivoltaic research focused on structural wind loads and CFD simulation."
+ },
+ {
+  "rid": "R2606",
+  "agrivoltaic_focus": "partly",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Materials review of semi-transparent perovskite cells, with BIPV and agrivoltaics as target applications."
+ },
+ {
+  "rid": "R2612",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Regenerative agrivoltaics pilot in Southern California, with challenges and opportunities."
+ },
+ {
+  "rid": "R2627",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Opinion and synthesis paper on responsible agrivoltaics in temperate Europe."
+ },
+ {
+  "rid": "R2664",
+  "agrivoltaic_focus": "no",
+  "topics": [
+   "ai_ml",
+   "monitoring_sensing_iot",
+   "digital_twin"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Systematic review of smart building materials. Mentions IoT, AI and digital twins but not agrivoltaics."
+ },
+ {
+  "rid": "R2799",
+  "agrivoltaic_focus": "no",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Review of solar and wind transition in Asia. Agro-PV is only mentioned as a future pathway."
+ },
+ {
+  "rid": "R2804",
+  "agrivoltaic_focus": "partly",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Systematic review of solar energy in Indian agriculture, where agrivoltaics is one of three applications."
+ },
+ {
+  "rid": "R2810",
+  "agrivoltaic_focus": "partly",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Review of transparent PV. Agrivoltaics and greenhouses are among the applications assessed."
+ },
+ {
+  "rid": "R2834",
+  "agrivoltaic_focus": "partly",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Review of solar hydrogen from BIPV and AgriPV. AgriPV cases form one half."
+ },
+ {
+  "rid": "R2841",
+  "agrivoltaic_focus": "partly",
+  "topics": [
+   "ai_ml",
+   "monitoring_sensing_iot"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Review of digital and Industry 4.0 technologies (AI, IoT) for clean energy in agriculture. Integrated food-energy co-production is one strategic direction."
+ },
+ {
+  "rid": "R2846",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Review of crop physiology, microclimate and resource use under agrophotovoltaics."
+ },
+ {
+  "rid": "R2852",
+  "agrivoltaic_focus": "partly",
+  "topics": [
+   "ai_ml"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Review of PV cooling strategies. Agrivoltaics is one integrated concept, and AI-assisted thermal control is an emerging pathway."
+ },
+ {
+  "rid": "R2873",
+  "agrivoltaic_focus": "partly",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Review of technical factors in PV performance. Agrivoltaics is one alternative deployment concept considered."
+ },
+ {
+  "rid": "R2876",
+  "agrivoltaic_focus": "no",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Scoping review of renewable energy economics in Indonesia. Agrivoltaics is mentioned only in passing."
+ },
+ {
+  "rid": "R2881",
+  "agrivoltaic_focus": "no",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Essay on justice in energy and agrifood transitions. Agrivoltaics is not mentioned."
+ },
+ {
+  "rid": "R2889",
+  "agrivoltaic_focus": "no",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Systematic review of energy transition and food security. Agrivoltaics appears only in a policy recommendation."
+ },
+ {
+  "rid": "R2902",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Review of sheep grazing within utility-scale solar (livestock agrivoltaics)."
+ },
+ {
+  "rid": "R2905",
+  "agrivoltaic_focus": "no",
+  "topics": [
+   "modeling_simulation"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Thermal and PV modelling study sizing PV to power greenhouse heat pumps. Crops are not grown under the PV."
+ },
+ {
+  "rid": "R2928",
+  "agrivoltaic_focus": "partly",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Report on top covers for open-field crops. PV panels are one of two cover types."
+ },
+ {
+  "rid": "R2938",
+  "agrivoltaic_focus": "partly",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Review of renewables in Polish agriculture, with agrivoltaics as one opportunity."
+ },
+ {
+  "rid": "R2944",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Scoping review of agro-energy productive landscapes with particular attention to agrivoltaics."
+ },
+ {
+  "rid": "R2950",
+  "agrivoltaic_focus": "no",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Review of mobile power storage for electric farm machinery. Not about agrivoltaics."
+ },
+ {
+  "rid": "R2955",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Agrivoltaic systems and PV greenhouses in the context of European energy policy."
+ },
+ {
+  "rid": "R2959",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Description of the PV4Plants AgriPV project with light-spectrum control demonstrations."
+ },
+ {
+  "rid": "R2962",
+  "agrivoltaic_focus": "partly",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Commentary on grapevine shading physiology for agrivoltaics and agroforestry. No abstract."
+ },
+ {
+  "rid": "R2964",
+  "agrivoltaic_focus": "partly",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Systematic review of ground-mounted PV effects on soil carbon, including agrivoltaic multi-use sites."
+ },
+ {
+  "rid": "R2970",
+  "agrivoltaic_focus": "no",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Review of semi-transparent perovskite cells for BIPV. Agriculture is not mentioned."
+ },
+ {
+  "rid": "R2986",
+  "agrivoltaic_focus": "no",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Review of micro-concentrating PV. Agrivoltaics is only named as an application."
+ },
+ {
+  "rid": "R3013",
+  "agrivoltaic_focus": "no",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Review of semitransparent OPV devices. PV greenhouses get only a passing mention."
+ },
+ {
+  "rid": "R3023",
+  "agrivoltaic_focus": "partly",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Three perspectives on solar development on US farmland. Agrivoltaics is the synergy perspective."
+ },
+ {
+  "rid": "R3036",
+  "agrivoltaic_focus": "partly",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Review of PV in water-related technologies, with agrivoltaics and aquavoltaics as one category."
+ },
+ {
+  "rid": "R3043",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Short editorial on agrivoltaics and rural electrification."
+ },
+ {
+  "rid": "R3045",
+  "agrivoltaic_focus": "no",
+  "topics": [
+   "digital_twin"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Review of the agricultural energy internet. Digital twins are named as key, but agrivoltaics is not."
+ },
+ {
+  "rid": "R3050",
+  "agrivoltaic_focus": "no",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Review of solar panels in civil engineering applications."
+ },
+ {
+  "rid": "R3052",
+  "agrivoltaic_focus": "no",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Ecovoltaics framework for biodiversity in solar parks. Agrivoltaics is only mentioned for contrast."
+ },
+ {
+  "rid": "R3068",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Review of agronomic management factors in agrivoltaic systems."
+ },
+ {
+  "rid": "R3070",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "arid_or_mena"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Overview of agrivoltaic effects on microclimate and yield, with a focus on reducing drought impacts in a drying world."
+ },
+ {
+  "rid": "R3071",
+  "agrivoltaic_focus": "partly",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Review of PV-green roof and agrivoltaic co-location across Köppen climate zones."
+ },
+ {
+  "rid": "R3087",
+  "agrivoltaic_focus": "no",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Review of artemisinin production. Unrelated to agrivoltaics."
+ },
+ {
+  "rid": "R3109",
+  "agrivoltaic_focus": "no",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Review of sustainable livestock systems. Agrivoltaics appears only as a mitigation option."
+ },
+ {
+  "rid": "R3120",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Review of agrivoltaic types, policy and LCOE."
+ },
+ {
+  "rid": "R3135",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Update on the Italian agrivoltaic regulatory framework."
+ },
+ {
+  "rid": "R3148",
+  "agrivoltaic_focus": "partly",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Materials review of organic PV nanostructures, framed around sustainable agriculture and land use."
+ },
+ {
+  "rid": "R3152",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Review of inorganic and organic PV as shading materials for agrivoltaic greenhouses."
+ },
+ {
+  "rid": "R3160",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Review of dye-sensitized solar cells as greenhouse shading (PV greenhouse)."
+ },
+ {
+  "rid": "R3166",
+  "agrivoltaic_focus": "partly",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Review of solar applications in greenhouses, including PV-powered climate control and PV irrigation pumping."
+ },
+ {
+  "rid": "R3170",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Literature review of agrivoltaics as crop protection, supported by Belgian pilot measurements."
+ },
+ {
+  "rid": "R3176",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Title only: tinted semitransparent panels for agrivoltaics. No abstract."
+ },
+ {
+  "rid": "R3183",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Interview on agrophotovoltaics. No abstract."
+ },
+ {
+  "rid": "R3193",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Preface to the AgriVoltaics2021 conference. No abstract."
+ },
+ {
+  "rid": "R3202",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Article on agrophotovoltaics and landscape planning. No abstract."
+ },
+ {
+  "rid": "R3217",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Multi-benefit value stacking for solar on working lands. Title only, no abstract."
+ },
+ {
+  "rid": "R3220",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Agrophotovoltaics and the energy transition in agriculture. No abstract."
+ },
+ {
+  "rid": "R3228",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Co-locating PV on grazing and croplands for combined commercial and conservation outcomes (LER)."
+ },
+ {
+  "rid": "R3240",
+  "agrivoltaic_focus": "yes",
+  "topics": [
+   "none_of_these"
+  ],
+  "codes_twin_levels": "no",
+  "reason": "Challenges and opportunities of Agri-PV for rural clean energy transition."
+ }
+]

@@ -1,0 +1,5457 @@
+{
+"R0031": {
+"decision": "EXCLUDE",
+"code": "E5",
+"reason": "Doctoral thesis (dissertation DOI) giving a conceptual and narrative treatment of agri/ecovoltaics and extinction, not peer-reviewed primary research."
+},
+"R0057": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Solar-atmosphere EUV spectroscopy for plasma diagnostics, unrelated to agrivoltaics."
+},
+"R0066": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Space solar telescope accommodation study, unrelated to agrivoltaics."
+},
+"R0069": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Atmospheric observation of noctilucent clouds, unrelated to agrivoltaics."
+},
+"R0074": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Solar thermal cogeneration and desalination for a desert settlement, not PV co-located with crops on the same land."
+},
+"R0082": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Gravitational physics paper on perihelion shift and photon deflection, unrelated to agrivoltaics."
+},
+"R0087": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Optimization of a hybrid solar thermal ORC power system with no agricultural co-production."
+},
+"R0098": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Materials degradation of Hubble Space Telescope thermal shields, unrelated to agrivoltaics."
+},
+"R0113": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Literary and art criticism about Borges and Xul Solar, unrelated to agrivoltaics."
+},
+"R0123": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Biogas and solar tower hybrid for manure treatment, not PV co-located with agricultural production."
+},
+"R0160": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Thermodynamic analysis of a solar thermal STIG power cycle with no agricultural component."
+},
+"R0161": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Concentrated solar thermal receiver and storage cycle design, not agrivoltaic."
+},
+"R0166": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "National-scale wind and solar PV electricity system optimization with no agricultural co-location."
+},
+"R0177": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Simulation of a hybrid solar gas-turbine tower plant, not agrivoltaic."
+},
+"R0188": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "'Solar sharing' here means economic dispatch scheduling of PV and thermal power units, not PV co-located with agriculture."
+},
+"R0197": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Solar thermal hybridization of a coal-fired power plant, not agrivoltaic."
+},
+"R0198": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Solar-hybrid gas turbine plant concepts with no agricultural production."
+},
+"R0206": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Pressurized volumetric solar air receiver for CSP, unrelated to agrivoltaics."
+},
+"R0212": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Thermoeconomic analysis of CSP air-steam mixed cycles, not agrivoltaic."
+},
+"R0213": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Discursive essay on victory and community gardens that only mentions agrivoltaics in passing, with no primary research or enabler."
+},
+"R0223": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Medieval history paper on judicial memory and calendars, unrelated to agrivoltaics."
+},
+"R0236": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Solar PV powered irrigation pump performance test, with no crops grown under or between the PV array."
+},
+"R0238": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Building PV/T integration with desiccant air conditioning, no agricultural production."
+},
+"R0257": {
+"decision": "EXCLUDE",
+"code": "E5",
+"reason": "Doctoral thesis (UPM thesis DOI); although one chapter simulates an agrivoltaic wheat farm, theses are not eligible publication types."
+},
+"R0263": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Economic-only assessment (payback, NPV, IRR) of PV greenhouses, with no model of light, crop, energy or microclimate behavior."
+},
+"R0264": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "GIS-based regional estimate of PV potential on abandoned farmland in a prefecture, not a model of a specific agrivoltaic system."
+},
+"R0265": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Thermo-economic selection of sCO2 power cycles for CSP, not agrivoltaic."
+},
+"R0266": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "'Solar sharing' here means PV energy sharing and wheeling costs in LV distribution networks, with no agriculture."
+},
+"R0272": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Simulation of solar thermal feed-in into district heating, not agrivoltaic."
+},
+"R0279": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "General overview of energy production and use trends, not specific to agrivoltaic systems."
+},
+"R0287": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Economic and social performance case study of PV greenhouses (ROI, payback, jobs), with no computational or data-driven enabler."
+},
+"R0292": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Heliostat field design for co-producing hydrogen and electricity, not agrivoltaic."
+},
+"R0294": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Thermodynamic model of a hybrid Brayton thermosolar plant, with no agricultural production."
+},
+"R0296": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Techno-economic analysis of gas turbines in CSP central receiver plants, not agrivoltaic."
+},
+"R0306": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Generic PV and storage capacity matching across sites and loads, with no agricultural co-location."
+},
+"R0313": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Economic analysis of replacing tobacco farms with PV farms (land conversion, not co-located agricultural production)."
+},
+"R0317": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Hybrid solar flameless combustion gas turbine modeling, not agrivoltaic."
+},
+"R0319": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Life-cycle CO2 allocation methods for an agrivoltaic tomato greenhouse; an LCA-only study with no system behavior model or data system."
+},
+"R0320": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Modeling of a solar thermal agricultural dryer, not PV co-located with crop production."
+},
+"R0322": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Optimization of solar-aided coal-fired power plant layouts, not agrivoltaic."
+},
+"R1471": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "PRISMA systematic review of co-benefits across non-conventional PV types; a secondary study."
+},
+"R1473": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Legal and regulatory analysis of Italian agrivoltaics with no modeling, AI, or data system."
+},
+"R1474": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Self-described review of advancements in agrivoltaic systems."
+},
+"R1476": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Landscape integration, policy guidelines and expert survey on vertical agrivoltaics with no enabling technology."
+},
+"R1482": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Multidisciplinary review and gap analysis of agrivoltaic grazing."
+},
+"R1485": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Regulatory and policy case analysis of Chilean agrivoltaics with no model or data system."
+},
+"R1490": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Review with SWOT analysis of agrivoltaics for Indian farmers."
+},
+"R1493": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Review of state of the art and field applications of agrivoltaic systems."
+},
+"R1495": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Bibliometric literature analysis of agrivoltaic research."
+},
+"R1496": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Global systematic review and meta-analysis of 160 studies."
+},
+"R1499": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Stakeholder SWOT-AHP analysis plus national technical potential estimate, with no system-level model or data system."
+},
+"R1504": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Interview study on expert perceptions of energy and environmental justice in agrivoltaics."
+},
+"R1505": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Economic-only profitability assessment (NPV, LCOE, IRR, payback) of agrivoltaic configurations; no model or simulation is mentioned."
+},
+"R1506": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Critical review synthesizing empirical trial evidence."
+},
+"R1508": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Review of agrivoltaics in fruit production."
+},
+"R1515": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "GIS-based regional suitability and potential assessment for the Andaman and Nicobar Islands, not a specific system model."
+},
+"R1516": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Public acceptance and willingness-to-pay survey experiment."
+},
+"R1524": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Conference review of agrivoltaic systems, performance and future directions."
+},
+"R1526": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Review of agrivoltaic benefits and challenges."
+},
+"R1537": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Materials study of semitransparent perovskite solar cell fabrication, not an agrivoltaic system."
+},
+"R1545": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Overview/review of open-field agrivoltaic systems."
+},
+"R1546": {
+"decision": "EXCLUDE",
+"code": "E6",
+"reason": "Polish-language article (Polish title, English translation in parentheses) in Przeglad Elektrotechniczny, so not in English."
+},
+"R1550": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Critical synthesis/review of agrivoltaic technical, agronomic, legal and economic dimensions."
+},
+"R1552": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Systematic and bibliometric review of AI in solar-assisted greenhouses."
+},
+"R1553": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Life-cycle assessment-only study of carbon emissions for PV greenhouse grape cultivation."
+},
+"R1554": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Financial feasibility and equity (NPV, IRR, Gini) business-model study."
+},
+"R1555": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "Regional potential assessment of rooftop agrivoltaics across the Yangtze River Delta, not a specific system model."
+},
+"R1562": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Underwater perovskite solar cell study, not an agrivoltaic system."
+},
+"R1567": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Review of the water-energy-food-environment nexus."
+},
+"R1574": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Exploratory essay on circularity and net-zero Canadian agriculture, not about agrivoltaic systems."
+},
+"R1575": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Farmer survey on communication campaigns and adoption intentions, a social study with no enabler."
+},
+"R1578": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Legal regulation analysis of energy technologies in agriculture."
+},
+"R1580": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Civil-law analysis of agrivoltaic contractual arrangements in Italy."
+},
+"R1588": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Life-cycle assessment-only comparison of end-of-life modelling approaches."
+},
+"R1590": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Systematic evaluation and classification of agrivoltaic literature, a secondary study."
+},
+"R1594": {
+"decision": "EXCLUDE",
+"code": "E5",
+"reason": "Corrigendum (erratum) to a published article."
+},
+"R1595": {
+"decision": "EXCLUDE",
+"code": "E5",
+"reason": "Corrigendum (erratum) to a published article."
+},
+"R1598": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Comparative legal analysis of agrivoltaic frameworks for Thailand."
+},
+"R1599": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Self-described Perspective on a community engagement workshop and public participation."
+},
+"R1600": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Essay/commentary on Alpine cultures and sustainability with only a passing mention of agrivoltaics."
+},
+"R1013": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Device-level materials study of semitransparent organic solar cells; agrivoltaics is named only as a possible application, and no agrivoltaic system is studied."
+},
+"R1017": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Compares satellite PAR estimation methods at generic ground stations; agrivoltaics appears only as motivation, and no agrivoltaic installation is modelled."
+},
+"R1022": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Social acceptance study based on stakeholder interviews, with no AI, model, digital twin or data system."
+},
+"R1023": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "General awareness article on uses of solar energy, with no agrivoltaic system and no enabler."
+},
+"R1024": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "UAV thermal hotspot inspection and digital twin of a conventional solar farm with no agricultural production."
+},
+"R1027": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Initial field measurements of soil properties under solar parks (one grazed), with no model, AI or data system."
+},
+"R1028": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Review of solar park impacts and of agrivoltaics as mitigation in India."
+},
+"R1036": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Review of legislative options for agrivoltaics for Romanian farmers."
+},
+"R1038": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Techno-economic dispatch analysis of an island grid with PV and gas turbines; no agriculture."
+},
+"R1039": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Techno-economic and life cycle assessment of agrivoltaic configurations, an economic and LCA-only evaluation with no modelling enabler described."
+},
+"R1040": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Overview of the working principles and recent advances in concentrating agrivoltaics, which is secondary literature."
+},
+"R1041": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "Province-level national agrivoltaic potential assessment using GIS and simulation, not a specific system."
+},
+"R1044": {
+"decision": "EXCLUDE",
+"code": "E5",
+"reason": "Meeting abstract on transparent photovoltaic technologies in general; also not an agrivoltaic system study."
+},
+"R1045": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Solar-powered irrigation pump hardware, with no PV co-located with crops on the same land."
+},
+"R1046": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Policy discussion of opportunities and obstacles for utility-scale solar on US farmland, with no enabler."
+},
+"R1047": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "National 2050 renewable energy mix and storage assessment for Israel, with agrivoltaics only as one aggregate resource."
+},
+"R1049": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Hybrid concentrating solar power and combined cycle gas turbine plant design; no agriculture."
+},
+"R1050": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Life cycle assessment of sesame products, with agrivoltaics only as an alternative LCA scenario."
+},
+"R1051": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Optimization of a gas turbine cogeneration system with solar-assisted cycles; no agrivoltaic system."
+},
+"R1057": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Analysis of vegetation management O&M costs at utility-scale solar sites, which is economic-only."
+},
+"R1061": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Perspective/commentary on vertical farming for staple crops, with no primary agrivoltaic research."
+},
+"R1066": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Bibliometric review of agrivoltaic research trends."
+},
+"R1071": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Development of GaInAs cells for dual solar and laser power conversion; no agriculture."
+},
+"R1073": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "Municipal-scale identification of suitable renewable sources and locations, with agrivoltaics only as an option and no specific system modelled."
+},
+"R1077": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Solar-powered irrigation pumping prototype, not PV co-located with crop production."
+},
+"R1083": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Review of agrivoltaic challenges, wind loads and economics."
+},
+"R1087": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Techno-economics of solar-hybridised biomass gasification; no agrivoltaic system."
+},
+"R1091": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Multidisciplinary review and meta-analysis of agrivoltaics."
+},
+"R1093": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Systematic literature review of bifacial PV modules."
+},
+"R1094": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Multi-stakeholder acceptance survey for an Agri-PV fruit-farming plant, with no enabler."
+},
+"R1097": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Systematic review of the state of agrivoltaics in the Americas."
+},
+"R1104": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Literature review defining modern agricultural terminology."
+},
+"R1106": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Review of agriculture as an energy prosumer."
+},
+"R1107": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Profitability analysis of PV over farm structures without land-based crops under the array, which is agrisolar, not agrivoltaic, and economic-only."
+},
+"R1110": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Desk-based review of water-energy-food-land needs and agrivoltaics in Benin."
+},
+"R1112": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "National GIS-based agrivoltaic potential assessment for South Africa, not a specific system."
+},
+"R1115": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Review of parameters affecting agrivoltaic system success."
+},
+"R1119": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "Geospatial multi-criteria land suitability mapping for agrivoltaics across Sweden."
+},
+"R1120": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Review of agrivoltaics in relation to the European Green Deal and agricultural policies."
+},
+"R1123": {
+"decision": "EXCLUDE",
+"code": "E5",
+"reason": "Fact sheet / grey-literature report, not peer-reviewed primary research."
+},
+"R1388": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A literature review of how solar PV affects biodiversity, not a primary agrivoltaic study."
+},
+"R1396": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A bibliometric literature review (VOSviewer) of agrivoltaic publications for sub-Saharan Africa."
+},
+"R1398": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "A field trial with an economic analysis that reports measured energy, crop yield, LER and benefit/cost results, with no computational model, AI method or data system described."
+},
+"R1399": {
+"decision": "EXCLUDE",
+"code": "E5",
+"reason": "A WRI report that assesses the market and technical renewable-energy potential of overseas industrial parks, which is not peer-reviewed primary research on a specific agrivoltaic system."
+},
+"R1402": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "An economic-only analysis (NPV, unit cost, Monte Carlo financial risk) of an apple agrivoltaic system, with no model of system behavior."
+},
+"R1408": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "A socio-economic and gender framework for solar-powered irrigation in India, not an agrivoltaic co-location study, and it has no technical enabler."
+},
+"R1409": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "A socio-technical and policy analysis of agrivoltaics in Japan based on documents and expert interviews."
+},
+"R1410": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "A consumer-preference choice experiment, which is a perception and marketing study with no model of agrivoltaic system behavior."
+},
+"R1411": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A review of how PV modules affect the greenhouse micro-environment."
+},
+"R1412": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "A national geospatial assessment of agrivoltaic potential and suitable zones in Jordan, with no specific system modeled."
+},
+"R1413": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A discursive perspective paper on agrivoltaics and Green Agenda goals, with no primary method or enabler."
+},
+"R1414": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "A national GIS assessment of land-use and suitability potential for agrivoltaics in Germany."
+},
+"R1415": {
+"decision": "FORWARD",
+"code": "-",
+"reason": "Simulates energy and crop yield for overhead-tilted and vertical agrivoltaic system configurations to compute LER and revenue, which may meet I2(c) at system scale."
+},
+"R1418": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "A study of legal frameworks, vineyard practice surveys and social acceptance for vineyard agrivoltaics, with no model or data system."
+},
+"R1420": {
+"decision": "EXCLUDE",
+"code": "E5",
+"reason": "A government report on trends in controlled environment agriculture and agrivoltaics, not peer-reviewed primary research."
+},
+"R1422": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "A national PESTEL analysis of generic solar PV in Greece, in which agrivoltaics is mentioned only as one configuration."
+},
+"R1427": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Models a generic ground-raised bifacial PV array with no agricultural production; agrivoltaics is mentioned only as an application area."
+},
+"R1430": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A review of wavelength-selective PV technologies for agrivoltaics."
+},
+"R1431": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "A business-model and regulatory paper on agrivoltaic energy cooperatives, with no technical enabler."
+},
+"R1433": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A bibliometric analysis of research on fires in PV installations."
+},
+"R1435": {
+"decision": "EXCLUDE",
+"code": "E5",
+"reason": "A conference meeting abstract in the Journal of Animal Science reporting measured outcomes from a dairy grazing trial under PV."
+},
+"R1436": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A comparative review of land-sparing PV applications."
+},
+"R1437": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A comparative review of floating, agrivoltaic and ground-mounted PV systems."
+},
+"R1438": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A comprehensive review of agrivoltaic systems."
+},
+"R1439": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A comprehensive review of agrivoltaics, luminescent solar concentrators and semi-transparent PV."
+},
+"R1440": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A systematic review of solar stills with evacuated glass tubes, which is also not agrivoltaic."
+},
+"R1445": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A review and comparative analysis of solar tracking systems."
+},
+"R1446": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A review of AI applications in agro-photovoltaic systems."
+},
+"R1447": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A review, posted on SSRN, of rooftop agro-voltaic system development."
+},
+"R1450": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "A social media discourse and social acceptance analysis of agrivoltaics in Japan."
+},
+"R1453": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A review and perspective that proposes a techno-economic-ecological framework for agrivoltaics development."
+},
+"R1454": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "A digital-twin parameterization method for a PV farm with no agricultural production."
+},
+"R1456": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "A regional GIS weighted-overlay suitability assessment of agrivoltaic potential across the MENA region."
+},
+"R1457": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A review, including a bibliometric analysis, of agrivoltaic technology for net-zero goals."
+},
+"R1459": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "A Q-methodology study of stakeholder views on the sociotechnical configurations of agrivoltaics."
+},
+"R1463": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "A regional spatial assessment of agrivoltaic technical potential in the Marche Region, with no specific system modeled."
+},
+"R1464": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "A legal and regulatory analysis of agrivoltaics in Italy."
+},
+"R1465": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "An AHP-based land site-suitability mapping study for agrivoltaics in a Polish voivodeship."
+},
+"R1467": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A broad perspective paper on AI-driven renewable energy for agriculture, with no primary agrivoltaic method or system."
+},
+"R1469": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "A farmer survey on social acceptance of electricity self-sufficient villages using agrivoltaics."
+},
+"R0489": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "ANN-based digital twin of a power distribution grid with no agricultural production co-located with PV."
+},
+"R0491": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Multi-energy optimisation software for a social housing estate, not an agrivoltaic system."
+},
+"R0492": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Review of bifacial solar farm modeling that mentions agrophotovoltaics only as one of several topics."
+},
+"R0493": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Review of success attributes of agrivoltaic projects from PhD symposium proceedings on Figshare, not primary research."
+},
+"R0494": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Review of grassland climate-mitigation strategies in which agrivoltaics is one topic among several."
+},
+"R0495": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Cybersecurity framework for renewable energy systems that power agricultural processing facilities, with no crops or grazing under PV."
+},
+"R0502": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Critical review of agrivoltaic design options with a descriptive methodology, classified as a review."
+},
+"R0505": {
+"decision": "FORWARD",
+"code": "-",
+"reason": "Agrivoltaic school-garden study that builds and programs a monitoring device collecting crop conditions with and without PV cover, which may count as an agrivoltaic sensing system."
+},
+"R0506": {
+"decision": "FORWARD",
+"code": "-",
+"reason": "Clearly agrivoltaic stochastic weather-driven simulation of plot-level agrivoltaic outcomes; full text is needed to see whether crop and PV yields are modeled or the study is economic-only."
+},
+"R0509": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Qualitative stakeholder interview study on agrivoltaics in Austria with no model or data system."
+},
+"R0512": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Review and SWOT analysis of agrivoltaics for Indian farmers."
+},
+"R0517": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "County-level economic model of residential rooftop solar adoption in the U.S., not agrivoltaic."
+},
+"R0519": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Economic framework estimating profitability and adoption potential of agrivoltaics, economic-only."
+},
+"R0520": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "City-level TIMES energy planning model for solar targets in Turkey with no agricultural co-location."
+},
+"R0527": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Climatological analysis of national solar and wind energy production in Germany, not agrivoltaic."
+},
+"R0530": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Life cycle assessment of SOFC cogeneration in a single-family house nanogrid, not agrivoltaic."
+},
+"R0537": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "SWOT and policy analysis of photovoltaic agriculture development in China, with no model or data system."
+},
+"R0539": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Review of digital transformation and Agriculture 4.0 that mentions agrivoltaics only in passing."
+},
+"R0540": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Deep-learning digital twin of a PV solar farm with no agricultural production."
+},
+"R0548": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Legal framework analysis of agrivoltaic policy in the U.S."
+},
+"R0549": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Experimental solar thermal dryer for grapes, not PV co-located with crop production."
+},
+"R0554": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Hydrodynamic model of a solar dual fluidized bed gasifier, unrelated to agrivoltaics."
+},
+"R0557": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Global soiling and cleaning-cycle model for generic PV farms that names agrophotovoltaics only as one possible application."
+},
+"R0558": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Global atlas of solar-wind complementarity, not agrivoltaic."
+},
+"R0562": {
+"decision": "EXCLUDE",
+"code": "E5",
+"reason": "Conference proceedings preface, not a primary research article."
+},
+"R0563": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "National-scale flexible PV ancillary-services study for Italy with no agricultural component."
+},
+"R0568": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Agrivoltaic study limited to life cycle assessment and LCOE economic evaluation."
+},
+"R0569": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Interview study of industry perspectives and social acceptance of agrivoltaics."
+},
+"R0573": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Survey of farmers' adoption willingness for PV agriculture, a social acceptance and perception study."
+},
+"R0574": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "National preliminary land-use potential analysis for agrophotovoltaics in Romania that does not model a specific system."
+},
+"R0575": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Perspective on photoabsorbent materials for semitransparent organic solar cells that mentions agrivoltaics only as an application."
+},
+"R0578": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Life cycle assessment only, of a pasture-based rabbit agrivoltaic concept."
+},
+"R0579": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "State-of-the-art review comparing open-field agrivoltaic projects."
+},
+"R0581": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "InVEST ecosystem-service modeling of native grassland under solar facilities with no agricultural production under the PV."
+},
+"R0583": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Regulatory and legal analysis of energy communities in Japan."
+},
+"R0585": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "National scenario analysis of agricultural land take by PV and agri-PV in Germany to 2050, with no specific system modeled."
+},
+"R0587": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Literature review, in EGU conference-abstract form, on renewable energy in regenerative development."
+},
+"R0594": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Performance analysis of a solar-biogas hybrid micro gas turbine, not agrivoltaic."
+},
+"R0598": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Journal literature survey listing recent PV publications, not primary research."
+},
+"R0599": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Journal literature survey listing recent PV publications, not primary research."
+},
+"R1897": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Review of agrivoltaic demonstration site studies for a UK context; secondary study."
+},
+"R1898": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Systematic review of 123 studies on agrivoltaic sensor and monitoring practice; secondary study, not primary research."
+},
+"R1899": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Narrative review of recent agrivoltaics achievements; secondary study."
+},
+"R1900": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Review of challenges and prospects in agri-PV covering design typologies, economics and policy; secondary study."
+},
+"R1902": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Review of viticulture strategies for low-alcohol wine that mentions agrivoltaics only in passing; secondary study and not about an agrivoltaic system."
+},
+"R1904": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "GIS-MCDA regional site-suitability mapping for Flanders with no model of a specific agrivoltaic system."
+},
+"R1906": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Overview/review of agrivoltaic design factors and considerations; secondary study."
+},
+"R1907": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Review of solar-assisted electric vehicles, unrelated to agrivoltaics."
+},
+"R1909": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Planning, legal and market readiness analysis of agrivoltaics in NSW with no technical enabler."
+},
+"R1913": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Review of semi-transparent colored solar cell materials for agricultural greenhouses; secondary study."
+},
+"R1920": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Component lifespan analysis plus measured microclimate under powered and unpowered arrays, with yield gains taken from prior literature and no model or data system as an enabler."
+},
+"R1923": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Survey of smallholder farmer perceptions and adoption conditions; social acceptance study with no technical enabler for the system."
+},
+"R1926": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Laboratory soiling tests of CIGS and bifacial PV modules with simulated grain deposits and no agricultural production co-located; generic PV study."
+},
+"R1927": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Essay giving an overview of solar energy applications in agriculture; secondary, non-primary work."
+},
+"R1929": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Land-use and energy-justice study of utility-scale solar parks without agriculture; agrivoltaics appears only as a policy recommendation."
+},
+"R1931": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Magazine-style piece on India's PM-KUSUM solar pumps and farm solar plants, not agrivoltaic co-location and not primary research."
+},
+"R1933": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Review of solar-powered hydrogen electrolysis; secondary study and not about agrivoltaics."
+},
+"R1937": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "National GIS-AHP potential and site-selection analysis for Germany with no model of a specific system."
+},
+"R1941": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Comprehensive review of solar energy uses in the African agrifood chain; secondary study."
+},
+"R1942": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "State-of-the-art review of emerging renewable energy technologies; secondary study."
+},
+"R1946": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Survey/overview of technological innovations in agro-PV panel design; secondary study."
+},
+"R1952": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Review of synergies and trade-offs in multi-use solar landscapes; secondary study."
+},
+"R1954": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Perspective on climate action, renewables and biodiversity that only mentions agrivoltaics as an example; secondary, non-primary work."
+},
+"R1959": {
+"decision": "FORWARD",
+"code": "-",
+"reason": "Agrivoltaic PV design for goat farms with MATLAB/ANSYS structural simulation and techno-economic modelling of a specific raised-structure design; full text needed to judge whether energy-yield or system modelling meets I2."
+},
+"R1967": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "National agrivoltaic electricity potential assessment for Türkiye using 1% of farmland, not a model of a specific installation."
+},
+"R1978": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Economic perspective on soil health in Indian agriculture with only a passing mention of agrivoltaics; generic agriculture."
+},
+"R1979": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Strategic SWOT analysis of solar energy in India, mainly about generic solar, with agrivoltaics only recommended in passing."
+},
+"R1989": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Systematic review of agrivoltaic policy literature; secondary study."
+},
+"R1990": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "National spatial potential assessment for agrivoltaics in Great Britain with no model of a specific system."
+},
+"R1991": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "National spatiotemporal analysis of subsidized PV projects in China, agrivoltaic among other types, with no model of a specific system."
+},
+"R1992": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Case study of a digital inclusive finance model for photovoltaic agriculture; economic/business-model focus with no technical enabler."
+},
+"R1995": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Review of 3D solar harvesting with transparent spectral-selective PV for agrivoltaics; secondary study."
+},
+"R1997": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Review of agrivoltaic systems for modern farming practices; secondary study."
+},
+"R2002": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Sociological study of farmer risk perception of agri-PV greenhouses; social acceptance with no technical enabler."
+},
+"R2003": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Review of urban photovoltaic integration, not about agrivoltaic systems (also a secondary study)."
+},
+"R2006": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Real-options investment evaluation of a PV plus rice-wheat project; economic-only analysis."
+},
+"R2008": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Bibliometric and thematic analysis of agrivoltaic research; secondary study."
+},
+"R2009": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Review of UAV use in energy and heating sectors; secondary study and not about agrivoltaics."
+},
+"R2014": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Economic analysis of sustainable development strategies in agricultural enterprises that only mentions agrovoltaics in passing; not an agrivoltaic system study."
+},
+"R2019": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Study of social representations of agrivoltaics in the press and among experts; social/perception study with no technical enabler."
+},
+"R1604": {
+"decision": "EXCLUDE",
+"code": "E5",
+"reason": "Zenodo project deliverable describing a project presentation, which is a report rather than peer-reviewed primary research."
+},
+"R1606": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "National residential building stock decarbonisation LCA with no agrivoltaic system."
+},
+"R1608": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Review of agrivoltaic deployment in Sub-Saharan Africa (secondary study)."
+},
+"R1621": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Agri-food supply chain and logistics network optimization in which agrivoltaics is only a generic technology option, not a modeled agrivoltaic installation or system."
+},
+"R1622": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Perspective and policy review of the US agrivoltaic policy landscape with no enabler."
+},
+"R1624": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "Province-scale GIS multi-criteria suitability and sensitivity mapping for agrivoltaic siting, not a model of a specific system."
+},
+"R1628": {
+"decision": "EXCLUDE",
+"code": "E5",
+"reason": "Conference poster and abstract posted on Zenodo, not a full peer-reviewed paper."
+},
+"R1634": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Digital twin irrigation-drainage system for saline farmland where PV only powers water purification units, so no crops are grown under or between PV arrays."
+},
+"R1639": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Literature and policy-document analysis of financial and institutional support for digitalization in Ukraine, with no model or data system developed."
+},
+"R1641": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Economic viability study (LCOE, NPV) of an APV-BIPV biofuel system."
+},
+"R1642": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Field trial with an enterprise budget reporting economic outcomes only, with no model or data system."
+},
+"R1643": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Review and perspectives on agrivoltaic economics and environment."
+},
+"R1644": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Economic-only Monte Carlo evaluation of NPV and LCOE for agrivoltaic configurations across European countries."
+},
+"R1651": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Growth trial of LED spectral treatments in a PV-powered agrotunnel, reporting only measured yields with no model or data system."
+},
+"R1654": {
+"decision": "EXCLUDE",
+"code": "E6",
+"reason": "Swedish-language regional knowledge compilation report, not in English (and not peer-reviewed primary research)."
+},
+"R1656": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Social science interview study of community energy governance with no technical enabler."
+},
+"R1659": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "State-of-the-art overview of agrivoltaic energy performance and future prospects (secondary study)."
+},
+"R1666": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Regional energy system modelling for policy, where agrivoltaics appears only as a regulatory recommendation and no agrivoltaic system is modeled."
+},
+"R1679": {
+"decision": "FORWARD",
+"code": "-",
+"reason": "Full conference paper integrating precipitation and air-quality datasets for PV system modeling, aimed explicitly at modeling agrivoltaic systems, so whether a system is modeled needs full-text assessment."
+},
+"R1680": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Solar-driven thermochemical heat storage experiment, unrelated to agrivoltaics."
+},
+"R1683": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Solar cooker experimental evaluation, unrelated to agrivoltaics."
+},
+"R1688": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Comprehensive review of agrovoltaic effects on horticultural crops."
+},
+"R1689": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Systematic literature review of solar energy and agriculture integration."
+},
+"R1690": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Survey of farmers' willingness to take part in an agrivoltaic self-sufficient village (perception study)."
+},
+"R1691": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Political economy and policy analysis of agrivoltaics in the EU with no technical enabler."
+},
+"R1695": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Financial viability analysis (IRR, NPV, DSCR) of agrophotovoltaics in India (economic only)."
+},
+"R1696": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "First-principles materials study of perovskites that names agrivoltaics only as a possible application."
+},
+"R1697": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Review of agrivoltaic integration in greenhouses."
+},
+"R1698": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Political ecology interview and participant-observation study of agrivoltaics with no technical enabler."
+},
+"R1699": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Global econometric (ARDL) study of green energy, land use and emissions, with no agrivoltaic system."
+},
+"R1700": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Review of agrivoltaic technologies from a technological forecasting perspective."
+},
+"R1702": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "County-scale GIS AHP potential analysis and site selection for agrivoltaics, not a model of a specific system."
+},
+"R1706": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Review of geospatial planning criteria and decision models for agrivoltaics."
+},
+"R1707": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "Global-scale agro-hydrological potential assessment of crop responses to radiation attenuation, not a specific system configuration."
+},
+"R1710": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "Regional and provincial GIS estimate of ground-mounted PV potential based on grid proximity."
+},
+"R1712": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Discussion article on agroforestry in Appalachia that mentions agrivoltaics only in passing, with no agrivoltaic system studied."
+},
+"R1716": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "National GIS-based solar PV potential assessment for Nepal, including agrivoltaics."
+},
+"R1721": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "Regional GIS land availability and scenario mapping for agrivoltaics in Apulia."
+},
+"R1724": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Qualitative desk review of climate-smart agriculture practices in developing countries, not about an agrivoltaic system."
+},
+"R1726": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Comparative literature review of green, blue-green and biosolar building roofs, which are not agricultural agrivoltaic systems."
+},
+"R0324": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Integrates concentrating solar power into a coal-fired power plant, with no agricultural production co-located with PV."
+},
+"R0326": {
+"decision": "FORWARD",
+"code": "-",
+"reason": "Measures PV panel temperature and estimates thermoelectric power output for a hybrid agrivoltaic greenhouse project, so whether the agrivoltaic link and monitoring/model enabler are strong enough needs full-text checking."
+},
+"R0338": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Studies a solar-powered pesticide sprayer, not PV co-located with crop production on the same land."
+},
+"R0350": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Narrative review of agrophotovoltaic systems, so it is a secondary study."
+},
+"R0353": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "National-level ecological niche evaluation of China's PV agriculture industry using an index system, with no specific system modeled."
+},
+"R0361": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Energy-economic model of national wind and solar penetration in the US, with no agrivoltaic system."
+},
+"R0364": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Review of a hybrid concentrated solar thermal and MILD combustion receiver, unrelated to agrivoltaics."
+},
+"R0369": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Optimizes the operation of a solar-integrated microgrid, with no agricultural co-location."
+},
+"R0376": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Simulates solar heat for industrial processes in Morocco, not an agrivoltaic system."
+},
+"R0377": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Models the performance of a solar-hybrid micro gas turbine, unrelated to agrivoltaics."
+},
+"R0380": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Social impact scoping of agrivoltaic dissemination policy in Japan, with no technical model or data system."
+},
+"R0382": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "Global mapping of solar PV potential by land cover, with no specific agrivoltaic system modeled."
+},
+"R0390": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Simulates a liquid chemical looping thermal storage cycle with a gas turbine, not agrivoltaics."
+},
+"R0393": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Thermoeconomic analysis of a concentrated solar power tower with a supercritical CO2 cycle, not agrivoltaics."
+},
+"R0396": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Interview study of agriculture sector perceptions of agrivoltaics, with no model or data system."
+},
+"R0399": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Generic PV module front-material and reliability testing that mentions agrivoltaics only as a possible application."
+},
+"R0400": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Exergy-based solar share evaluation for solar-aided coal power generation, not agrivoltaics."
+},
+"R0401": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Thermo-economic design method for solar industrial process heat, not agrivoltaics."
+},
+"R0402": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Selects sCO2 power cycles for concentrated solar power, unrelated to agrivoltaics."
+},
+"R0407": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "National upper-bound cost and potential estimate for widespread US agrivoltaic deployment, with no specific system modeled."
+},
+"R0412": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Labeled as a review and overview article on agrophotovoltaics, so it is a secondary study."
+},
+"R0419": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Experimental study of a photovoltaic-thermal heat pump for building cooling, with no agricultural production."
+},
+"R0423": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Design of a direct steam generation solar power tower plant, not agrivoltaics."
+},
+"R0428": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "Assesses the economic potential of rainfed agrivoltaics across groundwater-stressed regions, which is a regional potential assessment rather than a model of a specific system."
+},
+"R0432": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Exergy-based optimization of an integrated solar combined-cycle power plant, not agrivoltaics."
+},
+"R0434": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Power system model of gas switching reforming with variable renewables, not agrivoltaics."
+},
+"R0438": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Simulates solar-thermal assisted gasification of crop residues, with no PV co-located with crop production."
+},
+"R0451": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Nighttime radiative cooling for harvesting water from solar panels, mentioning agrophotovoltaics only as a possible use."
+},
+"R0452": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Hybrid solar tower and gas turbine cycles with sCO2 bottoming cycles, not agrivoltaics."
+},
+"R0454": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Thermodynamic analysis of a hybrid solar thermal tower power plant, not agrivoltaics."
+},
+"R0458": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Solarized gas turbine integrated with an electrolyzer for hydrogen production, not agrivoltaics."
+},
+"R0468": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Perspective-style manuscript arguing for solar concentration approaches across several PV applications, not primary agrivoltaic research."
+},
+"R0471": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Field survey of PV module reliability at a solar irrigation pump cooperative, where PV powers pumps rather than forming a co-located agrivoltaic system."
+},
+"R0472": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Techno-economic analysis of a hybrid solar thermal and PV power plant, with no agriculture."
+},
+"R0475": {
+"decision": "FORWARD",
+"code": "-",
+"reason": "Measures PV backside temperature distribution and calculates thermoelectric output for a hybrid agrivoltaic greenhouse project, so the monitoring/model enabler needs full-text checking."
+},
+"R0478": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Wind-solar complementarity and storage at utility scale in Brazil, not agrivoltaics."
+},
+"R0479": {
+"decision": "FORWARD",
+"code": "-",
+"reason": "Simulates two agrivoltaic configurations with different array spacing over a 1 ha sugar beet/lettuce field, estimating energy, cost, crop yield and land equivalent ratio, which may meet the system-model enabler."
+},
+"R0482": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Hybrid solar/biomass polygeneration system for a community, not PV co-located with crops."
+},
+"R0483": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Solar water heaters with phase change material for football pitches, not agrivoltaics."
+},
+"R0485": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "PVsyst/Helioscope design of a grid-connected ground-mounted solar plant feeding agricultural feeders, with no crop production co-located under the PV."
+},
+"R2020": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Systematic literature review of agrivoltaic field experiments, a secondary study."
+},
+"R2021": {
+"decision": "FORWARD",
+"code": "-",
+"reason": "Agrivoltaic study that goes beyond LCA alone: it builds a parametrized model simulating PV-crop interactions across stochastic AVS configurations and applies a scenario discovery algorithm, so full text is needed to judge I2(a)/(c)."
+},
+"R2024": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Regional overview of renewable energy use in Khorezm (apparently not in English) that only mentions agrivoltaics as one innovation and studies no agrivoltaic system."
+},
+"R2027": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Policy and economic analysis of grid-connected solar irrigation pumps, not PV co-located with crops on the same land."
+},
+"R2029": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Russian-language economic and management index (AHP-weighted) for land assets of agribusiness and renewable energy companies, with no model of agrivoltaic system behavior."
+},
+"R2031": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Interview-based study of landscape ideology and perceptions of solar energy and agrivoltaics, with no technical enabler."
+},
+"R2033": {
+"decision": "EXCLUDE",
+"code": "E5",
+"reason": "Numbered meeting abstract in a journal supplement reporting a preliminary sheep grazing observation, not a full peer-reviewed paper."
+},
+"R2049": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "Statewide GIS suitability and parcel screening for agrivoltaics that does not model a specific system."
+},
+"R2052": {
+"decision": "FORWARD",
+"code": "-",
+"reason": "Agro-PV integrated framework that couples irradiance-based PV simulation with PAR-driven crop growth modeling to optimize transmittance configuration (I2c)."
+},
+"R2063": {
+"decision": "FORWARD",
+"code": "-",
+"reason": "Combines GIS-AHP siting with a PVsyst simulation of a specific 500 kWp agrivoltaic system under several tilt configurations, so it models a specific system design."
+},
+"R2064": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Proposes a stakeholder-weighted multi-criteria rating and scoring framework for agrivoltaics with no AI, data-driven, computational, or sensing enabler."
+},
+"R2069": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Auditing framework for utility-scale solar farms in which agrivoltaics appears only as a mitigation strategy."
+},
+"R2072": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Project risk assessment of rural agrivoltaic projects using a cloud model of socio-technical risk, not a model of system behavior."
+},
+"R2075": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Comprehensive review of agrivoltaic systems in India."
+},
+"R2083": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Self-described perspective paper proposing a research roadmap for AI optimization of agrivoltaics."
+},
+"R2095": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Narrative review of electrical engineering for smart agriculture."
+},
+"R2098": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "National GIS-based suitability and potential assessment of Agri-PV across Indian states."
+},
+"R2100": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Conference proceedings preface, an editorial, not primary research."
+},
+"R2114": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Systematic review and meta-analysis of agrivoltaic systems."
+},
+"R2116": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Scientometric (bibliometric) innovation index of agrivoltaic research."
+},
+"R2126": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Systematic review of agrivoltaic field experiments."
+},
+"R2130": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Literature review of the trade-offs and negative impacts of agrivoltaics."
+},
+"R2131": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Life-cycle assessment-only comparison of agrivoltaic configurations with agriculture and PV plants."
+},
+"R2132": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Discursive overview of agrivoltaic opportunities and challenges in Egypt, with no primary modeling or data."
+},
+"R2135": {
+"decision": "FORWARD",
+"code": "-",
+"reason": "Mainly a critical-geography analysis, but it reports agrivoltaic case studies including GIS/UAV geospatial monitoring experiments and AI and digital twin tools, so full text is needed to judge the enabler."
+},
+"R2136": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Synthesis of prior studies across agrivoltaic impact spheres, a secondary study."
+},
+"R2137": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Survey and conjoint experiment on public acceptance and political polarization, a social acceptance study."
+},
+"R2139": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "PRISMA systematic review of agrivoltaic crop and livelihood outcomes."
+},
+"R2142": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "PRISMA systematic review of agrivoltaics and resilience to extreme weather events."
+},
+"R2150": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Status and opportunities overview of agrivoltaics in developing countries based on existing studies."
+},
+"R2152": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Doctrinal legal analysis of Italian agrivoltaic legislation."
+},
+"R2153": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Review of agrivoltaic practices in Japan."
+},
+"R2155": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Social analysis of the forms and drivers of conflicts over agrivoltaic projects in France."
+},
+"R2159": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Review of agrivoltaics with semi-transparent PV and hydrogen production."
+},
+"R2163": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Sociological institutional analysis based on documents and interviews."
+},
+"R2168": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Legal analysis of agrovoltaics regulation in Ukraine."
+},
+"R2169": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Legal analysis of barriers to agrivoltaics in Poland."
+},
+"R2170": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Regional econometric study of solar expansion and emissions in island territories, not an agrivoltaic system study."
+},
+"R2172": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Expert validation of KPIs for renewable energy green practices in general, not an agrivoltaic system study."
+},
+"R2174": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Economic-only evaluation (IRR, MOIC, payback) of PV shading in cattle feedyards, with no technical model or data system."
+},
+"R0600": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Science editors' highlight summarising another paper (Graham et al.), so it is a commentary rather than primary research, and it reports only pollinator field observations."
+},
+"R0602": {
+"decision": "FORWARD",
+"code": "-",
+"reason": "Agrivoltaic study that optimizes a 3D structure and simulates crop growth under PV shading alongside a GIS potential assessment, so I2/I3 need full-text checking."
+},
+"R0603": {
+"decision": "FORWARD",
+"code": "-",
+"reason": "Feasibility study of a specific 50 MWp agrivoltaic project that reports electrical yield (bifacial vs monofacial) and land-use efficiency beyond economics, so a yield model may be present."
+},
+"R0609": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Review of agrivoltaic potential in Palestine, which is a secondary study."
+},
+"R0610": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Overview review of implemented agro-photovoltaic systems, which is a secondary study."
+},
+"R0616": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Critical review of PV architecture and agronomic management in agrivoltaic systems."
+},
+"R0625": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Interview-based social science study of stakeholder conflict over solar siting (an SSRN preprint) with no technical enabler."
+},
+"R0632": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Concentrated solar power plants with biomass and thermal storage backup, not an agrivoltaic system."
+},
+"R0633": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Solar-thermal-assisted industrial CO2 capture plant, unrelated to agrivoltaics."
+},
+"R0638": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "National/city-level potential assessment of agrivoltaics in Turkey based on land area, with no specific system modeled."
+},
+"R0640": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Solar micro gas turbine with thermochemical storage, not agrivoltaic."
+},
+"R0643": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Device fabrication of transparent a-Si solar cells that names agrophotovoltaics only as a possible application."
+},
+"R0647": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Generic bifacial PV farm configuration study with no agricultural production, mentioning agrophotovoltaics only in passing."
+},
+"R0649": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Review of opportunities and constraints of agrivoltaics in India."
+},
+"R0653": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Systematic review of agrivoltaic research."
+},
+"R0660": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Review of agrivoltaic engineering and layout optimization approaches."
+},
+"R0671": {
+"decision": "FORWARD",
+"code": "-",
+"reason": "Proposes a technical and economic analysis of an agrivoltaic project in Romania, and the abstract does not say whether a specific system is modeled, so it goes to full text."
+},
+"R0678": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Weed community survey in a large-scale solar farm with no agricultural production, and no model or data system is applied."
+},
+"R0681": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Public administration and policy principles for agrovoltaics in Ukraine, with no technical enabler."
+},
+"R0685": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Random forest detection of generic PV panels from Sentinel-2 imagery at regional scale, not a study of an agrivoltaic system."
+},
+"R0687": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Comparative study of land-use policy and legal frameworks for agrivoltaics."
+},
+"R0689": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Economic-only cost-benefit analysis of an agrivoltaic option for a PV park."
+},
+"R0691": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Status overview with practical advice on agrivoltaic systems, which is a review or perspective rather than primary research."
+},
+"R0692": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "German-language bioenergy market report that discusses agrophotovoltaics only in a closing overview chapter."
+},
+"R0702": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Public perception and social acceptance survey on agrivoltaics."
+},
+"R0710": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Baseline microclimate and soil measurements in a solar park where crops are not yet grown, reporting measured outcomes only."
+},
+"R0713": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Policy review of regulations affecting agrivoltaics in Alberta."
+},
+"R0717": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Environmental (LCA emissions, energy payback) and LCOE comparison of integrated PV configurations, with no modeling or data enabler."
+},
+"R0720": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "ML power prediction for a university solar farm microgrid digital twin with no agricultural production."
+},
+"R0721": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "National-scale economic adoption potential and supply-curve assessment of agrivoltaics in Germany."
+},
+"R0726": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Forest-photovoltaic concept on forest land, with no crop or pasture production, evaluated by siting simulation on satellite imagery."
+},
+"R0728": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Review of farming beneath solar panels in agrivoltaic systems."
+},
+"R0732": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Life-cycle assessment-only study of sheep agrivoltaic systems."
+},
+"R0736": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "History and legal aspects of agrivoltaics in Korea, with no technical enabler."
+},
+"R0738": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "National hydrogen storage and energy scenario study for Austria that mentions agrivoltaics only in passing."
+},
+"R0744": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Review of perovskite solar cell fabrication and stability that lists agrivoltaics only as an application."
+},
+"R0751": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Editorial introducing a research topic on rural integrated energy systems."
+},
+"R0754": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Review of hailstorm management in agriculture that mentions agrivoltaics as one mitigation option."
+},
+"R0755": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Review of solar farm hydrology and stormwater management guidance."
+},
+"R0756": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "General climate-resilient food security and policy discussion that mentions agrivoltaics but applies no model or data system."
+},
+"R0763": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "A materials study of back-contact stability in semitransparent CIGSe solar cells; agrivoltaics is only named as a possible application."
+},
+"R0765": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "A continent-level scenario comparison of agrivoltaic electricity and food yields against African demand, with policy recommendations, and no model of a specific system."
+},
+"R0766": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A systematic synthesis (review) of the ecosystem services of agrivoltaics and how they relate to the SDGs."
+},
+"R0767": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A review of bifacial PV technology and its modeling methods, with agrivoltaic and aquavoltaic applications."
+},
+"R0770": {
+"decision": "FORWARD",
+"code": "-",
+"reason": "Models an agrivoltaic PV water-pumping irrigation system for a case site in Algeria, using an I-V model and a feed-forward backpropagation neural network to optimize performance."
+},
+"R0772": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A literature survey listing recently published PV articles, not primary research."
+},
+"R0773": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A literature survey listing recently published PV articles, not primary research."
+},
+"R0774": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A literature survey listing recently published PV articles, not primary research."
+},
+"R0775": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "A device-level stability test of dye-sensitized solar cells under moisture and temperature; a PV greenhouse is only the intended future application."
+},
+"R0776": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "An economic-only comparison of the cost of agrivoltaic cover against shading nets for blueberry cultivation."
+},
+"R0777": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A review of semi-transparent PV technologies used in agrivoltaic systems."
+},
+"R0779": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A review of organic and rare-earth luminescent solar concentrators for agrivoltaics."
+},
+"R0783": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "A national strategic and policy analysis of photovoltaic agriculture in China (DEMATEL/ANP/NK model) with no model of agrivoltaic system behavior."
+},
+"R0786": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "National energy decarbonization and hydrogen-storage scenarios for Austria, in which agrivoltaics appears only as part of the PV potential."
+},
+"R0788": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "A fabrication study of semi-transparent perovskite solar cells; agrivoltaics is mentioned only as a possible application."
+},
+"R0792": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Lessons learned on solar energy in urban planning from Italian case studies, not a study of an agrivoltaic system."
+},
+"R0796": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Describes a light-source instrument for characterizing PV devices; agrivoltaics is only a named future application."
+},
+"R0799": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "A techno-economic analysis of a utility solar park with no agricultural production; agrivoltaics appears only as a suggested future direction."
+},
+"R0808": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "A life-cycle toxicity assessment of the metals in perovskite panels in general, not an agrivoltaic system study."
+},
+"R0812": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A news or commentary piece on agrophotovoltaics, not primary research."
+},
+"R0813": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A viewpoint (perspective) article on the theory of the agricultural energy internet."
+},
+"R0817": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "About wood-storage carbon sequestration; agrivoltaics is mentioned only as a possible later land use."
+},
+"R0819": {
+"decision": "EXCLUDE",
+"code": "E5",
+"reason": "A conference meeting abstract on organic solar cell acceptor materials, not a full paper on an agrivoltaic system."
+},
+"R0820": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "An agricultural economics article on niche crops in Ukraine that only mentions agrovoltaics in passing."
+},
+"R0821": {
+"decision": "EXCLUDE",
+"code": "E5",
+"reason": "A compiled set of project reports, not a peer-reviewed primary research article."
+},
+"R0822": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "A device fabrication study of semitransparent perovskite solar cells; PV greenhouses are only the target application, not a modeled system."
+},
+"R0824": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "An economic-only cost-benefit analysis of utility-scale agrivoltaics across Italian regions."
+},
+"R0828": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "An education study of a doctoral curriculum on the food-energy-water nexus, not agrivoltaic system research."
+},
+"R0831": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A review of greenhouse design and environmental control."
+},
+"R0832": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "A survey of farmer intentions plus a cost-benefit analysis, with no model or data system."
+},
+"R0839": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "An overview (review) of PV cooling approaches with agrivoltaic natural cooling; the single-farm data analysis is supplementary."
+},
+"R0840": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A literature review of agriculture electrification technologies."
+},
+"R0848": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A comprehensive review of agrivoltaic systems and modeling studies."
+},
+"R0849": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "A strategic SWOT/TOWS analysis of agrivoltaics with no computational model or data system."
+},
+"R0864": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Analyzes farmers' perceptions of agrivoltaics and their willingness to participate in cooperative projects (a social acceptance study)."
+},
+"R0875": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "An economic analysis of agrivoltaics in apple farming based on literature, expert interviews and pilot data, with no enabling model."
+},
+"R0879": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A systematic review of circularity and landscape experience in agrivoltaic literature and built systems."
+},
+"R0880": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "A landscape design and historical visual essay on energy landscapes, with no model or data system."
+},
+"R0885": {
+"decision": "EXCLUDE",
+"code": "E5",
+"reason": "A corrigendum (erratum) to a published article, not primary research."
+},
+"R0887": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "A global potential and suitability assessment of cropland for agrivoltaics and rooftop PV, with no model of a specific system."
+},
+"R2184": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Spectral-splitting concentrator sending light to algae cultivation and photothermal heat generation has no PV generation co-located with crops or pasture, so it is not an agrivoltaic system as defined."
+},
+"R2186": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Survey of farmers' willingness to lease land for agrivoltaics; a social acceptance study with no modeling or data-system enabler."
+},
+"R2190": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Comprehensive review of AI-enabled battery storage for renewable energy, not agrivoltaic primary research."
+},
+"R2196": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "GIS/Earth-observation suitability and potential assessment for a district, not modeling a specific agrivoltaic system."
+},
+"R2198": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Questionnaire study of social perception of vineyard agrivoltaics with no modeling or data-system enabler."
+},
+"R2201": {
+"decision": "FORWARD",
+"code": "-",
+"reason": "Develops a software package that simulates PV plant operation and optimizes energy-system configuration for a specific 5 MW agrivoltaic plant, which may qualify as a computational model used for design optimization."
+},
+"R2202": {
+"decision": "FORWARD",
+"code": "-",
+"reason": "Proposes a satellite and GIS monitoring method for microclimate impacts of PV and agrivoltaic plants; whether agrivoltaic sites are modeled and the publication type need full-text checking."
+},
+"R2204": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Review of AuREUS-inspired luminescent solar concentrator materials."
+},
+"R2205": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Computer-vision construction progress monitoring of power infrastructure, including a generic PV plant, with no agricultural production."
+},
+"R2209": {
+"decision": "FORWARD",
+"code": "-",
+"reason": "Although nation-scale, it optimizes agrivoltaic design (ground coverage ratio) under crop DLI light constraints per grid cell, so whether it models a generic system configuration needs full-text checking."
+},
+"R2214": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Groundwater policy root-cause analysis that only proposes agrivoltaics, with no agrivoltaic system studied."
+},
+"R2215": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Review of the potential for strawberry production in utility-scale agrivoltaics."
+},
+"R2216": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Survey with logistic regression of farmers' attitudes toward adopting agrivoltaics; a social acceptance study, not a model of system behavior."
+},
+"R2219": {
+"decision": "EXCLUDE",
+"code": "E5",
+"reason": "Zenodo dataset record of agrivoltaic tea plantation images, not peer-reviewed primary research."
+},
+"R2221": {
+"decision": "FORWARD",
+"code": "-",
+"reason": "Agrivoltaic tracking system whose PV yield is simulated in TRNSYS to compare tracking configurations; the system's agricultural co-location and how far the work goes beyond economics need full-text checking."
+},
+"R2222": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Literature-based estimate of winemaking carbon emissions that only mentions agrivoltaics as an option, with no agrivoltaic system studied."
+},
+"R2225": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Review of direct solar PV to electrolyser hydrogen production."
+},
+"R2227": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Bibliometric and content-analysis review of the water-food-energy nexus."
+},
+"R2228": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "DPSIR synthesis of secondary qualitative data on climate-smart interventions in Nigeria and Ghana."
+},
+"R2229": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Scoping review of climate-smart agriculture in Arizona."
+},
+"R2231": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Critical narrative review of climate-resilient fruit production."
+},
+"R2232": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Critical narrative review of climate-smart agriculture as a systems transition."
+},
+"R2236": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Status-and-outlook review of colorful semitransparent organic photovoltaics."
+},
+"R2237": {
+"decision": "EXCLUDE",
+"code": "E5",
+"reason": "bioRxiv preprint, not peer-reviewed primary research."
+},
+"R2248": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Review of microclimate and crop responses under agrivoltaics."
+},
+"R2251": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Consumer preference and willingness-to-pay study for agrivoltaic tomatoes with no modeling or data-system enabler."
+},
+"R2252": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "General overview of controlled environment agriculture that mentions agrivoltaics only in passing."
+},
+"R2256": {
+"decision": "EXCLUDE",
+"code": "E5",
+"reason": "Correction notice (erratum)."
+},
+"R2257": {
+"decision": "EXCLUDE",
+"code": "E5",
+"reason": "Corrigendum fixing author affiliations (erratum)."
+},
+"R2258": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Economic-only analysis (NPV, IRR, payback) of an agrivoltaic lettuce system with no model or data-system enabler."
+},
+"R2261": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Review of agrivoltaics and precision irrigation that proposes only a conceptual framework."
+},
+"R2263": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Socio-legal multi-criteria analysis of just transitions in agrivoltaic jurisdictions; a policy study."
+},
+"R2271": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Bibliometric and critical review of agrivoltaics research."
+},
+"R2272": {
+"decision": "EXCLUDE",
+"code": "E5",
+"reason": "Project deliverable (business model catalogue) on Zenodo, not peer-reviewed primary research."
+},
+"R2273": {
+"decision": "EXCLUDE",
+"code": "E5",
+"reason": "Project data management plan deliverable on Zenodo, not peer-reviewed primary research."
+},
+"R2281": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "Province-level clustering of potential for PV complementary modes, not modeling a specific agrivoltaic system."
+},
+"R2282": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Comprehensive review of renewable-energy electrification in agriculture."
+},
+"R2285": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Electrodialysis brackish-water treatment prototype; agrivoltaic integration is only a feasibility context, with no agrivoltaic system studied."
+},
+"R2287": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Off-grid PV for household rural electrification with no agricultural production."
+},
+"R2292": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Lightning protection design and ground-potential-rise simulation for solar plants, including an agrivoltaic setup; this is not one of the qualifying enablers (AI, digital twin, light/yield/crop/microclimate/water model, or monitoring system)."
+},
+"R1260": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Synthesis and characterization of luminescent solar concentrator dyes, a materials and device study with no agrivoltaic system or installation modeled."
+},
+"R1261": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Device-level fabrication of green-light wavelength-selective organic solar cells with leaf photosynthesis tests; no agrivoltaic system, installation or system model."
+},
+"R1265": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Systematic review of international agrovoltaic experiences, a secondary study."
+},
+"R1269": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Thin CdSeTe solar cell fabrication and characterization, which is generic PV device research that only mentions agrivoltaics as a possible application."
+},
+"R1272": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Literature review of market transformation policies for agrivoltaic adoption."
+},
+"R1274": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Simulation of a hybrid solar thermal-biomass district heating system with no agricultural production co-located with PV."
+},
+"R1278": {
+"decision": "FORWARD",
+"code": "-",
+"reason": "Applies SVM and decision tree machine learning models to crop yield forecasting in an agri-photovoltaic system, which may meet the agrivoltaic, enabler and scale criteria."
+},
+"R1282": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Interlaboratory validation of incidence-angle measurement methods for PV modules under IEC 61853-2, generic PV testing with agrivoltaics only mentioned as motivation."
+},
+"R1288": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Review article on agrivoltaic systems integrating crops, livestock and solar panels."
+},
+"R1291": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Spectroscopic study of charge carrier dynamics in an organic PV acceptor material, with no agrivoltaic system modeled."
+},
+"R1294": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Survey of landscape users' perceptions of agrivoltaic systems, a landscape and perception study with no enabling technology."
+},
+"R1295": {
+"decision": "FORWARD",
+"code": "-",
+"reason": "Builds data-driven interactive 3D/VR virtual models of agrivoltaic installations from open geodata, so full text is needed to judge whether it is a virtual replica or computing system at system scale or only a landscape acceptance study."
+},
+"R1296": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Legal analysis of barriers to agrivoltaic implementation in Austria."
+},
+"R1298": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Life cycle assessment-only study of an agrivoltaic system."
+},
+"R1299": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Life-cycle carbon emission assessment of PV greenhouses, which is LCA-only with no system behavior model or data system."
+},
+"R1301": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "Multi-criteria location selection among Turkish provinces for photovoltaic agriculture, a site-selection study that does not model a specific system."
+},
+"R1306": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Economic dispatch optimization of solar-integrated hybrid power systems with no agricultural component."
+},
+"R1318": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Materials and device development of a photoelectrochromic film for greenhouse thermal management, with no agrivoltaic system modeled or monitored."
+},
+"R1320": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Perspective calling for a network science approach to dual-use solar research."
+},
+"R1321": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Analysis of the legal framework for agrivoltaics in Germany."
+},
+"R1324": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Open-source design of indoor grow structures with grow lights and bins, with no co-located PV generation studied."
+},
+"R1325": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "Qualitative interviews plus geospatial suitability analysis of agrivoltaic potential on Tribal lands, a regional assessment with no specific system modeled."
+},
+"R1326": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Multi-criteria investment decision framework for agrivoltaic-storage projects, an economic and decision study with no model of system behavior."
+},
+"R1328": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "Regional land suitability and AHP analysis for agrivoltaics in Basilicata, with no specific system modeled."
+},
+"R1331": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Conference presentation on oxide-based transparent PV materials, a generic PV device study that only mentions agrivoltaics."
+},
+"R1332": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "National GIS-based solar PV site-selection mapping for Serbia, with no specific agrivoltaic system modeled."
+},
+"R1333": {
+"decision": "EXCLUDE",
+"code": "E5",
+"reason": "bioRxiv preprint that only reports measured pear yield and quality under an agrivoltaic pilot, so it is not peer-reviewed."
+},
+"R1340": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Perspective and review on agrivoltaic production of mint secondary metabolites."
+},
+"R1346": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Systematic review of agrivoltaic impacts on food production and electricity generation."
+},
+"R1347": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Qualitative interview and document analysis of nature conservation associations' attitudes toward PV and agrivoltaics, a social acceptance study."
+},
+"R1348": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Photovoltaics literature survey listing recent publications, not primary research."
+},
+"R1349": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Photovoltaics literature survey listing recent publications, not primary research."
+},
+"R1350": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Photovoltaics literature survey listing recent publications, not primary research."
+},
+"R1351": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "Regional assessment of agrivoltaic potential across ASEAN croplands, with no specific system modeled."
+},
+"R1352": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "National land-eligibility potential analysis of floating, parking and agri PV in Germany, with no specific system modeled."
+},
+"R1355": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Conference preface, an editorial rather than primary research."
+},
+"R1357": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "Regional prospects for agro-photovoltaics in the Lviv region, with no specific system modeled (the abstract is also in Ukrainian)."
+},
+"R1366": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "PESTLE-based risk analysis of agrivoltaic projects in Sub-Saharan Africa, with no enabling technology or system model."
+},
+"R1372": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Electrical and optical characterization of semitransparent perovskite solar cells, a device study with no agrivoltaic system modeled."
+},
+"R1376": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Review of biodiversity impacts of agrophotovoltaics, with hypotheses for future research."
+},
+"R1126": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A review of how PV affects crops, soil ecology and climate in agrivoltaics, not primary research."
+},
+"R1133": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A systematic review of agronomic knowledge on agrivoltaics, a secondary study."
+},
+"R1144": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "An editorial on asset management for public utilities with no agrivoltaic system."
+},
+"R1145": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A review-based indicator framework for bioeconomy approaches in which agrivoltaics is only one of seven cases, with no model or data system."
+},
+"R1147": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "A national state-of-the-art and regulatory/policy assessment of agrivoltaics in Brazil with no computational model, AI or data system."
+},
+"R1148": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Urban rooftop PV for electric vehicle charging with no agricultural production."
+},
+"R1150": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "A social discussion of how agrivoltaics could reduce rural women's inequalities, with no technical enabler."
+},
+"R1153": {
+"decision": "FORWARD",
+"code": "-",
+"reason": "Models and tests sun-tracking PV for dynamic PV greenhouses, including partial shading and energy yield, so the full text is needed to confirm cultivation and the modeling."
+},
+"R1156": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "A continental-scale wildfire weather index analysis that only discusses implications for agrivoltaics and models no specific system."
+},
+"R1157": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "A national GIS-based fuzzy MCDM site-selection and suitability mapping study."
+},
+"R1158": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "Regional land-resource planning (bi-level programming of subsidies and farmer income) across Taiwan rather than a model of a specific agrivoltaic system."
+},
+"R1159": {
+"decision": "FORWARD",
+"code": "-",
+"reason": "Simulates scenarios for a specific vineyard agrivoltaic site using solar radiation and panel transparency, so the full text is needed to check whether energy or crop modeling goes beyond economics."
+},
+"R1160": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Atmospheric water harvesting on PV modules with no co-located agricultural production."
+},
+"R1164": {
+"decision": "FORWARD",
+"code": "-",
+"reason": "Simulates the energy yield of a specific 6 kW agrivoltaic system over rice and watermelon in PVsyst with site meteorological data."
+},
+"R1165": {
+"decision": "FORWARD",
+"code": "-",
+"reason": "Applies a techno-economic model to a sun-tracked agrivoltaic system over blueberries, and the full text is needed to see whether it models energy or system behavior beyond economics."
+},
+"R1166": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "A site-suitability assessment of seminatural grasslands for PV based on generation and construction cost, with no specific agrivoltaic system modeled."
+},
+"R1168": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "UAV-based detection and thermal monitoring of PV modules in generic PV plants with no agricultural production."
+},
+"R1172": {
+"decision": "EXCLUDE",
+"code": "E5",
+"reason": "A conference poster (Board 346) on a K-12 agrivoltaics education program."
+},
+"R1179": {
+"decision": "FORWARD",
+"code": "-",
+"reason": "The title suggests a state-of-the-art overview, but the abstract describes crop-model simulation of light and yield under two PV array densities, so the full text is needed."
+},
+"R1183": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "A provincial GIS-MCDM potential assessment with ecological-benefit accounting, not a model of a specific system's behavior."
+},
+"R1184": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A comprehensive review of agrivoltaics, a secondary study."
+},
+"R1186": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "A consumer preference and willingness-to-pay choice experiment with no technical enabler."
+},
+"R1188": {
+"decision": "EXCLUDE",
+"code": "E5",
+"reason": "A correction notice (erratum) fixing author names."
+},
+"R1190": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "A global cost-competitiveness assessment of decentralized ammonia production that uses agrivoltaics only as a power source, with no specific system modeled."
+},
+"R1196": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "PV-powered seawater desalination with native flora and pollinator planting but no agricultural production under the PV."
+},
+"R1216": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "A panel econometric study of renewable energy, economic growth and happiness, unrelated to agrivoltaics."
+},
+"R1217": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "A social and political case study of agrivoltaic projects' impact on Chinese smallholders, with no technical enabler."
+},
+"R1219": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A dual-use PV overview and policy-recommendation report, not peer-reviewed primary research."
+},
+"R1221": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "An economic-only analysis (NPV, payback, LCOE, cost-benefit) of a solar agriculture farm."
+},
+"R1224": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "An ecological perspective and review article on ecovoltaics."
+},
+"R1229": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "A curriculum-sharing session on K-12 agrivoltaics citizen science that develops no model or data system."
+},
+"R1235": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "A life cycle assessment-only comparison of stilted and vertical bifacial agrivoltaic systems."
+},
+"R1237": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "An economic-only LCOE estimation (deterministic and Monte Carlo) for fence-type agrivoltaics."
+},
+"R1243": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "An island-wide SWOT/TOWS qualitative policy analysis with no computational or data enabler."
+},
+"R1247": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A survey and literature-based exploration of the European agrivoltaics landscape, a secondary study."
+},
+"R1248": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "A state-level land-use and farm-economic model with LCA of agrivoltaic expansion pathways, not a model of a specific system."
+},
+"R1256": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A critical review of fruit crops in agrivoltaic systems."
+},
+"R1257": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "Regional GIS mapping of reclaimable idle cropland for agrivoltaic potential."
+},
+"R1258": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A descriptive review-type overview of agrivoltaics in Indonesia with no primary modeling or data system."
+},
+"R1259": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "A city-scale GIS and LCA estimate of rooftop agrivoltaics' carbon-reduction potential rather than a model of a specific system."
+},
+"R1745": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Policy and rural-landscape analysis of local spatial plans based on literature and comparative argument, with no model, AI or data system."
+},
+"R1747": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Agronomic pot trial of potassium phosphate on water-stressed tomato in an agro-PV greenhouse that reports only measured outcomes, with no model or data system."
+},
+"R1751": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "PRISMA systematic review of thermal energy systems, not primary research and not about an agrivoltaic system."
+},
+"R1753": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Status and perspective talk on transparent PV device materials, where agrivoltaics is only named as a possible application and no agrivoltaic system is studied."
+},
+"R1754": {
+"decision": "FORWARD",
+"code": "-",
+"reason": "Uses RETScreen/MATLAB to simulate PV farms that are proposed with simultaneous crop farming, so full text is needed to check whether an agrivoltaic configuration is actually modeled."
+},
+"R1763": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "Regional GIS-AHP site-suitability mapping for solar farms that does not model a specific agrivoltaic system."
+},
+"R1767": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Community waste-management project in which agrivoltaic farming is only an add-on component and no agrivoltaic system is studied or modeled."
+},
+"R1774": {
+"decision": "FORWARD",
+"code": "-",
+"reason": "Field data and temperature-efficiency correlation analysis compare agrivoltaic cell temperatures and efficiency with other PV setups, which may count as a data-driven model of agrivoltaic PV performance."
+},
+"R1776": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Generic fast-simulation method for mismatched PV arrays whose worked examples are non-agricultural PV fields, with agrivoltaics mentioned only as motivation."
+},
+"R1777": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Conference proceedings preface (editorial front matter), not primary research."
+},
+"R1778": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "Provincial GIS-AHP land-suitability mapping for agrivoltaics that does not model a specific system."
+},
+"R1779": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Perspective article on organic solar cell processing, with agrivoltaics only named as a potential application."
+},
+"R1783": {
+"decision": "FORWARD",
+"code": "-",
+"reason": "Clearly agrivoltaic 2 ha system with a soil-sensor precision drip configuration, modeled evapotranspiration and bifacial rear-irradiance yield, so it may go beyond LCA alone (venue quality to be checked at full text)."
+},
+"R1784": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "LCA-only benchmarking of agrivoltaic configurations whose only modeling is Monte Carlo uncertainty on environmental impacts, with no system-behavior model or data system."
+},
+"R1785": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Systematic review of life-cycle assessment of renewable energy systems in general."
+},
+"R1792": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Conceptual green-economy model of Ukraine's agro-industrial complex in which agrivoltaics is one listed component and no agrivoltaic system is studied."
+},
+"R1798": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Meta-study reviewing national PV potential assessments for Switzerland (secondary and national-scale)."
+},
+"R1802": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Mobile solar-diesel hybrid power for an oil drilling rig, with no agricultural production."
+},
+"R1805": {
+"decision": "FORWARD",
+"code": "-",
+"reason": "Computational model of bifacial PV arrays on slopes that predicts yield and ground light patterns explicitly for agrivoltaic use, so it may meet I2(c)."
+},
+"R1810": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Comprehensive review of agrivoltaic modeling, simulation and optimisation (secondary study)."
+},
+"R1817": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Research-by-design architectural and landscape adaptive-reuse case study with no AI, model or data system for the agrivoltaic component."
+},
+"R1818": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Self-described review on nanotechnology in agrovoltaics, deposited with a Zenodo DOI, so not peer-reviewed primary research."
+},
+"R1819": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Perspective on neuromorphic computing for electricity market design, not about agrivoltaic systems."
+},
+"R1825": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Interview-based study of stakeholder perception and territorial adequacy of agrivoltaics, with no enabler."
+},
+"R1831": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Opinion article on agroforestry constraints that mentions agrivoltaics only in passing."
+},
+"R1833": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Review of monitoring approaches for agrivoltaic systems (secondary study)."
+},
+"R1847": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Mini-review of organic semiconductor photovoltaics, with agrivoltaics only as a named application."
+},
+"R1854": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Systematic review of public perception of solar energy adoption in the United States."
+},
+"R1868": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Political and social analysis of agrivoltaic deployment in China, with no model or data system."
+},
+"R1869": {
+"decision": "FORWARD",
+"code": "-",
+"reason": "Assesses crop and energy yields for a specified agrivoltaic configuration (8 m row spacing, 240 kW/ha), which may involve a computational yield model beyond the economic analysis."
+},
+"R1870": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "EU-wide technical and market potential assessment of agrivoltaics under regulatory scenarios, not a specific system model."
+},
+"R1875": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Conference proceedings preface (editorial front matter), not primary research."
+},
+"R1879": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Literature review of the prospects of agrivoltaics for cattle grazing in Nigeria."
+},
+"R1882": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "State-level renewable energy policy overview for Bihar that mentions agrivoltaics only in passing."
+},
+"R1883": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Review of perovskite solar cell development, with agrivoltaics only as a named application."
+},
+"R1885": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "Random-forest remote-sensing mapping of PV land expansion across China's coastal provinces, a regional assessment that does not model a specific system."
+},
+"R1887": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Overview of recent solar PV developments (secondary study)."
+},
+"R1890": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Theoretical review of regenerative agrivoltaics (secondary study)."
+},
+"R1891": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Digital twin of a net-zero commercial building with PV and wind, with no agricultural production."
+},
+"R1892": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "General perspective on renewable energy in Indian agriculture that only names agrivoltaics, with no primary study."
+},
+"R3232": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "A finite-element study of a generic air-cooled finned PVT collector, which mentions agrivoltaic use only as a possible application and does not study PV co-located with crops."
+},
+"R3237": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "An editorial overview of a special issue from the EU PVSEC 2022 conference, which is secondary and not primary research."
+},
+"R3241": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "A landscape-planning and ecosystem-services discussion of PV farms in Apulia, with no AI, data, modeling or sensing enabler, published as a book-publisher chapter."
+},
+"R3242": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "A CNN for classifying dust on generic PV panels, with no agricultural co-location."
+},
+"R3243": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "A financial hedging framework for Ukrainian agriculture that mentions Agri-PV only as a future research direction, so it is not an agrivoltaic system study."
+},
+"R3246": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "An NPV comparison of PV farms that replace soybean land with soybean production, so there is no co-located agrivoltaic system and the analysis is economic only."
+},
+"R3247": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "A review of a bacterial pathogen of walnut and hazelnut, unrelated to photovoltaics or agrivoltaics."
+},
+"R3250": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Proposes an ethics code addressing the social dimension of AgriPV, with no AI, modeling, digital twin or sensing enabler."
+},
+"R3252": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A review of plastics use in horticulture that mentions agri-PV only briefly as a perspective."
+},
+"R3261": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "Regional remote-sensing mapping of ground-mounted PV arrays and cropland displacement across California's Central Valley, which does not model a specific agrivoltaic system."
+},
+"R3263": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A review of renewable energy development and low-altitude emissions in rural Poland, which is secondary and not specific to agrivoltaics."
+},
+"R0893": {
+"decision": "FORWARD",
+"code": "-",
+"reason": "Simulates a grid-connected agrivoltaic (APV) system with MPPT control and an energy management system, so it may meet the PV energy yield and control modeling criterion; needs full-text check."
+},
+"R0898": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Digital twin of a wind farm, with no agrivoltaic system."
+},
+"R0900": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Strategic SWOT assessment of renewable energy for agriculture in Vietnam, with no model, AI, or data system."
+},
+"R0905": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "PV fault diagnosis with a digital twin and deep learning for generic PV arrays and farms, with no agricultural co-production."
+},
+"R0910": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Solar thermal heating of a rural house; not PV co-located with agriculture."
+},
+"R0916": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Monitors native vegetation at a utility-scale solar facility, so there is no agricultural production, and it reports only measured outcomes."
+},
+"R0917": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Device-level study of how the environment affects quantum dot luminescent solar concentrators; it does not study an agrivoltaic system."
+},
+"R0920": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "TRNSYS modeling of solar thermal heat for agri-food industrial processes; not PV over agricultural production."
+},
+"R0924": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Socio-economic review of solidarity-economy renewable energy and solar pumps in India; it does not study an agrivoltaic system."
+},
+"R0925": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "National-grid study of spreading PV plants across India; agrivoltaics is mentioned only in passing."
+},
+"R0926": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Interview-based study of Turkish farmers' views and the institutional setting for agrivoltaics, with no technical enabler."
+},
+"R0927": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Economic feasibility of residential grid-connected PV in Romania, with no agriculture."
+},
+"R0928": {
+"decision": "EXCLUDE",
+"code": "E5",
+"reason": "A journal's featured research images page, not peer-reviewed primary research."
+},
+"R0931": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Policy and socio-technical transition analysis of agrivoltaics industry adoption in the U.S., with no technical enabler."
+},
+"R0938": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Review of data analytics for renewable energy assets in general, not agrivoltaics."
+},
+"R0948": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "GIS-based regional assessment of agrivoltaic generation potential and economic ripple effects in rural Japan, with no specific system modeled."
+},
+"R0952": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Socio-legal energy justice analysis of agrivoltaics laws and policies."
+},
+"R0953": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Energy-system modeling of the optimal solar share in wind and solar grids; not agrivoltaic."
+},
+"R0954": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Literature review of agrivoltaics across the food-energy-water nexus."
+},
+"R0957": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Legal and property-tax analysis of agrophotovoltaics."
+},
+"R0958": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Life cycle assessment-only study of an agrivoltaic potato system."
+},
+"R0959": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "Province-wide estimate of agrivoltaic crop and livestock potential, plus a legislation review for Saskatchewan."
+},
+"R0960": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Reinforcement learning MPPT controller with a digital twin for generic PV, with no agricultural co-production."
+},
+"R0968": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Device-level optical nanoantenna design for transparent solar cells; agrivoltaics is mentioned only as a possible application."
+},
+"R0971": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Structural and cost (LCOE) design of wooden vertical agrivoltaic racking, with no model of light, energy yield, crop, or microclimate and no AI or data system."
+},
+"R0980": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Minireview of p-type polymers for semitransparent organic photovoltaics."
+},
+"R0982": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Photovoltaics literature survey listing recent articles, not primary research."
+},
+"R0989": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "PV module degradation models for onshore and offshore floating PV, with no agricultural co-production."
+},
+"R0991": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Photovoltaics literature survey listing recent articles, not primary research."
+},
+"R0992": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Photovoltaics literature survey listing recent articles, not primary research."
+},
+"R0993": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Photovoltaics literature survey listing recent articles, not primary research."
+},
+"R0999": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Editorial profiling journal associate editors, not primary research."
+},
+"R1000": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "Regional GIS-based assessment of ecosystem service trade-offs and land suitability for solar farms and biomass in Veneto."
+},
+"R1001": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "National case study of renewable grid integration in Spain, with no agrivoltaic system."
+},
+"R1002": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Digital twin for integrated energy system demand response, with no agrivoltaic system."
+},
+"R1004": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Metaverse and blockchain situation awareness for a source-network-load-storage power system, with no agrivoltaic system."
+},
+"R1006": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Review of SDEWES 2022 conference hot topics."
+},
+"R1007": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Planned PV greenhouse prototype experiments comparing array arrangements, with no model, AI, or data system described."
+},
+"R1008": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Roadmap and perspective on established and emerging photovoltaic technologies."
+},
+"R1010": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "AHP and GIS site-selection mapping for agrivoltaics across Chungnam Province."
+},
+"R3033": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "GIS-MCDM (BWM/Entropy/TOPSIS) site selection for agrivoltaics that maps land suitability and does not model a specific system."
+},
+"R3039": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Qualitative persona development from stakeholder interviews about agrivoltaics adoption, with no modelling, AI or data-system enabler."
+},
+"R3040": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Policy and regulatory analysis of renewable energy communities with a territorial management model, and no computational agrivoltaic model or data system."
+},
+"R3048": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Machine-learning site adaptation of a gridded solar irradiance product in Sweden, with no agricultural co-location."
+},
+"R3051": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Materials synthesis of semi-transparent organic solar cells, where agrivoltaics is mentioned only as a possible application and no agrivoltaic system is studied."
+},
+"R3053": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Lab accelerated-aging test of CIGS cells with agricultural pollutants, which is a generic PV device reliability study and not an agrivoltaic system."
+},
+"R3059": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Device-level development of semitransparent organic PV, with agrivoltaics named only as a potential application."
+},
+"R3062": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "National-scale GIS potential assessment of solar PV types, agrivoltaics included, for Bangladesh."
+},
+"R3075": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "GIS with fuzzy AHP suitability analysis to identify agrivoltaic sites across Turkish provinces, with no specific system model."
+},
+"R3080": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Legislative and permitting barrier analysis for agrivoltaics in Europe, which is a policy study with no enabler."
+},
+"R3083": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Deep-learning classification of plastic land-surface functions from satellite imagery, which is not an agrivoltaic system study."
+},
+"R3084": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Land-policy perspective on China's 'PV Plus' as a nature-based solution, with no modelling or data enabler."
+},
+"R3093": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Strategic environmental assessment methodology for large solar power plants, with no agricultural co-production."
+},
+"R3095": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "Country-level estimate of agrivoltaic capacity potential in Bosnia and Herzegovina vineyards, compared with floating PV."
+},
+"R3106": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Review article comparing mono- and bifacial PV technologies."
+},
+"R3110": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Overview and perspective paper on integrated PV options in the EU."
+},
+"R3111": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Expert status report and perspective on emerging PV technologies."
+},
+"R3115": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Overview of Chinese policies and integrated solar and wind development models."
+},
+"R3125": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "PV-powered BLDC water pumping converter control for agricultural loads, with no crops co-located under PV."
+},
+"R3128": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "National solar energy potential assessment for Indonesia, with no specific agrivoltaic system model."
+},
+"R3134": {
+"decision": "EXCLUDE",
+"code": "E5",
+"reason": "1976 conference proceedings volume collecting 121 papers, which is not a single peer-reviewed primary study."
+},
+"R3136": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Provincial ecosystem carbon-sink assessment with InVEST, where agrophotovoltaics is mentioned only in passing."
+},
+"R3137": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Landscape typology of multifunctional solar power plants built from case analysis, interviews and questionnaires, with no enabler."
+},
+"R3143": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Territorial regeneration proposal for an Italian region that mentions agrovoltaics only as a planning theme, with no model or data system."
+},
+"R3154": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Review of innovations for renewable energy power plants."
+},
+"R3157": {
+"decision": "FORWARD",
+"code": "-",
+"reason": "Numerical simulation and optimization of inverter selection and wire sizing for fence-based vertical agrivoltaic systems; it may qualify as a design computational model, and full text should confirm it is not economic-only."
+},
+"R3161": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Rice phenology retrieval from Sentinel-1 using a recurrent neural network, with no co-located PV system."
+},
+"R3163": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Review of advanced greenhouse glazing materials, including photovoltaic glazing."
+},
+"R3171": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Brief overview of smart renewable energy community models."
+},
+"R3172": {
+"decision": "FORWARD",
+"code": "-",
+"reason": "Introduces a dual agrivoltaic greenhouse model that estimates PV energy yield against crop photosynthetic rate for representative locations and crops, so it is a system-level computational model rather than GIS mapping."
+},
+"R3174": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Laser patterning fabrication of spectrally selective solar mini-modules, a device-level study with no agrivoltaic system modelled."
+},
+"R3188": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Solar thermal crop dryers and their adoption economics, with no PV co-located with crop production."
+},
+"R3208": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Experimental PV-thermoelectric generator hybrid performance on generic PV panels, with no agricultural co-location."
+},
+"R3210": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Qualitative review of emerging microgrid design concepts."
+},
+"R3213": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "DC generation mapping in a large-scale solar farm in Malaysia, with no agricultural production."
+},
+"R3221": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Macroeconomic NPV/IRR analysis of PV installations meeting farm electricity demand, with no crops under PV and an economic-only scope."
+},
+"R3222": {
+"decision": "FORWARD",
+"code": "-",
+"reason": "Models how installation angle and orientation affect light transmitted to plants through spectrally selective PV for greenhouse coverage at two locations, so it may qualify as a light/irradiance computational model for a PV greenhouse configuration."
+},
+"R3224": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Social science interview study of stakeholder perspectives on solar siting and agrivoltaics."
+},
+"R3227": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "State-wide GIS-MCDA land suitability analysis for utility-scale solar in New York."
+},
+"R3231": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Raptor field surveys at a large-scale PV farm in an agricultural landscape, with no agricultural production under the PV and no modelling enabler."
+},
+"R2560": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Systematic literature review combined with scenario focus groups on perceived barriers; secondary and perception study with no enabler."
+},
+"R2565": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Systematic literature review of PV technologies used in AgriPV systems, a secondary study."
+},
+"R2572": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Narrative review synthesising 24 PV greenhouse case studies, a secondary study."
+},
+"R2574": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Physics-informed neural network for global solar-forcing climate variability, unrelated to agrivoltaic systems."
+},
+"R2575": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Satellite hyperspectral unmixing for estimating generic PV area across rooftop, water and agrivoltaic layouts; it does not model an agrivoltaic system, and an agrivoltaic region appears only as a test scene."
+},
+"R2590": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Economic-only analysis (LCOE and cost of land preservation) of agrivoltaic systems in Germany."
+},
+"R2593": {
+"decision": "EXCLUDE",
+"code": "E5",
+"reason": "arXiv preprint (technical note), not peer-reviewed, although its tracking-tilt optimization topic is relevant."
+},
+"R2594": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Review of semitransparent solar panel materials and applications."
+},
+"R2607": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Review of digital twins in renewable energy systems in general, a secondary study and not agrivoltaic-specific."
+},
+"R2609": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "Province-scale ML site-suitability mapping for agrivoltaics that does not model a specific system."
+},
+"R2610": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "National water-energy-food nexus policy redesign based on expert interviews; agrivoltaics is mentioned only as one recommended action."
+},
+"R2613": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Focus-group study of stakeholder perceptions and adoption barriers with no modeling or data-system enabler."
+},
+"R2614": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Regionalized life-cycle assessment of ecosystem external costs that explicitly does not model agricultural practices; LCA-only."
+},
+"R2616": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Device-level reliability study of perovskite mini-modules; agrivoltaics is cited only as a potential application, with no agricultural system."
+},
+"R2618": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Critical narrative review of renewable energy for irrigation and agriculture."
+},
+"R2620": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Structured review of renewable energy in aquaculture, which is also aquavoltaic rather than agrivoltaic."
+},
+"R2630": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "PRISMA review of water-energy-food nexus applications in agriculture."
+},
+"R2632": {
+"decision": "EXCLUDE",
+"code": "E5",
+"reason": "bioRxiv preprint, not peer-reviewed, although its robot-based multispectral crop monitoring under APV is topically relevant."
+},
+"R2633": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Zenodo review article on solar energy in smart buildings, with no agrivoltaic focus."
+},
+"R2639": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Household survey on solar-powered irrigation tube wells, which is solar pumping rather than PV co-located with crops."
+},
+"R2641": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Regional PAR estimation model from satellite and station data; agrivoltaic design is cited only as a motivating application, with no agrivoltaic system modeled."
+},
+"R2643": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Perovskite module fabrication study; agrivoltaics is mentioned only as a possible application."
+},
+"R2645": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Participatory scenario planning for a rural town energy transition based on surveys and focus groups, with no modeling enabler."
+},
+"R2648": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "CFD modeling of plant-air convection in generic vegetative canopies; agrivoltaics is noted only as a future application domain."
+},
+"R2650": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Review of semitransparent perovskite solar cells."
+},
+"R2656": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Literature review of shading impacts on PV production."
+},
+"R2665": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Nationwide social-acceptance survey of agrivoltaics with no model or data-system enabler."
+},
+"R2673": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Analysis of household PV and EV charging data, with no agricultural production."
+},
+"R2676": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Perspective/overview paper on solar PV growth and sustainability policy."
+},
+"R2677": {
+"decision": "EXCLUDE",
+"code": "E5",
+"reason": "Science news article in EOS magazine reporting on a model, not peer-reviewed primary research."
+},
+"R2678": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Field survey of the ecological impacts of utility-scale solar parks without agriculture; agrivoltaics appears only as a policy recommendation."
+},
+"R2679": {
+"decision": "FORWARD",
+"code": "-",
+"reason": "Presents a PV energy management and control system (MPPT, sensorless observer) framed within an agri-voltaic setup on agricultural land; full text is needed to confirm whether it represents a genuine agrivoltaic system."
+},
+"R2680": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Structured narrative review of solar tracking architectures and control strategies."
+},
+"R2683": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "District-scale GIS multi-criteria suitability mapping for AgroPV that does not model a specific system."
+},
+"R2691": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "State-of-the-art and regulatory/policy analysis of agrivoltaics in Brazil with no modeling or data-system enabler."
+},
+"R2693": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "General review of solar panel development and flexible panels."
+},
+"R2694": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "General review of solar panel development and applications."
+},
+"R2699": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Life-cycle assessment-only study of agrivoltaic support structures and PV modules."
+},
+"R2705": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Editorial introducing a journal volume."
+},
+"R2707": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Electrode design for semitransparent perovskite cells; agrivoltaics is mentioned only as a potential application."
+},
+"R2418": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A policy review of Pakistan's solar sector that mentions agrivoltaics only as a future mandate, so it is a secondary study with no agrivoltaic system or enabler."
+},
+"R2419": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "A regional GIS and MCDM-AHP suitability map with co-benefit estimates for the Nagpur Metropolitan Region that does not model a specific agrivoltaic system."
+},
+"R2423": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "A nationwide household choice experiment on willingness to pay for agrivoltaics, which is a social preference study with no technical enabler."
+},
+"R2424": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A literature review of how agrivoltaic models calculate water quantities, so it is a secondary study."
+},
+"R2427": {
+"decision": "FORWARD",
+"code": "-",
+"reason": "A linear programming and genetic algorithm sizing model for a village hybrid energy system that selects agrivoltaics as a main source; full text is needed to check whether the agrivoltaic component is modeled as a co-located system or only as generic PV."
+},
+"R2431": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "A qualitative multi-case study of farmers' market acceptance of agrivoltaics in Japan, with no model or data system."
+},
+"R2432": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "A qualitative, conceptual analysis of investment risks of solar energy in agriculture, with no technical enabler."
+},
+"R2443": {
+"decision": "FORWARD",
+"code": "-",
+"reason": "Develops a sensor and XGBoost and Bayesian models to predict heat stress in cattle with and without agrivoltaic shade; full text is needed to confirm the PV-livestock setup meets I1 and that the Zenodo record is a peer-reviewed conference paper."
+},
+"R2444": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "An inaugural journal editorial summarising unrelated contributions, so it is not primary research and not agrivoltaic."
+},
+"R2445": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A narrative review of digital twin deployments in wind, solar, storage and grids, with no agrivoltaic focus."
+},
+"R2448": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "A study of Ukrainian agricultural economic modernization that mentions agrivoltaics only in passing, so it does not concern an agrivoltaic system."
+},
+"R2451": {
+"decision": "EXCLUDE",
+"code": "E5",
+"reason": "A Figshare repository record, not peer-reviewed, whose agrivoltaic part is materials-level screening of perovskite cell efficiency rather than a model of an agrivoltaic system."
+},
+"R2460": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "A regional Fuzzy-AHP GIS site-selection study for solar-livestock integration that does not model a specific system."
+},
+"R2465": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A systematic literature review of agrivoltaics and decision-making science."
+},
+"R2466": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Models the rheology of drilling fluids, so it has no relation to agrivoltaic systems."
+},
+"R2471": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "An experimental trial of plasma-treated lettuce seeds in an agrivoltaic agrotunnel that reports measured germination, yield and costs, with no model or data system."
+},
+"R2472": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "A qualitative, interview-based study of just-transition outcomes in an agrivoltaic project, with no technical enabler."
+},
+"R2473": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "National spatial modelling of utility-scale solar farms displacing agricultural land, with agrisolar mentioned only as a mitigation option."
+},
+"R2475": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "A discrete choice experiment on landowners' attitudes to agrivoltaic adoption, which is a social and economic preference study with no technical enabler."
+},
+"R2477": {
+"decision": "FORWARD",
+"code": "-",
+"reason": "Develops machine learning surrogates of CFD to predict microclimate at panel, ground and cattle level across PV designs, explicitly covering agrivoltaic crops and grazing and coupling with system models."
+},
+"R2478": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "A life-cycle environmental assessment with regional spatial screening of biochar and agrivoltaics in olive groves, which is LCA-focused and not a model of a specific system."
+},
+"R2483": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "A global survey of soil experts on soil threats that mentions agrivoltaics only as an example practice, so it is not an agrivoltaic system study."
+},
+"R2491": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A literature-based critique that proposes a conceptual sustainability-assessment framework for renewable energy, so it is a secondary study with no agrivoltaic system model."
+},
+"R2493": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A narrative review of dry-farming viticulture strategies that mentions agrivoltaics."
+},
+"R2496": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "An economic ROI and investment playbook posted on SSRN, where agrivoltaics is only one revenue layer and there is no technical enabler."
+},
+"R2514": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Molecular engineering of semitransparent organic solar cells, a device materials study in which agrivoltaics is only a suggested application."
+},
+"R2516": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A scoping review of sensing architectures for monitoring agrivoltaic systems."
+},
+"R2518": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A systematic review of monitoring practices in agrivoltaic and floating PV systems."
+},
+"R2524": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "A group decision-making software system demonstrated on regional prioritization for agrivoltaic deployment, with no model of a specific system."
+},
+"R2527": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A review of naphthobisthiadiazole-based nonfullerene acceptors for organic solar cells."
+},
+"R2532": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A review of nutrient dynamics in plants under agrivoltaic microclimates."
+},
+"R2535": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "A generic PV tilt-angle radiation-model study for Coimbatore, with agrivoltaics mentioned only as an application."
+},
+"R2536": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "Parcel-level multi-criteria site selection for PV and agrivoltaic development across a region, with no model of a specific system."
+},
+"R2538": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Agricultural microgrids for rural electrification that supply farm loads, with no PV co-located with crop production."
+},
+"R2542": {
+"decision": "FORWARD",
+"code": "-",
+"reason": "A game-theory optimization of peer-to-peer energy-water-food trading in which one farm maximizes its agrivoltaic production; full text is needed to see whether agrivoltaic system behavior is modeled."
+},
+"R2553": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "A Zenodo-posted PV degradation and materials study, generic PV at device level, with agrivoltaics mentioned only for spectral response."
+},
+"R2554": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "A survey of farmers' knowledge and adoption of solar irrigation pumps, which is not an agrivoltaic system and has no enabler."
+},
+"R2555": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "A techno-economic study of solar-assisted micro gas turbines with no agricultural co-location."
+},
+"R2556": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "A life-cycle assessment only of marigold seed production in semi-transparent agrivoltaic greenhouses."
+},
+"R2557": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A review of pathways to commercial organic photovoltaic materials."
+},
+"R2714": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "PRISMA systematic review of climate-smart energy solutions in agri-food systems, a secondary study."
+},
+"R2716": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Mapping review of the economics of agrivoltaic systems, a secondary study."
+},
+"R2718": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Perspective on commercialising perovskite PV that mentions agrivoltaics only as a possible application."
+},
+"R2728": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Techno-economic analysis (CAPEX, NPV, IRR, LCOE) plus stakeholder perspectives, with no AI, model, digital twin or monitoring enabler described."
+},
+"R2734": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "SVM-based DC arc fault detection for generic PV systems, with agricultural PV mentioned only as motivating context."
+},
+"R2736": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Materials study of doped TiO2/MgO thin films, with agrivoltaics only a speculative application."
+},
+"R2737": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "Regional GIS multi-criteria screening of Agri-PV potential across Central Asia that does not model a specific system."
+},
+"R2738": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Governance and policy study of Swedish utility-scale solar based on documents and interviews, with no technical enabler."
+},
+"R2740": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "National trend analysis and regional renewable-agriculture potential index for Turkiye, not a model of a specific agrivoltaic system."
+},
+"R2745": {
+"decision": "FORWARD",
+"code": "-",
+"reason": "Agrivoltaic conference paper giving a method for calculating expected technical (energy and crop) outcomes of a one-hectare agrivoltaic installation; full text is needed to judge whether this is a system model or only a national potential overview."
+},
+"R2746": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Critical narrative review of solar development in Jordan, a secondary study."
+},
+"R2750": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Review of next-generation PV cell technologies, a secondary study that is not specific to agrivoltaics."
+},
+"R2754": {
+"decision": "FORWARD",
+"code": "-",
+"reason": "Simulates agrivoltaic electricity generation and shading-driven crop yield reduction under past and future climate; although national in scope, it may model a generic system configuration."
+},
+"R2755": {
+"decision": "FORWARD",
+"code": "-",
+"reason": "Regional APV potential study that includes technological simulations of a designed APV installation's energy yield per hectare, which may meet the system-model criterion."
+},
+"R2764": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Review of tropical forage grasses in agrivoltaic systems, a secondary study."
+},
+"R2771": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Neural-network tramline detection for precision farming in general, with overhead agrivoltaics cited only as one example of GNSS obstruction."
+},
+"R2785": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Regional screening of the opportunity costs of siting conventional ground-mounted PV on farmland, not an agrivoltaic system model."
+},
+"R2786": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Policy and standardization paper on Egyptian agrivoltaics, deposited on Zenodo, with no technical enabler and likely not peer-reviewed."
+},
+"R2787": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Analysis of public discourse and social acceptance of US agrivoltaics through news media, combined with a regional opportunity index."
+},
+"R2801": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Desk-research synthesis of renewable energy options for the Mekong Delta, a secondary study."
+},
+"R2809": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "Global pixel-level assessment of PV technical and economic potential, not a model of a specific agrivoltaic system."
+},
+"R2812": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Energy demand and emissions of electric vineyard tractors, with agrivoltaics only as an electricity supply scenario."
+},
+"R2814": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Review of solar PV glare impacts across sectors, a secondary study."
+},
+"R2815": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Survey of farmers' perceptions and acceptance of the energy transition, a social acceptance study."
+},
+"R2820": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "CFD microclimate model of bifacial PV for the utility-scale solar industry, with no agricultural production under the arrays."
+},
+"R2821": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Socio-economic mixed-methods study of under-panel grazing at a solar plant, with no AI, model or data-system enabler."
+},
+"R2822": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Phase change material for lithium-ion battery thermal management, with agrivoltaics only a speculative application."
+},
+"R2825": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Generic clear-sky tilted-plane irradiance model for bifacial PV and buildings, not tied to an agrivoltaic system."
+},
+"R2826": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Outdoor test protocol for bifacial PV modules; the modules were designed for agrivoltaics, but no co-located agricultural system is studied."
+},
+"R2833": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "Municipal-scale GIS assessment of PV and agrivoltaic site suitability that does not model a specific system."
+},
+"R2842": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Life-cycle and economic comparison of planting cups for vertical farming, with no AI, system model or monitoring enabler for an agrivoltaic system."
+},
+"R2856": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Solar-powered seed sprayer machine, not an agrivoltaic system."
+},
+"R2859": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Life-cycle assessment of an overhead agrivoltaic system, which the criteria exclude as LCA-only."
+},
+"R2864": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Solar-powered IoT buoy for monitoring saltwater intrusion in canals, not an agrivoltaic system."
+},
+"R2866": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Discrete choice experiment on public preferences for ground-mounted PV, a social acceptance study."
+},
+"R2869": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "EU-wide mapping of electricity potential and LCOE for OPV greenhouses, not a model of a specific system."
+},
+"R2870": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "National EnergyPLAN scenario model of Belgium's energy system, with agrivoltaics only a land-use option."
+},
+"R2872": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Parametric study of PV plus greenery on urban building envelopes, not PV co-located with agricultural production."
+},
+"R2874": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "Scenario-based GIS siting analysis of solar capacity on Swedish agricultural land, not a model of a specific system."
+},
+"R2880": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Educational project-based learning proposal for teaching agrivoltaics, which develops no AI, model or data-system enabler."
+},
+"R2294": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Builds qualitative design-support cards from a scoping review, stakeholder consultation and monitoring data, with no AI, digital twin, computational model or sensing system developed or applied."
+},
+"R2296": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Ecovillage concept design for an Indigenous community based on interviews and a cost estimate, with no AI, model or data system for the agri-PV component."
+},
+"R2297": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Survey of farmers' intentions to adopt agrivoltaics (ordered probit on perceptions), which is a social acceptance study with no system-level enabler."
+},
+"R2303": {
+"decision": "FORWARD",
+"code": "-",
+"reason": "Builds a digital twin of a photovoltaic agricultural scenario with microgrid simulation and a Transformer model; whether this is a true agrivoltaic system is unclear, so the full text is needed."
+},
+"R2306": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Exploratory review of drones in agrivoltaics (secondary study)."
+},
+"R2308": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "Europe-wide electricity system model of PV deployment and agrivoltaic cost competitiveness, not a model of a specific agrivoltaic system."
+},
+"R2310": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Systematic literature review of dye-sensitized solar cells, mentioning agrivoltaics only as an application."
+},
+"R2314": {
+"decision": "FORWARD",
+"code": "-",
+"reason": "Covers agro-photovoltaic complementary power plants among the studied PV plant clusters and applies regression, factor and cluster analysis to ecological and microclimate indicators; the full text is needed to check agrivoltaic relevance and scale."
+},
+"R2315": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Policy and SWOT analysis of Ukrainian energy security, mentioning agrivoltaics only in passing, with no system model or data enabler."
+},
+"R2318": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Economic assessment of grid-connected bifacial PV across Iranian cities, which is generic PV with no agricultural production."
+},
+"R2324": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Survey of the impacts of a conventional solar park on local agriculture and livelihoods; not an agrivoltaic system and no enabler."
+},
+"R2327": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "PRISMA-based systematic review of agrivoltaic efficiency, sustainability and governance."
+},
+"R2330": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "General discussion paper (Zenodo) on electrical engineering and sustainability, not about an agrivoltaic system."
+},
+"R2335": {
+"decision": "FORWARD",
+"code": "-",
+"reason": "Estimates annual electricity generation and emissions for a designed 66 kWp agrivoltaic system for sugar beet from PVGIS irradiance data, which may count as a computational PV-yield model of a specific design."
+},
+"R2336": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Bibliometric analysis of solar agricultural dryers (secondary study, and not agrivoltaic)."
+},
+"R2338": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Panel econometric study of urban renewable energy mix in Chinese cities, unrelated to agrivoltaics."
+},
+"R2339": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Digital twin and carbon accounting for a water diversion project with PV substitution; no agricultural production co-located with PV."
+},
+"R2345": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Life cycle assessment of PV-powered plasma nitrogen fixation; not an agrivoltaic system."
+},
+"R2346": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "National-scale climatic suitability mapping of agro-voltaic systems across India using ensemble species-distribution-type models, not a specific system."
+},
+"R2349": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Farm survey and beta-regression of solar-powered irrigation efficiency; PV pumping is not PV co-located with crops, and agrivoltaics is only recommended."
+},
+"R2350": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Cash-flow and Monte Carlo evaluation of business models for vertical agrivoltaics, which is economic-only."
+},
+"R2352": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Financial feasibility analysis (ROI, IRR, payback) of an agrivoltaic system at a Malaysian solar park, which is economic-only."
+},
+"R2354": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Economic (AROI, IRR, payback) and carbon-abatement feasibility of agrivoltaic mushroom cultivation, with no system behavior model or data enabler described."
+},
+"R2361": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Review and expert-opinion study of dust and dew on generic PV panel cleaning, mentioning agrivoltaics only in passing."
+},
+"R2367": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Self-described review applying a nexus governance framework to agrivoltaics in Sudan, synthesizing existing evidence plus national solar-resource mapping."
+},
+"R2371": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Conceptual review of agrivoltaic farming system dynamics using causal loop analysis."
+},
+"R2375": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "FPGA embedded digital twin for inverter firmware security tested at a commercial solar farm with no agricultural production."
+},
+"R2382": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "SARIMA forecasting of regional grid-scale PV generation and capacity in Peru, which is generic PV, not agrivoltaic."
+},
+"R2385": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Describes an educational training program and demonstration site for farmers, with no AI, model, digital twin or data system developed."
+},
+"R2387": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Policy and legislative framework analysis for agrivoltaics in Chile, with no technical enabler."
+},
+"R2394": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Governance framework study of agrivoltaics in depopulating Japan, which is policy and social only."
+},
+"R2398": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Interview-based social science study of small farmers' views on agrivoltaics, with no technical enabler."
+},
+"R2400": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Economic analysis (NPV, ROI, payback, sensitivity) of lettuce production in a solar-powered indoor vertical farm agrotunnel, which is economic-only."
+},
+"R2404": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "Regional GIS-based MCDA-AHP land suitability mapping for agrivoltaics in Central Luzon."
+},
+"R2405": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "Regional GIS-MCDA land suitability mapping for agrivoltaics on degraded peatlands in South Sumatra."
+},
+"R2407": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "National geospatial suitability assessment of agrivoltaics across the Philippines."
+},
+"R2408": {
+"decision": "FORWARD",
+"code": "-",
+"reason": "Beyond geospatial screening, applies a crop-suitability algorithm, configuration selection and bifacial energy-yield estimation for overhead and vertical layouts to three case studies, including an existing AgriPV pilot."
+},
+"R2409": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "National geospatial assessment of agrivoltaic opportunities and land requirements in Nigeria."
+},
+"R2411": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "Global first-order radiation-limited potential assessment of agrivoltaics, not a specific system."
+},
+"R2417": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Engineering education paper on first-year student design projects, mentioning agrivoltaic demonstrators only as one example."
+},
+"R2884": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Financial and tariff viability analysis of agrivoltaic business models with no AI, data, sensing or system-behaviour model."
+},
+"R2887": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "GIS pre-screening of agrivoltaic potential across the vineyards of a whole German state, with no specific system modelled."
+},
+"R2893": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "PV-powered green hydrogen and ammonia laboratory; it supplies fertiliser for agrivoltaic research but is not itself PV co-located with crops."
+},
+"R2897": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Overview synthesising about 251 studies, so a secondary study."
+},
+"R2901": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Global yield and power-system modelling of generic bifacial PV plants; agrivoltaics is only implied by a vertical-PV scenario, with no agricultural production modelled."
+},
+"R2903": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Urban rooftop PV over green-roof greenery (ornamental shade-tolerant plants), with no agricultural production, and it reports only measured outcomes."
+},
+"R2904": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Architectural and landscape analysis based on fieldwork and literature review, with no computational, data or AI enabler."
+},
+"R2914": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "Geospatial site-selection mapping for PV and agrivoltaic plants across a municipality, with no specific system modelled."
+},
+"R2915": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Lab proof of concept of a micro-tracking concentrator PV module; agrivoltaic use is only mentioned as a possible application."
+},
+"R2916": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Systematic review of climate-smart agriculture in Asia."
+},
+"R2917": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Real-options economic model of investing in generic solar PV on agricultural land, not an agrivoltaic system (and economic-only)."
+},
+"R2918": {
+"decision": "EXCLUDE",
+"code": "E5",
+"reason": "Book chapter on renewable energy options at national scale for Sao Tome and Principe."
+},
+"R2922": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Planning and legal analysis of where to site renewable plants, with no technical enabler."
+},
+"R2929": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Device-level materials study of semitransparent organic solar cells; the greenhouse wheat showcase is only a demonstration, with no system-scale agrivoltaic modelling or data system."
+},
+"R2932": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Materials-level study of semitransparent perovskite solar cell electrodes; agrivoltaics is only a target application."
+},
+"R2934": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Synthesis of electron acceptors for wavelength-selective organic solar cells, a device-level materials study rather than an agrivoltaic system."
+},
+"R2940": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Floating PV combined with desalination, with no agricultural production."
+},
+"R2943": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Broad review of integrated PV applications."
+},
+"R2946": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Regional land-use analysis of conventional PV plants replacing cultivated land and of environmental impact assessments, not agrivoltaic systems."
+},
+"R2949": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Solar parking-lot capacity estimate, with no agricultural production."
+},
+"R2951": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Optical model of antireflective coatings on generic PV module orientations; agrivoltaics is only the motivation for the vertical bifacial case, and no crops or system are modelled."
+},
+"R2953": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Shading, crop-load and water-deficit experiments on potted grapevines with no PV, which only report measured outcomes."
+},
+"R2954": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "National GIS assessment of renewable potential, including agrivoltaics, for farms across Germany."
+},
+"R2956": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Political-economy study of wind farms and pastoralism in Jordan, with no PV-agriculture co-location."
+},
+"R2960": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "Participatory GIS scenarios of land-based solar potential at district level, with no specific system modelled."
+},
+"R2981": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Lab test of a single bifacial module's power against incidence angle; agrivoltaics is only the motivation, with no crop or system component."
+},
+"R2996": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Device-level electrode optics for semitransparent perovskite cells; agrivoltaics is only a mentioned application."
+},
+"R3001": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Techno-economic PVsyst design of ground-mount PV on wetland, with no agricultural production."
+},
+"R3002": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "Prefecture-level renewable energy supply optimisation that includes a regional estimate of agrivoltaic potential."
+},
+"R3006": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "GIS fuzzy-AHP site-suitability mapping for PV installations across a desert region."
+},
+"R3009": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Interview-based energy-justice study of solar leasing on farmland."
+},
+"R3011": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "Iberian-scale mapping of conflicts between solar farms and biodiversity conservation."
+},
+"R3021": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Survey of farmers' willingness to adopt agrivoltaics, a social acceptance study."
+},
+"R3024": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Operation optimisation of a hybrid electrolyser and battery demonstrator, with no PV-agriculture co-location."
+},
+"R3026": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "State-of-the-art overview of optimising renewable energy selection for agriculture, so a secondary study."
+},
+"R3027": {
+"decision": "FORWARD",
+"code": "-",
+"reason": "Optimisation-based design at a specific German location includes agrivoltaics, with dynamic energy harvesting and biomass production; full text is needed to check whether the agrivoltaic system is modelled enough."
+},
+"R3028": {
+"decision": "FORWARD",
+"code": "-",
+"reason": "Grazing agrivoltaics using vertical PV on farm fencing, assessed with an open-source Python calculator plus yield and LCOE estimates; full text is needed to confirm a qualifying computational model."
+},
+"R3030": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Economic feasibility of PV on remediated brownfields, with no agricultural production."
+},
+"R3031": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Device-level optical-layer engineering for semitransparent organic solar cells; agrivoltaics is only a listed application."
+},
+"R3032": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Life-cycle assessment of PV balance-of-system with an overview of OPV greenhouse factors; LCA-only, with no qualifying model or data system."
+},
+"R2558": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Narrative review of peach orchard challenges and technologies; agrivoltaics is only mentioned in passing."
+},
+"R1053": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Device-level fabrication of transparent a-Si:H solar cells; agrophotovoltaics is named only as a possible application, with no co-located agricultural system studied."
+},
+"R1911": {
+"decision": "EXCLUDE",
+"code": "E5",
+"reason": "Project sectoral brief (Zenodo report) on multi-hazard risk in agriculture, not peer-reviewed primary research; agrovoltaics only appears in a recommendation."
+},
+"R1492": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Review and overview of agrivoltaic trends and practices."
+},
+"R2457": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Digital twin for rooftop PV potential on campus buildings with no agricultural production."
+},
+"R1549": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "General perspective and analysis of future PV development; agro-PV is mentioned only as a trend, with no primary modelling."
+},
+"R0449": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Modelling of a hybrid solar gas turbine with a heliostat field; not an agrivoltaic system."
+},
+"R2036": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Comprehensive review of solar-wind hybrid off-grid systems; agrivoltaics is noted only as a research gap."
+},
+"R2012": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Urban digital twin for building carbon neutrality in Tokyo; no agrivoltaic system."
+},
+"R1127": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Review of agrivoltaics for small ruminants."
+},
+"R1102": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "National GIS-AHP suitability mapping of agriPV potential for New Zealand, not modelling a specific system."
+},
+"R0511": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Policy analysis of agrivoltaics regulation in Ontario (indexed as a review/preprint) with no AI, modelling or data-system enabler."
+},
+"R0658": {
+"decision": "FORWARD",
+"code": "-",
+"reason": "Conference paper describing a novel agrivoltaic school-garden monitoring system that collects data on crops with and without PV cover; it may meet I2(d), though the focus on education needs a full-text check."
+},
+"R0445": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Study of citizen participation and land-use conflict around agrophotovoltaics, a social-acceptance topic with no technical enabler."
+},
+"R0038": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Policy recommendations chapter on agrivoltaic deployment; no modelling or data enabler (and it is a book chapter)."
+},
+"R2896": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "IoT monitoring of a solar-powered smart greenhouse for salt-stress tomato trials; nothing indicates PV co-located over the crops, so it is generic smart-greenhouse agriculture."
+},
+"R1151": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Qualitative policy and institutional analysis of agrovoltaics in The Gambia based on interviews."
+},
+"R0852": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Descriptive overview of the benefits and challenges of agrivoltaics and aquavoltaics in Croatia, with no primary model or system."
+},
+"R2730": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Techno-economic cost-benefit and Monte Carlo NPV/IRR analysis of agrivoltaics on Kentucky farms; economic-only."
+},
+"R0566": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Concentrating solar power with thermochemical storage in combined cycles; not agrivoltaic."
+},
+"R1812": {
+"decision": "FORWARD",
+"code": "-",
+"reason": "Deep-learning segmentation of PV hot-spot defects trained on a dataset from an agrivoltaic power station; this is an AI method applied to agrivoltaic installation data."
+},
+"R2758": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Comparative legal analysis of agrivoltaic regulation in Germany, France and Italy."
+},
+"R2528": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Seminar-style review of new-generation solar panel technologies."
+},
+"R2617": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Cross-disciplinary review of renewable energy applications."
+},
+"R0904": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "Tree-based ML ensembles forecasting regional renewable energy and rainwater potential for East Thrace, not modelling a specific agrivoltaic system."
+},
+"R0704": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Econometric (GLS/GMM) analysis of agrophotovoltaic farm profitability by region in Korea; economic-only."
+},
+"R2735": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Qualitative analysis of EU renewable energy and biodiversity policy documents."
+},
+"R1249": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Eye-tracking study of the visual perception and acceptance of agrivoltaics."
+},
+"R0190": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "CO2 mitigation accounting for thermal energy storage case studies; not agrivoltaic."
+},
+"R3003": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Techno-economic analysis of electrochemical ammonia production from drainage nitrates; agrophotovoltaics is only a power source, not the system studied."
+},
+"R0642": {
+"decision": "EXCLUDE",
+"code": "E6",
+"reason": "Turkish-language article (also a national-level potential assessment)."
+},
+"R2948": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Rooftop PV on agro-industrial buildings for olive oil production with no crops under the PV (agrisolar, not agrivoltaic)."
+},
+"R2366": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Interview-based study of agrivoltaic policy effects in Massachusetts."
+},
+"R2762": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Review of transparent photovoltaic technologies."
+},
+"R2428": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Digital twin of an experimental PV farm for autonomous robotics, with no agricultural production indicated."
+},
+"R2145": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Review of agrivoltaics for food-energy-water security."
+},
+"R2906": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Materials study of a gel polymer electrolyte for semi-transparent dye-sensitized solar cells; agrivoltaics is only a potential application."
+},
+"R0868": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "City-region land-use scenario and policy analysis of PV and agrivoltaic potential, not modelling a specific system."
+},
+"R1266": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Social-science study (user journey mapping, interviews, workshops) on agrivoltaic adoption in East Africa."
+},
+"R1866": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Systematic literature review of PV in rural landscapes."
+},
+"R2629": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Device-level fabrication of semitransparent perovskite solar cells that names agrivoltaics only as a possible application, with no agrivoltaic system studied."
+},
+"R2101": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A conceptual Perspective that proposes a decision rule for agricultural continuity, so it is a secondary or opinion piece with no enabler."
+},
+"R1723": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A review of hybrid solar and phase-change-material energy storage, which is secondary and also not about agrivoltaics."
+},
+"R0612": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A mini review summarising earlier studies of PV shading effects on horticultural crops."
+},
+"R1563": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "About the metrology of surface appearance, with no agrivoltaic system."
+},
+"R0764": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Designs and costs a generic wooden variable-tilt PV rack, and mentions agrivoltaics only as a possible future use, with no co-located agriculture."
+},
+"R2148": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A PRISMA systematic review of 41 agrivoltaic experimental studies, framed for Bangladesh."
+},
+"R2828": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "A provincial GIS assessment of how setback regulations affect generic PV deployment, with no specific agrivoltaic system modelled (it also fails E3)."
+},
+"R1089": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A bibliometric and content-analysis review of agrivoltaics research."
+},
+"R0781": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Evaluates investment income of PV agriculture projects with a fuzzy real-option model, which is economic-only analysis with no system-behaviour model."
+},
+"R1961": {
+"decision": "FORWARD",
+"code": "-",
+"reason": "Two specific urban agrivoltaic setups (open field and rooftop greenhouse) where HelioScope, SAM and AquaCrop simulate PV output, crop yield and water use, which meets the computational-model enabler."
+},
+"R0655": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "A conceptual architecture and urban-planning essay on food security that mentions agrophotovoltaics, with no model or data system."
+},
+"R2913": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "A materials study of CIGS cell degradation under an agricultural pollutant, with no agrivoltaic system studied."
+},
+"R3054": {
+"decision": "FORWARD",
+"code": "-",
+"reason": "Vegetables grown in a container under semi-transparent BIPV panels, with incident radiation on the panels and grow towers simulated to choose the panel layout, so it may qualify as PV-shaded protected cultivation with a light model."
+},
+"R1253": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Device-level development of flexible bifacial perovskite cells that names agrivoltaics only as a possible application."
+},
+"R0252": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "A thermodynamic analysis of a solar-assisted polygeneration system, with no PV or agriculture co-location."
+},
+"R0012": {
+"decision": "FORWARD",
+"code": "-",
+"reason": "Labelled an overview but also describes planning an agro-PV project at a specific test centre, optimised for local climate and crops, so a full-text check is needed for design modelling and for the type of record."
+},
+"R1827": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Vision-transformer nowcasting of solar irradiance for grid management, with no agricultural production involved."
+},
+"R0345": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "A business-model case study of PV greenhouses in China, with no modelling or data enabler."
+},
+"R2732": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "A legal and contractual analysis of temporary business associations in Italian agrivoltaic projects."
+},
+"R1103": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "An economic viability analysis (margin, payback, LER) of hypothetical agrivoltaics in sugarcane, with no system-behaviour model."
+},
+"R2515": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Molecular engineering of organic solar cell acceptors for possible agrivoltaic use, with no agrivoltaic system studied."
+},
+"R1535": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A descriptive overview of the types and development trends of agrovoltaic systems."
+},
+"R2831": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "A policy study built on an expert perception survey, with no technical enabler."
+},
+"R1222": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "An economic feasibility study (payback, NPV) of agrivoltaic tomato farming; the abstract mentions no modelling or data system."
+},
+"R1822": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "An economic overview of Agri-PV built from a cost breakdown and global case studies, with no technical enabler."
+},
+"R1522": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "An overview review of the features that improve agrivoltaic performance."
+},
+"R0942": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A review of climate-change impacts on agroecosystems that mentions agrivoltaics among adaptation strategies."
+},
+"R1826": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "A PV-powered thermal desalination system with no crops grown under the PV array."
+},
+"R2766": {
+"decision": "FORWARD",
+"code": "-",
+"reason": "A CNN and U-Net deep-learning pipeline for tomato leaf counting, built on images from agrivoltaic greenhouse conditions, which meets the AI enabler in an agrivoltaic setting."
+},
+"R1709": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A systematic review that gives a global overview of agrivoltaic systems."
+},
+"R1270": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "High-throughput screening of organic semiconductor materials, with no agrivoltaic system."
+},
+"R2110": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A review framing agrivoltaics as socio-ecological infrastructure for mitigating abiotic stress."
+},
+"R1118": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A systematic desk review of agrivoltaics and the water-energy-food-environment nexus in West Africa."
+},
+"R1507": {
+"decision": "EXCLUDE",
+"code": "E5",
+"reason": "A World Resources Institute report on the status of agrivoltaics in China, not peer-reviewed primary research."
+},
+"R1852": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "An ESP32 test system for characterising PV modules that names agrivoltaics only as a possible use, with no agrivoltaic installation monitored."
+},
+"R1389": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A review of solution-processed transparent photovoltaics."
+},
+"R3230": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "A national-scale assessment of turning cropland into ecovoltaic solar for ecosystem services, with no crop production under PV and no specific system modelled (it also fails E3)."
+},
+"R1718": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A comprehensive review of agrivoltaics and floatovoltaics, focused on India."
+},
+"R2631": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A review proposing a conceptual energy-security model for territorial communities that only mentions agrivoltaics."
+},
+"R2770": {
+"decision": "FORWARD",
+"code": "-",
+"reason": "Proposes an 88 kWp agrivoltaic system design for the Brazilian semi-arid region and simulates its technical (PV energy) and financial performance in PVsyst, which may meet I2(c) at system scale."
+},
+"R2050": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "A GIS multi-criteria suitability mapping of solar land-use measures across European regions, with no specific agrivoltaic system modelled."
+},
+"R2414": {
+"decision": "EXCLUDE",
+"code": "E5",
+"reason": "An unreviewed Zenodo white paper concept study of a desalination and reforestation plant, in which agrivoltaics is only one hypothetical module."
+},
+"R2708": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A PRISMA review of intelligent equipment control in agrivoltaic systems, so it is a secondary study."
+},
+"R2585": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "A national-scale screening of theoretical agrivoltaic electricity potential in Mexico that does not model a specific system."
+},
+"R0743": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "A policy proposal to amend Indiana tax code for dual-use solar, with no modelling or data enabler."
+},
+"R2619": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A systematic review of the economic and operational benefits of renewable energy in agricultural value chains."
+},
+"R3235": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Applies ML to survey data on farmers' willingness to put PV farms on their farmland; this is about PV replacing farmland, not co-located agrivoltaics, and it is a perception study."
+},
+"R0018": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "A public-opinion survey of social acceptance of agrivoltaics, with no modelling or data-system enabler, posted as an OSF preprint."
+},
+"R2989": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A review of the state of research and implementation of agrophotovoltaics."
+},
+"R0987": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A perspective on ideal PV modules for novel applications, so it is secondary and not primary agrivoltaic research."
+},
+"R0436": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A review of hybrid and organic photovoltaics for greenhouse applications."
+},
+"R3264": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A status review of bifacial photovoltaics technology."
+},
+"R1308": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "A choice experiment on household willingness to pay for farmland preservation with agrivoltaics, which is a preference and perception study."
+},
+"R0682": {
+"decision": "EXCLUDE",
+"code": "E5",
+"reason": "A bioRxiv preprint reporting greenhouse crop responses under semi-transparent organic solar cell filters; it is not peer reviewed and has no model enabler."
+},
+"R2519": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "A national-level TOPSIS ranking of solar expansion pathways for Bangladesh that does not model a specific agrivoltaic system."
+},
+"R1703": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A bibliometric analysis of agrivoltaic research."
+},
+"R3025": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "A serious planning game for participatory siting of agrivoltaics that supports where to place systems; it does not model the behaviour of a specific agrivoltaic system."
+},
+"R0858": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "A consequential life-cycle assessment of agrivoltaic systems in Germany, which is LCA-only."
+},
+"R2567": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A review of photovoltaic greenhouses as integrated agro-energy systems."
+},
+"R1956": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "A conceptual economic and policy analysis of agrivoltaics in Uzbekistan that explicitly uses no quantitative modelling."
+},
+"R0782": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "A national ecological-niche evaluation index of China's PV agriculture sector covering policy, social and economic dimensions, which is not a model of system behaviour."
+},
+"R1640": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "An ecological product value and benefit valuation of an agro-photovoltaic power station, which is economic and valuation-only with no modelling of light, energy, crop or microclimate."
+},
+"R1796": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Perovskite solar cell materials research that mentions agrivoltaics only as a possible future application."
+},
+"R1571": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A review of trends in solar PV for agricultural use in China."
+},
+"R1169": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "A national-scale assessment of agrivoltaic cropland and yield potential in China under density scenarios."
+},
+"R2017": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "A digital twin of urban decentralized water and wastewater systems; it is not an agrivoltaic system."
+},
+"R1565": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "A province-level GIS-AHP site-suitability mapping for agrivoltaic deployment in Khuzestan."
+},
+"R3105": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "A political ecology analysis of agrivoltaic diffusion in China, which is social and policy research with no enabler."
+},
+"R1124": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "A landscape change study of built agrivoltaic cases in the Netherlands."
+},
+"R2104": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A review of agrisolar technologies whose only worked example is a simple illustrative sizing and payback calculation for an orchard."
+},
+"R3189": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Design and financial viability of solar PV plants for rural electrification in Rwanda, with no co-located agricultural production."
+},
+"R1394": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A review of the opportunities and challenges of agrivoltaics in India."
+},
+"R2317": {
+"decision": "FORWARD",
+"code": "-",
+"reason": "Couples a benefit-cost framework with crop and solar energy models to simulate agrivoltaic field designs and height or spacing configurations for soybean, which may meet I2(c) at system scale."
+},
+"R1757": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "ML and modelling of solar cell material degradation, which mentions agrivoltaics only as a target application."
+},
+"R0329": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Real-time optimization of a solar-natural gas hybrid power plant, with no agricultural component."
+},
+"R1052": {
+"decision": "EXCLUDE",
+"code": "E6",
+"reason": "Written in Turkish, and is also mainly a secondary literature assessment."
+},
+"R2672": {
+"decision": "EXCLUDE",
+"code": "E5",
+"reason": "A Zenodo technical note and dataset for an agrivoltaic ground-irradiance and crop-yield model, which is not a peer-reviewed journal or conference paper."
+},
+"R2178": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "An environmental impact assessment governance framework for energy permitting, which is a policy and institutional study with no agrivoltaic system enabler."
+},
+"R2603": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A PNAS letter or commentary on desert solar development and the SDGs, so it is not primary research."
+},
+"R2588": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "P2P energy management for a residential rooftop-PV nanogrid with no agricultural production."
+},
+"R1694": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Financial and business-model analysis (EBITDA, ROI) of agrivoltaic sheep grazing without any AI, model of system behavior, or data system."
+},
+"R0778": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Molten salt thermal storage for district heating and cooling, unrelated to agrivoltaics."
+},
+"R0194": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Solar hybrid coal/biomass gasification for liquid fuel production, not an agrivoltaic system."
+},
+"R2388": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Single-case governance and policy process-tracing study of an agrivoltaic energy community with no modeling or data-system enabler."
+},
+"R0442": {
+"decision": "FORWARD",
+"code": "-",
+"reason": "Module paper, but it simulates a translucent micro-tracking architecture for greenhouse agrivoltaics, comparing electricity output against a reference array that transmits the same crop PAR; in doubt, so forward."
+},
+"R3178": {
+"decision": "FORWARD",
+"code": "-",
+"reason": "Although EU-wide, it simulates crop light availability, energy yield and optimal ground coverage ratio for a generic elevated agrivoltaic configuration, so it may model a system design rather than only potential."
+},
+"R1960": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Techno-economic feasibility (costs, ROI, carbon credits) of a building-integrated agrovoltaic model, economic-only."
+},
+"R0994": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Literature survey list of photovoltaics papers, a secondary record, not primary agrivoltaic research."
+},
+"R2384": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Critical integrative review of agrivoltaics design and energy-system planning."
+},
+"R1012": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Tutorial review of semi-transparent organic photovoltaic devices, mentioning agrivoltaics only as an application."
+},
+"R2696": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Financial cost-benefit and Monte Carlo risk analysis of an agrivoltaic plant, economic-only with no model of system behavior."
+},
+"R1417": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "BIM-based digital twin of a building-integrated PV/thermal facade with no agricultural production."
+},
+"R0733": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Fabrication of semitransparent perovskite solar cells, with agrivoltaics only listed as a potential application."
+},
+"R1671": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Equity and energy justice discussion of agrivoltaics deployment, a social/policy study without an enabler."
+},
+"R0424": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Solar dryer for agricultural products, not PV co-located with agricultural production."
+},
+"R0516": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Overview/review of agrovoltaics design aspects and performance indicators."
+},
+"R0426": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Causal loop diagrams of the forces driving and restraining APV implementation, built from workshops; a social acceptance study, not a model of system behavior."
+},
+"R2744": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "GIS-AHP regional suitability assessment of agrivoltaics in the Mekong Delta without modeling a specific system."
+},
+"R0242": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Thermodynamic model of a hybrid solar gas-turbine power plant, unrelated to agrivoltaics."
+},
+"R0551": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Solar thermal process heat for the beverage industry, not agrivoltaic."
+},
+"R0955": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "Regional land-use conflict and synergy mapping in Brandenburg using surveys and GIS, with agri-PV only as one land use and no system model."
+},
+"R1607": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Systematic critical review of agrivoltaic microclimate literature that proposes a monitoring framework."
+},
+"R1218": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Likert-scale survey of farmer perceptions of agrivoltaics."
+},
+"R3138": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Module architecture and LCOE modeling for bifacial tandem PV, with AgriPV only cited as one example vertical-mounting application and no agricultural system modeled."
+},
+"R1283": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Estimate of the ecosystem services from agrivoltaic vegetation scenarios, a landscape study without an AI, data or system-behavior model."
+},
+"R3260": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "GIS multi-criteria site selection for solar PV farms in a metropolitan area, with no agricultural co-production."
+},
+"R1085": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "Regional GIS/MCDM-AHP land-eligibility mapping for agrivoltaics across Italy without modeling a specific system."
+},
+"R0576": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Legal framework analysis of agrivoltaics in Germany."
+},
+"R2972": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Device physics of non-fullerene acceptor organic solar cells, with agrivoltaics only mentioned as a future application."
+},
+"R2640": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Hierarchical SWOT and semantic network analysis of stakeholder perceptions of agrivoltaics."
+},
+"R1617": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Solar-powered IoT monitoring for aquaculture, which is not agrivoltaic production of crops or pasture under PV."
+},
+"R1938": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Electrothermal model of bifacial perovskite PV modules, with agrivoltaics only listed as an application."
+},
+"R1645": {
+"decision": "FORWARD",
+"code": "-",
+"reason": "A specific 450 kW elevated agrivoltaic system with rice is modeled for energy yield in PVsyst, and crop yield is analyzed under shading and microclimate, which may satisfy I2(c)."
+},
+"R0523": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Choice-experiment valuation of the landscape amenity impact of agrophotovoltaic plants, a perception/economic study."
+},
+"R0372": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "National EnergyPLAN sizing of variable renewables with storage and demand response, not agrivoltaic."
+},
+"R2146": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "Statewide GIS multi-criteria suitability model for agrivoltaics in California without modeling a specific system."
+},
+"R3238": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Low-cost cloud detection sensor for local weather stations, with no agrivoltaic system."
+},
+"R1901": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Review of photovoltaic greenhouses."
+},
+"R0274": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "Review of solar technology integration in Chinese greenhouses."
+},
+"R2862": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "An economic-only (CAPEX/LCOE) assessment of semi-transparent PV that deliberately ignores the application, with no agrivoltaic system model or data enabler."
+},
+"R2666": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "A legal and regulatory analysis of agrivoltaics with no modeling, AI, or data-system enabler."
+},
+"R0387": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Models an integrated solar combined cycle (CSP) power plant with no agricultural production."
+},
+"R0657": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "A synthesis of socio-political, legal, survey and LCA work on US agrivoltaics with no computational or data enabler."
+},
+"R1780": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Summarizes changes to German agrivoltaic legislation, a purely legal and policy study."
+},
+"R1977": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "A large-scale, multi-user regional energy-system optimization of PV application types, not a model of a specific agrivoltaic installation or design."
+},
+"R1434": {
+"decision": "EXCLUDE",
+"code": "E5",
+"reason": "A meeting abstract (ECS Meeting Abstracts) on photoelectrochromic materials, not a full peer-reviewed paper with an agrivoltaic system model."
+},
+"R1801": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A comprehensive review of solar PV challenges and innovations."
+},
+"R0784": {
+"decision": "FORWARD",
+"code": "-",
+"reason": "Labeled a review but reports original work: a NOCT/SAM model of PV output and a 2-kW tomato APV experiment, so full text is needed to judge whether it is primary research."
+},
+"R2435": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "A focus-group study of farmer expectations and acceptance, with no modeling or data enabler."
+},
+"R2103": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A systematic review of agricultural mechanization constraints in agrivoltaic systems."
+},
+"R1528": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "Its core is a survey of German farmers' views on electricity supply arrangements and policy, not modeling of a specific agrivoltaic system."
+},
+"R0944": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Runoff experiments under solar panels on bare soil with no agricultural production, so it is effectively a solar-farm hydrology study."
+},
+"R2425": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Floating offshore wind-solar platforms with no agricultural production (also a Zenodo record)."
+},
+"R2368": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "An economic cost-benefit analysis of an Aral Sea agrivoltaic land-use model, which counts as economic-only."
+},
+"R2226": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A review of dye-sensitized solar cell materials and manufacturing."
+},
+"R2235": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "A public perception and acceptance study using VR visualization, not a system model or data enabler."
+},
+"R1327": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "A GIS-MCDA (Fuzzy-AHP) site-suitability mapping study at sub-district level, not a model of a specific system."
+},
+"R2976": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Analysis of a provincial PV market with no agrivoltaic system."
+},
+"R0619": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "A solar combined cycle with thermochemical storage, unrelated to agricultural production."
+},
+"R1475": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A comprehensive review of climate-smart agriculture."
+},
+"R0790": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "A solar-powered spraying robot, not PV co-located with crops on the same land unit."
+},
+"R2144": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A review of agrivoltaics in arid climates combined with a global potential assessment (secondary study, also E3)."
+},
+"R2395": {
+"decision": "EXCLUDE",
+"code": "E3",
+"reason": "A national land-eligibility and technical-potential assessment for Slovakia, not a model of a specific system."
+},
+"R1587": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Device-level fabrication of organic PV electron transport layers, with agrivoltaics named only as a possible application (conference talk abstract)."
+},
+"R3233": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "A life cycle assessment comparing roof-mounted and ground-mounted PV with no agricultural co-production."
+},
+"R2217": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A review of the current status and future prospects of agrivoltaic configurations."
+},
+"R1601": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A systematic review of PV agriculture development in China."
+},
+"R0417": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "An archaeological study of Bronze Age cult sanctuaries, unrelated to agrivoltaics."
+},
+"R2490": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "A management and policy synthesis of EU renewable energy experience in agriculture, with no modeling or data enabler."
+},
+"R1806": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "Generic bifacial PV yield modeling under variable albedo, with no crops or agricultural production modeled; agrivoltaics appears only as an implication."
+},
+"R0366": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "An investment and economic-risk analysis of agrophotovoltaics, with no modeling or data enabler."
+},
+"R1171": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A meta-analysis of literature on berry shade response, a secondary study rather than a model of an agrivoltaic installation."
+},
+"R2739": {
+"decision": "EXCLUDE",
+"code": "E2",
+"reason": "A normative governance and investment-readiness concept paper (Zenodo) with no technical enabler."
+},
+"R2057": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A PRISMA-based systematic review of agrivoltaic research."
+},
+"R1214": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "An IoT/AI digital twin for household biogas-photovoltaic energy systems, not PV co-located with crop or livestock production."
+},
+"R0965": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A review of agriphotovoltaics and the sustainable development goals."
+},
+"R0985": {
+"decision": "EXCLUDE",
+"code": "E1",
+"reason": "A computational study of vertical bifacial tandem-cell solar farms with no agricultural production modeled; agrivoltaics is mentioned only as motivation."
+},
+"R1361": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A national-scale vision or perspective paper on carbon sequestration and communities, not primary modeling of an agrivoltaic system."
+},
+"R2077": {
+"decision": "EXCLUDE",
+"code": "E4",
+"reason": "A structured narrative review proposing an ESG framework for agrivoltaics in Uzbekistan."
+}
+}

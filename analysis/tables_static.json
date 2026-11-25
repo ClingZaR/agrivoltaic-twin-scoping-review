@@ -1,0 +1,418 @@
+{
+ "T2_eligibility": {
+  "caption": "Table 2 Eligibility Criteria",
+  "header": [
+   "Element",
+   "Inclusion criteria",
+   "Exclusion criteria",
+   "Code"
+  ],
+  "widths": [
+   1.2,
+   3.2,
+   3.0,
+   0.6
+  ],
+  "rows": [
+   [
+    "Population",
+    "Agrivoltaic systems: PV generation co-located with agricultural production on the same land unit, including crops or pasture under or between PV arrays, grazing under PV, and PV greenhouses with plants",
+    "Aquavoltaics; PV on buildings without plants under the PV; solar farms without agricultural production; PV-powered farm equipment such as pumps and dryers",
+    "E1"
+   ],
+   [
+    "Concept",
+    "At least one digital twin enabler: (a) an AI, machine learning, or data-driven method; (b) a digital twin or digital shadow; (c) a computational model of light, PV energy, crop, microclimate, or water behavior used for estimation, prediction, optimization, or control; (d) a sensing, monitoring, control, or computing system for agrivoltaic data",
+    "Studies that report measured outcomes only; economic-only, life-cycle assessment-only, policy, legal, social acceptance, perception, or landscape studies",
+    "E2"
+   ],
+   [
+    "Context",
+    "Any region and climate; any year up to the search date; system, plot, or farm scale",
+    "Regional, national, or global potential assessments and land-suitability or site-selection mapping without a system model",
+    "E3"
+   ],
+   [
+    "Study type",
+    "Primary research in English, published as a journal article or full conference paper",
+    "Reviews, surveys, perspectives, editorials (E4); preprints, theses, books and book chapters, conference abstracts and extended abstracts of two pages or less, reports (E5); reports not in English or not usable (E6)",
+    "E4 to E6"
+   ]
+  ],
+  "note": "Codes are the exclusion reasons reported in Figure 1. E6 also covers reports whose full text was not in English although their indexed title and abstract were, and records with no usable text."
+ },
+ "T3_search": {
+  "caption": "Table 3 Search Strings and Sources",
+  "header": [
+   "Search",
+   "Source and fields",
+   "Search string"
+  ],
+  "widths": [
+   1.2,
+   2.0,
+   5.0
+  ],
+  "rows": [
+   [
+    "Q1 Agrivoltaic block",
+    "Scopus (TITLE-ABS-KEY); Semantic Scholar (title and abstract)",
+    "agrivoltaic OR agrivoltaics OR \"agri-voltaic(s)\" OR \"agri-photovoltaic(s)\" OR agrophotovoltaic(s) OR \"agro-photovoltaic(s)\" OR agrovoltaic(s) OR \"agro-voltaic\" OR \"solar sharing\" OR \"photovoltaic agriculture\" OR \"solar agriculture\" OR \"PV farming\" OR agrisolar OR \"solar grazing\" OR \"photovoltaic greenhouse(s)\" OR \"PV greenhouse(s)\" OR \"dual-use solar\" OR \"dual-use photovoltaic\""
+   ],
+   [
+    "Q1 combinations",
+    "OpenAlex (title and abstract)",
+    "S1 AND (AI, machine learning, digital twin, sensing, IoT, computing, and modeling terms), the pilot string; S1 AND (arid, semi-arid, desert, dryland, Middle East, North Africa, and MENA country terms)"
+   ],
+   [
+    "Q2 Digital twin block",
+    "OpenAlex and Semantic Scholar (title and abstract)",
+    "(\"digital twin\" OR \"digital twins\") AND (photovoltaic OR \"solar panel(s)\" OR \"solar array\" OR PV) AND (crop OR crops OR agriculture OR agricultural OR farm OR farming OR greenhouse)"
+   ],
+   [
+    "Q3 Additional terms",
+    "Semantic Scholar (title and abstract)",
+    "\"agri-PV\" OR agriPV OR \"agri PV\" OR agrivoltaism OR \"agri-voltaism\" OR agrovoltaism OR \"co-located solar\" OR \"colocated solar\" OR \"solar co-location\" OR \"crop-PV\" OR \"APV system(s)\" OR (\"photovoltaic farm\" AND (crop OR agriculture OR grazing))"
+   ]
+  ],
+  "note": "Exact strings in the syntax of each source, and the date and number of records of every run, are given in Supplementary Material S1. No lower date limit was applied; all searches were run on {SEARCH_DATE}."
+ },
+ "T1_prior": {
+  "caption": "Table 1 Comparison of Closely Related Reviews with This Review",
+  "header": [
+   "Review",
+   "Design and corpus",
+   "Agrivoltaic focus",
+   "AI or ML",
+   "Data and sensing",
+   "Computing tiers",
+   "Digital twin",
+   "Twin levels coded",
+   "Arid or MENA",
+   "Study-level coding",
+   "Monitoring guidance",
+   "Techno-economics"
+  ],
+  "widths": [
+   1.9,
+   1.6,
+   0.8,
+   0.7,
+   0.8,
+   0.75,
+   0.7,
+   0.8,
+   0.7,
+   0.8,
+   0.8,
+   0.75
+  ],
+  "rows": [
+   [
+    "Pylianidis et al. {Pylianidis2021}",
+    "Mixed-method review, 28 agricultural use cases",
+    "✗",
+    "△",
+    "△",
+    "△",
+    "✓",
+    "△",
+    "✗",
+    "✓",
+    "△",
+    "✗"
+   ],
+   [
+    "Purcell and Neubauer {Purcell2023}",
+    "Systematic literature review, 31 papers on agricultural digital twins",
+    "✗",
+    "✓",
+    "✓",
+    "△",
+    "✓",
+    "✓",
+    "✗",
+    "✓",
+    "△",
+    "△"
+   ],
+   [
+    "Yuan et al. {Yuan2024}",
+    "Review of PV digital twins; search and corpus size not reported",
+    "✗",
+    "✓",
+    "✓",
+    "✓",
+    "✓",
+    "✓",
+    "✗",
+    "✓",
+    "△",
+    "✗"
+   ],
+   [
+    "Elnosh et al. {Elnosh2026}",
+    "Systematic review, 61 PV digital twin studies",
+    "△",
+    "△",
+    "△",
+    "△",
+    "✓",
+    "✓",
+    "✗",
+    "✓",
+    "△",
+    "△"
+   ],
+   [
+    "De Francesco et al. {DeFrancesco2025}",
+    "Review with bibliographic analysis, 132 publications",
+    "✓",
+    "△",
+    "✓",
+    "✗",
+    "✗",
+    "✗",
+    "△",
+    "✓",
+    "△",
+    "△"
+   ],
+   [
+    "Pereira et al. {Pereira2025}",
+    "Systematic review, 123 experimental studies",
+    "✓",
+    "△",
+    "✓",
+    "△",
+    "✗",
+    "✗",
+    "✗",
+    "✓",
+    "✓",
+    "✗"
+   ],
+   [
+    "Pereira et al. {Pereira2026}",
+    "Systematic review, 246 studies on agrivoltaic and floating PV monitoring",
+    "✓",
+    "✓",
+    "✓",
+    "△",
+    "△",
+    "✗",
+    "△",
+    "✓",
+    "✓",
+    "△"
+   ],
+   [
+    "Di Domenico et al. {DiDomenico2026}",
+    "Scoping review, 51 studies",
+    "✓",
+    "✗",
+    "✓",
+    "✗",
+    "✗",
+    "✗",
+    "✗",
+    "✓",
+    "✓",
+    "△"
+   ],
+   [
+    "Cosme and Vázquez y Parraguirre {Cosme2025}",
+    "Systematic qualitative review, 50 microclimate studies",
+    "✓",
+    "✗",
+    "✓",
+    "✗",
+    "✗",
+    "✗",
+    "△",
+    "✓",
+    "✓",
+    "✗"
+   ],
+   [
+    "Qiao et al. {Qiao2026}",
+    "Systematic review, 206 publications on equipment control",
+    "✓",
+    "✓",
+    "✓",
+    "△",
+    "△",
+    "✗",
+    "△",
+    "✓",
+    "△",
+    "△"
+   ],
+   [
+    "Villagran et al. {Villagran2025}",
+    "Systematic and bibliometric review, 79 documents on solar-assisted greenhouses",
+    "△",
+    "✓",
+    "✓",
+    "✗",
+    "△",
+    "✗",
+    "△",
+    "△",
+    "△",
+    "△"
+   ],
+   [
+    "Ranganathan et al. {Ranganathan2026}",
+    "Review with a taxonomy of AI and ML use cases; corpus not stated",
+    "✓",
+    "✓",
+    "✓",
+    "△",
+    "△",
+    "✗",
+    "△",
+    "△",
+    "△",
+    "△"
+   ],
+   [
+    "Sharma and Kumar {Sharma2025}",
+    "Review; corpus not stated",
+    "✓",
+    "✓",
+    "✓",
+    "✗",
+    "✗",
+    "✗",
+    "✗",
+    "✗",
+    "△",
+    "✗"
+   ],
+   [
+    "Monasterio and Brent {Monasterio2026}",
+    "Perspective with research roadmap; no systematic search",
+    "✓",
+    "✓",
+    "△",
+    "△",
+    "△",
+    "✗",
+    "✗",
+    "✗",
+    "△",
+    "△"
+   ],
+   [
+    "Pillai et al. {Pillai2026}",
+    "Critical review with screening of 199 sources and a techno-economic assessment",
+    "✓",
+    "△",
+    "△",
+    "✗",
+    "✗",
+    "✗",
+    "✓",
+    "✓",
+    "△",
+    "✓"
+   ],
+   [
+    "Abdulmouti et al. {Abdulmouti2026}",
+    "Narrative review of over 140 studies with a regional summary of MENA pilots",
+    "✓",
+    "△",
+    "△",
+    "✗",
+    "✗",
+    "✗",
+    "✓",
+    "△",
+    "△",
+    "△"
+   ],
+   [
+    "Zainali et al. {Zainali2025}",
+    "Structured review, 151 studies on agrivoltaic modeling, simulation, and optimization",
+    "✓",
+    "△",
+    "△",
+    "✗",
+    "✗",
+    "✗",
+    "△",
+    "✓",
+    "△",
+    "△"
+   ],
+   [
+    "Jain et al. {Jain2026}",
+    "Review of 39 agrivoltaic modeling studies that calculate water",
+    "✓",
+    "✗",
+    "△",
+    "✗",
+    "✗",
+    "✗",
+    "△",
+    "✓",
+    "✗",
+    "✗"
+   ],
+   [
+    "This review",
+    "Scoping review, {N} studies",
+    "✓",
+    "✓",
+    "✓",
+    "✓",
+    "✓",
+    "✓",
+    "✓",
+    "✓",
+    "△",
+    "✗"
+   ]
+  ],
+  "note": "Rows are the reviews discussed in Section 2 whose main theme is AI, data and sensing, computing, or arid or MENA conditions in agrivoltaic or solar greenhouse systems, the reviews of digital twins in agriculture or PV that report a systematic search or a defined set of use cases, and the two reviews of agrivoltaic modeling closest to this review's coding of model structure and validation. ✓ = addressed as a main theme (a section or a substantial part of the review); △ = mentioned or partly addressed; ✗ = not addressed. Marks are based on the full texts, except for Sharma and Kumar (closed access), which is based on the title and abstract. Twin levels coded = the review assigns included studies to digital model, digital shadow, or digital twin levels, or to renamed equivalents (△ = another maturity scale). Study-level coding = the review classifies each included study or use case against stated categories. The evidence for each mark is given in Supplementary Material S5. Monitoring guidance = the review gives actionable guidance on what to measure, where, how often, and with what calibration or data infrastructure (✓ main theme; △ in passing); this review proposes core data per function (Table 14a) but no monitoring protocol. Techno-economics = economic assessment (costs, LCOE, NPV, payback) is a main theme (✓) or covered in part (△). Marks for these two columns and their evidence are in Supplementary Material S2 (sheet 'Table 1 extra columns'). The search itself found {rp_n} reviews (excluded from the corpus under E4); none classifies the studies it reviews by twin level, judged from titles and abstracts (S2, sheet 'Review pool')."
+ },
+ "T4_codebook": {
+  "caption": "Table 4 Charting Codebook",
+  "header": [
+   "Research question",
+   "Fields coded (single-valued unless marked multi)"
+  ],
+  "widths": [
+   1.6,
+   6.4
+  ],
+  "rows": [
+   [
+    "General",
+    "Year, venue, publication type, study type, agrivoltaic configuration (multi), crop or livestock, physical counterpart (specific installation or generic design), text basis"
+   ],
+   [
+    "RQ1 Regions and climates",
+    "Study-site countries (multi); Köppen-Geiger class and subclass of each site (multi); arid focus (explicit, motivation only, none); MENA site; arid constraints considered (multi)"
+   ],
+   [
+    "RQ2 Methods and functions",
+    "Method families (multi); AI used; AI methods; role of AI (multi); digital twin functions (multi); decision stage (multi: design, operation); modeled subsystems (multi); coupling between subsystems; uncertainty quantification"
+   ],
+   [
+    "RQ3 Data and sensing",
+    "Data types (multi); sensing modalities (multi); finest temporal resolution; data duration; public availability of data or code"
+   ],
+   [
+    "RQ4 Computing and integration",
+    "Deployment tier (multi; a multi-tier architecture can be coded together with the tiers it combines); real-time operation; decision timescale (multi); use of the term digital twin; designed and demonstrated level of integration (digital model, digital shadow, digital twin, not applicable; for the demonstrated level also none demonstrated); implementation status; model updating from measurements (repeated, one-time calibration, none); validation setting (one value per study: the strongest setting reported, in the order multi-site field, single-site field, laboratory or prototype, simulation benchmark, none)"
+   ],
+   [
+    "Challenges",
+    "Limitations and future work as stated by the study authors (multi), each coded into eight themes (Supplementary Table S5.2)"
+   ]
+  ],
+  "note": "All multi-valued fields allow several codes per study. Each field separates not reported from not applicable. The full codebook, with its decision rules, is in Supplementary Material S4."
+ }
+}

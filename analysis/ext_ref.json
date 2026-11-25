@@ -1,0 +1,1801 @@
+{
+ "rows": [
+  {
+   "source": "jain validation",
+   "ref_no": "3",
+   "ref_title": "How does a shelter of solar panels influence water flows in a soil–crop system?",
+   "their_code": "unclear",
+   "their_text": "\"Marrou et al. [3] take it as the residual of a measured field water balance, with the other terms supplied from irrigation records, rainfall and soil moisture profiles.\" \"Marrou et al. [3] did not model in the same sense as the others. They take measurements from plots under the PV array and from control plots and separate the difference between them into four drivers. The study is in this review because its water quantity is calculated from those measurements, and it is the study the demand-based group cites most often.\"",
+   "rid": "R0149",
+   "match": 1.0,
+   "status": "included",
+   "our_text_basis": "full_text",
+   "our_code": "field",
+   "our_mech_validated": [
+    "water"
+   ]
+  },
+  {
+   "source": "jain validation",
+   "ref_no": "10",
+   "ref_title": "Integrated modelling of shading effects on alfalfa growth across different agrivoltaic systems",
+   "their_code": "unclear",
+   "their_text": "Demand-based, full resistance Penman–Monteith form; \"Moretta et al. [10] hold Kc at 1.05 for the whole season\"; writes the four-element product as PET x fPAR x Kc x RelTr (Table 10). No statement about comparison with measurements.",
+   "rid": "R1759",
+   "match": 1.0,
+   "status": "included",
+   "our_text_basis": "full_text",
+   "our_code": "field",
+   "our_mech_validated": [
+    "crop",
+    "microclimate"
+   ]
+  },
+  {
+   "source": "jain validation",
+   "ref_no": "15",
+   "ref_title": "A new approach for modelling photovoltaic panel configuration maximizing crop yield and photovoltaic array outputs in agrivoltaics systems",
+   "their_code": "unclear",
+   "their_text": "\"Sarr et al. [15] add a transpiration coefficient, Kv, computed from stomatal conductance under the incident PAR\"; linear correction to ET0 under shade (Equation 8). \"Sarr et al. [15] and Cornaro et al. [42] report a quantity they call actual evapotranspiration without solving a water balance, so the value behaves as a demand.\" No statement about comparison with measurements.",
+   "rid": "R1092",
+   "match": 1.0,
+   "status": "included",
+   "our_text_basis": "abstract_only",
+   "our_code": "none"
+  },
+  {
+   "source": "jain validation",
+   "ref_no": "25",
+   "ref_title": "Techno-economic Assessment of Urban Agrivoltaic System",
+   "their_code": "unclear",
+   "their_text": "\"AquaCrop does not compute reference evapotranspiration at all... which is what Akbarieh et al. [25] do, scaling that input by the transmittance of their modules\" (0.5 transmittance of semi-transparent modules); \"the one study computing an evapotranspiration flux that does this, integrate rainwater harvesting.\" No statement about comparison with measurements.",
+   "rid": "R1961",
+   "match": 1.0,
+   "status": "included",
+   "our_text_basis": "abstract_only",
+   "our_code": "none"
+  },
+  {
+   "source": "jain validation",
+   "ref_no": "26",
+   "ref_title": "Modelling light-sharing in agrivoltaics: The open-source Python Agrivoltaic Simulation Environment (PASE 1.0)",
+   "their_code": "unclear",
+   "their_text": "\"SIMPLE carries the most reduced routine of the six, and Bruhwyler et al. [26] state that the ARID formalism limits what their model can show about water beneath a PV array, coupling STICS into the same framework for that reason.\" No statement about comparison with measurements.",
+   "rid": "R1312",
+   "match": 1.0,
+   "status": "included",
+   "our_text_basis": "full_text",
+   "our_code": "field",
+   "our_mech_validated": [
+    "light_shading"
+   ]
+  },
+  {
+   "source": "jain validation",
+   "ref_no": "27",
+   "ref_title": "Consequences on energy and water exchanges of airflow modifications in agrivoltaic systems",
+   "their_code": "unclear",
+   "their_text": "\"In Vernier et al. [27], the two fluxes are written as resistance expressions (Equations (S7) and (S8)), so that the stomatal resistance to water vapor is an explicit variable of the water flux.\" No statement about comparison with measurements.",
+   "rid": "R2249",
+   "match": 1.0,
+   "status": "included",
+   "our_text_basis": "abstract_only",
+   "our_code": "field"
+  },
+  {
+   "source": "jain validation",
+   "ref_no": "28",
+   "ref_title": "The microclimatic and ecohydrological effects of photovoltaic facilities in arid/semi-arid regions of China: An integrated modeling study",
+   "their_code": "field",
+   "their_text": "\"Sun et al. [28], solves a transport equation for specific humidity (Equation A9), in which evapotranspiration appears as a source term.\" Section 6.4: \"Some of the included studies do report such tests... Sun et al. [28] a root mean square error below 0.0012 v/v for the same quantity [soil moisture].\"",
+   "rid": "R1988",
+   "match": 1.0,
+   "status": "included",
+   "our_text_basis": "full_text",
+   "our_code": "field",
+   "our_mech_validated": [
+    "microclimate",
+    "water"
+   ]
+  },
+  {
+   "source": "jain validation",
+   "ref_no": "29",
+   "ref_title": "Ecohydrological effects of photovoltaic solar farms on soil microclimates and moisture regimes in arid Northwest China: A modeling study",
+   "their_code": "field",
+   "their_text": "\"Wu et al. [29] use a stochastic soil water balance, in which evapotranspiration is a piecewise function of relative soil moisture.\" Section 6.4: \"Wu et al. [29] report a Nash–Sutcliffe efficiency of 0.68 and a root mean square error of 0.02 v/v for soil moisture.\"",
+   "rid": "R3126",
+   "match": 1.0,
+   "status": "screened out"
+  },
+  {
+   "source": "jain validation",
+   "ref_no": "30",
+   "ref_title": "A field-scale model using an integrated framework for evaluating food and water dynamics in agrivoltaics in three-dimensional space",
+   "their_code": "unclear",
+   "their_text": "\"Nguyen et al. [30] solve the Richards equation [12] in three dimensions with a root water uptake sink (Equation (S11)).\" No statement about comparison with measurements.",
+   "rid": "R2060",
+   "match": 1.0,
+   "status": "included",
+   "our_text_basis": "abstract_only",
+   "our_code": "none"
+  },
+  {
+   "source": "jain validation",
+   "ref_no": "31",
+   "ref_title": "Agrivoltaic system design tools for managing trade-offs between energy production, crop productivity and water consumption",
+   "their_code": "unclear",
+   "their_text": "Demand-based, FAO-56 Penman–Monteith; PV array enters by reduced radiation supplied to the equation. No statement about comparison with measurements.",
+   "rid": "R1114",
+   "match": 1.0,
+   "status": "included",
+   "our_text_basis": "full_text",
+   "our_code": "software",
+   "our_mech_validated": [
+    "none"
+   ]
+  },
+  {
+   "source": "jain validation",
+   "ref_no": "32",
+   "ref_title": "Crop-driven optimization of agrivoltaics using a digital-replica framework",
+   "their_code": "unclear",
+   "their_text": "Demand-based, FAO-56 Penman–Monteith; PV array enters by reduced radiation supplied to the equation. No statement about comparison with measurements.",
+   "rid": "R0886",
+   "match": 1.0,
+   "status": "included",
+   "our_text_basis": "abstract_only",
+   "our_code": "none"
+  },
+  {
+   "source": "jain validation",
+   "ref_no": "33",
+   "ref_title": "Model-Based Optimization of a 10-kWp Agrivoltaic System With Semi-Transparent and Bi-Facial Panels for Enhanced Crop Yield, Energy Production and Land-Use Efficiency",
+   "their_code": "unclear",
+   "their_text": "\"In Abubakar et al. [33], the same shading fraction from the photovoltaic simulation is used at both points: once to scale reference evapotranspiration by the reduction in photosynthetically active radiation and once through Kc,adjusted = Kc,standard x (1 - Sf).\" No statement about comparison with measurements.",
+   "rid": "R1803",
+   "match": 1.0,
+   "status": "included",
+   "our_text_basis": "abstract_only",
+   "our_code": "none"
+  },
+  {
+   "source": "jain validation",
+   "ref_no": "34",
+   "ref_title": "Effects of red and blue light treatment on water, microclimate, soil and tomato crops in California",
+   "their_code": "unclear",
+   "their_text": "One of four studies that \"take radiation, air temperature, humidity and wind speed from sensors placed under the PV array and recompute the demand from those readings.\" Inputs measured; no statement about comparing computed water with measured water.",
+   "rid": "R1652",
+   "match": 1.0,
+   "status": "screened out"
+  },
+  {
+   "source": "jain validation",
+   "ref_no": "35",
+   "ref_title": "Exploring micro-environmental conditions of urban agrivoltaics: Advancing sustainable green spaces and agriculture in temperate cities",
+   "their_code": "unclear",
+   "their_text": "One of four studies that \"take radiation, air temperature, humidity and wind speed from sensors placed under the PV array and recompute the demand from those readings.\" Inputs measured; no statement about comparing computed water with measured water.",
+   "rid": "R2363",
+   "match": 1.0,
+   "status": "excluded"
+  },
+  {
+   "source": "jain validation",
+   "ref_no": "36",
+   "ref_title": "Water budget and crop modelling for agrivoltaic systems: Application to irrigated lettuces",
+   "their_code": "unclear",
+   "their_text": "\"Elamri et al. [36] place it [stomatal conductance] in the stress position\"; writes the product as ET0 x fc x Kc x Ks giving Tp (Table 10). No statement about comparison with measurements.",
+   "rid": "R0341",
+   "match": 1.0,
+   "status": "included",
+   "our_text_basis": "full_text",
+   "our_code": "field",
+   "our_mech_validated": [
+    "water",
+    "crop"
+   ]
+  },
+  {
+   "source": "jain validation",
+   "ref_no": "37",
+   "ref_title": "Energy and Economic Optimization of APV and APV-CPV Agrivoltaic Systems Using Python: Study of a Tomato Farm",
+   "their_code": "unclear",
+   "their_text": "Demand-based, FAO-56; listed among studies in which \"The PV array does not reach the water equation.\" No statement about comparison with measurements.",
+   "rid": "R1655",
+   "match": 1.0,
+   "status": "included",
+   "our_text_basis": "abstract_only",
+   "our_code": "none"
+  },
+  {
+   "source": "jain validation",
+   "ref_no": "39",
+   "ref_title": "Residential Agrivoltaics: Energy Efficiency and Water Conservation in the Urban Landscape",
+   "their_code": "unclear",
+   "their_text": "ASCE standardized form; one of four studies that \"take radiation, air temperature, humidity and wind speed from sensors placed under the PV array and recompute the demand from those readings.\" No statement about comparing computed water with measured water.",
+   "rid": "R0608",
+   "match": 1.0,
+   "status": "screened out"
+  },
+  {
+   "source": "jain validation",
+   "ref_no": "40",
+   "ref_title": "Agrivoltaic systems to optimise land use for electric energy production",
+   "their_code": "unclear",
+   "their_text": "Demand-based, full resistance form; PV array enters by reduced radiation; represents soil temperature route and resolves position. No statement about comparison with measurements.",
+   "rid": "R0301",
+   "match": 1.0,
+   "status": "included",
+   "our_text_basis": "abstract_only",
+   "our_code": "none"
+  },
+  {
+   "source": "jain validation",
+   "ref_no": "41",
+   "ref_title": "Simulation-Based Decision Support for Agrivoltaic Systems",
+   "their_code": "unclear",
+   "their_text": "Demand-based, full resistance form; PV array enters by reduced radiation; resolves position. No statement about comparison with measurements.",
+   "rid": "R1382",
+   "match": 1.0,
+   "status": "included",
+   "our_text_basis": "abstract_only",
+   "our_code": "none"
+  },
+  {
+   "source": "jain validation",
+   "ref_no": "42",
+   "ref_title": "Simulating the microclimate of a pilot greenhouse for the EU project REGACE on innovative agri-voltaic technology",
+   "their_code": "unclear",
+   "their_text": "\"Sarr et al. [15] and Cornaro et al. [42] report a quantity they call actual evapotranspiration without solving a water balance, so the value behaves as a demand.\" No statement about comparison with measurements.",
+   "rid": "R2895",
+   "match": 1.0,
+   "status": "excluded"
+  },
+  {
+   "source": "jain validation",
+   "ref_no": "45",
+   "ref_title": "Wind sheltering in vertical agrivoltaics can increase crop yields: A modeling study for Northern Europe",
+   "their_code": "unclear",
+   "their_text": "\"Honningdalsnes et al. [45], the one demand-based study to do so, couples to a separate fluid-dynamics model of the flow beneath the PV array and passes time-averaged wind reduction factors into the crop model.\" No statement about comparison with measurements.",
+   "rid": "R2022",
+   "match": 1.0,
+   "status": "included",
+   "our_text_basis": "abstract_only",
+   "our_code": "none"
+  },
+  {
+   "source": "jain validation",
+   "ref_no": "47",
+   "ref_title": "A Validated Model, Scalability and Plant Growth Results for an Agrivoltaic Greenhouse",
+   "their_code": "unclear",
+   "their_text": "\"Evans et al. [47] reach evapotranspiration through air temperature alone, computing it from a temperature-based equation driven by the air inside a greenhouse test cell, with no shaded radiation entering the calculation at any point.\" The review does not state whether the water output was compared with measurements (only the cited title says 'Validated Model').",
+   "rid": "R0650",
+   "match": 1.0,
+   "status": "included",
+   "our_text_basis": "full_text",
+   "our_code": "field",
+   "our_mech_validated": [
+    "microclimate",
+    "light_shading"
+   ]
+  },
+  {
+   "source": "jain validation",
+   "ref_no": "48",
+   "ref_title": "Global Land-Water Competition and Synergy Between Solar Energy and Agriculture",
+   "their_code": "unclear",
+   "their_text": "Demand-based, Hargreaves temperature-based method; PV array enters by reduced radiation. No statement about comparison with measurements.",
+   "rid": "R1707",
+   "match": 1.0,
+   "status": "screened out"
+  },
+  {
+   "source": "jain validation",
+   "ref_no": "50",
+   "ref_title": "Microclimate Modification, Evapotranspiration, Growth and Essential Oil Yield of Six Medicinal Plants Cultivated Beneath a Dynamic Agrivoltaic System in Southern Italy",
+   "their_code": "unclear",
+   "their_text": "Turc radiation-based method (\"wind and humidity cannot influence the result\"); one of four studies that \"take radiation, air temperature, humidity and wind speed from sensors placed under the PV array and recompute the demand from those readings.\" No statement about comparing computed water with measured water.",
+   "rid": "R1799",
+   "match": 1.0,
+   "status": "screened out"
+  },
+  {
+   "source": "jain validation",
+   "ref_no": "51",
+   "ref_title": "Simulation model to analyze the spatial distribution of solar radiation in agrivoltaic Mediterranean greenhouses and its effect on crop water needs",
+   "their_code": "unclear",
+   "their_text": "Greenhouse relation: \"reference evapotranspiration as a linear function of daily radiation\"; \"the result is proportional to radiation by construction.\" No statement about comparison with measurements.",
+   "rid": "R1380",
+   "match": 1.0,
+   "status": "included",
+   "our_text_basis": "abstract_only",
+   "our_code": "field"
+  },
+  {
+   "source": "jain validation",
+   "ref_no": "52",
+   "ref_title": "Improving the Land Use Efficiency of Farmland by Using Agrivoltaics",
+   "their_code": "unclear",
+   "their_text": "Evapotranspiration obtained from a parent model; \"none of the six studies say which one it used.\" PV array enters by reduced radiation. No statement about comparison with measurements.",
+   "rid": "R2441",
+   "match": 1.0,
+   "status": "included",
+   "our_text_basis": "abstract_only",
+   "our_code": "none"
+  },
+  {
+   "source": "jain validation",
+   "ref_no": "53",
+   "ref_title": "Optimisation of agrivoltaic systems within the water-energy-food nexus",
+   "their_code": "unclear",
+   "their_text": "Evapotranspiration obtained from a parent model whose demand option is not stated; PV array enters by reduced radiation. No statement about comparison with measurements.",
+   "rid": "R2537",
+   "match": 1.0,
+   "status": "included",
+   "our_text_basis": "full_text",
+   "our_code": "none",
+   "our_mech_validated": [
+    "none"
+   ]
+  },
+  {
+   "source": "jain validation",
+   "ref_no": "54",
+   "ref_title": "Process-based simulation of the water-food-energy-environment nexus in a photovoltaic and drip irrigation planned agricultural district",
+   "their_code": "unclear",
+   "their_text": "Evapotranspiration obtained from a parent model (SWAT) whose demand option is not stated; PV array enters through a modified coefficient. No statement about comparison with measurements.",
+   "rid": "R2592",
+   "match": 1.0,
+   "status": "screened out"
+  },
+  {
+   "source": "jain validation",
+   "ref_no": "55",
+   "ref_title": "Evaluating tracking bifacial solar PV based agrivoltaics system across the UK",
+   "their_code": "unclear",
+   "their_text": "\"Hussain and Ghosh [55] set a ground cover ratio for each PV array configuration but never say how the reduced radiation reaches the crop model. The PV array is described in detail; the route into the water calculation is not.\" No statement about comparison with measurements.",
+   "rid": "R1240",
+   "match": 1.0,
+   "status": "included",
+   "our_text_basis": "abstract_only",
+   "our_code": "none"
+  },
+  {
+   "source": "jain validation",
+   "ref_no": "56",
+   "ref_title": "Controls of Ecohydrological Grassland Dynamics in Agrivoltaic Systems",
+   "their_code": "field",
+   "their_text": "\"Paschalis et al. [56] set the panel temperature equal to air temperature\"; shading ~65%, rainfall redistribution 28%, roughness 7% of modelled ET change. Section 6.4: \"Paschalis et al. [56] report that their model reproduces the main hydrological signatures at the case site.\"",
+   "rid": "R1592",
+   "match": 1.0,
+   "status": "included",
+   "our_text_basis": "abstract_only",
+   "our_code": "field"
+  },
+  {
+   "source": "jain validation",
+   "ref_no": "57",
+   "ref_title": "Assessing the Impact of Agrivoltaics on Water, Energy and Carbon Cycles Using the Community Land Model Version 5",
+   "their_code": "field",
+   "their_text": "\"Jia et al. [57] carry more of the routes than any other study in the corpus\" (shaded/partly shaded/sunlit patches, interception fraction 0.2, re-parameterized roughness, panel energy budget). Section 6.4: \"Jia et al. [57] coefficients of determination between 0.79 and 0.86 for it [soil moisture].\"",
+   "rid": "R2195",
+   "match": 1.0,
+   "status": "included",
+   "our_text_basis": "full_text",
+   "our_code": "field",
+   "our_mech_validated": [
+    "light_shading",
+    "water",
+    "crop"
+   ]
+  },
+  {
+   "source": "jain validation",
+   "ref_no": "58",
+   "ref_title": "Simulating generic agrivoltaic systems with ORCHIDEE: Model development and multi-case study insights",
+   "their_code": "unclear",
+   "their_text": "Conservation-based, surface energy balance in ORCHIDEE with a sky-view factor and rescaled roughness. No statement about comparison with measurements.",
+   "rid": "R1921",
+   "match": 1.0,
+   "status": "included",
+   "our_text_basis": "abstract_only",
+   "our_code": "none"
+  },
+  {
+   "source": "jain validation",
+   "ref_no": "59",
+   "ref_title": "Optimizing fertilizer use for sustainable crops with Agrivoltaics in Mediterranean climates",
+   "their_code": "unclear",
+   "their_text": "Conservation-based, surface energy balance in ORCHIDEE with a sky-view factor and rescaled roughness. No statement about comparison with measurements.",
+   "rid": "R2550",
+   "match": 1.0,
+   "status": "screened out"
+  },
+  {
+   "source": "jain validation",
+   "ref_no": "60",
+   "ref_title": "Development of a decision support system to evaluate crop performance under dynamic solar panels",
+   "their_code": "unclear",
+   "their_text": "Conservation-based, surface energy balance within a resolved radiation domain (crop_sim). No statement about comparison with measurements.",
+   "rid": "R0538",
+   "match": 1.0,
+   "status": "included",
+   "our_text_basis": "abstract_only",
+   "our_code": "none"
+  },
+  {
+   "source": "jain validation",
+   "ref_no": "61",
+   "ref_title": "Techno-economic and environmental optimization of agrivoltaics: A case study of Cornell University",
+   "their_code": "unclear",
+   "their_text": "\"an irrigation requirement follows from an imported crop evapotranspiration and an effective-rainfall relation, iwr = ETc - Pe, with Pe obtained from monthly rainfall.\" \"None of them carries an evapotranspiration equation, a soil water store or a spatial description of the PV array.\" No statement about comparison with measurements.",
+   "rid": "R1965",
+   "match": 1.0,
+   "status": "included",
+   "our_text_basis": "abstract_only",
+   "our_code": "none"
+  },
+  {
+   "source": "jain validation",
+   "ref_no": "62",
+   "ref_title": "Optimization of water-energy-food nexus via an integrated system of solar-assisted desalination and farming",
+   "their_code": "unclear",
+   "their_text": "\"Alhajeri et al. [62] treat water demand as a specific requirement per unit of land use multiplied by an area, then allocate that demand between utility supply and on-site reverse osmosis.\" No statement about comparison with measurements.",
+   "rid": "R0978",
+   "match": 1.0,
+   "status": "included",
+   "our_text_basis": "abstract_only",
+   "our_code": "none"
+  },
+  {
+   "source": "jain validation",
+   "ref_no": "63",
+   "ref_title": "Integrated Water–Energy–Food System for Rural Climate Adaptation: The Green Village Model in Oman",
+   "their_code": "unclear",
+   "their_text": "\"Al-Maskari and Ibrahim [63] close a mass balance between influent and reusable effluent, with the irrigation requirement imported from a published figure for a comparable region.\" No statement about comparison with measurements.",
+   "rid": "R1758",
+   "match": 1.0,
+   "status": "included",
+   "our_text_basis": "abstract_only",
+   "our_code": "none"
+  },
+  {
+   "source": "jain validation",
+   "ref_no": "64",
+   "ref_title": "Development of multi-model ensembles using tree-based machine learning methods to assess the future renewable energy potential: Case of the East Thrace, Turkey",
+   "their_code": "unclear",
+   "their_text": "\"Guven [64] multiplies forecast annual precipitation, taken from an ensemble of climate scenarios, by a collection efficiency of 0.72 imported from another study and reports 356 to 362 liters per square meter per year of harvestable irrigation water.\" No statement about comparison with measurements.",
+   "rid": "R0904",
+   "match": 1.0,
+   "status": "screened out"
+  },
+  {
+   "source": "jain validation",
+   "ref_no": "65",
+   "ref_title": "Design & Analysis of Smart Agrivoltaic Monitoring System: Bangladesh Perspective",
+   "their_code": "unclear",
+   "their_text": "\"Mahjabin et al. [65] compute the irrigation water a field requires from rainfall and area and size a solar-powered pump from the result.\" No statement about comparison with measurements.",
+   "rid": "R0889",
+   "match": 1.0,
+   "status": "included",
+   "our_text_basis": "abstract_only",
+   "our_code": "none"
+  },
+  {
+   "source": "pillai arid",
+   "ref_no": "109",
+   "ref_title": "The effect of surface cover vegetation on the microclimate and power output of a solar photovoltaic farm in the desert",
+   "their_code": "Israel, Negev Desert",
+   "their_text": "Table 5 row: Country 'Israel'; LER 1.67; crops Dichondra repens, Viola hederacea; Experimental; 'Temperature: down 4.5 C, PV output: up 1.2%; Shading significantly improves water efficiency'. Sec 4.1: 'In the Negev Desert, Erell et al. [109] modified a commercial PV plant to cultivate lemon geranium and Australian viola beneath monofacial, tilted PV modules (see Fig. 10)'. Fig. 10: 'APV pilot plant in the Negev Desert (Israel)'.",
+   "rid": null,
+   "match": 0.59,
+   "status": "not retrieved by search"
+  },
+  {
+   "source": "pillai arid",
+   "ref_no": "136",
+   "ref_title": "Improvement of electrical efficiency in a PV solar farm utilizing agriculture",
+   "their_code": "Israel, Negev Desert",
+   "their_text": "Table 5 row: Country 'Israel'; LER 1.67; crops Lemon geranium, Australian Viola; Experimental; 'Temperature: down 3.5 C, PV output: up 1%; Enhance efficiency and soil stability'. Sec 4.1: '[136] examined microclimatic effects and leaf morphology to assess cooling impact on PV performance'. Fig. 10 (Negev Desert pilot) is 'Reproduced from Refs. [109,136]'.",
+   "rid": null,
+   "match": 0.54,
+   "status": "not retrieved by search"
+  },
+  {
+   "source": "pillai arid",
+   "ref_no": "2",
+   "ref_title": "Agrivoltaics: solar power generation and food production",
+   "their_code": "China, USA (no site stated)",
+   "their_text": "Table 5 row: Country 'China, USA'; crops Rice, corn, lettuce, tomato; Experimental and Simulation; 'Shading: up 20-70%, Temperature: down 1.5 C, Soil moisture: up 15%, ET: down 14-29%, Crop yield: up 150%, PV output: up 3%, Land-use loss: down 10-15%'. No site stated; text cites [2] for China's national capacity and US APV policy context.",
+   "rid": "R3212",
+   "match": 1.0,
+   "status": "screened out"
+  },
+  {
+   "source": "pillai arid",
+   "ref_no": "140",
+   "ref_title": "The microclimatic and ecohydrological effects of photovoltaic facilities in arid/semi-arid regions of China: an integrated modeling study",
+   "their_code": "China (arid/semi-arid regions; no site stated)",
+   "their_text": "Table 5 row: Country 'China'; crops Soybean, Alfalfa, Parsnip and medicinal crops; 'Humidity: up 35.8%, Soil moisture ... Crop yield - Soybean: up 48.3%, alfalfa: up 42.9%, Parsnip: up 26.7%'. Sec 4.3: 'The novel soil-plant-PV-atmosphere continuum (SPPVAC) model shows PV panels reduce temperature (1.2-2.3 C), enhance soil moisture (+38.5%), and boost biomass'. No specific site stated in text; reference title says 'arid/semi-arid regions of China'.",
+   "rid": "R1988",
+   "match": 1.0,
+   "status": "included",
+   "our_text_basis": "full_text",
+   "our_country": [
+    "China"
+   ],
+   "our_koppen": [
+    "B"
+   ]
+  },
+  {
+   "source": "pillai arid",
+   "ref_no": "141",
+   "ref_title": "The early effects of an agrivoltaic system within a different crop cultivation on soil quality in dry–hot valley eco-fragile areas",
+   "their_code": "China, dry-hot valleys",
+   "their_text": "Table 5 row: Country 'China'; crops Peanuts, Ryegrass; Experimental; 'Soil moisture: up 45.6-56.1%, Soil quality: up 52-184%; Improvements in microbial activity'. Sec 4.3: 'field studies in dry-hot valleys reveal significant gains in soil quality and microbial activity under peanuts and ryegrass'.",
+   "rid": "R1401",
+   "match": 1.0,
+   "status": "screened out"
+  },
+  {
+   "source": "pillai arid",
+   "ref_no": "143",
+   "ref_title": "Ecohydrological effects of photovoltaic solar farms on soil microclimates and moisture regimes in arid Northwest China: a modeling study",
+   "their_code": "China (arid Northwest China per ref title)",
+   "their_text": "Table 5 row: Country 'China'; Simulation; 'Soil moisture: up 113.6%, soil Temperature: down 1.7 C; Enhanced microclimates for APV in drylands'. Sec 4.3: 'Findings in Ref. [143] further suggests soil moisture enhancement by 59.8%-113.6% across PV row sections'. No site in text; reference title says 'arid Northwest China'.",
+   "rid": "R3126",
+   "match": 1.0,
+   "status": "screened out"
+  },
+  {
+   "source": "pillai arid",
+   "ref_no": "120",
+   "ref_title": "Techno-economic evaluation of different agri-voltaic designs for the hot arid ecosystem India",
+   "their_code": "India, Rajasthan (CAZRI, Jodhpur)",
+   "their_text": "Table 5 row: Country 'India'; 'Tests different plant layouts in a 105 kWp APV system; Layout-1 (100% density) yielded the highest energy (4.3 kWh/day/kW) and crop output'. Sec 4.4: 'Santra et al. [145,146] and Poonia et al. [120] studied the techno-economic performance of a 105 kWp APV system ... in Rajasthan's desert climate'; Fig. 13 'a) b) and c) CAZRI APV plants [120]'; CAZRI pilot described as 'in Jodhpur (100 kW)'.",
+   "rid": "R0634",
+   "match": 1.0,
+   "status": "screened out"
+  },
+  {
+   "source": "pillai arid",
+   "ref_no": "144",
+   "ref_title": "Agrivoltaic potential on grape farms in India",
+   "their_code": "India (national; no site stated)",
+   "their_text": "Table 5 row: Country 'India'; crop Grapes; Simulation; 'Farmer income: up 15%, Suboptimal orientation: down ~25% energy loss'. Sec 4.4: 'Estimates suggest that converting just 1% of India's agricultural land to APV (at 0.45 MW/ha) could add up to 630 GW of PV capacity [144]'. No site stated (national).",
+   "rid": "R0254",
+   "match": 1.0,
+   "status": "included",
+   "our_text_basis": "full_text",
+   "our_country": [
+    "India"
+   ],
+   "our_koppen": [
+    "B"
+   ]
+  },
+  {
+   "source": "pillai arid",
+   "ref_no": "145",
+   "ref_title": "Spatial and temporal variation of photosynthetic photon flux density within agrivoltaic system in hot arid region of India",
+   "their_code": "India, Rajasthan",
+   "their_text": "Table 5 row: Country 'India'; Experimental; 'PPFD: 24 to 135 umol/m2/s below PV and 90 to 1295 umol/m2/s in interspaces; DLI zones ... 0-5, 5-20, and 20-30 mol/m2/day'. Sec 4.4: 'Santra et al. [145,146] ... studied ... a 105 kWp APV system using fixed south-facing modules (0.5 m elevation) ... in Rajasthan's desert climate'.",
+   "rid": "R0621",
+   "match": 1.0,
+   "status": "included",
+   "our_text_basis": "abstract_only",
+   "our_country": [
+    "India"
+   ],
+   "our_koppen": [
+    "B"
+   ]
+  },
+  {
+   "source": "pillai arid",
+   "ref_no": "146",
+   "ref_title": "Agri-voltaics or solar farming: the concept of integrating solar PV based electricity generation and crop production in a single land use system",
+   "their_code": "India, Rajasthan",
+   "their_text": "Table 5 row: Country 'India'; 'Key optimal design parameters are shade dynamics, crop selection, and water harvesting; Needs field research on crop performance'. Sec 4.4: 'Santra et al. [145,146] ... studied ... a 105 kWp APV system ... in Rajasthan's desert climate'.",
+   "rid": "R0253",
+   "match": 1.0,
+   "status": "screened out"
+  },
+  {
+   "source": "pillai arid",
+   "ref_no": "147",
+   "ref_title": "Co-Generation of solar electricity and agriculture produce by photovoltaic and photosynthesis—dual model by abellon, India",
+   "their_code": "India, Abellon Energy plant (Aravalli District)",
+   "their_text": "Table 5 row: Country 'India'; crops Turmeric, ginger, bottle gourd, lady finger; Experimental; 'The 3 MW APV co-generates ~4.66 M kWh/year in 7.08 ha land using tilted PV panels'. Sec 4.4: 'Patel et al. [29,147] evaluated the energy output and economic viability of a 1 MW system at the Abellon plant'; earlier: 'the 3 MW Abellon Energy system in Aravalli District'.",
+   "rid": null,
+   "match": 0.51,
+   "status": "not retrieved by search"
+  },
+  {
+   "source": "pillai arid",
+   "ref_no": "148",
+   "ref_title": "Colocation opportunities for large solar infrastructures and agriculture in drylands",
+   "their_code": "India, Rajasthan (Thar desert)",
+   "their_text": "Table 5 row: Country 'India'; crop Aloe vera; Simulation; 'Water reuse and crop-shade synergy are key drivers ... PV with aloe vera in drylands enables shared water-use for cleaning and irrigation'. Sec 4.4: 'northwestern regions of India like the Thar desert ... [28,148,149]'; 'A life cycle and economic analysis by Ravi et al. [148]'; Fig. 13 'd) Aloe Vera cultivation in Rajasthan [148]'.",
+   "rid": "R3259",
+   "match": 1.0,
+   "status": "screened out"
+  },
+  {
+   "source": "pillai arid",
+   "ref_no": "167",
+   "ref_title": "Impacts and opportunities from large-scale solar photovoltaic (PV) electricity generation on agricultural production",
+   "their_code": "Australia, New South Wales",
+   "their_text": "Table 5 row: Country 'Australia'; Case study; 'A 102 MW APV project on 250 ha farmland shows minimal regional impact and reversible land use; Benefits for land optimization, yield gains, and water savings'. Sec 4.8: 'Guerin [166,167] examined its agricultural implications in New South Wales'.",
+   "rid": "R3123",
+   "match": 1.0,
+   "status": "screened out"
+  },
+  {
+   "source": "pillai arid",
+   "ref_no": "168",
+   "ref_title": "Field performance monitoring of energy-generating high-transparency agrivoltaic glass windows",
+   "their_code": "Australia, Perth",
+   "their_text": "Table 5 row: Country 'Australia'; Experimental; 'High transparency glass with luminescent concentrators improves crop growth; Energy use: down 40%, Self-sufficiency: up 37.8%'. Sec 4.8: 'Valisielv et al. [168] reported a greenhouse project in Perth achieving up to 70% light transmission and generating 19 kWh/day'.",
+   "rid": "R0929",
+   "match": 1.0,
+   "status": "excluded"
+  },
+  {
+   "source": "pillai arid",
+   "ref_no": "24",
+   "ref_title": "Harvesting the sun twice: energy, food and water benefits from agrivoltaics in East Africa",
+   "their_code": "Tanzania, Kenya (East Africa; no site stated)",
+   "their_text": "Table 5 row: Country 'Tanzania, Kenya'; capacity 36.6 kWp, 62.1 kWp; LER 1.88, 1.77; Multi-crop; Experimental; 'Reduced PAR, Soil moisture: up 12%; Stable crop yield and PV output (12-30 MWh/year); Crop yield: up 10-60%, WUE: up 100%'. Sec 4.9: 'In East Africa, APV systems provide synergistic FEW benefits ... reducing irrigation demand by 12.6% [24]. Land productivity nearly doubled (LER 1.77-1.88)'. No specific site stated.",
+   "rid": "R1719",
+   "match": 1.0,
+   "status": "screened out"
+  },
+  {
+   "source": "pillai arid",
+   "ref_no": "172",
+   "ref_title": "Agrivoltaics in East Africa: opportunities and challenges",
+   "their_code": "Kenya, Kajiado County (also Morogoro, Tanzania)",
+   "their_text": "Table 5 row: Country 'Kenya'; capacity 56 kWp, 3 x 60 kWp, 35 kWp; 'Local research and policy support is needed'. Sec 4.9: '[172], examined APV potential across Kenya, Ethiopia, Rwanda, Uganda, Tanzania, Somalia, and Burundi ... Two pilot systems are also under development: a 56 kWp plant in Kajiado County, Kenya, and a 35 kWp installation in Morogoro, Tanzania. Initial data from Kajiado shows improved growth for cabbages, aubergines, lettuce, and maize'.",
+   "rid": "R0510",
+   "match": 1.0,
+   "status": "screened out"
+  },
+  {
+   "source": "pillai arid",
+   "ref_no": "173",
+   "ref_title": "Economic feasibility of agrivoltaic systems in food-energy nexus context: modelling and a case study in Niger",
+   "their_code": "Niger, Dosso region",
+   "their_text": "Table 5 row: Country 'Niger'; capacity 50 kW; LER 1.13; Simulation; 'Higher returns for APV and lower emissions'. Sec 4.9: 'In Niger's Dosso region, Bhandari et al. [173] assessed a 50 kWp APV project over 0.15 ha farmland, estimating LER = 1.33 (excluding yield loss) and 1.13 (including losses)'.",
+   "rid": "R0542",
+   "match": 1.0,
+   "status": "screened out"
+  },
+  {
+   "source": "pillai arid",
+   "ref_no": "174",
+   "ref_title": "Opportunities and challenges for scaling agrivoltaics in rural and Urban Africa",
+   "their_code": "Africa (continent-wide; no site stated)",
+   "their_text": "Table 5 row: Country 'Africa'; GM; configuration CAIPV; 'Strong potential to enhance rural livelihoods; Suitable for dual food-energy production in Africa; Reports farmland constraints and policy gaps'. Sec 4.9: 'McDonald et al. [174] explored APV scalability across Africa, introducing Crop Area Integrated Photovoltaics (CAIPV) concept'.",
+   "rid": "R0765",
+   "match": 1.0,
+   "status": "screened out"
+  },
+  {
+   "source": "pillai arid",
+   "ref_no": "177",
+   "ref_title": "Use of agrivoltaics to enhance cucumber production in the hot and arid climate of UAE: a sustainable approach for food and clean energy security",
+   "their_code": "UAE (no site explicitly stated; preceding sentence describes an Abu Dhabi project)",
+   "their_text": "Table 5 row: Country 'UAE'; EL; Monofacial fixed tilt; crop Cucumber; Experimental and simulation; 'APV reduced heat stress in the UAE; Crop yield: improved by 4x in weight and 5x in volume'. Sec 4.10: 'One notable example is the APV project in Abu Dhabi featuring a 454.74 kWp installation ... [uncited]. Al Ali et al. [177] further evaluated cucumber cultivation under a monofacial elevated (1.5 m) APV system using modules tilted at 25 degrees'. The review does not explicitly assign [177] to a city.",
+   "rid": "R1054",
+   "match": 1.0,
+   "status": "screened out"
+  },
+  {
+   "source": "pillai arid",
+   "ref_no": "179",
+   "ref_title": "Exploring the applicability of agrivoltaic system in UAE and its merits",
+   "their_code": "UAE (no site stated)",
+   "their_text": "Table 5 row: Country 'UAE'; Semitransparent tilted; crop Date Palm; Simulation. Sec 4.10: 'Abdulmouti et al. [179] explored APV layouts for date palm plantations in the United Arab Emirates (UAE) and proposed modified tilt-mount systems (see Fig. 17)'. No site stated.",
+   "rid": "R0923",
+   "match": 1.0,
+   "status": "screened out"
+  },
+  {
+   "source": "pillai arid",
+   "ref_no": "180",
+   "ref_title": "The potential of agrivoltaic systems in Jordan",
+   "their_code": "Jordan (national; no site stated)",
+   "their_text": "Table 5 row: Country 'Jordan'; crops Tomato, Lettuce; Simulation; '9.5% of Jordan's land is suitable for agrivoltaics; WUE: down 8.6%; Half-density PV for tomato production could meet 2030 energy goals'. Sec 4.10: 'For Jordan [180], estimated 9.5% of land as suitable for APV and found that covering just half of irrigated summer tomato fields could meet 50% of the national renewable electricity targets'.",
+   "rid": "R1412",
+   "match": 1.0,
+   "status": "screened out"
+  },
+  {
+   "source": "pillai arid",
+   "ref_no": "42",
+   "ref_title": "Agrivoltaic in Chile – integrative solution to use efficiently land for food and energy production and generating potential synergy effects shown by a pilot plant in metropolitan region",
+   "their_code": "Chile, central Chile (Metropolitan Region)",
+   "their_text": "Table 6 row: Country 'Chile'; EL; Poly-Si fixed-tilt; 12.48 kWp; crop Cauliflower; Experimental; 'APV panels balance energy production, moderate temperature, and boost crop humidity; Shading: up 20%'. Sec 4.2: 'The Chilean subsidiary of the Fraunhofer Center ... developed three APV pilot plants in Chile in 2018 ... [42,116,138,139]'; Fig. 12 'Two 12.5kWp APV pilot plants in central Chile'. Ref title: 'pilot plant in metropolitan region'.",
+   "rid": "R0347",
+   "match": 1.0,
+   "status": "excluded"
+  },
+  {
+   "source": "pillai arid",
+   "ref_no": "116",
+   "ref_title": "Agrivoltaics for farmers with shadow and electricity demand: results of a pre-feasibility study under net billing in central Chile",
+   "their_code": "Chile, central Chile",
+   "their_text": "Table 6 row: Country 'Chile'; EL; Mono-Si fixed-tilt; 163.31 kWp; Simulation; 'Comparison of APV (2.4 m, 310 deg azimuth, 22 deg tilt) versus GM PV ... Specific yield: down 4.3% with enhanced LER'. Sec 4.2: 'Jung et al. [116,138] conducted a techno-economic analysis in central Chile and concluded that APV presents a profitable alternative to traditional horticulture'.",
+   "rid": "R0508",
+   "match": 1.0,
+   "status": "screened out"
+  },
+  {
+   "source": "pillai arid",
+   "ref_no": "132",
+   "ref_title": "Vertical agrivoltaics and its potential for electricity production and agricultural water demand: a case study in the area of Chanco, Chile",
+   "their_code": "Chile, Chanco",
+   "their_text": "Table 6 row: Country 'Chile'; GM; Vertical bifacial; 100 kWp; crops Cereals and forage crops; Simulation; 'Water demand: down 14.4%; The two-peak production in vertical orientation reduces grid curtailment with less soiling'. Sec 4.2: 'A recent modeling study in Chanco assessed a 100 kWp east-west vertical bifacial APV system [132]'.",
+   "rid": "R1060",
+   "match": 1.0,
+   "status": "included",
+   "our_text_basis": "abstract_only",
+   "our_country": [
+    "Chile"
+   ],
+   "our_koppen": [
+    "C"
+   ]
+  },
+  {
+   "source": "pillai arid",
+   "ref_no": "138",
+   "ref_title": "Price for covering cropland with an agrivoltaic system: PV panels replacing shading nets in Chilean blueberry cultivation",
+   "their_code": "Chile, central Chile",
+   "their_text": "Table 6 row: Country 'Chile'; EL; Bifacial SAT; 550 kWp; crop Blueberries; Simulation; 'Initial costs: up 87% compared to shading nets ($110,000/ha vs. $15,133/ha)'. Sec 4.2: 'Jung et al. [116,138] conducted a techno-economic analysis in central Chile'.",
+   "rid": "R0776",
+   "match": 1.0,
+   "status": "screened out"
+  },
+  {
+   "source": "pillai arid",
+   "ref_no": "139",
+   "ref_title": "Effects of soiling on agrivoltaic systems: results of a case study in Chile",
+   "their_code": "Chile, central Chile",
+   "their_text": "Table 6 row: Country 'Chile'; EL; Poly-Si fixed-tilt; 12.48 kWp; crop Lettuce; Experimental; 'Studies soiling effects on APV systems; Energy loss: down 30%, Soiling rate: up 0.35 %/day'. Sec 4.2: Fraunhofer Chile pilots [42,116,138,139]; 'As shown in Fig. 12, the study was extended to a 12.5 kWp monofacial fixed-tilt APV system at 3.5 m height, growing lettuce and cauliflower and recorded average soiling losses of up to 0.35% per day'; Fig. 12 'pilot plants in central Chile'.",
+   "rid": "R0709",
+   "match": 1.0,
+   "status": "excluded"
+  },
+  {
+   "source": "pillai arid",
+   "ref_no": "3",
+   "ref_title": "Agrivoltaics provide mutual benefits across the food–energy–water nexus in drylands",
+   "their_code": "USA, Tucson, Arizona",
+   "their_text": "Table 6 row: Country 'USA'; EL; crops chiltepin pepper, jalapeno, cherry tomato; Experimental; 'Temperature: down 1.2 C, Soil moisture: up 15%; Crop yield: up 300% (chiltepin), up 200% (tomato); PV output: up 3% during the growing season'. Sec 4.5: 'Barron-Gafford et al. [3] tested an elevated fixed-tilt APV system (170 m2 crop area) in Tucson, Arizona'. Sec 3.3: '15% higher soil moisture in arid regions of Arizona [3]'.",
+   "rid": "R0349",
+   "match": 1.0,
+   "status": "included",
+   "our_text_basis": "full_text",
+   "our_country": [
+    "United States"
+   ],
+   "our_koppen": [
+    "B"
+   ]
+  },
+  {
+   "source": "pillai arid",
+   "ref_no": "12",
+   "ref_title": "Agrophotovoltaic systems: applications, challenges, and opportunities. A review",
+   "their_code": "USA (no site stated)",
+   "their_text": "Table 6 row: Country 'USA'; EL; Fixed-tilt; 'Improves soil moisture; PAR: down 60-85%; Require 4-5 m height, >=3 m spacing, and bifacial/tracking modules for LER >1; Improves LER and WUE; Shared use of PV cleaning water for irrigation'. Sec 4.5 (after the Tucson study): 'Crop canopies were also found to enhance PV cooling [12]'. No site stated.",
+   "rid": "R0350",
+   "match": 1.0,
+   "status": "screened out"
+  },
+  {
+   "source": "pillai arid",
+   "ref_no": "150",
+   "ref_title": "Examining existing policy to inform a comprehensive legal framework for agrivoltaics in the U.S.",
+   "their_code": "USA (national policy; no site stated)",
+   "their_text": "Table 6 row: Country 'USA'; 'Challenges from regulatory hurdles, and high costs; Growth is driven by public demand, and incentives' (policy). Sec 4.5: 'the absence of a unified national framework underscores the need for coordinated multi-level governance, as further discussed in Refs. [25,150,151]'. No site stated.",
+   "rid": "R0548",
+   "match": 1.0,
+   "status": "screened out"
+  },
+  {
+   "source": "pillai arid",
+   "ref_no": "151",
+   "ref_title": "From niche-innovation to mainstream markets: drivers and challenges of industry adoption of agrivoltaics in the U.S.",
+   "their_code": "USA (national; no site stated)",
+   "their_text": "Table 6 row: Country 'USA'; Study 'Qualitative interview-based study'; 'Adoption is limited due to design complexity and higher upfront costs'. Sec 4.5: governance 'discussed in Refs. [25,150,151]'. No site stated.",
+   "rid": "R0931",
+   "match": 1.0,
+   "status": "screened out"
+  },
+  {
+   "source": "pillai arid",
+   "ref_no": "152",
+   "ref_title": "Grassland productivity responds unexpectedly to dynamic light and soil water environments induced by photovoltaic arrays",
+   "their_code": "USA (site not stated)",
+   "their_text": "Table 6 row: Country 'USA'; EL; SAT; crop Bromus inermis; Experimental; 'APV alters microclimates, crop yields up 33% at western edge and up 46% eastern edges'. Sec 4.5: 'Sturchio et al. [152] analyzed a tracking APV system, revealing localized differences of up to 8 times in terms of light intensity, 30% variation in soil moisture, and 40% difference in plant productivity'. Site not stated for [152] (it follows the Jack's Solar Garden, Colorado sentence).",
+   "rid": "R0731",
+   "match": 1.0,
+   "status": "excluded"
+  },
+  {
+   "source": "pillai arid",
+   "ref_no": "153",
+   "ref_title": "Agrivoltaic arrays can maintain semiarid grassland productivity and extend the seasonality of forage quality",
+   "their_code": "USA, Colorado (Jack's Solar Garden/Farm)",
+   "their_text": "Table 6 row: Country 'USA'; EL; SAT; crop Bromus inermis; Experimental; 'Improves grassland productivity and forage quality; Microclimate effects at panel edges boosted output'. Sec 4.5: '...highlighting microclimatic heterogeneity [153]'. Fig. 14: 'c) Jack's Solar Farm with perennial C3 grass [153]'; 'Jack's Solar Garden in Colorado'.",
+   "rid": "R0843",
+   "match": 1.0,
+   "status": "excluded"
+  },
+  {
+   "source": "pillai arid",
+   "ref_no": "154",
+   "ref_title": "Dual use of agricultural land: introducing 'agrivoltaics' in Phoenix Metropolitan Statistical Area, USA",
+   "their_code": "USA, Phoenix, Arizona",
+   "their_text": "Table 6 row: Country 'USA'; EL; Fixed tilt; LER 1.3-1.6; crops Alfalfa, cotton, durum wheat, barley; Simulation; '50% and 25%-density APV layouts can generate 1.5-3.4 times current regional energy demand'. Sec 4.5: 'The modelling study in Ref. [154] estimated that half-density APV systems on private farmland in Phoenix and Arizona could generate 3.4 times the region's total electricity demand'.",
+   "rid": "R0312",
+   "match": 1.0,
+   "status": "excluded"
+  },
+  {
+   "source": "pillai arid",
+   "ref_no": "156",
+   "ref_title": "Exploring the grape agrivoltaic system: climate modulation and Vine benefits in the Puglia Region, Southeastern Italy",
+   "their_code": "Italy, Puglia",
+   "their_text": "Table 6 row: Country 'Italy'; EL; Opaque thin-film amorphous-Si fixed-tilt; LER 3.54; crop Grapevine; Experimental; 'Soil moisture: up 16%, Crop yield: up 277% (grape)'. Sec 4.6: 'In Puglia, fixed APV systems demonstrated strong potential for viticulture ... enhanced grape yield (+277%) and a high LER of 3.54 [156]'.",
+   "rid": "R1687",
+   "match": 1.0,
+   "status": "screened out"
+  },
+  {
+   "source": "pillai arid",
+   "ref_no": "157",
+   "ref_title": "Microclimate modification, evapotranspiration, growth and essential oil yield of six medicinal plants cultivated beneath a dynamic agrivoltaic system in Southern Italy",
+   "their_code": "Italy, southern Italy",
+   "their_text": "Table 6 row: Country 'Italy'; EL; SAT opaque panels; crops Medicinal and aromatic crops; Experimental; 'Temperature: down 5 C, ET: down 13.1%, Water demand: down 81%'. Sec 4.6: 'tracker systems tested on six medicinal plants in southern Italy reduced ET by up to 81% ... increased oil yield by ~30% [157]'.",
+   "rid": "R1799",
+   "match": 1.0,
+   "status": "screened out"
+  },
+  {
+   "source": "pillai arid",
+   "ref_no": "158",
+   "ref_title": "The impact of agrivoltaic systems on tomato crop: a case study in Southern Italy",
+   "their_code": "Italy, Bari",
+   "their_text": "Table 6 row: Country 'Italy'; EL; Mono-Si (conventional and semitransparent); 390 Wp, 310 Wp; crop Tomato; Experimental; 'Crop yield: down 28-58%, Water demand: down 16-21%'. Sec 4.6: 'trials on tomatoes in Bari revealed that high shading (50-80%) under conventional and semi-transparent panels reduced photosynthesis, WUE, and total yield (27-58%) [158]'.",
+   "rid": "R1042",
+   "match": 1.0,
+   "status": "screened out"
+  },
+  {
+   "source": "pillai arid",
+   "ref_no": "162",
+   "ref_title": "Characterization of an experimental agrivoltaic installation located in a educational centre for farmers in Cordoba (Spain)",
+   "their_code": "Spain, Cordoba",
+   "their_text": "Table 6 row: Country 'Spain'; EL; 5 kWp; crop Broad beans; Experimental; 'Enables broad bean cultivation under varied shading conditions'. Sec 4.7: 'Varo Martinez et al. [162] also evaluated a 5.3 kWp APV pilot in Cordoba reporting no negative impact on broad bean yields under PV shading'.",
+   "rid": "R0684",
+   "match": 1.0,
+   "status": "excluded"
+  },
+  {
+   "source": "pillai arid",
+   "ref_no": "163",
+   "ref_title": "Photovoltaic technology as a tool for ecosystem recovery: a case study for the Mar Menor coastal lagoon",
+   "their_code": "Spain (Mar Menor coastal lagoon per ref title)",
+   "their_text": "Table 6 row: Country 'Spain'; EL; 16 GWp; LER 1.2; Simulation; 'GIS and PVGIS can optimize yield and land use; Crop yield: Slight decrease due to 10% land loss'. Sec 4.7: 'Toledo et al. [163] assessed APV's role in ecological recovery in Spain, estimating savings of 745 tons of nitrogen, 1928 GWh/year of energy, and 27 hm3/year in water use'. Text gives no site; ref title names Mar Menor coastal lagoon.",
+   "rid": "R3063",
+   "match": 1.0,
+   "status": "screened out"
+  },
+  {
+   "source": "pillai arid",
+   "ref_no": "164",
+   "ref_title": "Potential of agrivoltaics systems into olive groves in the Mediterranean region",
+   "their_code": "Spain, Jaen (olive groves; via Fig. 15c)",
+   "their_text": "Table 6 row: Country 'Spain'; EL; Mono-Si fixed-tilt; crop Olive Tree; Simulation; 'APV could cover 30% of electricity demand; PV output: up 2.5%; 1% of APV land reduce 4 Mt CO2 annually'. Sec 4.7: 'Fernandez Solas et al. [164] analyzed APV systems (3.5 m high) in olive groves (Manzanilla, Picual, Chemlali)'. Fig. 15: 'c) design for olive trees in Jaen ([162,164,165])'.",
+   "rid": "R0996",
+   "match": 1.0,
+   "status": "included",
+   "our_text_basis": "abstract_only",
+   "our_country": [
+    "Egypt",
+    "Tunisia",
+    "Other Mediterranean countries (not named in abstract)"
+   ],
+   "our_koppen": [
+    "B",
+    "C"
+   ]
+  },
+  {
+   "source": "zainali validation",
+   "ref_no": "unresolved",
+   "ref_title": "UNRESOLVED: the row label was lost in text extraction. This is the first visible Table 5 row, just before the CFD model [77] row. Refs [74] and [76] appear nowhere else in the body text, so they probably sit in lost Table 5 rows.",
+   "their_code": "field",
+   "their_text": "Model name and modelled parameters lost. Validation approach: 'Actual PPFD measurements under various weather conditions and PV configurations'. Validation results: 'Model slightly overestimated PPFD, peak frequency between −6 and − 3'.",
+   "rid": null,
+   "match": 0.15,
+   "status": "not retrieved by search"
+  },
+  {
+   "source": "zainali validation",
+   "ref_no": "77",
+   "ref_title": "Computational fluid dynamics modelling of microclimate for a vertical agrivoltaic system",
+   "their_code": "field",
+   "their_text": "CFD model [77] | Solar irradiance on PV modules | Sensor measurements in APV systems | Generally underestimated solar irradiance, up to 150 W m−2 discrepancy",
+   "rid": "R0884",
+   "match": 1.0,
+   "status": "included",
+   "our_text_basis": "full_text",
+   "our_code": "field",
+   "our_mech_validated": [
+    "microclimate",
+    "other"
+   ]
+  },
+  {
+   "source": "zainali validation",
+   "ref_no": "33",
+   "ref_title": "Implications of spatial-temporal shading in agrivoltaics under fixed tilt & tracking bifacial photovoltaic panels",
+   "their_code": "field",
+   "their_text": "Spatial and temporal PAR variation model [33] | Spatial and temporal variation of PAR | Validation against experimental data from Al-Agele et al. [78] | Observed average PAR ratio of 0.47 vs. simulated 0.51. Sec 3.1.5: Tahir et al. [33] and Santra et al. [79] 'observed close alignment between model predictions and experimental data'.",
+   "rid": "R0741",
+   "match": 1.0,
+   "status": "included",
+   "our_text_basis": "abstract_only",
+   "our_code": "none"
+  },
+  {
+   "source": "zainali validation",
+   "ref_no": "79",
+   "ref_title": "Spatial and temporal variation of photosynthetic photon flux density within agrivoltaic system in hot arid region of India",
+   "their_code": "field",
+   "their_text": "Spatio-temporal PPFD model [79] | Spatially predicted PPFD | k-fold cross-validation with observed PPFD values | Pearson correlation coefficient higher than 0.89 for all PV configurations. (Cell order for rows [79] to [81] was rebuilt from garbled extraction.) Sec 3.1.5: Santra et al. [79] 'observed close alignment between model predictions and experimental data'.",
+   "rid": "R0621",
+   "match": 1.0,
+   "status": "included",
+   "our_text_basis": "abstract_only",
+   "our_code": "none"
+  },
+  {
+   "source": "zainali validation",
+   "ref_no": "80",
+   "ref_title": "Performance prediction and optimisation of even-lighting agrivoltaic systems with semi-transparent PV module in the tropical region",
+   "their_code": "field",
+   "their_text": "Spatio-temporal PPFD model [80] | PPFD under a semi-transparent PV module | Validation against multiple PPFD sensor measurements | The average daily accumulated PPFD values derived from the simulations are 26 % larger than the measurements. (Cell order rebuilt; this result and the R2 0.88 result may be swapped with [81].)",
+   "rid": "R1339",
+   "match": 1.0,
+   "status": "included",
+   "our_text_basis": "abstract_only",
+   "our_code": "none"
+  },
+  {
+   "source": "zainali validation",
+   "ref_no": "81",
+   "ref_title": "An algorithm for the calculation of the light distribution in photovoltaic greenhouses",
+   "their_code": "field",
+   "their_text": "Algorithm for estimating cumulative irradiance radiation [81] | Cumulative global irradiance in greenhouses | Measurements within a greenhouse with 50 % PV coverage | R2 error of 0.88, maximum relative RMSE of 17 %. (Cell order rebuilt; this result may be swapped with [80].)",
+   "rid": "R0216",
+   "match": 1.0,
+   "status": "included",
+   "our_text_basis": "full_text",
+   "our_code": "field",
+   "our_mech_validated": [
+    "light_shading"
+   ]
+  },
+  {
+   "source": "zainali validation",
+   "ref_no": "82",
+   "ref_title": "A Validated Model, Scalability, and Plant Growth Results for an Agrivoltaic Greenhouse",
+   "their_code": "field",
+   "their_text": "Shadowing model for solar irradiance [82] | Solar irradiance in different locations inside a PV greenhouse | Actual measurements comparison | General excellent agreement, slight overestimation during the last hours of sunlight",
+   "rid": "R0650",
+   "match": 1.0,
+   "status": "included",
+   "our_text_basis": "full_text",
+   "our_code": "field",
+   "our_mech_validated": [
+    "microclimate",
+    "light_shading"
+   ]
+  },
+  {
+   "source": "zainali validation",
+   "ref_no": "83",
+   "ref_title": "Modelling light-sharing in agrivoltaics: the open-source Python Agrivoltaic simulation environment (PASE 1.0)",
+   "their_code": "field",
+   "their_text": "PASE 1.0 light model (Python-based with ray casting and geometric projection) [83] | Irradiance on PV modules and crop canopy | Validation against field data from a ground-mounted APV system in Belgium | Relative error of 1 % on cumulative daily irradiation under contrasting sky conditions. Sec 3.5: 'Validation studies have shown that PASE achieves high accuracy in predicting daily irradiance, with relative errors as low as 1 %'.",
+   "rid": "R1312",
+   "match": 1.0,
+   "status": "included",
+   "our_text_basis": "full_text",
+   "our_code": "field",
+   "our_mech_validated": [
+    "light_shading"
+   ]
+  },
+  {
+   "source": "zainali validation",
+   "ref_no": "44",
+   "ref_title": "Direct and diffuse shading factors modelling for the most representative agrivoltaic system layouts",
+   "their_code": "unclear",
+   "their_text": "Sec 3.1.5: 'the models developed by Zainali et al. [44], Willockx et al. [72], and Zhang et al. [73] demonstrated high precision, with only minor deviations from actual measurements or commercial software comparison.' The text does not say which of the two applies to which study.",
+   "rid": "R0701",
+   "match": 1.0,
+   "status": "included",
+   "our_text_basis": "full_text",
+   "our_code": "software",
+   "our_mech_validated": [
+    "none"
+   ]
+  },
+  {
+   "source": "zainali validation",
+   "ref_no": "72",
+   "ref_title": "Design and evaluation of an agrivoltaic system for a pear orchard",
+   "their_code": "unclear",
+   "their_text": "Sec 3.1.5: the models of Zainali [44], Willockx [72] and Zhang [73] 'demonstrated high precision, with only minor deviations from actual measurements or commercial software comparison.' The text does not say which applies to which study.",
+   "rid": "R1203",
+   "match": 1.0,
+   "status": "included",
+   "our_text_basis": "abstract_only",
+   "our_code": "field"
+  },
+  {
+   "source": "zainali validation",
+   "ref_no": "73",
+   "ref_title": "Open-Field Agrivoltaic system impacts on Photothermal environment and light environment simulation analysis in eastern China",
+   "their_code": "unclear",
+   "their_text": "Sec 3.1.5: the models of Zainali [44], Willockx [72] and Zhang [73] 'demonstrated high precision, with only minor deviations from actual measurements or commercial software comparison.' The text does not say which applies to which study.",
+   "rid": "R0969",
+   "match": 1.0,
+   "status": "included",
+   "our_text_basis": "full_text",
+   "our_code": "field",
+   "our_mech_validated": [
+    "light_shading"
+   ]
+  },
+  {
+   "source": "zainali validation",
+   "ref_no": "68",
+   "ref_title": "Photosynthetically active radiation decomposition models for agrivoltaic systems applications",
+   "their_code": "field",
+   "their_text": "Sec 3.1.5: 'Models specifically designed for decomposing global radiation into PAR components showed varying degrees of accuracy, with some models like those by Ma Lu et al. [68] initially showing weak results but improving significantly when tailored with local data' and 'PAR decomposition models require fitting with on-site historical measurements to reduce error margins, as seen in the study by Ma Lu et al. [68].' Sec 3.1.4: benchmarked seven decomposition models in Sweden using nMBE, nRMSE and R2.",
+   "rid": "R0771",
+   "match": 1.0,
+   "status": "excluded"
+  },
+  {
+   "source": "zainali validation",
+   "ref_no": "75",
+   "ref_title": "A Combined Shading and Radiation Simulation Tool for Defining Agrivoltaic Systems",
+   "their_code": "unclear",
+   "their_text": "Sec 3.1.5: 'there are still challenges such as simulating the diffuse and direct components of solar irradiance, especially under varying weather conditions, as noted by Wang et al. [75].' No validation approach is stated in the recoverable text.",
+   "rid": "R0646",
+   "match": 1.0,
+   "status": "included",
+   "our_text_basis": "abstract_only",
+   "our_code": "none"
+  },
+  {
+   "source": "zainali validation",
+   "ref_no": "82",
+   "ref_title": "A Validated Model, Scalability, and Plant Growth Results for an Agrivoltaic Greenhouse",
+   "their_code": "field",
+   "their_text": "First visible Table 6 result (label and approach lost): 'Air temperature: errors of 1.9 °C and 1.5 °C for max and min temperatures; moisture: over/underestimations, improved with air temperature data incorporation'. Sec 3.3.4: 'the thermal and moisture transport model showed relatively small errors in air temperature (1.9 °C max and 1.5 °C min), moisture predictions still exhibited some over/underestimations'. Resolved to [82] through Sec 3.3.1 ('Evans et al. [82] developed a 1-D transient heat and moisture transport model for an experimental APV greenhouse setup'). Sec 3.3.4 says Table 6 studies 'compare simulated data to actual measurements'.",
+   "rid": "R0650",
+   "match": 1.0,
+   "status": "included",
+   "our_text_basis": "full_text",
+   "our_code": "field",
+   "our_mech_validated": [
+    "microclimate",
+    "light_shading"
+   ]
+  },
+  {
+   "source": "zainali validation",
+   "ref_no": "77",
+   "ref_title": "Computational fluid dynamics modelling of microclimate for a vertical agrivoltaic system",
+   "their_code": "field",
+   "their_text": "CFD model [77] | Soil temperature, module temperature | Comparisons with measurements, Kärrbo Prästgård, Sweden, June 23, 2022 | Soil temperature errors <1 °C; module temperature closely matches other model predictions. Sec 3.3.2: Johansson [104] and Zainali [77] 'Both validated their models with data from a pilot system in Sweden' and 'Both studies were limited by relatively short validation periods of about one day.'",
+   "rid": "R0884",
+   "match": 1.0,
+   "status": "included",
+   "our_text_basis": "full_text",
+   "our_code": "field",
+   "our_mech_validated": [
+    "microclimate",
+    "other"
+   ]
+  },
+  {
+   "source": "zainali validation",
+   "ref_no": "134",
+   "ref_title": "Rain concentration and sheltering effect of solar panels on cultivated plots",
+   "their_code": "field",
+   "their_text": "Analytical model [134] | Spatial distribution of rain | Validation with natural and simulated rainfall measurements, Montpellier, France, 2015–16 | Linear correlation slope between 0.88 and 1.45; RMSE 0.03 to 0.22, some overestimations. Sec 3.3.3: AVrain 'was validated with three different rain events and with different PV module configurations'.",
+   "rid": "R3239",
+   "match": 1.0,
+   "status": "included",
+   "our_text_basis": "full_text",
+   "our_code": "field",
+   "our_mech_validated": [
+    "water"
+   ]
+  },
+  {
+   "source": "zainali validation",
+   "ref_no": "127",
+   "ref_title": "Climate assessment of greenhouse equipped with south-oriented PV roofs: an experimental and computational fluid dynamics study",
+   "their_code": "field",
+   "their_text": "Sec 3.3.4: 'the CFD model for air temperature and relative humidity in a PV greenhouse, where errors ranged from 0.98 to 2.19 % for air temperature in winter and 0.38–1.37 % in summer'. Sec 3.3.2: Ben Amara et al. [127] ANSYS Fluent greenhouse model 'was validated against experimental data, showing good agreement with absolute errors for temperature ranging from 0.3 °C to 2.19 °C and for relative humidity from 0.61 % to 8.42 % across seasons'.",
+   "rid": "R0526",
+   "match": 1.0,
+   "status": "included",
+   "our_text_basis": "full_text",
+   "our_code": "field",
+   "our_mech_validated": [
+    "microclimate"
+   ]
+  },
+  {
+   "source": "zainali validation",
+   "ref_no": "131",
+   "ref_title": "Ecohydrological effects of photovoltaic solar farms on soil microclimates and moisture regimes in arid Northwest China: a modeling study",
+   "their_code": "field",
+   "their_text": "Sec 3.3.4: 'the synthetic model used for soil temperature and moisture validation in Gansu, China, showed a RMSE of 2.45 °C for soil temperature, with an underestimation observed in summer.' No citation is given there. Tentatively matched to Wu et al. [131], the only soil microclimate and moisture model for China in the review.",
+   "rid": "R3126",
+   "match": 1.0,
+   "status": "screened out"
+  },
+  {
+   "source": "zainali validation",
+   "ref_no": "117",
+   "ref_title": "Agrivoltaics and weather risk: a diversification strategy for landowners",
+   "their_code": "field",
+   "their_text": "Sec 3.3.4: 'the Python-based stochastic model demonstrated a strong correlation (R2 = 0.98–0.99) for air temperature and wind speed in Oregon and North Carolina, indicating its robustness in simulating daily averages.' No citation is given there. Tentatively matched to Cuppari et al. [117], the review's only Oregon and North Carolina study (see Table 9).",
+   "rid": "R0506",
+   "match": 1.0,
+   "status": "excluded"
+  },
+  {
+   "source": "zainali validation",
+   "ref_no": "130",
+   "ref_title": "Water budget and crop modelling for agrivoltaic systems: application to irrigated lettuces",
+   "their_code": "field",
+   "their_text": "First Table 9 row (crop/model label lost; resolved by Sec 3.4.2, which cites [130] with the same numbers). Approach: Validation on a 4 m elevated APV system against actual measurements of stomatal conductance and fresh biomass at Irstea Montpellier, France, during spring and summer, 2016 | Results: Stomatal conductance slightly underestimated (slope = 0.89, R2 = 0.35); good agreement for fresh mass across PV configurations (slope between 0.94 and 1.05, MAE between 7 g and 23 g). Sec 3.4.2: 'the AVIrrig model was validated for lettuce ... using actual measurements of stomatal conductance and fresh biomass'.",
+   "rid": "R0341",
+   "match": 1.0,
+   "status": "included",
+   "our_text_basis": "full_text",
+   "our_code": "field",
+   "our_mech_validated": [
+    "water",
+    "crop"
+   ]
+  },
+  {
+   "source": "zainali validation",
+   "ref_no": "2",
+   "ref_title": "Combining solar photovoltaic panels and food crops for optimising land use: towards new agrivoltaic schemes",
+   "their_code": "field",
+   "their_text": "Durum wheat [2] | STICS crop model | Dry mass, crop yield | Validation on a 4 m elevated APV system in Montpellier, France, measuring different PV densities across subsystems from November 2012 to June 2013 | Reliable for dry mass; limitations in simulating under dense shade; suggested errors in leaf temperature and leaf area index calculations under shade",
+   "rid": "R0115",
+   "match": 1.0,
+   "status": "included",
+   "our_text_basis": "abstract_only",
+   "our_code": "none"
+  },
+  {
+   "source": "zainali validation",
+   "ref_no": "33",
+   "ref_title": "Implications of spatial-temporal shading in agrivoltaics under fixed tilt & tracking bifacial photovoltaic panels",
+   "their_code": "field",
+   "their_text": "Tomato [33] | Simplified crop modelling | Crop yield | Experimental validation in Oregon, USA comparing different irrigation and shading conditions; Experimental crop yield obtained by Al-Agele et al. [78] | Observed trends closely matched model predictions; average difference of 0.04 in crop yield",
+   "rid": "R0741",
+   "match": 1.0,
+   "status": "included",
+   "our_text_basis": "abstract_only",
+   "our_code": "none"
+  },
+  {
+   "source": "zainali validation",
+   "ref_no": "155",
+   "ref_title": "Agrivoltaic system and modelling simulation: a case study of soybean (Glycine max L.) in Italy",
+   "their_code": "field",
+   "their_text": "Soybean [155] | GECROS + shading algorithms | Grain yield | Validation against observed grain yields for a dual-axis APV system with varying shade levels in Monticelli D'Ongina, Italy, 2021 | Underestimation in shaded areas (nRMSE of 16.5 % and 15.7 %)",
+   "rid": "R0662",
+   "match": 1.0,
+   "status": "included",
+   "our_text_basis": "full_text",
+   "our_code": "field",
+   "our_mech_validated": [
+    "crop"
+   ]
+  },
+  {
+   "source": "zainali validation",
+   "ref_no": "92",
+   "ref_title": "Simulation approach to estimate Rice yield and energy generation under Agrivoltaic system",
+   "their_code": "field",
+   "their_text": "Rice [92] | APSIM-Oryza model | Grain yield, total biomass | Validation against measurements on a 3.5 m elevated APV system in Chikusei, Japan, May to October 2018 | Slight underestimation of grain yield and total biomass (relative RMSE of 11.95 %)",
+   "rid": "R0381",
+   "match": 1.0,
+   "status": "screened out"
+  },
+  {
+   "source": "zainali validation",
+   "ref_no": "156",
+   "ref_title": "Grassland carbon-water cycling is minimally impacted by a photovoltaic array",
+   "their_code": "field",
+   "their_text": "C3 perennial grassland [156] | Sperry model | Plant water potential | Validation on a single-axis APV system across different plots in Colorado, USA, May to August 2022 | Good correspondence except under negative pressure conditions; RMSE varied between 0.92 and 1.37 MPa",
+   "rid": "R0933",
+   "match": 1.0,
+   "status": "included",
+   "our_text_basis": "full_text",
+   "our_code": "field",
+   "our_mech_validated": [
+    "crop"
+   ]
+  },
+  {
+   "source": "zainali validation",
+   "ref_no": "120",
+   "ref_title": "Experimental results, integrated model validation, and economic aspects of agrivoltaic systems at northern latitudes",
+   "their_code": "field",
+   "their_text": "Ley grass [120] | Analytical crop model in AgriOptiCE® | Dry mass | Validation on a vertical APV system with dry mass measurements from three different cuts in 2022 at Kärrbo Prästgård, Sweden | The calibrated model had a difference of 19 % compared to the actual measurements of the average crop yield under the APV system. Supplying the model with adjusted input parameters enhanced the model accuracy. The developed model underestimated the crop yield under shading conditions by ~7 % compared to the actual average measured values. (Sec 3.4.2 agrees: ~7 % underestimation, better accuracy after calibration.)",
+   "rid": "R0922",
+   "match": 1.0,
+   "status": "included",
+   "our_text_basis": "full_text",
+   "our_code": "field",
+   "our_mech_validated": [
+    "crop"
+   ]
+  },
+  {
+   "source": "zainali validation",
+   "ref_no": "129",
+   "ref_title": "How does a shelter of solar panels influence water flows in a soil–crop system?",
+   "their_code": "field",
+   "their_text": "Lettuce, cucumber [129] | Analytical and conceptual framework | Fraction of soil covered by the crop | Validation on a 4 m elevated APV against calculated soil cover ratios from image analysis and direct PAR measurements in Montpellier, France, 2011 | Accurate modelling of soil cover progression for both crops under varying PV densities",
+   "rid": "R0149",
+   "match": 1.0,
+   "status": "included",
+   "our_text_basis": "full_text",
+   "our_code": "field",
+   "our_mech_validated": [
+    "water"
+   ]
+  },
+  {
+   "source": "zainali validation",
+   "ref_no": "96",
+   "ref_title": "The optimization of vertical bifacial photovoltaic farms for efficient agrivoltaic systems",
+   "their_code": "field",
+   "their_text": "Lettuce [96] | Analytical model | Crop yield | Validation on a 4 m elevated APV system by using reported yield data by Elamri et al. [63], considering solar irradiance reduction effects | Model slightly overestimated crop yield, highlighting the need to consider more environmental factors (result cell placed by content match; extraction garbled). Sec 3.4.1: 'Model validation were done using data from Marrou et al. [129] and Elamri et al. [130].'",
+   "rid": "R0637",
+   "match": 1.0,
+   "status": "included",
+   "our_text_basis": "abstract_only",
+   "our_code": "field"
+  },
+  {
+   "source": "zainali validation",
+   "ref_no": "117",
+   "ref_title": "Agrivoltaics and weather risk: a diversification strategy for landowners",
+   "their_code": "field",
+   "their_text": "Soybean, strawberry, alfalfa [117] | Regression model | Crop yield | Validation on a ground-mounted APV system against historical crop yield data using county-level data in Oregon and North Carolina, US | Regression models resulted in R2 values between 0.47 and 0.69; could overestimate by up to 17.6 % or underestimate by up to −13.5 % (result cell placed by content match; extraction garbled).",
+   "rid": "R0506",
+   "match": 1.0,
+   "status": "excluded"
+  },
+  {
+   "source": "zainali validation",
+   "ref_no": "99",
+   "ref_title": "Calculation of energy consumption, tomato yield, and electricity generation in a PV-integrated greenhouse with different solar panels configuration",
+   "their_code": "field",
+   "their_text": "Tomato [99] | TOMGRO | Crop yield at the end of each month | Validation on a greenhouse against experimental values from the study of Hemming et al. [158] and simulation values from the work of Gong et al. [159]. Comparison of final weights of mature tomatoes harvested at the end of each month. | The presented model underestimated both the experimental and the simulated values, with deviations of ~14 % at the end of the crop cycle.",
+   "rid": "R3103",
+   "match": 1.0,
+   "status": "included",
+   "our_text_basis": "abstract_only",
+   "our_code": "none"
+  },
+  {
+   "source": "zainali validation",
+   "ref_no": "157",
+   "ref_title": "Optimizing corn agrivoltaic farming through farm-scale experimentation and modeling",
+   "their_code": "field",
+   "their_text": "Corn [157] | APSIM (calibrated with local data) | Crop yield | Validation on a single-axis APV system against experimental yield measurements in different rows of crops. | The agreement between simulation and experimental values was within ±1 %, with a slight tendency of the model to underestimate the measured yields (result cell placed by content match; extraction garbled).",
+   "rid": "R1330",
+   "match": 1.0,
+   "status": "included",
+   "our_text_basis": "full_text",
+   "our_code": "field",
+   "our_mech_validated": [
+    "crop"
+   ]
+  },
+  {
+   "source": "zainali validation",
+   "ref_no": "160",
+   "ref_title": "Shading apple trees with an agrivoltaic system: impact on water relations, leaf morphophysiological characteristics and yield determinants",
+   "their_code": "field",
+   "their_text": "Apple [160] | Kinetic fruit model | Soluble sugar and starch concentrations | Validation on a 5 m elevated APV system against experimental quality measurements during three consecutive years (from 2019 to 2021) in three different APV configurations. | The dynamics of the simulations of both physiology parameters followed the same trend as the measurements. RMSE between the measured data and the simulations were < 0.8 % for soluble sugar and < 0.7 % for starch concentration in all years and configurations.",
+   "rid": "R0789",
+   "match": 1.0,
+   "status": "screened out"
+  },
+  {
+   "source": "zainali validation",
+   "ref_no": "72",
+   "ref_title": "Design and evaluation of an agrivoltaic system for a pear orchard",
+   "their_code": "field",
+   "their_text": "Sec 3.2.1: Willockx et al. [72] employed PVWatts to simulate the power output of a 13.3 kWp PV system elevated above pear orchards in Belgium. 'They validated the results against measured power output' (MAE 50 W, RMSE 100 W, mean relative error per kWp 3.6 W).",
+   "rid": "R1203",
+   "match": 1.0,
+   "status": "included",
+   "our_text_basis": "abstract_only",
+   "our_code": "field"
+  },
+  {
+   "source": "zainali validation",
+   "ref_no": "90",
+   "ref_title": "Agrivoltaic potential on grape farms in India",
+   "their_code": "none",
+   "their_text": "Sec 3.2.1: Malu et al. [90] used SAM to optimise tilt and predict monthly energy for a one-acre APV grape farm in Nagpur, India, and extrapolated to >16 TWh annually. 'However, their study lacked experimental validation of the projected energy yields.'",
+   "rid": "R0254",
+   "match": 1.0,
+   "status": "included",
+   "our_text_basis": "full_text",
+   "our_code": "none",
+   "our_mech_validated": [
+    "none"
+   ]
+  },
+  {
+   "source": "zainali validation",
+   "ref_no": "92",
+   "ref_title": "Simulation approach to estimate Rice yield and energy generation under Agrivoltaic system",
+   "their_code": "field",
+   "their_text": "Sec 3.2.1: 'PVsyst® has been used to model the energy yields of an elevated APV system integrated with rice cultivation, where comparisons between measured and modelled data showed an overestimation of 4.87 % [92].'",
+   "rid": "R0381",
+   "match": 1.0,
+   "status": "screened out"
+  },
+  {
+   "source": "zainali validation",
+   "ref_no": "96",
+   "ref_title": "The optimization of vertical bifacial photovoltaic farms for efficient agrivoltaic systems",
+   "their_code": "field",
+   "their_text": "Sec 3.2.1: Riaz et al. [96] used the Sandia array performance model from pvlib to model two APV configurations. 'The measured data were reported in the study by Valle et al. [98], and the simulations slightly overestimated the measurements.'",
+   "rid": "R0637",
+   "match": 1.0,
+   "status": "included",
+   "our_text_basis": "abstract_only",
+   "our_code": "field"
+  },
+  {
+   "source": "zainali validation",
+   "ref_no": "23",
+   "ref_title": "Optimisation of vertically mounted agrivoltaic systems",
+   "their_code": "software",
+   "their_text": "Sec 3.2.3: Campana et al. [23] optimised a five-parameter single diode model by minimising the error between calculated and measured I-V curves. 'The modelled energy yields were compared to PVsyst® for validation as seen in Fig. 11.'",
+   "rid": "R3122",
+   "match": 1.0,
+   "status": "included",
+   "our_text_basis": "full_text",
+   "our_code": "field",
+   "our_mech_validated": [
+    "light_shading",
+    "pv_energy",
+    "crop"
+   ]
+  },
+  {
+   "source": "zainali validation",
+   "ref_no": "40",
+   "ref_title": "A new predictive model for the design and evaluation of bifacial photovoltaic plants under the influence of vegetation soils",
+   "their_code": "field",
+   "their_text": "Sec 3.2.3: single-diode model of an 11.24 MWp single-axis tracking bifacial APV system in Seville, Spain. 'They found that the model presented reasonable accuracy when compared to exported energy, despite not capturing events such as inverter clipping, curtailment or power shutdown due to maintenance tasks.'",
+   "rid": "R3099",
+   "match": 1.0,
+   "status": "included",
+   "our_text_basis": "full_text",
+   "our_code": "field",
+   "our_mech_validated": [
+    "pv_energy",
+    "other"
+   ]
+  },
+  {
+   "source": "zainali validation",
+   "ref_no": "99",
+   "ref_title": "Calculation of energy consumption, tomato yield, and electricity generation in a PV-integrated greenhouse with different solar panels configuration",
+   "their_code": "software",
+   "their_text": "Sec 3.2.6: 'The authors validated the results obtained from this equation by comparing them with those generated by PVsyst® ... the results derived from their equation slightly exceeded those provided by PVsyst®.' Sec 3.2.3 adds that the model 'estimated slightly higher power production than PVsyst®'.",
+   "rid": "R3103",
+   "match": 1.0,
+   "status": "included",
+   "our_text_basis": "abstract_only",
+   "our_code": "none"
+  },
+  {
+   "source": "zainali validation",
+   "ref_no": "112",
+   "ref_title": "Global energy assessment of the potential of photovoltaics for greenhouse farming",
+   "their_code": "field",
+   "their_text": "Sec 3.2.6: monthly DC energy yields from PV systems on greenhouses. 'The outputs were validated against the DC power measurements of an individual opaque monocrystalline silicon module installed in Jaén, Spain. They obtained an annual percentual MAE of ~2 %.'",
+   "rid": "R3172",
+   "match": 1.0,
+   "status": "included",
+   "our_text_basis": "abstract_only",
+   "our_code": "none"
+  },
+  {
+   "source": "zainali validation",
+   "ref_no": "85",
+   "ref_title": "Validation of Vertical Bifacial Agrivoltaic and Other Systems Modelling: Effect of Dynamic Albedo on Irradiance and Power Output Estimations",
+   "their_code": "field",
+   "their_text": "Sec 3.2.6: AgriOptiCE®. 'They compared estimated front and rear irradiances with on-site measurements from a single-axis tracker site in Golden, United States and a vertical APV system as well as traditional PV system power output estimations in Västerås, Sweden, with an R2 > 0.85 for all the studied cases.'",
+   "rid": "R1423",
+   "match": 1.0,
+   "status": "included",
+   "our_text_basis": "full_text",
+   "our_code": "field",
+   "our_mech_validated": [
+    "pv_energy"
+   ]
+  },
+  {
+   "source": "zainali validation",
+   "ref_no": "122",
+   "ref_title": "Performance evaluation of vertical bifacial and single-axis tracked agrivoltaic systems on arable land",
+   "their_code": "field",
+   "their_text": "Sec 3.2.6: 'A similar study by Willockx et al. [122] evaluated the performance of vertical and single-axis APV systems. Their validation of the vertical system revealed that the simulation model overestimated power production due to shading effects from the mounting structure, which were not accounted for in the model.' The review does not name the reference data; comparison with real power production is implied.",
+   "rid": "R0984",
+   "match": 1.0,
+   "status": "included",
+   "our_text_basis": "full_text",
+   "our_code": "field",
+   "our_mech_validated": [
+    "pv_energy",
+    "crop"
+   ]
+  },
+  {
+   "source": "zainali validation",
+   "ref_no": "40",
+   "ref_title": "A new predictive model for the design and evaluation of bifacial photovoltaic plants under the influence of vegetation soils",
+   "their_code": "field",
+   "their_text": "Sec 3.3.1: analytical heat-transfer model of bifacial panels. 'Their model, validated with experimental data from a commercial solar power plant, provided regressions ... R2 values above 0.85 for both module temperature and energy export ... However, the model was specifically calibrated for summer months and may require further validation for year-round accuracy.'",
+   "rid": "R3099",
+   "match": 1.0,
+   "status": "included",
+   "our_text_basis": "full_text",
+   "our_code": "field",
+   "our_mech_validated": [
+    "pv_energy",
+    "other"
+   ]
+  },
+  {
+   "source": "zainali validation",
+   "ref_no": "104",
+   "ref_title": "3D-thermal modelling of a bifacial agrivoltaic system: a photovoltaic module perspective",
+   "their_code": "field",
+   "their_text": "Sec 3.3.2: Johansson et al. [104] and Zainali et al. [77] used Solidworks Flow Simulation for a vertical APV system in Sweden. 'Both validated their models with data from a pilot system in Sweden' and 'Both studies were limited by relatively short validation periods of about one day.'",
+   "rid": "R0645",
+   "match": 1.0,
+   "status": "included",
+   "our_text_basis": "abstract_only",
+   "our_code": "field"
+  },
+  {
+   "source": "zainali validation",
+   "ref_no": "125",
+   "ref_title": "Design and Simulation of Smart Greenhouse for Agrivoltaics Microclimates Optimization",
+   "their_code": "none",
+   "their_text": "Sec 3.3.2: Solidworks Flow Simulation CFD for a PV greenhouse. 'The study provided detailed design parameters but lacked real-world experimental validation.'",
+   "rid": "R0534",
+   "match": 1.0,
+   "status": "included",
+   "our_text_basis": "abstract_only",
+   "our_code": "none"
+  },
+  {
+   "source": "zainali validation",
+   "ref_no": "126",
+   "ref_title": "Effects of Agrivoltaic systems on the surrounding rooftop microclimate",
+   "their_code": "field",
+   "their_text": "Sec 3.3.2: ENVI-met simulation of a rooftop APV system, 'complementing their simulations with a physical prototype ... The physical prototype corroborated these results ... However, the study was limited by its short timeframe and imperfect weather-data matching between simulations and experiments.'",
+   "rid": "R0705",
+   "match": 1.0,
+   "status": "included",
+   "our_text_basis": "full_text",
+   "our_code": "field",
+   "our_mech_validated": [
+    "microclimate"
+   ]
+  },
+  {
+   "source": "zainali validation",
+   "ref_no": "128",
+   "ref_title": "The potential for agrivoltaics to enhance solar farm cooling",
+   "their_code": "field",
+   "their_text": "Sec 3.3.2: ANSYS Fluent model of an open-field APV system, 'validated against experimental data from a solar farm in Sarnia, Ontario, demonstrated high accuracy with an RMSE of 1.91 °C for module surface temperatures'. Simulations covered a single day in July.",
+   "rid": "R0806",
+   "match": 1.0,
+   "status": "included",
+   "our_text_basis": "abstract_only",
+   "our_code": "field"
+  },
+  {
+   "source": "zainali validation",
+   "ref_no": "105",
+   "ref_title": "FEM based thermal model of an agrivoltaic system",
+   "their_code": "field",
+   "their_text": "Sec 3.3.2: COMSOL FEM model of an elevated APV system with shading nets. 'For validation, they used thermal infrared imaging of crepe jasmine leaves, finding temperatures of 31–34 °C at 33 °C ambient' and notes a limitation: 'limited validation with a different plant species than simulated'.",
+   "rid": "R0727",
+   "match": 1.0,
+   "status": "included",
+   "our_text_basis": "abstract_only",
+   "our_code": "none"
+  }
+ ],
+ "summary": {
+  "jain validation": {
+   "matched": 39,
+   "status": {
+    "included": 29,
+    "screened out": 8,
+    "excluded": 2
+   },
+   "validation": {
+    "n": 3,
+    "agree": 3,
+    "kappa": NaN,
+    "sens": "3/3",
+    "ppv": "3/3",
+    "ft": 2,
+    "disagree": []
+   }
+  },
+  "pillai arid": {
+   "matched": 36,
+   "status": {
+    "screened out": 23,
+    "included": 6,
+    "excluded": 7
+   },
+   "country_agree": "5/6",
+   "arid_B": "5/6",
+   "country_disagree": [
+    [
+     "R0996",
+     "Spain, Jaen (olive groves; via Fig. 15c)",
+     [
+      "Egypt",
+      "Tunisia",
+      "Other Mediterranean countries (not named in abstract)"
+     ]
+    ]
+   ]
+  },
+  "zainali validation": {
+   "matched": 38,
+   "status": {
+    "included": 33,
+    "excluded": 2,
+    "screened out": 3
+   },
+   "validation": {
+    "n": 30,
+    "agree": 22,
+    "kappa": 0.22,
+    "sens": "20/27",
+    "ppv": "20/21",
+    "ft": 18,
+    "disagree": [
+     [
+      "R0741",
+      "field",
+      "none",
+      "abstract_only"
+     ],
+     [
+      "R0621",
+      "field",
+      "none",
+      "abstract_only"
+     ],
+     [
+      "R1339",
+      "field",
+      "none",
+      "abstract_only"
+     ],
+     [
+      "R0115",
+      "field",
+      "none",
+      "abstract_only"
+     ],
+     [
+      "R3103",
+      "field",
+      "none",
+      "abstract_only"
+     ],
+     [
+      "R3122",
+      "software",
+      "field",
+      "full_text"
+     ],
+     [
+      "R3172",
+      "field",
+      "none",
+      "abstract_only"
+     ],
+     [
+      "R0727",
+      "field",
+      "none",
+      "abstract_only"
+     ]
+    ]
+   }
+  },
+  "validation_pooled": {
+   "n": 33,
+   "agree": 25,
+   "kappa": 0.23,
+   "sens": "23/30",
+   "ppv": "23/24",
+   "ft": 20,
+   "disagree": [
+    [
+     "R0741",
+     "field",
+     "none",
+     "abstract_only"
+    ],
+    [
+     "R0621",
+     "field",
+     "none",
+     "abstract_only"
+    ],
+    [
+     "R1339",
+     "field",
+     "none",
+     "abstract_only"
+    ],
+    [
+     "R0115",
+     "field",
+     "none",
+     "abstract_only"
+    ],
+    [
+     "R3103",
+     "field",
+     "none",
+     "abstract_only"
+    ],
+    [
+     "R3122",
+     "software",
+     "field",
+     "full_text"
+    ],
+    [
+     "R3172",
+     "field",
+     "none",
+     "abstract_only"
+    ],
+    [
+     "R0727",
+     "field",
+     "none",
+     "abstract_only"
+    ]
+   ]
+  },
+  "validation_pooled_ft": {
+   "n": 20,
+   "agree": 19,
+   "kappa": 0.64,
+   "sens": "18/18",
+   "ppv": "18/19",
+   "ft": 20,
+   "disagree": [
+    [
+     "R3122",
+     "software",
+     "field",
+     "full_text"
+    ]
+   ]
+  },
+  "validation_pooled_abs": {
+   "n": 13,
+   "agree": 6,
+   "kappa": 0.1,
+   "sens": "5/12",
+   "ppv": "5/5",
+   "ft": 0,
+   "disagree": [
+    [
+     "R0741",
+     "field",
+     "none",
+     "abstract_only"
+    ],
+    [
+     "R0621",
+     "field",
+     "none",
+     "abstract_only"
+    ],
+    [
+     "R1339",
+     "field",
+     "none",
+     "abstract_only"
+    ],
+    [
+     "R0115",
+     "field",
+     "none",
+     "abstract_only"
+    ],
+    [
+     "R3103",
+     "field",
+     "none",
+     "abstract_only"
+    ],
+    [
+     "R3172",
+     "field",
+     "none",
+     "abstract_only"
+    ],
+    [
+     "R0727",
+     "field",
+     "none",
+     "abstract_only"
+    ]
+   ]
+  },
+  "n_cited_rows_resolved": 107,
+  "n_not_retrieved": 3,
+  "not_retrieved_titles": [
+   "Co-Generation of solar electricity and agriculture produce by photovoltaic and photosynthesis—dual model by abellon, India",
+   "Improvement of electrical efficiency in a PV solar farm utilizing agriculture",
+   "The effect of surface cover vegetation on the microclimate and power output of a solar photovoltaic farm in the desert"
+  ],
+  "n_cited_unique": 103,
+  "n_cited_included": 61,
+  "n_unmatched_rows": 4
+ }
+}

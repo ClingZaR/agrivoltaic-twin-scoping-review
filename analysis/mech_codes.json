@@ -1,0 +1,4201 @@
+{
+ "R1791": {
+  "rid": "R1791",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "process_based",
+  "model_time_step": "hourly",
+  "feedbacks_represented": [
+   "shade_microclimate_crop"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "none"
+ },
+ "R1807": {
+  "rid": "R1807",
+  "validated_subsystems": [
+   "crop"
+  ],
+  "validation_independent": "no",
+  "validation_duration": "more_than_one_season",
+  "goodness_of_fit_reported": "no",
+  "crop_representation": "process_based",
+  "model_time_step": "daily",
+  "feedbacks_represented": [
+   "shade_microclimate_crop"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "These parameters were subsequently optimized using the Broyden-Fletcher-Goldfarb-Shanno (BFGS) algorithm using 20 years of crop yield data for Renville County, MN. ... significantly better agreement with USDA reported crop yields are obtained after calibration"
+ },
+ "R1808": {
+  "rid": "R1808",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "none",
+  "model_time_step": "NR",
+  "feedbacks_represented": [
+   "albedo_bifacial"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "none"
+ },
+ "R1829": {
+  "rid": "R1829",
+  "validated_subsystems": [
+   "light_shading"
+  ],
+  "validation_independent": "NR",
+  "validation_duration": "NR",
+  "goodness_of_fit_reported": "yes",
+  "crop_representation": "none",
+  "model_time_step": "sub_hourly",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "yes",
+  "evidence": "The developed sensor is calibrated against the industry-standard Apogee SQ-500SS PAR sensor in four distinct farming environments ... A mean error ranging from 1 to 5% indicates its suitability"
+ },
+ "R1830": {
+  "rid": "R1830",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "none",
+  "model_time_step": "hourly",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "none"
+ },
+ "R1837": {
+  "rid": "R1837",
+  "validated_subsystems": [
+   "light_shading"
+  ],
+  "validation_independent": "NR",
+  "validation_duration": "less_than_one_season",
+  "goodness_of_fit_reported": "yes",
+  "crop_representation": "light_only",
+  "model_time_step": "hourly",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "deployed solar total radiation sensors at the Lianyungang test site from January 2025 to April 2024 to obtain daily integral values for comparison with the corresponding simulated values ... R 2 reaching 0.969"
+ },
+ "R2888": {
+  "rid": "R2888",
+  "validated_subsystems": [
+   "pv_energy"
+  ],
+  "validation_independent": "NR",
+  "validation_duration": "NR",
+  "goodness_of_fit_reported": "yes",
+  "crop_representation": "light_only",
+  "model_time_step": "hourly",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "This section presents a simulation validation of photovoltaic cells at different tilt angles in Yinchuan. ... the RMSE and CV RMSE of the photovoltaic cells are 1.037 kWh and 7.7%, respectively."
+ },
+ "R1843": {
+  "rid": "R1843",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "process_based",
+  "model_time_step": "daily",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "The solar water pump was designed and validated using commercial software."
+ },
+ "R1681": {
+  "rid": "R1681",
+  "validated_subsystems": [
+   "light_shading"
+  ],
+  "validation_independent": "NR",
+  "validation_duration": "less_than_one_season",
+  "goodness_of_fit_reported": "yes",
+  "crop_representation": "light_only",
+  "model_time_step": "hourly",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "When comparing theoretical estimates to experimental measurements of photosynthetically active radiation (PAR), we find a discrepancy of 32-48%, and a discrepancy of 19-38% after correction with TMY data."
+ },
+ "R1682": {
+  "rid": "R1682",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "none",
+  "model_time_step": "NR",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "no",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "none"
+ },
+ "R1692": {
+  "rid": "R1692",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "light_only",
+  "model_time_step": "hourly",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "yes",
+  "evidence": "The pixel-wise error is estimated between the generated ground shadow (output) and their respective raytracer simulation used as reference."
+ },
+ "R1746": {
+  "rid": "R1746",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "none",
+  "model_time_step": "NR",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "none"
+ },
+ "R1755": {
+  "rid": "R1755",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "light_only",
+  "model_time_step": "hourly",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "none"
+ },
+ "R1756": {
+  "rid": "R1756",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "process_based",
+  "model_time_step": "hourly",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "none"
+ },
+ "R1759": {
+  "rid": "R1759",
+  "validated_subsystems": [
+   "crop",
+   "microclimate"
+  ],
+  "validation_independent": "NR",
+  "validation_duration": "more_than_one_season",
+  "goodness_of_fit_reported": "yes",
+  "crop_representation": "process_based",
+  "model_time_step": "hourly",
+  "feedbacks_represented": [
+   "shade_microclimate_crop"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "the model was calibrated and validated using field data on leaf area index (LAI) (R² ≥ 0.79, RMSE ≤ 48.61), dry matter yield (R² ≥ 0.82, RMSE ≤ 48.6 g m⁻²) and canopy temperature (R² = 0.83, RMSE = 1.24 °C)"
+ },
+ "R1788": {
+  "rid": "R1788",
+  "validated_subsystems": [
+   "light_shading"
+  ],
+  "validation_independent": "yes",
+  "validation_duration": "less_than_one_season",
+  "goodness_of_fit_reported": "yes",
+  "crop_representation": "light_only",
+  "model_time_step": "hourly",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "The remaining 5 days (Week-IV: 27–31 May 2022) were considered as the final week and these were used for model validation. ... with R2 of model calibration 0.76 and model validation 0.82"
+ },
+ "R1280": {
+  "rid": "R1280",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "light_only",
+  "model_time_step": "daily",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "none"
+ },
+ "R1285": {
+  "rid": "R1285",
+  "validated_subsystems": [
+   "pv_energy"
+  ],
+  "validation_independent": "NR",
+  "validation_duration": "less_than_one_season",
+  "goodness_of_fit_reported": "no",
+  "crop_representation": "none",
+  "model_time_step": "hourly",
+  "feedbacks_represented": [
+   "albedo_bifacial"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "To validate the outcomes of the measurements, a simulation of the practical setup was built... the simulated DC yield of the tracker setup is an overestimate of the actual measured DC yield as shown on Figure 9."
+ },
+ "R1307": {
+  "rid": "R1307",
+  "validated_subsystems": [
+   "NA"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "NA",
+  "model_time_step": "NA",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "yes",
+  "evidence": "none"
+ },
+ "R1311": {
+  "rid": "R1311",
+  "validated_subsystems": [
+   "microclimate"
+  ],
+  "validation_independent": "NR",
+  "validation_duration": "less_than_one_season",
+  "goodness_of_fit_reported": "no",
+  "crop_representation": "process_based",
+  "model_time_step": "hourly",
+  "feedbacks_represented": [
+   "shade_microclimate_crop"
+  ],
+  "operational_benefit_measured": "no",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "measurements of leaf temperature at different positions of grapevine canopy for two summer days in 2020 and 2021... after having evaluated the coherence of the model with experimental results"
+ },
+ "R3256": {
+  "rid": "R3256",
+  "validated_subsystems": [
+   "light_shading"
+  ],
+  "validation_independent": "NR",
+  "validation_duration": "less_than_one_season",
+  "goodness_of_fit_reported": "no",
+  "crop_representation": "light_only",
+  "model_time_step": "sub_hourly",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "We modelled the irradiance on the top and bottom PARbars. Comparison with measurements [4] gives a good agreement, but also indicates the need to include the transparency of the canopy."
+ },
+ "R1312": {
+  "rid": "R1312",
+  "validated_subsystems": [
+   "light_shading"
+  ],
+  "validation_independent": "NR",
+  "validation_duration": "less_than_one_season",
+  "goodness_of_fit_reported": "yes",
+  "crop_representation": "process_based",
+  "model_time_step": "NR",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "In a dedicated experiment, PASE light model assumptions resulted in 1% error in the daily irradiation received by a sensor under two contrasted types of sky conditions."
+ },
+ "R1313": {
+  "rid": "R1313",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "none",
+  "model_time_step": "sub_hourly",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "none"
+ },
+ "R1322": {
+  "rid": "R1322",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "light_only",
+  "model_time_step": "NR",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "none"
+ },
+ "R1385": {
+  "rid": "R1385",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "empirical_or_statistical",
+  "model_time_step": "seasonal_or_static",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "none"
+ },
+ "R1392": {
+  "rid": "R1392",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "none",
+  "model_time_step": "NR",
+  "feedbacks_represented": [
+   "albedo_bifacial"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "The proposed model is a theoretical exploration based in experimental measurements, including solar irradiance (absolute and spectral data), and optical reflectance of soil and crops."
+ },
+ "R1423": {
+  "rid": "R1423",
+  "validated_subsystems": [
+   "pv_energy"
+  ],
+  "validation_independent": "NR",
+  "validation_duration": "one_season_or_year",
+  "goodness_of_fit_reported": "yes",
+  "crop_representation": "none",
+  "model_time_step": "sub_hourly",
+  "feedbacks_represented": [
+   "albedo_bifacial"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "AgriOptiCE® is firstly validated by comparing estimated front and rear irradiances with on-site measurements ... photovoltaic system power output estimations using AgriOptiCE® are also validated ... obtaining R2 > 0.85 for all the studied cases."
+ },
+ "R1444": {
+  "rid": "R1444",
+  "validated_subsystems": [
+   "light_shading"
+  ],
+  "validation_independent": "yes",
+  "validation_duration": "one_season_or_year",
+  "goodness_of_fit_reported": "yes",
+  "crop_representation": "light_only",
+  "model_time_step": "sub_hourly",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "yes",
+  "evidence": "optimized based on one day of raw data of minutely measured irradiance from the experimental study. These coordinates are then used to perform simulations over an extended timeframe of several months"
+ },
+ "R1449": {
+  "rid": "R1449",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "process_based",
+  "model_time_step": "hourly",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "yes",
+  "evidence": "none"
+ },
+ "R1497": {
+  "rid": "R1497",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "process_based",
+  "model_time_step": "hourly",
+  "feedbacks_represented": [
+   "shade_microclimate_crop"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "yes",
+  "evidence": "As the planned site is not in operation yet, no direct validation of the results with field study data has been possible so far."
+ },
+ "R1513": {
+  "rid": "R1513",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "light_only",
+  "model_time_step": "NR",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "However, these assumptions should be supported and confirmed by empirical field campaigns."
+ },
+ "R1557": {
+  "rid": "R1557",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "light_only",
+  "model_time_step": "hourly",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "none"
+ },
+ "R1560": {
+  "rid": "R1560",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "none",
+  "model_time_step": "seasonal_or_static",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "Future research should validate the model under operational conditions and evaluate the dual benefits for renewable energy output and plant growth."
+ },
+ "R1568": {
+  "rid": "R1568",
+  "validated_subsystems": [
+   "light_shading"
+  ],
+  "validation_independent": "NR",
+  "validation_duration": "less_than_one_season",
+  "goodness_of_fit_reported": "no",
+  "crop_representation": "light_only",
+  "model_time_step": "NR",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "On 18 April and 11 May, the experimental data revealed irradiance levels of 660 ± 10.2 and 650 ± 12.2 W m −2 , respectively, compared to simulation values of 611 W m −2 and 650 W m −2"
+ },
+ "R1572": {
+  "rid": "R1572",
+  "validated_subsystems": [
+   "light_shading"
+  ],
+  "validation_independent": "NR",
+  "validation_duration": "one_season_or_year",
+  "goodness_of_fit_reported": "yes",
+  "crop_representation": "light_only",
+  "model_time_step": "NR",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "The simulation results were generally consistent with the measured values, with the simulated values being higher overall than the measured ones by an average difference within 5%."
+ },
+ "R1623": {
+  "rid": "R1623",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "none",
+  "model_time_step": "NR",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "none"
+ },
+ "R1627": {
+  "rid": "R1627",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "light_only",
+  "model_time_step": "NR",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "none"
+ },
+ "R1649": {
+  "rid": "R1649",
+  "validated_subsystems": [
+   "crop"
+  ],
+  "validation_independent": "no",
+  "validation_duration": "more_than_one_season",
+  "goodness_of_fit_reported": "no",
+  "crop_representation": "empirical_or_statistical",
+  "model_time_step": "hourly",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "Then, using the built regression between crop yields and RR, crop yields were spatially simulated, and the average field yields were calculated, using the linear regression previously traced."
+ },
+ "R1662": {
+  "rid": "R1662",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "light_only",
+  "model_time_step": "hourly",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "The methodology and investigative process of the modeling study were scientifically validated through previous publications in international peer-reviewed scientific journals"
+ },
+ "R1676": {
+  "rid": "R1676",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "process_based",
+  "model_time_step": "hourly",
+  "feedbacks_represented": [
+   "albedo_bifacial"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "none"
+ },
+ "R0137": {
+  "rid": "R0137",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "light_only",
+  "model_time_step": "hourly",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "none"
+ },
+ "R0176": {
+  "rid": "R0176",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "light_only",
+  "model_time_step": "hourly",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "none"
+ },
+ "R0187": {
+  "rid": "R0187",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "light_only",
+  "model_time_step": "hourly",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "none"
+ },
+ "R0216": {
+  "rid": "R0216",
+  "validated_subsystems": [
+   "light_shading"
+  ],
+  "validation_independent": "NR",
+  "validation_duration": "NR",
+  "goodness_of_fit_reported": "yes",
+  "crop_representation": "light_only",
+  "model_time_step": "NR",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "The calculated data were compared to the 12 days of measurements used for the validation on each pyranometer, showing a mean R 2 of 0.88 ± 0.06 (Table 1)."
+ },
+ "R0243": {
+  "rid": "R0243",
+  "validated_subsystems": [
+   "light_shading"
+  ],
+  "validation_independent": "NR",
+  "validation_duration": "less_than_one_season",
+  "goodness_of_fit_reported": "yes",
+  "crop_representation": "light_only",
+  "model_time_step": "hourly",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "calculated and measured photon flux daily values inside a photovoltaic greenhouse over a long period, from 18th April 2014 to 8th June 2014 were compared."
+ },
+ "R0254": {
+  "rid": "R0254",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "none",
+  "model_time_step": "NR",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "none"
+ },
+ "R0256": {
+  "rid": "R0256",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "light_only",
+  "model_time_step": "hourly",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "none"
+ },
+ "R3239": {
+  "rid": "R3239",
+  "validated_subsystems": [
+   "water"
+  ],
+  "validation_independent": "NR",
+  "validation_duration": "one_season_or_year",
+  "goodness_of_fit_reported": "no",
+  "crop_representation": "none",
+  "model_time_step": "sub_hourly",
+  "feedbacks_represented": [
+   "rain_redistribution"
+  ],
+  "operational_benefit_measured": "yes",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "A rain redistribution model (AVrain) was derived from literature elements and theoretical grounds and then validated from experiments in both field and controlled conditions."
+ },
+ "R3234": {
+  "rid": "R3234",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "light_only",
+  "model_time_step": "hourly",
+  "feedbacks_represented": [
+   "albedo_bifacial"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "Only a prior validation is cited: \"Nussbaumer et al. validated the irradiance on the front and rear of PV panels by BIGEYE [6].\" The study itself: \"The contribution is based on simulations using proprietary software.\""
+ },
+ "R1338": {
+  "rid": "R1338",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "empirical_or_statistical",
+  "model_time_step": "NR",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "none"
+ },
+ "R1342": {
+  "rid": "R1342",
+  "validated_subsystems": [
+   "light_shading"
+  ],
+  "validation_independent": "yes",
+  "validation_duration": "one_season_or_year",
+  "goodness_of_fit_reported": "yes",
+  "crop_representation": "none",
+  "model_time_step": "hourly",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "\"the training set consists of two years of data, which is used to fit the separation model parameters for the site. On the other hand, the validation (or testing) set consists of the remaining one year of data\""
+ },
+ "R1359": {
+  "rid": "R1359",
+  "validated_subsystems": [
+   "NA"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "NA",
+  "model_time_step": "NA",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "none"
+ },
+ "R1360": {
+  "rid": "R1360",
+  "validated_subsystems": [
+   "light_shading"
+  ],
+  "validation_independent": "NR",
+  "validation_duration": "NR",
+  "goodness_of_fit_reported": "yes",
+  "crop_representation": "process_based",
+  "model_time_step": "sub_hourly",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "\"Simulations were compared to radiation measurements only for one experimental site with one type of APV design. Validation for each individual scenario did not seem to make sense because the calculation methods were already based on known physical laws\""
+ },
+ "R1374": {
+  "rid": "R1374",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "light_only",
+  "model_time_step": "NR",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "none"
+ },
+ "R1379": {
+  "rid": "R1379",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "none",
+  "model_time_step": "NR",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "none"
+ },
+ "R1383": {
+  "rid": "R1383",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "none",
+  "model_time_step": "hourly",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "none"
+ },
+ "R0614": {
+  "rid": "R0614",
+  "validated_subsystems": [
+   "crop"
+  ],
+  "validation_independent": "yes",
+  "validation_duration": "one_season_or_year",
+  "goodness_of_fit_reported": "yes",
+  "crop_representation": "process_based",
+  "model_time_step": "daily",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "in model calibration using the 2019 dataset, simulated crop yields agreed with the corresponding measured crop yields ... In the model evaluation using the 2020 dataset, simulated crop yields significantly agreed with the measured crop yields"
+ },
+ "R0644": {
+  "rid": "R0644",
+  "validated_subsystems": [
+   "crop"
+  ],
+  "validation_independent": "no",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "yes",
+  "crop_representation": "empirical_or_statistical",
+  "model_time_step": "seasonal_or_static",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "Based on the linear regressions between measured yield and cumulated PAR, a limited yield reduction of 16% was calculated inside a PVG with maximum PVR of 25%"
+ },
+ "R0650": {
+  "rid": "R0650",
+  "validated_subsystems": [
+   "microclimate",
+   "light_shading"
+  ],
+  "validation_independent": "no",
+  "validation_duration": "one_season_or_year",
+  "goodness_of_fit_reported": "no",
+  "crop_representation": "none",
+  "model_time_step": "sub_hourly",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "A locally 1-D transient heat and moisture transport model, as well as a shadowing model, was developed and validated with experimental data. ... determined during model validation (by comparison with measured data)"
+ },
+ "R0662": {
+  "rid": "R0662",
+  "validated_subsystems": [
+   "crop"
+  ],
+  "validation_independent": "NR",
+  "validation_duration": "one_season_or_year",
+  "goodness_of_fit_reported": "yes",
+  "crop_representation": "process_based",
+  "model_time_step": "sub_hourly",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "The field results were used to validate the output of a simulation platform that couples the crop model GECROS ... The normalised root mean square error (nRMSE) value of the predicted grain yield differed from the observed grain values"
+ },
+ "R0673": {
+  "rid": "R0673",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "none",
+  "model_time_step": "NR",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "none"
+ },
+ "R0700": {
+  "rid": "R0700",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "light_only",
+  "model_time_step": "NR",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "yes",
+  "evidence": "none"
+ },
+ "R0701": {
+  "rid": "R0701",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "light_only",
+  "model_time_step": "hourly",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "yes",
+  "evidence": "The models have shown remarkably similar accuracy compared to commercial software such as PVsyst and SketchUp."
+ },
+ "R0705": {
+  "rid": "R0705",
+  "validated_subsystems": [
+   "microclimate"
+  ],
+  "validation_independent": "NR",
+  "validation_duration": "less_than_one_season",
+  "goodness_of_fit_reported": "no",
+  "crop_representation": "none",
+  "model_time_step": "sub_hourly",
+  "feedbacks_represented": [
+   "crop_cools_modules"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "yes",
+  "evidence": "The intention of both a physical experiment and a computer simulation was to allow the validation of the simulated model ... This aligns with the physical prototype ... were not an exact match."
+ },
+ "R1074": {
+  "rid": "R1074",
+  "validated_subsystems": [
+   "crop"
+  ],
+  "validation_independent": "NR",
+  "validation_duration": "one_season_or_year",
+  "goodness_of_fit_reported": "yes",
+  "crop_representation": "process_based",
+  "model_time_step": "sub_hourly",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "Simulation data were analysed through Root Mean Square Errors (RMSE) and Normalised RMSE (nRMSE, %) to measure the differences between simulated and observed values of soybean grain yield. ... despite being in a preliminary stage of calibration for soybeans"
+ },
+ "R1076": {
+  "rid": "R1076",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "empirical_or_statistical",
+  "model_time_step": "NR",
+  "feedbacks_represented": [
+   "water_energy"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "yes",
+  "evidence": "sample measurements were used in the calculation of average and width estimates of uncertainty for solar radiation in various time intervals"
+ },
+ "R1084": {
+  "rid": "R1084",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "light_only",
+  "model_time_step": "seasonal_or_static",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "we measured the plant growing environment, including air temperature, substrate temperature, and substrate moisture ... Light conditions were modeled."
+ },
+ "R1098": {
+  "rid": "R1098",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "light_only",
+  "model_time_step": "hourly",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "After simulating the Agri-PV model, the PAR values obtained were compared against predefined threshold values."
+ },
+ "R1114": {
+  "rid": "R1114",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "empirical_or_statistical",
+  "model_time_step": "sub_hourly",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "Electricity production of select array configurations at each location were compared to projections from the PVWatts (Dobos 2014) model for validation."
+ },
+ "R1134": {
+  "rid": "R1134",
+  "validated_subsystems": [
+   "NA"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "NA",
+  "model_time_step": "NA",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "In future analyses, advanced machine learning models will be employed to normalize the data and infer the impact of various crop indicators on yield across different growth durations."
+ },
+ "R1141": {
+  "rid": "R1141",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "none",
+  "model_time_step": "daily",
+  "feedbacks_represented": [
+   "water_energy"
+  ],
+  "operational_benefit_measured": "yes",
+  "governance_or_security": "no",
+  "compute_footprint": "yes",
+  "evidence": "In order to compare the results, two samples were taken, one corresponding to the traditional crop and the other to the AVS"
+ },
+ "R3058": {
+  "rid": "R3058",
+  "validated_subsystems": [
+   "light_shading"
+  ],
+  "validation_independent": "NR",
+  "validation_duration": "NR",
+  "goodness_of_fit_reported": "no",
+  "crop_representation": "light_only",
+  "model_time_step": "sub_hourly",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "Calculating the coefficient of variation of radiation data, for the shaded and unshaded areas using the proposed algorithm, it was found the coefficient of variation for the shaded areas is lower than that for the unshaded areas"
+ },
+ "R1860": {
+  "rid": "R1860",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "none",
+  "model_time_step": "hourly",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "\"These data will enable the experimental validation of simulation results and support a robust techno-economic analysis, to be addressed in future studies.\""
+ },
+ "R1865": {
+  "rid": "R1865",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "none",
+  "model_time_step": "seasonal_or_static",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "none"
+ },
+ "R3255": {
+  "rid": "R3255",
+  "validated_subsystems": [
+   "microclimate",
+   "other"
+  ],
+  "validation_independent": "NR",
+  "validation_duration": "less_than_one_season",
+  "goodness_of_fit_reported": "no",
+  "crop_representation": "none",
+  "model_time_step": "NR",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "\"measurement points were evenly spaced every 500 mm along the array length at the locations corresponding to the simulated points\"; \"July 1, 2023 to July 15, 2023, were selected for environmental analysis and numerical simulation\""
+ },
+ "R0043": {
+  "rid": "R0043",
+  "validated_subsystems": [
+   "light_shading"
+  ],
+  "validation_independent": "NR",
+  "validation_duration": "NR",
+  "goodness_of_fit_reported": "no",
+  "crop_representation": "light_only",
+  "model_time_step": "sub_hourly",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "\"it is necessary to first consider direct and diffuse radiation with a field-validated modeling tool\"; nomenclature: \"Simulated values Measured values\""
+ },
+ "R1935": {
+  "rid": "R1935",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "light_only",
+  "model_time_step": "hourly",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "\"Further research is needed to refine these models and validate findings in real-world settings.\""
+ },
+ "R1949": {
+  "rid": "R1949",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "empirical_or_statistical",
+  "model_time_step": "hourly",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "none"
+ },
+ "R1950": {
+  "rid": "R1950",
+  "validated_subsystems": [
+   "microclimate"
+  ],
+  "validation_independent": "yes",
+  "validation_duration": "more_than_one_season",
+  "goodness_of_fit_reported": "yes",
+  "crop_representation": "none",
+  "model_time_step": "sub_hourly",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "yes",
+  "evidence": "\"For modelling each season is split chronologically: the first 80 % of records form the training set, the remaining 20 % the test set.\"; \"the STGNN overtakes the RNN (R2 = 0.905 vs 0.740)\""
+ },
+ "R1955": {
+  "rid": "R1955",
+  "validated_subsystems": [
+   "pv_energy"
+  ],
+  "validation_independent": "yes",
+  "validation_duration": "one_season_or_year",
+  "goodness_of_fit_reported": "no",
+  "crop_representation": "light_only",
+  "model_time_step": "hourly",
+  "feedbacks_represented": [
+   "albedo_bifacial"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "\"The AC-side annual unit power generation of this project is 1596 kWh/kWp/yr, with a PR of 84.6%. Through comparison with the measured data of similar projects, this design is proven to be feasible.\""
+ },
+ "R0302": {
+  "rid": "R0302",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "none",
+  "model_time_step": "NR",
+  "feedbacks_represented": [
+   "water_energy"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "Simulation results of a practical photovoltaic greenhouse facility agricultural micro energy network system in three typical weather conditions showed that the method could fully utilize the energy transfer function"
+ },
+ "R0323": {
+  "rid": "R0323",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "light_only",
+  "model_time_step": "hourly",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "This paper studies the solar radiation distribution during the effective growth period of crops in the agrivoltaic system based on the oblique single-axis tracking bracket by building the model with Ecotect in a approximate method."
+ },
+ "R0343": {
+  "rid": "R0343",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "light_only",
+  "model_time_step": "seasonal_or_static",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "We implement a specific mathematical relationship to define the precise distance to be assigned to the photovoltaic panels on the roof pitch."
+ },
+ "R0344": {
+  "rid": "R0344",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "light_only",
+  "model_time_step": "NR",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "An analysis was made for the solar radiation available during the year, for cases of completely clear sky and partial cloud, by considering the 15th day of each month."
+ },
+ "R0349": {
+  "rid": "R0349",
+  "validated_subsystems": [
+   "NA"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "NA",
+  "model_time_step": "NA",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "We take an integrative approach—monitoring microclimatic conditions, PV panel temperature, soil moisture and irrigation water use, plant ecophysiological function and plant biomass production"
+ },
+ "R0352": {
+  "rid": "R0352",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "none",
+  "model_time_step": "NR",
+  "feedbacks_represented": [
+   "water_energy"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "Finally, the effectiveness of the deviation model and the real-time scheduling model for photovoltaic greenhouses are verified by a practical example."
+ },
+ "R0368": {
+  "rid": "R0368",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "light_only",
+  "model_time_step": "NR",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "In this study, sun-tracking mathematical models are developed and analyzed for PV panels on the roof of a greenhouse, effectively excluding the environmental interference"
+ },
+ "R0370": {
+  "rid": "R0370",
+  "validated_subsystems": [
+   "pv_energy",
+   "light_shading"
+  ],
+  "validation_independent": "NR",
+  "validation_duration": "NR",
+  "goodness_of_fit_reported": "no",
+  "crop_representation": "light_only",
+  "model_time_step": "sub_hourly",
+  "feedbacks_represented": [
+   "albedo_bifacial"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "develop new analytical models to calculate the direct/diffused albedo collection by the elevated PV array and the diffused PAR transmitted under the panels ... Model validation is done by comparison to published experimental data"
+ },
+ "R3099": {
+  "rid": "R3099",
+  "validated_subsystems": [
+   "pv_energy",
+   "other"
+  ],
+  "validation_independent": "no",
+  "validation_duration": "one_season_or_year",
+  "goodness_of_fit_reported": "yes",
+  "crop_representation": "none",
+  "model_time_step": "hourly",
+  "feedbacks_represented": [
+   "albedo_bifacial",
+   "crop_cools_modules"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "yes",
+  "evidence": "A model of the system has been implemented to be calibrated and validated with the experimental data ... The proposed analytical model adjusts to this value with R2 higher than 85%, for the module temperature value and for the energy exported"
+ },
+ "R0838": {
+  "rid": "R0838",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "none",
+  "model_time_step": "NR",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "no",
+  "governance_or_security": "no",
+  "compute_footprint": "yes",
+  "evidence": "none"
+ },
+ "R0008": {
+  "rid": "R0008",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "empirical_or_statistical",
+  "model_time_step": "seasonal_or_static",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "none"
+ },
+ "R0882": {
+  "rid": "R0882",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "light_only",
+  "model_time_step": "hourly",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "none"
+ },
+ "R0884": {
+  "rid": "R0884",
+  "validated_subsystems": [
+   "microclimate",
+   "other"
+  ],
+  "validation_independent": "NR",
+  "validation_duration": "less_than_one_season",
+  "goodness_of_fit_reported": "yes",
+  "crop_representation": "light_only",
+  "model_time_step": "NR",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "yes",
+  "evidence": "The CFD model is validated with data gathered on the 23rd of June 2022 with a temporal resolution of 5 min. The CFD model had estimation errors of 0-2 °C compared to the thermal camera readings."
+ },
+ "R0892": {
+  "rid": "R0892",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "light_only",
+  "model_time_step": "seasonal_or_static",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "none"
+ },
+ "R0897": {
+  "rid": "R0897",
+  "validated_subsystems": [
+   "crop"
+  ],
+  "validation_independent": "no",
+  "validation_duration": "one_season_or_year",
+  "goodness_of_fit_reported": "yes",
+  "crop_representation": "empirical_or_statistical",
+  "model_time_step": "daily",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "electricity generation and crop production models are devised by polynomial regression (PR) based on field experiment data ... The coefficient of determination ( R 2 ) of Equation (4) is 99.72%"
+ },
+ "R0909": {
+  "rid": "R0909",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "process_based",
+  "model_time_step": "NR",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "yes",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "none"
+ },
+ "R0716": {
+  "rid": "R0716",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "light_only",
+  "model_time_step": "hourly",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "a simulation study that analyzes the shading patterns and the PV energy generation of different PV design configurations ... PVGIS v5.2 (European Commission, 2020) hourly data is used"
+ },
+ "R0723": {
+  "rid": "R0723",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "none",
+  "model_time_step": "sub_hourly",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "The modeled incident irradiance is then related to electrical data measured over a 5-month period (October–February) of large-area, semi-transparent OPV arrays deployed on a gothic-arch greenhouse"
+ },
+ "R0737": {
+  "rid": "R0737",
+  "validated_subsystems": [
+   "pv_energy",
+   "other"
+  ],
+  "validation_independent": "NR",
+  "validation_duration": "one_season_or_year",
+  "goodness_of_fit_reported": "yes",
+  "crop_representation": "empirical_or_statistical",
+  "model_time_step": "daily",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "the proposed approach is validated based on field experiment data collected from the APV system at Jeollanam-do Agricultural Research and Extension Services ... can predict the electricity generation quantity in the APV system with an R2 of 80.4%"
+ },
+ "R0795": {
+  "rid": "R0795",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "light_only",
+  "model_time_step": "sub_hourly",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "this methodology was applied to simulate the radiative capture potential of possible photovoltaic plants located in Cordoba, Spain by systematically varying the design variables of the photovoltaic plants."
+ },
+ "R0804": {
+  "rid": "R0804",
+  "validated_subsystems": [
+   "NA"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "NA",
+  "model_time_step": "NA",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "none"
+ },
+ "R3225": {
+  "rid": "R3225",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "light_only",
+  "model_time_step": "seasonal_or_static",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "The system was designed using the commercial optic simulation software LightTools"
+ },
+ "R0823": {
+  "rid": "R0823",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "none",
+  "model_time_step": "hourly",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "the effectiveness of the proposed model is verified through simulation cases ... the output of the PV power station P pv.sum ( k ) is given by the Pvsyst 7.2 simulation software"
+ },
+ "R0825": {
+  "rid": "R0825",
+  "validated_subsystems": [
+   "pv_energy",
+   "crop"
+  ],
+  "validation_independent": "yes",
+  "validation_duration": "one_season_or_year",
+  "goodness_of_fit_reported": "yes",
+  "crop_representation": "empirical_or_statistical",
+  "model_time_step": "daily",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "yes",
+  "evidence": "the daily generated electricity data (test set) from 13 June 2020 to 20 October 2020 are compared with the electricity generation values estimated by Equation (3) ... The R 2 of the corn yield model is 86.03%"
+ },
+ "R0918": {
+  "rid": "R0918",
+  "validated_subsystems": [
+   "crop"
+  ],
+  "validation_independent": "yes",
+  "validation_duration": "more_than_one_season",
+  "goodness_of_fit_reported": "yes",
+  "crop_representation": "process_based",
+  "model_time_step": "daily",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "Model verification was carried out by comparing the past yield of taro in the Miyazaki Prefecture (published as statistical information) with the growing weight of child potatoes ... difference of less than 1% from the average of the last 5 years"
+ },
+ "R0922": {
+  "rid": "R0922",
+  "validated_subsystems": [
+   "crop"
+  ],
+  "validation_independent": "NR",
+  "validation_duration": "more_than_one_season",
+  "goodness_of_fit_reported": "yes",
+  "crop_representation": "process_based",
+  "model_time_step": "NR",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "The validation is carried out using the first two years' data ... the sub-model concerning the crop yield response to shading conditions tends to underestimate the actual average crop yield under the agrivoltaic system of about 15%"
+ },
+ "R0933": {
+  "rid": "R0933",
+  "validated_subsystems": [
+   "crop"
+  ],
+  "validation_independent": "NR",
+  "validation_duration": "one_season_or_year",
+  "goodness_of_fit_reported": "no",
+  "crop_representation": "process_based",
+  "model_time_step": "hourly",
+  "feedbacks_represented": [
+   "rain_redistribution",
+   "shade_microclimate_crop"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "Consistent with this estimate, ANPP was 6.1% lower in the AV array compared to the control plot in 2022. ... we did not find a significant linear relationship between A and ANPP across all locations"
+ },
+ "R0950": {
+  "rid": "R0950",
+  "validated_subsystems": [
+   "pv_energy"
+  ],
+  "validation_independent": "no",
+  "validation_duration": "one_season_or_year",
+  "goodness_of_fit_reported": "yes",
+  "crop_representation": "none",
+  "model_time_step": "NR",
+  "feedbacks_represented": [
+   "crop_cools_modules"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "The temperatures obtained by the regression models were compared with the actual values observed in the experimental studies. ... The experimental data obtained by the 6 months of experiments was considered"
+ },
+ "R0967": {
+  "rid": "R0967",
+  "validated_subsystems": [
+   "pv_energy",
+   "crop"
+  ],
+  "validation_independent": "NR",
+  "validation_duration": "NR",
+  "goodness_of_fit_reported": "no",
+  "crop_representation": "process_based",
+  "model_time_step": "NR",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "comparisons of the OWEFE energy and biomass yield results with a conventional modeling approach respectively in-situ measurement data ... The results of the OWEFE-based models are in the range of a conventional approach respectively of on-site measurements"
+ },
+ "R0969": {
+  "rid": "R0969",
+  "validated_subsystems": [
+   "light_shading"
+  ],
+  "validation_independent": "NR",
+  "validation_duration": "less_than_one_season",
+  "goodness_of_fit_reported": "yes",
+  "crop_representation": "light_only",
+  "model_time_step": "hourly",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "Compared with the measured values, the relative error was less than 10%, which verified the reliability of the OAVS model. ... The simulated period was consistent with the actual test period."
+ },
+ "R1062": {
+  "rid": "R1062",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "none",
+  "model_time_step": "hourly",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "the energy performance results were compared to SAM 2018 results"
+ },
+ "R1072": {
+  "rid": "R1072",
+  "validated_subsystems": [
+   "pv_energy"
+  ],
+  "validation_independent": "NR",
+  "validation_duration": "less_than_one_season",
+  "goodness_of_fit_reported": "yes",
+  "crop_representation": "none",
+  "model_time_step": "sub_hourly",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "To validate the model, we used 5-minute data collected from 7th July to August 27th, 2022 ... mean absolute error (MAE) of 0.76 kW, R2 of 93%, and a root mean square error (RMSE) of 1.53 kW"
+ },
+ "R1174": {
+  "rid": "R1174",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "empirical_or_statistical",
+  "model_time_step": "hourly",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "The modelling performance is here assessed by comparing its output data with PVSYST® ground irradiance for different AV structure configurations with panel tilt varying from 0° to 90°."
+ },
+ "R1191": {
+  "rid": "R1191",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "light_only",
+  "model_time_step": "sub_hourly",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "Those in-silico researches should be completed by experimental campaigns to be able to certify the relevance of vertical bifacial panels in arid conditions."
+ },
+ "R1199": {
+  "rid": "R1199",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "none",
+  "model_time_step": "NR",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "yes",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "We empirically determine the proper tilt angle to achieve maximum power output at specific times. The power output is measured using a WT3000 power analyzer, and the angle is adjusted manually at these crucial times."
+ },
+ "R1200": {
+  "rid": "R1200",
+  "validated_subsystems": [
+   "pv_energy"
+  ],
+  "validation_independent": "NR",
+  "validation_duration": "more_than_one_season",
+  "goodness_of_fit_reported": "yes",
+  "crop_representation": "none",
+  "model_time_step": "sub_hourly",
+  "feedbacks_represented": [
+   "water_energy"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "Compare the actual annual production of the ST-PVG with the theoretical annual production. Calculate the difference between the actual data and the theoretical estimate. ... For a period analyzed of three years, an average annual production loss of 6.8% was calculated."
+ },
+ "R1226": {
+  "rid": "R1226",
+  "validated_subsystems": [
+   "water"
+  ],
+  "validation_independent": "NR",
+  "validation_duration": "less_than_one_season",
+  "goodness_of_fit_reported": "no",
+  "crop_representation": "none",
+  "model_time_step": "daily",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "Measured soil moisture is on average 29% higher under the AV system compared to the reference condition, hence validating PET computations."
+ },
+ "R1234": {
+  "rid": "R1234",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "empirical_or_statistical",
+  "model_time_step": "hourly",
+  "feedbacks_represented": [
+   "albedo_bifacial"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "none"
+ },
+ "R1238": {
+  "rid": "R1238",
+  "validated_subsystems": [
+   "crop"
+  ],
+  "validation_independent": "yes",
+  "validation_duration": "NR",
+  "goodness_of_fit_reported": "yes",
+  "crop_representation": "light_only",
+  "model_time_step": "daily",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "the maximum PV cover ratios for a DLI threshold range have been calculated and compared with experimental results for plastic greenhouses from literature. In 87.2% of the case studies analyzed from literature, the proposed method showed an agreement"
+ },
+ "R1271": {
+  "rid": "R1271",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "empirical_or_statistical",
+  "model_time_step": "NR",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "We employ a validated view factor model, established through field experiments [19], [20], [32], to compute sunlight interception by the modules, thereby determining the temporal PV yield."
+ },
+ "R0415": {
+  "rid": "R0415",
+  "validated_subsystems": [
+   "NA"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "NA",
+  "model_time_step": "NA",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "no",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "none"
+ },
+ "R0425": {
+  "rid": "R0425",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "none",
+  "model_time_step": "hourly",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "none"
+ },
+ "R3267": {
+  "rid": "R3267",
+  "validated_subsystems": [
+   "microclimate"
+  ],
+  "validation_independent": "no",
+  "validation_duration": "less_than_one_season",
+  "goodness_of_fit_reported": "yes",
+  "crop_representation": "none",
+  "model_time_step": "sub_hourly",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "regression models were developed ... The coefficient of determination (R squared) was 0.739, which indicates that 73.9% of the variation in T h,min and T h,max could be explained by the variation in both T b, pv and T 4ft"
+ },
+ "R0518": {
+  "rid": "R0518",
+  "validated_subsystems": [
+   "pv_energy"
+  ],
+  "validation_independent": "no",
+  "validation_duration": "one_season_or_year",
+  "goodness_of_fit_reported": "yes",
+  "crop_representation": "empirical_or_statistical",
+  "model_time_step": "daily",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "an estimation model of electricity generation was developed via a polynomial regression model based on remote sensing data given by the APV system ... The R 2 value of the developed model was 93.89%."
+ },
+ "R0532": {
+  "rid": "R0532",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "light_only",
+  "model_time_step": "NR",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "yes",
+  "evidence": "The approach has been validated with published field data for both standard and agrivoltaic farms [10, 21]."
+ },
+ "R0545": {
+  "rid": "R0545",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "light_only",
+  "model_time_step": "hourly",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "none"
+ },
+ "R3122": {
+  "rid": "R3122",
+  "validated_subsystems": [
+   "light_shading",
+   "pv_energy",
+   "crop"
+  ],
+  "validation_independent": "yes",
+  "validation_duration": "one_season_or_year",
+  "goodness_of_fit_reported": "no",
+  "crop_representation": "process_based",
+  "model_time_step": "hourly",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "Validation of the sub-models is performed showing good agreement with measured data and commercial software. ... the crop yield validation for oat has been performed by using the 2018 agricultural data from the Lanna weather station"
+ },
+ "R0613": {
+  "rid": "R0613",
+  "validated_subsystems": [
+   "light_shading",
+   "microclimate"
+  ],
+  "validation_independent": "NR",
+  "validation_duration": "less_than_one_season",
+  "goodness_of_fit_reported": "no",
+  "crop_representation": "light_only",
+  "model_time_step": "NR",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "According to the simulation by Design Builder, the average light transmittances were 33.09% in winter and 37.54% in summer ... the relative humidity decreased with the increase of temperature, which basically coincided with the filed data."
+ },
+ "R2715": {
+  "rid": "R2715",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "empirical_or_statistical",
+  "model_time_step": "NR",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "Photovoltaic performance and financial outcomes were simulated using the System Advisor Model (SAM), whereas tomato productivity was estimated through a literature-based approach using yield-reduction factors derived from published agrivoltaic experiments."
+ },
+ "R2753": {
+  "rid": "R2753",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "empirical_or_statistical",
+  "model_time_step": "NR",
+  "feedbacks_represented": [
+   "albedo_bifacial"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "the power generation produced by a PV panel of the same size is estimated using a PVlib simulation, as described in \"Estimated land equivalent ratio\" section, based on the measured solar irradiance on the wooden board."
+ },
+ "R2775": {
+  "rid": "R2775",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "none",
+  "model_time_step": "sub_hourly",
+  "feedbacks_represented": [
+   "crop_cools_modules"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "The PV panels could not be interconnected to the grid, so the energy yield assessment was theoretical and obtained using the panel power and ambient temperature data over time"
+ },
+ "R2790": {
+  "rid": "R2790",
+  "validated_subsystems": [
+   "microclimate"
+  ],
+  "validation_independent": "NR",
+  "validation_duration": "NR",
+  "goodness_of_fit_reported": "yes",
+  "crop_representation": "none",
+  "model_time_step": "NR",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "Experimental validation using a full-scale prototype at Busitema University showed strong agreement between simulated and measured temperatures, with a Coefficient of Determination (R2) of 0.92, a Root Mean Square Error of 1.18 °C"
+ },
+ "R2537": {
+  "rid": "R2537",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "process_based",
+  "model_time_step": "hourly",
+  "feedbacks_represented": [
+   "shade_microclimate_crop"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "These sub-models have been validated in earlier studies against field measurements and commercial PV software, demonstrating good agreement [20,27–30]."
+ },
+ "R2539": {
+  "rid": "R2539",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "empirical_or_statistical",
+  "model_time_step": "NR",
+  "feedbacks_represented": [
+   "water_energy"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "A view factor model, validated through field experiments, determines the amount of PAR reaching the crops [51–53]."
+ },
+ "R2576": {
+  "rid": "R2576",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "empirical_or_statistical",
+  "model_time_step": "NR",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "The effects of photovoltaic shading on C3 and C4 crops, together with PTE contamination, were estimated from literature data to quantify biomass reduction."
+ },
+ "R2625": {
+  "rid": "R2625",
+  "validated_subsystems": [
+   "light_shading",
+   "microclimate"
+  ],
+  "validation_independent": "yes",
+  "validation_duration": "less_than_one_season",
+  "goodness_of_fit_reported": "yes",
+  "crop_representation": "none",
+  "model_time_step": "sub_hourly",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "The dataset was partitioned such that each seasonal subset contained 21 consecutive days (70% of data) for training and 9 consecutive days (30%) for validation."
+ },
+ "R2663": {
+  "rid": "R2663",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "empirical_or_statistical",
+  "model_time_step": "hourly",
+  "feedbacks_represented": [
+   "shade_microclimate_crop"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "yes",
+  "compute_footprint": "yes",
+  "evidence": "All numerical observations, experimental assignments, outcomes, and performance values are simulated for methodological illustration; no real participants, institutions, farms, factories, hospitals, or city systems were studied."
+ },
+ "R2668": {
+  "rid": "R2668",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "process_based",
+  "model_time_step": "hourly",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "While further evaluation with real crop data and long-term assessments are needed, this study provides initial insights into vehicle traffic during the installation of vertical agrivoltaics and its potential impact on soil and crop yield."
+ },
+ "R2706": {
+  "rid": "R2706",
+  "validated_subsystems": [
+   "NA"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "NA",
+  "model_time_step": "NA",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "yes",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "solar panels were placed in horizontal position during rain events before harvest and solar-tracking position (maximum shading for the trees) [4] when air temperature was above a given threshold."
+ },
+ "R2710": {
+  "rid": "R2710",
+  "validated_subsystems": [
+   "NA"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "NA",
+  "model_time_step": "NA",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "none"
+ },
+ "R1966": {
+  "rid": "R1966",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "none",
+  "model_time_step": "hourly",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "none"
+ },
+ "R1969": {
+  "rid": "R1969",
+  "validated_subsystems": [
+   "NA"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "NA",
+  "model_time_step": "NA",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "no",
+  "governance_or_security": "no",
+  "compute_footprint": "yes",
+  "evidence": "It is to compare the accuracy and consistency of the sensor-based monitoring system to manual observations."
+ },
+ "R1986": {
+  "rid": "R1986",
+  "validated_subsystems": [
+   "crop"
+  ],
+  "validation_independent": "no",
+  "validation_duration": "one_season_or_year",
+  "goodness_of_fit_reported": "yes",
+  "crop_representation": "empirical_or_statistical",
+  "model_time_step": "daily",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "the growth dynamics of soybean grain nitrogen during the grain-ﬁlling stage exhibited consistency with the logistic model, and the simulated correlation coefﬁcients were all greater than 0.87"
+ },
+ "R2011": {
+  "rid": "R2011",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "light_only",
+  "model_time_step": "hourly",
+  "feedbacks_represented": [
+   "crop_cools_modules"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "none"
+ },
+ "R2037": {
+  "rid": "R2037",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "none",
+  "model_time_step": "hourly",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "none"
+ },
+ "R2039": {
+  "rid": "R2039",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "light_only",
+  "model_time_step": "NR",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "no",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "Bidirectional communication was validated through remote actuation of a physical solar tracker, demonstrating integration among the 3D environment, sensor data and control systems to achieve a closed-loop digital twin."
+ },
+ "R2041": {
+  "rid": "R2041",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "process_based",
+  "model_time_step": "hourly",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "yes",
+  "evidence": "Field trials would provide critical insights into the real-world impact of panel structures on grassland productivity."
+ },
+ "R2043": {
+  "rid": "R2043",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "process_based",
+  "model_time_step": "hourly",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "Further research incorporating field validation and farmer-specific management objectives is recommended to refine system designs and support practical adoption."
+ },
+ "R2430": {
+  "rid": "R2430",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "process_based",
+  "model_time_step": "hourly",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "PV performance and ground-level irradiation were estimated using SAM and the simulated irradiance data were fed into AquaCrop for the evaluation of potato growth under PV-shaded conditions. For comparison, an open-field simulation was used."
+ },
+ "R2468": {
+  "rid": "R2468",
+  "validated_subsystems": [
+   "NA"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "NA",
+  "model_time_step": "NA",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "no",
+  "governance_or_security": "no",
+  "compute_footprint": "yes",
+  "evidence": "none"
+ },
+ "R2470": {
+  "rid": "R2470",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "none",
+  "model_time_step": "daily",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "yes",
+  "evidence": "The delayed visible maturation was consistent with reduced light availability under the solar panels, although fruit-level light availability and physiological maturity indicators were not directly measured."
+ },
+ "R2508": {
+  "rid": "R2508",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "none",
+  "model_time_step": "NR",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "TRNSYS18 allows the user to adopt in-house and user-developed models [16], but includes a large library of components experimentally validated."
+ },
+ "R2511": {
+  "rid": "R2511",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "light_only",
+  "model_time_step": "NR",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "The conducted simulation studies are the starting point for experimental research on real facilities, where agricultural aspects will be ver-ified under real conditions."
+ },
+ "R2517": {
+  "rid": "R2517",
+  "validated_subsystems": [
+   "light_shading",
+   "pv_energy"
+  ],
+  "validation_independent": "NR",
+  "validation_duration": "NR",
+  "goodness_of_fit_reported": "yes",
+  "crop_representation": "none",
+  "model_time_step": "NR",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "By investigating two different cropping systems and validating modeling approaches with experimental data, the study contributes new empirical evidence from Mediterranean conditions"
+ },
+ "R2523": {
+  "rid": "R2523",
+  "validated_subsystems": [
+   "crop"
+  ],
+  "validation_independent": "NR",
+  "validation_duration": "more_than_one_season",
+  "goodness_of_fit_reported": "yes",
+  "crop_representation": "empirical_or_statistical",
+  "model_time_step": "seasonal_or_static",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "yes",
+  "evidence": "Using irradiation and soil moisture data collected, an equation to determine yield was developed. ... the correlation between a joint variable, made up of irradiation and soil moisture, and yield was found to be 0.475."
+ },
+ "R2529": {
+  "rid": "R2529",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "process_based",
+  "model_time_step": "hourly",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "This alignment ensures consistency between the simulated tracking framework and the on-site system, supporting the realism and future experimental verification of the proposed DLIT and KPT strategies."
+ },
+ "R2073": {
+  "rid": "R2073",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "none",
+  "model_time_step": "NR",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "no",
+  "governance_or_security": "no",
+  "compute_footprint": "yes",
+  "evidence": "System performance was analyzed using HOMER Pro simulation for energy modeling and Excel-based calculations for technoeconomic analysis."
+ },
+ "R2087": {
+  "rid": "R2087",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "empirical_or_statistical",
+  "model_time_step": "NR",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "PVsyst simulation was used to estimate energy generation and techno-economic performance, while wheat productivity was assessed using a shading-based yield reduction assumption derived from similar agrivoltaics and crop-shading studies."
+ },
+ "R2167": {
+  "rid": "R2167",
+  "validated_subsystems": [
+   "NA"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "NA",
+  "model_time_step": "NA",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "no",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "none"
+ },
+ "R2191": {
+  "rid": "R2191",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "empirical_or_statistical",
+  "model_time_step": "NR",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "none"
+ },
+ "R2246": {
+  "rid": "R2246",
+  "validated_subsystems": [
+   "crop"
+  ],
+  "validation_independent": "NR",
+  "validation_duration": "NR",
+  "goodness_of_fit_reported": "no",
+  "crop_representation": "process_based",
+  "model_time_step": "NR",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "To adapt and validate the STICS crop model for Indian agrivoltaic conditions using data from India’s network of research facilities."
+ },
+ "R2267": {
+  "rid": "R2267",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "light_only",
+  "model_time_step": "hourly",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "Deterministic simulation assumptions, fixed spectral conversion, limited sampling points, and the absence of field validation constrain direct agronomic conclusions."
+ },
+ "R2283": {
+  "rid": "R2283",
+  "validated_subsystems": [
+   "light_shading",
+   "other"
+  ],
+  "validation_independent": "NR",
+  "validation_duration": "less_than_one_season",
+  "goodness_of_fit_reported": "no",
+  "crop_representation": "process_based",
+  "model_time_step": "hourly",
+  "feedbacks_represented": [
+   "crop_cools_modules",
+   "shade_microclimate_crop"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "yes",
+  "evidence": "Comparison of simulated and sensor-measured longwave and shortwave irradiance for two example days (6 and 11 August 2023) at the Heggelbach site."
+ },
+ "R2355": {
+  "rid": "R2355",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "process_based",
+  "model_time_step": "hourly",
+  "feedbacks_represented": [
+   "water_energy",
+   "shade_microclimate_crop"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "yes",
+  "evidence": "While the model is based on empirically validated equations, the results represent simulated potential and have not yet been field validated."
+ },
+ "R2479": {
+  "rid": "R2479",
+  "validated_subsystems": [
+   "light_shading"
+  ],
+  "validation_independent": "NR",
+  "validation_duration": "one_season_or_year",
+  "goodness_of_fit_reported": "no",
+  "crop_representation": "light_only",
+  "model_time_step": "NR",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "The simulation results are rigorously validated against year-round field measurements obtained from the TAV systems experimental base in Sihong, Jiangsu Province. ... model validation primarily involved comparing annual cumulative and average light data with field observations"
+ },
+ "R2584": {
+  "rid": "R2584",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "none",
+  "model_time_step": "hourly",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "none"
+ },
+ "R2591": {
+  "rid": "R2591",
+  "validated_subsystems": [
+   "crop"
+  ],
+  "validation_independent": "yes",
+  "validation_duration": "NR",
+  "goodness_of_fit_reported": "yes",
+  "crop_representation": "empirical_or_statistical",
+  "model_time_step": "seasonal_or_static",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "yes",
+  "compute_footprint": "no",
+  "evidence": "Our experiments use real, publicly available agricultural datasets—PlantVillage [11], PlantDoc [12], and Agriculture-Vision [13]—and construct PV-shadowed AV variants ... Results show that PrivAgriVolt improves leave-one-client-out generalization under AV shadows"
+ },
+ "R2661": {
+  "rid": "R2661",
+  "validated_subsystems": [
+   "crop"
+  ],
+  "validation_independent": "yes",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "no",
+  "crop_representation": "process_based",
+  "model_time_step": "hourly",
+  "feedbacks_represented": [
+   "shade_microclimate_crop",
+   "water_energy"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "This paper assesses the operating layer itself: the distinctness and the internal consistency of the nine modes ... The crop parameters are literature-based and were not fitted to the case study."
+ },
+ "R2700": {
+  "rid": "R2700",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "empirical_or_statistical",
+  "model_time_step": "hourly",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "Energy was modeled with the System Advisor Model and verified with two alternative models ... The results are simulation-based: they identify the conditions for viability and the evidence still needed"
+ },
+ "R0596": {
+  "rid": "R0596",
+  "validated_subsystems": [
+   "pv_energy"
+  ],
+  "validation_independent": "yes",
+  "validation_duration": "one_season_or_year",
+  "goodness_of_fit_reported": "yes",
+  "crop_representation": "empirical_or_statistical",
+  "model_time_step": "daily",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "\"all coefficients have been calibrated with the training data set\"; \"LOAD train and test data sets\"; \"Electricity generation and crop growth data were collected from June to October in 2020 via remote sensors\""
+ },
+ "R1035": {
+  "rid": "R1035",
+  "validated_subsystems": [
+   "NA"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "NA",
+  "model_time_step": "NA",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "yes",
+  "evidence": "none"
+ },
+ "R1086": {
+  "rid": "R1086",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "light_only",
+  "model_time_step": "NR",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "none"
+ },
+ "R1149": {
+  "rid": "R1149",
+  "validated_subsystems": [
+   "NA"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "NA",
+  "model_time_step": "NA",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "no",
+  "governance_or_security": "yes",
+  "compute_footprint": "yes",
+  "evidence": "\"validation of an innovative sensor node model, supported by a temporary cloud architecture for data collection and validation, using indirect calibration methods based on the databases provided by meteo.it and data extracted through the online Photovoltaic Geographical Information System\""
+ },
+ "R1596": {
+  "rid": "R1596",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "none",
+  "model_time_step": "NR",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "none"
+ },
+ "R1663": {
+  "rid": "R1663",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "empirical_or_statistical",
+  "model_time_step": "NR",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "none"
+ },
+ "R1973": {
+  "rid": "R1973",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "light_only",
+  "model_time_step": "hourly",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "\"The choice of a modelling-based method aligns with studies that favor predictive analysis when direct ecological observation is constrained\""
+ },
+ "R2035": {
+  "rid": "R2035",
+  "validated_subsystems": [
+   "crop"
+  ],
+  "validation_independent": "NR",
+  "validation_duration": "one_season_or_year",
+  "goodness_of_fit_reported": "no",
+  "crop_representation": "process_based",
+  "model_time_step": "daily",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "To increase the accuracy of the model, field measurements were used for model parameterization and validation. ... To compare the measured yields with simulated yields, the dry yields of the selected crops were calculated"
+ },
+ "R2188": {
+  "rid": "R2188",
+  "validated_subsystems": [
+   "pv_energy"
+  ],
+  "validation_independent": "yes",
+  "validation_duration": "one_season_or_year",
+  "goodness_of_fit_reported": "yes",
+  "crop_representation": "none",
+  "model_time_step": "sub_hourly",
+  "feedbacks_represented": [
+   "water_energy",
+   "rain_redistribution",
+   "shade_microclimate_crop"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "Six forecasting model families are evaluated in 21 configurations over 316 daily forecast origins. The selected model achieves a mean absolute error of 0.268 MW... R2 = 0.915, reducing persistence baseline error by 42.0%."
+ },
+ "R2255": {
+  "rid": "R2255",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "empirical_or_statistical",
+  "model_time_step": "hourly",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "none"
+ },
+ "R2264": {
+  "rid": "R2264",
+  "validated_subsystems": [
+   "crop"
+  ],
+  "validation_independent": "yes",
+  "validation_duration": "NR",
+  "goodness_of_fit_reported": "yes",
+  "crop_representation": "empirical_or_statistical",
+  "model_time_step": "seasonal_or_static",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "The dataset was randomly partitioned into training and test sets using an 80:20 split to evaluate out-of-sample predictive performance. Model accuracy was quantified using the coefficient of determination (R2), root mean square error (RMSE), and mean absolute error (MAE)."
+ },
+ "R2270": {
+  "rid": "R2270",
+  "validated_subsystems": [
+   "crop"
+  ],
+  "validation_independent": "no",
+  "validation_duration": "one_season_or_year",
+  "goodness_of_fit_reported": "yes",
+  "crop_representation": "empirical_or_statistical",
+  "model_time_step": "seasonal_or_static",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "the experimental unit for all regression analyses was the row (n = 19) ... Grain yield was strongly associated with cumulative PAR (R2 = 0.811; r = 0.862; p < 0.001)"
+ },
+ "R2311": {
+  "rid": "R2311",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "process_based",
+  "model_time_step": "hourly",
+  "feedbacks_represented": [
+   "shade_microclimate_crop",
+   "water_energy"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "Externally, the same chain was compared hour by hour against pvlib, a community supported open-source reference implementation of photovoltaic modeling"
+ },
+ "R2323": {
+  "rid": "R2323",
+  "validated_subsystems": [
+   "water"
+  ],
+  "validation_independent": "NR",
+  "validation_duration": "one_season_or_year",
+  "goodness_of_fit_reported": "no",
+  "crop_representation": "none",
+  "model_time_step": "daily",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "Paired measurements of VWC and SWP under AVC and UC were used ... to calibrate the physically based agro-hydrological model CRITERIA-1D, assessing its performance against field observations collected at the same monitoring site"
+ },
+ "R0648": {
+  "rid": "R0648",
+  "validated_subsystems": [
+   "pv_energy",
+   "crop"
+  ],
+  "validation_independent": "yes",
+  "validation_duration": "one_season_or_year",
+  "goodness_of_fit_reported": "yes",
+  "crop_representation": "empirical_or_statistical",
+  "model_time_step": "daily",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "no",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "전력 발전량 검증은 2020년 6월 13일부터 동년 10월 20일 까지의 일일 실제 발전량 관측 데이터 (테스트 셋)와 식(4)의 수리 모델을 통한 발전량 예측 값을 비교; 실제 옥수수 수확량 과 수리 모델의 옥수수 생산량 예측 데이터를 비교하는 방식으로 진행하였다"
+ },
+ "R1823": {
+  "rid": "R1823",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "empirical_or_statistical",
+  "model_time_step": "NR",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "no",
+  "governance_or_security": "yes",
+  "compute_footprint": "yes",
+  "evidence": "The experimental demonstration of this model is performed in MATLAB, and simulation results and real-world case studies validate the effectiveness in terms of planting area quality, energy production, and beam and diffuse shading factors."
+ },
+ "R1932": {
+  "rid": "R1932",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "none",
+  "model_time_step": "NR",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "no",
+  "governance_or_security": "no",
+  "compute_footprint": "yes",
+  "evidence": "Field validation of the system demonstrated its effectiveness in terms of LoRaWAN signal coverage and data transmission reliability, even in the presence of structural obstacles."
+ },
+ "R2220": {
+  "rid": "R2220",
+  "validated_subsystems": [
+   "crop"
+  ],
+  "validation_independent": "yes",
+  "validation_duration": "more_than_one_season",
+  "goodness_of_fit_reported": "yes",
+  "crop_representation": "empirical_or_statistical",
+  "model_time_step": "hourly",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "no",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "the dataset was split by plant ID and date into a training, validation, and test split of 70/15/15 ... For measurements with an LAI meter, its LAI predictions had an R² ≥ 0.8."
+ },
+ "R2062": {
+  "rid": "R2062",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "process_based",
+  "model_time_step": "hourly",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "\"We evaluate our approach with a simulated agrivoltaic system.\" \"We evaluate the performance of a synthetic agrivoltaic system located in Ann Arbor, Michigan with 280 PV panels\""
+ },
+ "R2176": {
+  "rid": "R2176",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "none",
+  "model_time_step": "sub_hourly",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "no",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "\"The platform was field-evaluated during the 2025 growing season, with irrigation retrospectively assessed and cleaning/tilt modules included as non-validated model-based components.\""
+ },
+ "R1211": {
+  "rid": "R1211",
+  "validated_subsystems": [
+   "pv_energy",
+   "other"
+  ],
+  "validation_independent": "yes",
+  "validation_duration": "one_season_or_year",
+  "goodness_of_fit_reported": "yes",
+  "crop_representation": "light_only",
+  "model_time_step": "hourly",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "no",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "\"Table 5 also presents the percentage deviation between the estimate and the real electricity generation of the agrivoltaic systems.\" \"comparing the results of the luminous intensity in loco with those obtained by the Dialux software\""
+ },
+ "R2549": {
+  "rid": "R2549",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "none",
+  "model_time_step": "hourly",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "\"The power generation data of the PV subsystem are derived from actual operational measurements. For the battery storage subsystem, the following simplified model is employed.\""
+ },
+ "R1165": {
+  "rid": "R1165",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "none",
+  "model_time_step": "NR",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "none"
+ },
+ "R1783": {
+  "rid": "R1783",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "empirical_or_statistical",
+  "model_time_step": "hourly",
+  "feedbacks_represented": [
+   "albedo_bifacial"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "none"
+ },
+ "R0479": {
+  "rid": "R0479",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "none",
+  "model_time_step": "NR",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "Future work is needed to verify the results of this simulation so that agrivoltaic systems can be implemented in the rural areas and villages"
+ },
+ "R2755": {
+  "rid": "R2755",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "none",
+  "model_time_step": "NR",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "none"
+ },
+ "R0603": {
+  "rid": "R0603",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "none",
+  "model_time_step": "NR",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "none"
+ },
+ "R2317": {
+  "rid": "R2317",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "process_based",
+  "model_time_step": "NR",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "none"
+ },
+ "R0442": {
+  "rid": "R0442",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "light_only",
+  "model_time_step": "NR",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "none"
+ },
+ "R3178": {
+  "rid": "R3178",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "light_only",
+  "model_time_step": "hourly",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "none"
+ },
+ "R2662": {
+  "rid": "R2662",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "process_based",
+  "model_time_step": "NR",
+  "feedbacks_represented": [
+   "shade_microclimate_crop",
+   "water_energy"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "\"Since the physical implementation of the dynamic agrivoltaic system is currently in the design phase\"; \"Although the use of real operational data improves the realism of the model, further validation through field experiments will be necessary to confirm the quantitative results.\""
+ },
+ "R2778": {
+  "rid": "R2778",
+  "validated_subsystems": [
+   "light_shading"
+  ],
+  "validation_independent": "NR",
+  "validation_duration": "less_than_one_season",
+  "goodness_of_fit_reported": "yes",
+  "crop_representation": "process_based",
+  "model_time_step": "sub_hourly",
+  "feedbacks_represented": [
+   "albedo_bifacial"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "yes",
+  "evidence": "\"field measurements at the INRA experimental field of Belfaâ (Agadir, Morocco), with an overall nRMSE of 4.34% and R2 = 0.99 on clear-sky days\"; \"measurements were conducted over six consecutive days (13–18 November 2024)\"; \"four days (21–24 March 2025)\""
+ },
+ "R1443": {
+  "rid": "R1443",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "empirical_or_statistical",
+  "model_time_step": "sub_hourly",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "yes",
+  "evidence": "The implementation, simulation, and experimental validation are currently under development and will be included in a later, more comprehensive version of this work."
+ },
+ "R1636": {
+  "rid": "R1636",
+  "validated_subsystems": [
+   "NA"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "NA",
+  "model_time_step": "NA",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "This paper presents the conceptual framework and justification for establishing a dedicated laboratory for agrivoltaic research."
+ },
+ "R1637": {
+  "rid": "R1637",
+  "validated_subsystems": [
+   "light_shading"
+  ],
+  "validation_independent": "NR",
+  "validation_duration": "one_season_or_year",
+  "goodness_of_fit_reported": "yes",
+  "crop_representation": "light_only",
+  "model_time_step": "sub_hourly",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "yes",
+  "governance_or_security": "no",
+  "compute_footprint": "yes",
+  "evidence": "The experimental phase also served as a benchmark for validating the irradiance distribution simulation. ... The north simulation has a relative RMSE of 15% and the south has 24%."
+ },
+ "R1704": {
+  "rid": "R1704",
+  "validated_subsystems": [
+   "crop"
+  ],
+  "validation_independent": "no",
+  "validation_duration": "one_season_or_year",
+  "goodness_of_fit_reported": "yes",
+  "crop_representation": "process_based",
+  "model_time_step": "hourly",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "yes",
+  "evidence": "The data for 2021, from April 28 to September 15, for the experiment in Davis, USA ... was used for calibration and validation. ... The measured and simulated yields are compared"
+ },
+ "R1711": {
+  "rid": "R1711",
+  "validated_subsystems": [
+   "NA"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "NA",
+  "model_time_step": "NA",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "The objective of this work is to address the problem of monitoring parameters to study and analyse the behaviour of the agri-voltaic system as a whole"
+ },
+ "R1762": {
+  "rid": "R1762",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "none",
+  "model_time_step": "NR",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "no",
+  "governance_or_security": "yes",
+  "compute_footprint": "yes",
+  "evidence": "none"
+ },
+ "R0984": {
+  "rid": "R0984",
+  "validated_subsystems": [
+   "pv_energy",
+   "crop"
+  ],
+  "validation_independent": "yes",
+  "validation_duration": "more_than_one_season",
+  "goodness_of_fit_reported": "yes",
+  "crop_representation": "empirical_or_statistical",
+  "model_time_step": "hourly",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "yes",
+  "governance_or_security": "no",
+  "compute_footprint": "yes",
+  "evidence": "This shading factor was calibrated using measured data, employing a training set (comprising 75% of the data) and a test set (comprising 25% of the data) ... Similar results were measured in the field."
+ },
+ "R1108": {
+  "rid": "R1108",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "none",
+  "model_time_step": "NR",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "none"
+ },
+ "R1178": {
+  "rid": "R1178",
+  "validated_subsystems": [
+   "light_shading"
+  ],
+  "validation_independent": "NR",
+  "validation_duration": "less_than_one_season",
+  "goodness_of_fit_reported": "no",
+  "crop_representation": "light_only",
+  "model_time_step": "hourly",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "The measured reference PAR data is used to validate the radiation model ... These direct and diffuse components are used in the radiation model and compared with real measured data from the PAR sensor below the PV modules."
+ },
+ "R1204": {
+  "rid": "R1204",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "none",
+  "model_time_step": "seasonal_or_static",
+  "feedbacks_represented": [
+   "water_energy"
+  ],
+  "operational_benefit_measured": "no",
+  "governance_or_security": "no",
+  "compute_footprint": "yes",
+  "evidence": "none"
+ },
+ "R1330": {
+  "rid": "R1330",
+  "validated_subsystems": [
+   "crop"
+  ],
+  "validation_independent": "yes",
+  "validation_duration": "one_season_or_year",
+  "goodness_of_fit_reported": "yes",
+  "crop_representation": "process_based",
+  "model_time_step": "hourly",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "the APSIM model was ﬁrst calibrated and then validated using the without-PV and with-PV region experimental yields, respectively ... the agreement between both simulation and experimental values is within ± 1%."
+ },
+ "R1384": {
+  "rid": "R1384",
+  "validated_subsystems": [
+   "light_shading"
+  ],
+  "validation_independent": "no",
+  "validation_duration": "less_than_one_season",
+  "goodness_of_fit_reported": "yes",
+  "crop_representation": "none",
+  "model_time_step": "sub_hourly",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "yes",
+  "governance_or_security": "no",
+  "compute_footprint": "yes",
+  "evidence": "Fig. 6 shows the plot of the three-day measurements, from March 12-14 of 2024, of the solar irradiance and ambient light. It is shown that they had strong correlation as the coefficient of determination, R², was approximately equal to 1."
+ },
+ "R2195": {
+  "rid": "R2195",
+  "validated_subsystems": [
+   "light_shading",
+   "water",
+   "crop"
+  ],
+  "validation_independent": "no",
+  "validation_duration": "one_season_or_year",
+  "goodness_of_fit_reported": "yes",
+  "crop_representation": "process_based",
+  "model_time_step": "NR",
+  "feedbacks_represented": [
+   "rain_redistribution",
+   "shade_microclimate_crop"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "At JSG, the specific leaf area (slatop) for C3 grass was calibrated to align with observed NPP. ... the model accurately represented the spatial distribution of PPFD across fully shaded, partially shaded E and W, and fully sunlit patches"
+ },
+ "R2207": {
+  "rid": "R2207",
+  "validated_subsystems": [
+   "crop"
+  ],
+  "validation_independent": "yes",
+  "validation_duration": "one_season_or_year",
+  "goodness_of_fit_reported": "no",
+  "crop_representation": "process_based",
+  "model_time_step": "hourly",
+  "feedbacks_represented": [
+   "shade_microclimate_crop"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "Crop growth model calibration was performed using data from an open-field control site in Montese ... while AVS simulations and subsequent validation were based on a 35 MW commercial-scale solar farm in Ravenna"
+ },
+ "R2280": {
+  "rid": "R2280",
+  "validated_subsystems": [
+   "crop"
+  ],
+  "validation_independent": "no",
+  "validation_duration": "less_than_one_season",
+  "goodness_of_fit_reported": "no",
+  "crop_representation": "empirical_or_statistical",
+  "model_time_step": "NR",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "yes",
+  "evidence": "A real APV micro-plant equipped with agronomic sensors was used to experimentally derive crop yield response curves, enabling the validation and specialization of relationships previously obtained from meta-analytical studies."
+ },
+ "R2509": {
+  "rid": "R2509",
+  "validated_subsystems": [
+   "crop"
+  ],
+  "validation_independent": "yes",
+  "validation_duration": "one_season_or_year",
+  "goodness_of_fit_reported": "yes",
+  "crop_representation": "process_based",
+  "model_time_step": "daily",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "The AquaCrop model was calibrated using data from unshaded plots and subsequently validated under PV conditions without further parameter adjustment."
+ },
+ "R2562": {
+  "rid": "R2562",
+  "validated_subsystems": [
+   "light_shading"
+  ],
+  "validation_independent": "no",
+  "validation_duration": "less_than_one_season",
+  "goodness_of_fit_reported": "yes",
+  "crop_representation": "empirical_or_statistical",
+  "model_time_step": "sub_hourly",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "yes",
+  "governance_or_security": "no",
+  "compute_footprint": "yes",
+  "evidence": "The mathematical models are further refined by combining actual measurements with simulated values to minimise RE and MBE ... 0.202° different from the corresponding oblique incidence angle at 11:40, with a RE of 0.95%"
+ },
+ "R2624": {
+  "rid": "R2624",
+  "validated_subsystems": [
+   "NA"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "NA",
+  "model_time_step": "NA",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "yes",
+  "evidence": "none"
+ },
+ "R1811": {
+  "rid": "R1811",
+  "validated_subsystems": [
+   "NA"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "NA",
+  "model_time_step": "NA",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "yes",
+  "evidence": "\"The described mechanical structure with the P V s sectors, the sensorized column, the sensors distributed inside the greenhouse and the inverters are going to be installed. Preliminary results are available on a randomized block experiment.\""
+ },
+ "R1814": {
+  "rid": "R1814",
+  "validated_subsystems": [
+   "pv_energy",
+   "crop",
+   "water",
+   "microclimate",
+   "other"
+  ],
+  "validation_independent": "NR",
+  "validation_duration": "one_season_or_year",
+  "goodness_of_fit_reported": "yes",
+  "crop_representation": "empirical_or_statistical",
+  "model_time_step": "hourly",
+  "feedbacks_represented": [
+   "water_energy"
+  ],
+  "operational_benefit_measured": "no",
+  "governance_or_security": "no",
+  "compute_footprint": "yes",
+  "evidence": "\"Model results were retrospectively compared against the observed key performance indicators (KPIs) from the deployment.\" \"The root mean square error (RMSE) was calculated as 0.29 kWh/day... R2 of 0.947\" for WUE; yield \"RMSE was at 1.86 kg\"."
+ },
+ "R1988": {
+  "rid": "R1988",
+  "validated_subsystems": [
+   "microclimate",
+   "water"
+  ],
+  "validation_independent": "no",
+  "validation_duration": "less_than_one_season",
+  "goodness_of_fit_reported": "yes",
+  "crop_representation": "empirical_or_statistical",
+  "model_time_step": "NR",
+  "feedbacks_represented": [
+   "shade_microclimate_crop"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "\"simulation results are compared with observed temperature, humidity, and soil moisture data to adjust key parameters.\" \"For air temperature, the RMSE ranged from 0.015 to 0.019 °C... For soil moisture, the RMSE was less than 0.0012 v/v\""
+ },
+ "R2067": {
+  "rid": "R2067",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "empirical_or_statistical",
+  "model_time_step": "seasonal_or_static",
+  "feedbacks_represented": [
+   "water_energy"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "\"The irrigation-yield relationship was fitted using field experimental data obtained under controlled greenhouse conditions in study area\"; \"Validation with melon further confirmed the model's transferability.\""
+ },
+ "R2171": {
+  "rid": "R2171",
+  "validated_subsystems": [
+   "crop"
+  ],
+  "validation_independent": "NR",
+  "validation_duration": "NR",
+  "goodness_of_fit_reported": "yes",
+  "crop_representation": "empirical_or_statistical",
+  "model_time_step": "sub_hourly",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "no",
+  "governance_or_security": "no",
+  "compute_footprint": "yes",
+  "evidence": "\"Maturity assessment models trained demonstrate strong correlation (R2 > 0.88) between predicted and actual harvest readiness\"; \"mean absolute errors below 0.6 for plant water stress detection\""
+ },
+ "R2177": {
+  "rid": "R2177",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "light_only",
+  "model_time_step": "hourly",
+  "feedbacks_represented": [
+   "albedo_bifacial"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "\"Actual weather data were obtained from the applied climate information system (ACSI) database... used to compute realized PPFD and power generation, which serve as proxies for actual sensor measurements.\""
+ },
+ "R0149": {
+  "rid": "R0149",
+  "validated_subsystems": [
+   "water"
+  ],
+  "validation_independent": "no",
+  "validation_duration": "less_than_one_season",
+  "goodness_of_fit_reported": "yes",
+  "crop_representation": "empirical_or_statistical",
+  "model_time_step": "daily",
+  "feedbacks_represented": [
+   "shade_microclimate_crop"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "Actually, the predictive quality of Eq. (7) used as a model would be rather poor: the corresponding root mean square error is 16 mm, i.e. 23% of the mean AET measured for lettuces with the soil water balance."
+ },
+ "R0200": {
+  "rid": "R0200",
+  "validated_subsystems": [
+   "none"
+  ],
+  "validation_independent": "NA",
+  "validation_duration": "NA",
+  "goodness_of_fit_reported": "NA",
+  "crop_representation": "light_only",
+  "model_time_step": "seasonal_or_static",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "none"
+ },
+ "R0341": {
+  "rid": "R0341",
+  "validated_subsystems": [
+   "water",
+   "crop"
+  ],
+  "validation_independent": "no",
+  "validation_duration": "more_than_one_season",
+  "goodness_of_fit_reported": "yes",
+  "crop_representation": "process_based",
+  "model_time_step": "sub_hourly",
+  "feedbacks_represented": [
+   "rain_redistribution",
+   "shade_microclimate_crop"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "The mean absolute error (MAE) of the model is about 3 mm (8.5% of soil water capacity) ... a (g) and b (g) are coeﬃcients ﬁtted on the control plot"
+ },
+ "R0526": {
+  "rid": "R0526",
+  "validated_subsystems": [
+   "microclimate"
+  ],
+  "validation_independent": "NR",
+  "validation_duration": "less_than_one_season",
+  "goodness_of_fit_reported": "yes",
+  "crop_representation": "empirical_or_statistical",
+  "model_time_step": "NR",
+  "feedbacks_represented": [
+   "shade_microclimate_crop"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "The greenhouse indoor temperature and relative humidity in the reference greenhouse were measured and compared with the numerical results obtained in the similar conditions."
+ },
+ "R0915": {
+  "rid": "R0915",
+  "validated_subsystems": [
+   "microclimate",
+   "pv_energy",
+   "light_shading",
+   "other"
+  ],
+  "validation_independent": "NR",
+  "validation_duration": "NR",
+  "goodness_of_fit_reported": "yes",
+  "crop_representation": "empirical_or_statistical",
+  "model_time_step": "NR",
+  "feedbacks_represented": [
+   "shade_microclimate_crop"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "no",
+  "evidence": "the coupled optical-thermal-electrical model is validated using measurement data ... the MBE and RMSE of the temperature are − 0.85 ◦C and 1.29 ◦C, respectively ... the simulated power generation of the PV arrays and measurement are plotted in Fig. 10"
+ },
+ "R0979": {
+  "rid": "R0979",
+  "validated_subsystems": [
+   "light_shading",
+   "pv_energy"
+  ],
+  "validation_independent": "NR",
+  "validation_duration": "one_season_or_year",
+  "goodness_of_fit_reported": "no",
+  "crop_representation": "empirical_or_statistical",
+  "model_time_step": "sub_hourly",
+  "feedbacks_represented": [
+   "none"
+  ],
+  "operational_benefit_measured": "NA",
+  "governance_or_security": "no",
+  "compute_footprint": "yes",
+  "evidence": "on-site experimentally validated ray-tracing and irradiance modeling simulation software ... allowed a direct calculation of energy yield and comparison between monitored and simulated power"
+ }
+}

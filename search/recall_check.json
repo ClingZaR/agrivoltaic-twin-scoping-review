@@ -1,0 +1,3107 @@
+{
+ "reviews": {
+  "Zainali2025": {
+   "doi": "10.1016/j.apenergy.2025.125558",
+   "n_references": 177,
+   "n_with_doi": 136
+  },
+  "DiDomenico2026": {
+   "doi": "10.1016/j.atech.2026.102121",
+   "n_references": 82,
+   "n_with_doi": 32
+  },
+  "Pillai2026": {
+   "doi": "10.1016/j.rser.2026.117056",
+   "n_references": 179,
+   "n_with_doi": 107
+  },
+  "Qiao2026": {
+   "doi": "10.3390/su18178849",
+   "n_references": 206,
+   "n_with_doi": 193
+  },
+  "Monasterio2026": {
+   "doi": "10.3390/en19061554",
+   "n_references": 38,
+   "n_with_doi": 35
+  },
+  "Campana2025": {
+   "doi": "10.1038/s44359-025-00110-9",
+   "n_references": 307,
+   "n_with_doi": 256
+  },
+  "Mamun2022": {
+   "doi": "10.1016/j.rser.2022.112351",
+   "n_references": 131,
+   "n_with_doi": 99
+  },
+  "Cosme2025": {
+   "doi": "10.3390/agronomy15122829",
+   "n_references": 55,
+   "n_with_doi": 41
+  }
+ },
+ "known_items": [
+  {
+   "doi": "10.1016/j.renene.2011.03.005",
+   "title": "Combining solar photovoltaic panels and food crops for optimising land use: Towards new agrivoltaic schemes",
+   "type": "journal-article",
+   "year": 2011,
+   "cited_by": [
+    "Campana2025",
+    "Mamun2022",
+    "Monasterio2026",
+    "Pillai2026",
+    "Qiao2026",
+    "Zainali2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.apenergy.2020.114737",
+   "title": "Implementation of agrophotovoltaics: Techno-economic analysis of the price-performance ratio and its policy implications",
+   "type": "journal-article",
+   "year": 2020,
+   "cited_by": [
+    "Mamun2022",
+    "Pillai2026",
+    "Qiao2026",
+    "Zainali2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.52825/agripv.v1i.533",
+   "title": "Agrivoltaics in Japan",
+   "type": "journal-article",
+   "year": 2024,
+   "cited_by": [
+    "Campana2025",
+    "Zainali2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.rser.2022.112351",
+   "title": "A review of research on agrivoltaic systems",
+   "type": "journal-article",
+   "year": 2022,
+   "cited_by": [
+    "Campana2025",
+    "Pillai2026",
+    "Zainali2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1007/s13593-019-0581-3",
+   "title": "Agrophotovoltaic systems: applications, challenges, and opportunities. A review",
+   "type": "journal-article",
+   "year": 2019,
+   "cited_by": [
+    "Campana2025",
+    "Mamun2022",
+    "Pillai2026",
+    "Qiao2026",
+    "Zainali2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.rser.2022.112126",
+   "title": "Progress and challenges of crop production and electricity generation in agrivoltaic systems using semi-transparent photovoltaic technology",
+   "type": "journal-article",
+   "year": 2022,
+   "cited_by": [
+    "Campana2025",
+    "Pillai2026",
+    "Qiao2026",
+    "Zainali2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.3389/fsufs.2022.932018",
+   "title": "Opportunities for agrivoltaic systems to achieve synergistic food-energy-environmental needs and address sustainability goals",
+   "type": "journal-article",
+   "year": 2022,
+   "cited_by": [
+    "Campana2025",
+    "DiDomenico2026",
+    "Pillai2026",
+    "Zainali2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.solener.2023.112146",
+   "title": "Nexus between agriculture and photovoltaics (agrivoltaics, agriphotovoltaics) for sustainable development goal: A review",
+   "type": "journal-article",
+   "year": 2023,
+   "cited_by": [
+    "Zainali2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.rser.2023.114277",
+   "title": "Agrivoltaics, a promising new tool for electricity and food production: A systematic review",
+   "type": "journal-article",
+   "year": 2024,
+   "cited_by": [
+    "Campana2025",
+    "Pillai2026",
+    "Zainali2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.rser.2024.114416",
+   "title": "Comprehensive review on agrivoltaics with technical, environmental and societal insights",
+   "type": "journal-article",
+   "year": 2024,
+   "cited_by": [
+    "Campana2025",
+    "Pillai2026",
+    "Zainali2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.apenergy.2018.03.081",
+   "title": "Agrivoltaic systems to optimise land use for electric energy production",
+   "type": "journal-article",
+   "year": 2018,
+   "cited_by": [
+    "Campana2025",
+    "DiDomenico2026",
+    "Mamun2022",
+    "Qiao2026",
+    "Zainali2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.jclepro.2021.129091",
+   "title": "Optimisation of vertically mounted agrivoltaic systems",
+   "type": "journal-article",
+   "year": 2021,
+   "cited_by": [
+    "Campana2025",
+    "Mamun2022",
+    "Pillai2026",
+    "Qiao2026",
+    "Zainali2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.apenergy.2022.119560",
+   "title": "Agrivoltaics analysis in a techno-economic framework: Understanding why agrivoltaics on rice will always be profitable",
+   "type": "journal-article",
+   "year": 2022,
+   "cited_by": [
+    "Campana2025",
+    "Zainali2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.renene.2022.03.078",
+   "title": "Implications of spatial-temporal shading in agrivoltaics under fixed tilt &amp; tracking bifacial photovoltaic panels",
+   "type": "journal-article",
+   "year": 2022,
+   "cited_by": [
+    "Pillai2026",
+    "Qiao2026",
+    "Zainali2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.renene.2022.01.081",
+   "title": "Design and analysis of a tracking / backtracking strategy for PV plants with horizontal trackers after their conversion to agrivoltaic plants",
+   "type": "journal-article",
+   "year": 2022,
+   "cited_by": [
+    "Pillai2026",
+    "Zainali2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.apenergy.2021.118475",
+   "title": "Integration of bifacial photovoltaics in agrivoltaic systems: A synergistic design approach",
+   "type": "journal-article",
+   "year": 2022,
+   "cited_by": [
+    "Campana2025",
+    "Mamun2022",
+    "Pillai2026",
+    "Zainali2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.egyr.2022.06.076",
+   "title": "Geospatial assessment of elevated agrivoltaics on arable land in Europe to highlight the implications on design, land use and economic level",
+   "type": "journal-article",
+   "year": 2022,
+   "cited_by": [
+    "Pillai2026",
+    "Zainali2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1109/pvsc45281.2020.9300670",
+   "title": "Optimization of PV Array Density for Fixed Tilt Bifacial Solar Panels for Efficient Agrivoltaic Systems",
+   "type": "proceedings-article",
+   "year": 2020,
+   "cited_by": [
+    "Zainali2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1109/jphotov.2020.3048225",
+   "title": "Module Technology for Agrivoltaics: Vertical Bifacial Versus Tilted Monofacial Farms",
+   "type": "journal-article",
+   "year": 2021,
+   "cited_by": [
+    "Zainali2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1109/pvsc45281.2020.9300682",
+   "title": "Optimization of Single-Axis Tracking of Photovoltaic Modules for Agrivoltaic Systems",
+   "type": "proceedings-article",
+   "year": 2020,
+   "cited_by": [
+    "Zainali2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.apenergy.2023.120981",
+   "title": "Direct and diffuse shading factors modelling for the most representative agrivoltaic system layouts",
+   "type": "journal-article",
+   "year": 2023,
+   "cited_by": [
+    "Qiao2026",
+    "Zainali2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.rser.2020.110694",
+   "title": "Combining food and energy production: Design of an agrivoltaic system applied in arable and vegetable farming in Germany",
+   "type": "journal-article",
+   "year": 2021,
+   "cited_by": [
+    "Campana2025",
+    "Mamun2022",
+    "Zainali2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.apenergy.2023.122050",
+   "title": "Simulation model to analyze the spatial distribution of solar radiation in agrivoltaic Mediterranean greenhouses and its effect on crop water needs",
+   "type": "journal-article",
+   "year": 2024,
+   "cited_by": [
+    "Zainali2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.apenergy.2024.122660",
+   "title": "Enhancing land use: Integrating bifacial PV and olive trees in agrivoltaic systems",
+   "type": "journal-article",
+   "year": 2024,
+   "cited_by": [
+    "Zainali2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.jclepro.2024.143888",
+   "title": "Simulation model for electrical and agricultural productivity of an olive hedgerow Agrivoltaic system",
+   "type": "journal-article",
+   "year": 2024,
+   "cited_by": [
+    "Zainali2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1063/5.0181311",
+   "title": "Photosynthetically active radiation separation model for high-latitude regions in agrivoltaic systems modeling",
+   "type": "journal-article",
+   "year": 2024,
+   "cited_by": [
+    "Campana2025",
+    "Zainali2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.solener.2022.05.046",
+   "title": "Photosynthetically active radiation decomposition models for agrivoltaic systems applications",
+   "type": "journal-article",
+   "year": 2022,
+   "cited_by": [
+    "Campana2025",
+    "Pillai2026",
+    "Zainali2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.apenergy.2023.122166",
+   "title": "Design and evaluation of an agrivoltaic system for a pear orchard",
+   "type": "journal-article",
+   "year": 2024,
+   "cited_by": [
+    "Campana2025",
+    "Pillai2026",
+    "Qiao2026",
+    "Zainali2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.3390/agronomy13071820",
+   "title": "Open-Field Agrivoltaic System Impacts on Photothermal Environment and Light Environment Simulation Analysis in Eastern China",
+   "type": "journal-article",
+   "year": 2023,
+   "cited_by": [
+    "Qiao2026",
+    "Zainali2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.solener.2022.03.014",
+   "title": "Reconsidering beam and diffuse solar fractions for agrivoltaics",
+   "type": "journal-article",
+   "year": 2022,
+   "cited_by": [
+    "Zainali2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.3390/en16073261",
+   "title": "Estimation Model of Agrivoltaic Systems Maximizing for Both Photovoltaic Electricity Generation and Agricultural Production",
+   "type": "journal-article",
+   "year": 2023,
+   "cited_by": [
+    "Qiao2026",
+    "Zainali2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.nexus.2023.100173",
+   "title": "Computational fluid dynamics modelling of microclimate for a vertical agrivoltaic system",
+   "type": "journal-article",
+   "year": 2023,
+   "cited_by": [
+    "Campana2025",
+    "Qiao2026",
+    "Zainali2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.3390/su13052850",
+   "title": "A Case Study of Tomato (Solanum lycopersicon var. Legend) Production and Water Productivity in Agrivoltaic Systems",
+   "type": "journal-article",
+   "year": 2021,
+   "cited_by": [
+    "Cosme2025",
+    "Zainali2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.biosystemseng.2021.06.017",
+   "title": "Spatial and temporal variation of photosynthetic photon flux density within agrivoltaic system in hot arid region of India",
+   "type": "journal-article",
+   "year": 2021,
+   "cited_by": [
+    "Mamun2022",
+    "Pillai2026",
+    "Zainali2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.solener.2024.113013",
+   "title": "Performance prediction and optimisation of even-lighting agrivoltaic systems with semi-transparent PV module in the tropical region",
+   "type": "journal-article",
+   "year": 2024,
+   "cited_by": [
+    "Campana2025",
+    "Zainali2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.solener.2016.11.024",
+   "title": "An algorithm for the calculation of the light distribution in photovoltaic greenhouses",
+   "type": "journal-article",
+   "year": 2017,
+   "cited_by": [
+    "Qiao2026",
+    "Zainali2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.3390/su14106154",
+   "title": "A Validated Model, Scalability, and Plant Growth Results for an Agrivoltaic Greenhouse",
+   "type": "journal-article",
+   "year": 2022,
+   "cited_by": [
+    "Zainali2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1007/s10457-024-01090-8",
+   "title": "Modelling light-sharing in agrivoltaics: the open-source Python Agrivoltaic Simulation Environment (PASE 1.0)",
+   "type": "journal-article",
+   "year": 2024,
+   "cited_by": [
+    "Campana2025",
+    "DiDomenico2026",
+    "Zainali2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.52825/agripv.v2i.1004",
+   "title": "Validation of Vertical Bifacial Agrivoltaic and Other Systems Modelling",
+   "type": "journal-article",
+   "year": 2024,
+   "cited_by": [
+    "Campana2025",
+    "Zainali2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.52825/agripv.v2i.980",
+   "title": "Challenges in the Planning, Construction and Farming Practices in Agrivoltaic Systems With Vertically Mounted Panels",
+   "type": "journal-article",
+   "year": 2024,
+   "cited_by": [
+    "Campana2025",
+    "Qiao2026",
+    "Zainali2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.energy.2022.124626",
+   "title": "Unlock the hidden potential of urban rooftop agrivoltaics energy-food-nexus",
+   "type": "journal-article",
+   "year": 2022,
+   "cited_by": [
+    "Zainali2025"
+   ],
+   "retrieved": false
+  },
+  {
+   "doi": "10.1016/j.solener.2024.113102",
+   "title": "Evaluating tracking bifacial solar PV based agrivoltaics system across the UK",
+   "type": "journal-article",
+   "year": 2024,
+   "cited_by": [
+    "Zainali2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.solener.2024.112744",
+   "title": "The technical and economic potential for crop based agrivoltaics in the United Kingdom",
+   "type": "journal-article",
+   "year": 2024,
+   "cited_by": [
+    "Zainali2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1038/s41893-019-0364-5",
+   "title": "Agrivoltaics provide mutual benefits across the food\u2013energy\u2013water nexus in drylands",
+   "type": "journal-article",
+   "year": 2019,
+   "cited_by": [
+    "Campana2025",
+    "Cosme2025",
+    "DiDomenico2026",
+    "Mamun2022",
+    "Monasterio2026",
+    "Pillai2026",
+    "Qiao2026",
+    "Zainali2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.solener.2021.10.051",
+   "title": "The optimization of vertical bifacial photovoltaic farms for efficient agrivoltaic systems",
+   "type": "journal-article",
+   "year": 2021,
+   "cited_by": [
+    "Campana2025",
+    "Mamun2022",
+    "Zainali2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.apenergy.2018.10.019",
+   "title": "Modeling and analyses of energy performances of photovoltaic greenhouses with sun-tracking functionality",
+   "type": "journal-article",
+   "year": 2019,
+   "cited_by": [
+    "Pillai2026",
+    "Zainali2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.nexus.2022.100052",
+   "title": "3D-thermal modelling of a bifacial agrivoltaic system: a photovoltaic module perspective",
+   "type": "journal-article",
+   "year": 2022,
+   "cited_by": [
+    "Campana2025",
+    "Zainali2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1371/journal.pone.0273119",
+   "title": "Agrivoltaics: Modeling the relative importance of longwave radiation from solar panels",
+   "type": "journal-article",
+   "year": 2022,
+   "cited_by": [
+    "Zainali2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.resconrec.2022.106684",
+   "title": "A sustainable development pattern integrating data centers and pasture-based agrivoltaic systems for ecologically fragile areas",
+   "type": "journal-article",
+   "year": 2023,
+   "cited_by": [
+    "Zainali2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1109/tste.2022.3223684",
+   "title": "Collaborative Optimization of PV Greenhouses and Clean Energy Systems in Rural Areas",
+   "type": "journal-article",
+   "year": 2023,
+   "cited_by": [
+    "Zainali2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.renene.2021.11.074",
+   "title": "Techno-economic evaluation of different agri-voltaic designs for the hot arid ecosystem India",
+   "type": "journal-article",
+   "year": 2022,
+   "cited_by": [
+    "Campana2025",
+    "Mamun2022",
+    "Pillai2026",
+    "Zainali2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.apenergy.2021.116809",
+   "title": "Agrivoltaics and weather risk: A diversification strategy for landowners",
+   "type": "journal-article",
+   "year": 2021,
+   "cited_by": [
+    "Campana2025",
+    "Zainali2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.52825/agripv.v2i.1003",
+   "title": "3D View Factor Power Output Modelling of Bifacial Fixed, Single, and Dual-Axis Agrivoltaic Systems",
+   "type": "journal-article",
+   "year": 2024,
+   "cited_by": [
+    "Cosme2025",
+    "Zainali2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.renene.2023.119181",
+   "title": "Performance evaluation of vertical bifacial and single-axis tracked agrivoltaic systems on arable land",
+   "type": "journal-article",
+   "year": 2023,
+   "cited_by": [
+    "Campana2025",
+    "Qiao2026",
+    "Zainali2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.3390/agronomy10101472",
+   "title": "Modeling of Stochastic Temperature and Heat Stress Directly Underneath Agrivoltaic Conditions with Orthosiphon Stamineus Crop Cultivation",
+   "type": "journal-article",
+   "year": 2020,
+   "cited_by": [
+    "Mamun2022",
+    "Zainali2025"
+   ],
+   "retrieved": false
+  },
+  {
+   "doi": "10.1109/isesd53023.2021.9501592",
+   "title": "Design and Simulation of Smart Greenhouse for Agrivoltaics Microclimates Optimization",
+   "type": "proceedings-article",
+   "year": 2021,
+   "cited_by": [
+    "Zainali2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.3390/su14127089",
+   "title": "Effects of Agrivoltaic Systems on the Surrounding Rooftop Microclimate",
+   "type": "journal-article",
+   "year": 2022,
+   "cited_by": [
+    "Cosme2025",
+    "Zainali2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.apenergy.2022.120478",
+   "title": "The potential for agrivoltaics to enhance solar farm cooling",
+   "type": "journal-article",
+   "year": 2023,
+   "cited_by": [
+    "Campana2025",
+    "Zainali2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.agwat.2018.07.001",
+   "title": "Water budget and crop modelling for agrivoltaic systems: Application to irrigated lettuces",
+   "type": "journal-article",
+   "year": 2018,
+   "cited_by": [
+    "Campana2025",
+    "DiDomenico2026",
+    "Mamun2022",
+    "Zainali2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.eja.2020.126074",
+   "title": "Agricultural sustainability estimation of the European photovoltaic greenhouses",
+   "type": "journal-article",
+   "year": 2020,
+   "cited_by": [
+    "Zainali2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.3390/horticulturae8121160",
+   "title": "Agrivoltaic System and Modelling Simulation: A Case Study of Soybean (Glycine max L.) in Italy",
+   "type": "journal-article",
+   "year": 2022,
+   "cited_by": [
+    "Campana2025",
+    "Pillai2026",
+    "Zainali2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.scienta.2022.111434",
+   "title": "Shading apple trees with an agrivoltaic system: Impact on water relations, leaf morphophysiological characteristics and yield determinants",
+   "type": "journal-article",
+   "year": 2022,
+   "cited_by": [
+    "Campana2025",
+    "Cosme2025",
+    "Zainali2025"
+   ],
+   "retrieved": false
+  },
+  {
+   "doi": "10.1016/j.apenergy.2020.116102",
+   "title": "Innovative agrivoltaic systems to produce sustainable energy: An economic and environmental assessment",
+   "type": "journal-article",
+   "year": 2021,
+   "cited_by": [
+    "Campana2025",
+    "Mamun2022",
+    "Qiao2026",
+    "Zainali2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.rser.2015.10.024",
+   "title": "The potential of agrivoltaic systems",
+   "type": "journal-article",
+   "year": 2016,
+   "cited_by": [
+    "Campana2025",
+    "Mamun2022",
+    "Pillai2026",
+    "Zainali2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1007/s00466-021-02035-z",
+   "title": "A digital-twin and machine-learning framework for the design of multiobjective agrophotovoltaic solar farms",
+   "type": "journal-article",
+   "year": 2021,
+   "cited_by": [
+    "Zainali2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.apenergy.2023.122108",
+   "title": "Agrivoltaic systems potentials in Sweden: A geospatial-assisted multi-criteria analysis",
+   "type": "journal-article",
+   "year": 2024,
+   "cited_by": [
+    "Campana2025",
+    "Zainali2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.apenergy.2024.123490",
+   "title": "Simulation-Based Decision Support for Agrivoltaic Systems",
+   "type": "journal-article",
+   "year": 2024,
+   "cited_by": [
+    "Campana2025",
+    "Zainali2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.joule.2024.08.006",
+   "title": "Wavelength-selective solar photovoltaic systems to enhance spectral sharing of sunlight in agrivoltaics",
+   "type": "journal-article",
+   "year": 2024,
+   "cited_by": [
+    "Campana2025",
+    "Pillai2026",
+    "Zainali2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.dib.2024.110990",
+   "title": "Data on the effects of a vertical agrivoltaic system on crop yield and nutrient content of barley (Hordeum vulgare L.) in Sweden",
+   "type": "journal-article",
+   "year": 2024,
+   "cited_by": [
+    "Campana2025",
+    "Zainali2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1088/1748-9326/ad2ab8",
+   "title": "Agrivoltaic system design tools for managing trade-offs between energy production, crop productivity and water consumption",
+   "type": "journal-article",
+   "year": 2024,
+   "cited_by": [
+    "DiDomenico2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.enconman.2024.118436",
+   "title": "A new approach for modelling photovoltaic panel configuration maximizing crop yield and photovoltaic array outputs in agrivoltaics systems",
+   "type": "journal-article",
+   "year": 2024,
+   "cited_by": [
+    "DiDomenico2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.52825/agripv.v2i.1033",
+   "title": "Effects of Agrivoltaics on the Microclimate in Horticulture",
+   "type": "journal-article",
+   "year": 2024,
+   "cited_by": [
+    "Cosme2025",
+    "DiDomenico2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.3390/technologies12070106",
+   "title": "Analysis and Development of an IoT System for an Agrivoltaics Plant",
+   "type": "journal-article",
+   "year": 2024,
+   "cited_by": [
+    "DiDomenico2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.3390/foods11040498",
+   "title": "Impact of an Agriphotovoltaic System on Metabolites and the Sensorial Quality of Cabbage (Brassica oleracea var. capitata) and Its High-Temperature-Extracted Juice",
+   "type": "journal-article",
+   "year": 2022,
+   "cited_by": [
+    "DiDomenico2026"
+   ],
+   "retrieved": false
+  },
+  {
+   "doi": "10.3390/agronomy11040733",
+   "title": "Effects on Crop Development, Yields and Chemical Composition of Celeriac (Apium graveolens L. var. rapaceum) Cultivated Underneath an Agrivoltaic System",
+   "type": "journal-article",
+   "year": 2021,
+   "cited_by": [
+    "Cosme2025",
+    "DiDomenico2026",
+    "Mamun2022",
+    "Qiao2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.scs.2025.107091",
+   "title": "Exploring micro-environmental conditions of urban agrivoltaics: Advancing sustainable green spaces and agriculture in temperate cities",
+   "type": "journal-article",
+   "year": 2026,
+   "cited_by": [
+    "DiDomenico2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.eja.2025.127748",
+   "title": "Towards crop monitoring in agro-photovoltaic systems: An image-driven modeling approach for fAPAR-derived biomass estimation",
+   "type": "journal-article",
+   "year": 2025,
+   "cited_by": [
+    "DiDomenico2026",
+    "Qiao2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.3389/fhort.2025.1695943",
+   "title": "Impact of shading following installation of agrivoltaic systems on eco-physiological and biochemical attributes of \u201cHowes\u201d cranberry in Massachusetts",
+   "type": "journal-article",
+   "year": 2025,
+   "cited_by": [
+    "DiDomenico2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1155/ajgw/8827979",
+   "title": "Vine Performance, Single\u2010Leaf and Whole\u2010Canopy Gas Exchange Under Agrivoltaics Cover in Malvasia di Candia Aromatica and Cabernet Sauvignon Grapevines",
+   "type": "journal-article",
+   "year": 2025,
+   "cited_by": [
+    "DiDomenico2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.3390/en18246417",
+   "title": "Agrivoltaics Around the World: Potential, Technology, Crops and Policies to Address the Energy\u2013Agriculture Nexus for Sustainable and Climate-Resilient Land Use",
+   "type": "journal-article",
+   "year": 2025,
+   "cited_by": [
+    "DiDomenico2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.3390/agronomy13102625",
+   "title": "Agrivoltaic Farming Insights: A Case Study on the Cultivation and Quality of Kimchi Cabbage and Garlic",
+   "type": "journal-article",
+   "year": 2023,
+   "cited_by": [
+    "Cosme2025",
+    "DiDomenico2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.17660/actahortic.2022.1337.16",
+   "title": "Installation of an agrivoltaic system influences microclimatic conditions and leaf gas exchange in cranberry",
+   "type": "journal-article",
+   "year": 2022,
+   "cited_by": [
+    "DiDomenico2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.3390/agronomy15030665",
+   "title": "A Ray-Tracing-Based Irradiance Model for Agrivoltaic Greenhouses: Development and Application",
+   "type": "journal-article",
+   "year": 2025,
+   "cited_by": [
+    "DiDomenico2026",
+    "Qiao2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1109/sas65169.2025.11105197",
+   "title": "Monitoring Systems of Agrivoltaic Greenhouses: a West-Sicily case study",
+   "type": "proceedings-article",
+   "year": 2025,
+   "cited_by": [
+    "DiDomenico2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.3390/technologies11040095",
+   "title": "Field Performance Monitoring of Energy-Generating High-Transparency Agrivoltaic Glass Windows",
+   "type": "journal-article",
+   "year": 2023,
+   "cited_by": [
+    "DiDomenico2026",
+    "Pillai2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.3390/en19020539",
+   "title": "Agrivoltaics Across Crops and Technologies: A Systematic Review of Experimental Tests on Yield, Microclimate, and Energy Performance",
+   "type": "journal-article",
+   "year": 2026,
+   "cited_by": [
+    "DiDomenico2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.3390/su13126871",
+   "title": "Agrivoltaic Systems Design and Assessment: A Critical Review, and a Descriptive Model towards a Sustainable Landscape Vision (Three-Dimensional Agrivoltaic Patterns)",
+   "type": "journal-article",
+   "year": 2021,
+   "cited_by": [
+    "Campana2025",
+    "Mamun2022",
+    "Pillai2026",
+    "Qiao2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.spc.2022.08.013",
+   "title": "Current status of agrivoltaic systems and their benefits to energy, food, environment, economy, and society",
+   "type": "journal-article",
+   "year": 2022,
+   "cited_by": [
+    "Monasterio2026",
+    "Pillai2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1007/s11356-022-23202-6",
+   "title": "Review on agrophotovoltaic systems with a premise on thermal management of photovoltaic modules therein",
+   "type": "journal-article",
+   "year": 2022,
+   "cited_by": [
+    "Pillai2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.3390/en16073009",
+   "title": "A Mini-Review of Current Activities and Future Trends in Agrivoltaics",
+   "type": "journal-article",
+   "year": 2023,
+   "cited_by": [
+    "Pillai2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1002/ppp3.10481",
+   "title": "Conservation agrivoltaics for sustainable food\u2010energy production",
+   "type": "journal-article",
+   "year": 2024,
+   "cited_by": [
+    "Campana2025",
+    "Pillai2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.3390/pr11030948",
+   "title": "Agrivoltaic, a Synergistic Co-Location of Agricultural and Energy Production in Perpetual Mutation: A Comprehensive Review",
+   "type": "journal-article",
+   "year": 2023,
+   "cited_by": [
+    "Pillai2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.3390/su13147846",
+   "title": "Solar Photovoltaic Architecture and Agronomic Management in Agrivoltaic System: A Review",
+   "type": "journal-article",
+   "year": 2021,
+   "cited_by": [
+    "Mamun2022",
+    "Pillai2026",
+    "Qiao2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.3390/en16020611",
+   "title": "Worldwide Research Trends in Agrivoltaic Systems\u2014A Bibliometric Review",
+   "type": "journal-article",
+   "year": 2023,
+   "cited_by": [
+    "Pillai2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.rser.2024.115066",
+   "title": "Harvesting the sun twice: Energy, food and water benefits from agrivoltaics in East Africa",
+   "type": "journal-article",
+   "year": 2025,
+   "cited_by": [
+    "Campana2025",
+    "Pillai2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.solener.2025.113682",
+   "title": "Towards sustainable Agri-Photovoltaics through system design and viability in Semi-Arid conditions",
+   "type": "journal-article",
+   "year": 2025,
+   "cited_by": [
+    "Pillai2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.egyr.2021.06.017",
+   "title": "The potential of Agrivoltaic systems in TURKEY",
+   "type": "journal-article",
+   "year": 2021,
+   "cited_by": [
+    "Pillai2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1088/1755-1315/578/1/012047",
+   "title": "The potential of agrivoltaic systems in the conditions of southern regions of Russian Federation",
+   "type": "journal-article",
+   "year": 2020,
+   "cited_by": [
+    "Pillai2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.3390/su15043228",
+   "title": "The Agrivoltaic Potential of Canada",
+   "type": "journal-article",
+   "year": 2023,
+   "cited_by": [
+    "Pillai2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1002/pip.3727",
+   "title": "Comparative analysis of photovoltaic configurations for agrivoltaic systems in Europe",
+   "type": "journal-article",
+   "year": 2023,
+   "cited_by": [
+    "Campana2025",
+    "Pillai2026",
+    "Qiao2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1002/aesr.202500227",
+   "title": "Review of the Challenges and Prospects in Agrivoltaics",
+   "type": "journal-article",
+   "year": 2025,
+   "cited_by": [
+    "Pillai2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.rser.2025.115930",
+   "title": "Impacts of agrivoltaic systems on microclimate, water use efficiency, and crop yield: A systematic review",
+   "type": "journal-article",
+   "year": 2025,
+   "cited_by": [
+    "Campana2025",
+    "Pillai2026",
+    "Qiao2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.apenergy.2025.125558",
+   "title": "Modelling, simulation, and optimisation of agrivoltaic systems: a comprehensive review",
+   "type": "journal-article",
+   "year": 2025,
+   "cited_by": [
+    "Campana2025",
+    "Monasterio2026",
+    "Pillai2026",
+    "Qiao2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.agrformet.2013.04.012",
+   "title": "Microclimate under agrivoltaic systems: Is crop growth rate affected in the partial shade of solar panels?",
+   "type": "journal-article",
+   "year": 2013,
+   "cited_by": [
+    "Campana2025",
+    "Mamun2022",
+    "Pillai2026",
+    "Qiao2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.envres.2024.120540",
+   "title": "Agrivoltaics development progresses: From the perspective of photovoltaic impact on crops, soil ecology and climate",
+   "type": "journal-article",
+   "year": 2025,
+   "cited_by": [
+    "Pillai2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.eja.2023.126922",
+   "title": "Shading and PAR under different density agrivoltaic systems, their simulation and effect on wheat productivity",
+   "type": "journal-article",
+   "year": 2023,
+   "cited_by": [
+    "Pillai2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.3390/en14248463",
+   "title": "Simulation of Crop Yields Grown under Agro-Photovoltaic Panels: A Case Study in Chonnam Province, South Korea",
+   "type": "journal-article",
+   "year": 2021,
+   "cited_by": [
+    "Pillai2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.3390/en18081937",
+   "title": "Suitability of Existing Photovoltaic Degradation Models for Agrivoltaic Systems",
+   "type": "journal-article",
+   "year": 2025,
+   "cited_by": [
+    "Pillai2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1371/journal.pone.0203256",
+   "title": "Remarkable agrivoltaic influence on soil moisture, micrometeorology and water-use efficiency",
+   "type": "journal-article",
+   "year": 2018,
+   "cited_by": [
+    "Campana2025",
+    "Pillai2026",
+    "Qiao2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.3390/agronomy11030593",
+   "title": "Techno-Economic Viability of Agro-Photovoltaic Irrigated Arable Lands in the EU-Med Region: A Case-Study in Southwestern Spain",
+   "type": "journal-article",
+   "year": 2021,
+   "cited_by": [
+    "Mamun2022",
+    "Pillai2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1007/s13593-021-00714-y",
+   "title": "Agrivoltaic system impacts on microclimate and yield of different crops within an organic crop rotation in a temperate climate",
+   "type": "journal-article",
+   "year": 2021,
+   "cited_by": [
+    "Campana2025",
+    "Mamun2022",
+    "Pillai2026",
+    "Qiao2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1002/aenm.202002551",
+   "title": "Agrivoltaics\u2014The Perfect Fit for the Future of Organic Photovoltaics",
+   "type": "journal-article",
+   "year": 2020,
+   "cited_by": [
+    "Pillai2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.3390/agronomy14030584",
+   "title": "The Early Effects of an Agrivoltaic System within a Different Crop Cultivation on Soil Quality in Dry\u2013Hot Valley Eco-Fragile Areas",
+   "type": "journal-article",
+   "year": 2024,
+   "cited_by": [
+    "Campana2025",
+    "Pillai2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.seta.2017.08.004",
+   "title": "Agrivoltaic potential on grape farms in India",
+   "type": "journal-article",
+   "year": 2017,
+   "cited_by": [
+    "Mamun2022",
+    "Pillai2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.enpol.2021.112620",
+   "title": "Examining existing policy to inform a comprehensive legal framework for agrivoltaics in the U.S.",
+   "type": "journal-article",
+   "year": 2021,
+   "cited_by": [
+    "Campana2025",
+    "Mamun2022",
+    "Pillai2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.enpol.2023.113694",
+   "title": "From niche-innovation to mainstream markets: Drivers and challenges of industry adoption of agrivoltaics in the U.S.",
+   "type": "journal-article",
+   "year": 2023,
+   "cited_by": [
+    "Campana2025",
+    "Pillai2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.apenergy.2023.122418",
+   "title": "Agrivoltaic arrays can maintain semi-arid grassland productivity and extend the seasonality of forage quality",
+   "type": "journal-article",
+   "year": 2024,
+   "cited_by": [
+    "Campana2025",
+    "Pillai2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.landurbplan.2017.10.011",
+   "title": "Dual use of agricultural land: Introducing \u2018agrivoltaics\u2019 in Phoenix Metropolitan Statistical Area, USA",
+   "type": "journal-article",
+   "year": 2018,
+   "cited_by": [
+    "Campana2025",
+    "Mamun2022",
+    "Pillai2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.3390/horticulturae11020160",
+   "title": "Exploring the Grape Agrivoltaic System: Climate Modulation and Vine Benefits in the Puglia Region, Southeastern Italy",
+   "type": "journal-article",
+   "year": 2025,
+   "cited_by": [
+    "Pillai2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.3390/plants14152428",
+   "title": "Microclimate Modification, Evapotranspiration, Growth and Essential Oil Yield of Six Medicinal Plants Cultivated Beneath a Dynamic Agrivoltaic System in Southern Italy",
+   "type": "journal-article",
+   "year": 2025,
+   "cited_by": [
+    "Pillai2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.3390/pr11123370",
+   "title": "The Impact of Agrivoltaic Systems on Tomato Crop: A Case Study in Southern Italy",
+   "type": "journal-article",
+   "year": 2023,
+   "cited_by": [
+    "Cosme2025",
+    "Pillai2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.24084/repqj20.236",
+   "title": "Characterization of an experimental agrivoltaic installation located in a  educational centre for farmers in Cordoba (Spain).",
+   "type": "journal-article",
+   "year": 2023,
+   "cited_by": [
+    "Pillai2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.apenergy.2023.121988",
+   "title": "Potential of agrivoltaics systems into olive groves in the Mediterranean region",
+   "type": "journal-article",
+   "year": 2023,
+   "cited_by": [
+    "Campana2025",
+    "Pillai2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.3390/agronomy11101906",
+   "title": "Economic Feasibility of Agrivoltaic Systems in Food-Energy Nexus Context: Modelling and a Case Study in Niger",
+   "type": "journal-article",
+   "year": 2021,
+   "cited_by": [
+    "Mamun2022",
+    "Pillai2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.apenergy.2024.123841",
+   "title": "The potential of agrivoltaic systems in Jordan",
+   "type": "journal-article",
+   "year": 2024,
+   "cited_by": [
+    "Campana2025",
+    "Pillai2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.solcom.2025.100143",
+   "title": "Crop selection in Agri-PV: international review based strategic decision-making model",
+   "type": "journal-article",
+   "year": 2025,
+   "cited_by": [
+    "Pillai2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.renene.2025.123528",
+   "title": "Evaluating the influence of different agrivoltaic topologies on PV energy, crop yields and land productivity in a temperate climate",
+   "type": "journal-article",
+   "year": 2025,
+   "cited_by": [
+    "Campana2025",
+    "Qiao2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.agsy.2025.104557",
+   "title": "Agrivoltaic systems: Trade-offs on microclimate, physiology, yield and canopy thermal-spectral maps",
+   "type": "journal-article",
+   "year": 2026,
+   "cited_by": [
+    "Qiao2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.rser.2023.114018",
+   "title": "Optimized agrivoltaic tracking for nearly-full commodity crop and energy production",
+   "type": "journal-article",
+   "year": 2024,
+   "cited_by": [
+    "Campana2025",
+    "Monasterio2026",
+    "Qiao2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.enbuild.2026.117526",
+   "title": "Integration of semi-transparent photovoltaic modules and heat pumps into agrivoltaic tomato greenhouses: Energy, economic, and environmental savings",
+   "type": "journal-article",
+   "year": 2026,
+   "cited_by": [
+    "Qiao2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1002/sd.71221",
+   "title": "Agrivoltaic Lettuce Production Under Future Climates: A Sustainable Strategy for Optimizing Food and Energy Yields",
+   "type": "journal-article",
+   "year": 2026,
+   "cited_by": [
+    "Qiao2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.jclepro.2026.148032",
+   "title": "Effects of thin-film and wafer-based photovoltaic module transparency and spectral properties on microclimate and turnip yield in agrivoltaic systems",
+   "type": "journal-article",
+   "year": 2026,
+   "cited_by": [
+    "Qiao2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.rser.2025.116661",
+   "title": "Agricultural mechanization in agrivoltaic systems: Challenges, adaptation, and possible advancements",
+   "type": "journal-article",
+   "year": 2026,
+   "cited_by": [
+    "Qiao2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.3390/su16188271",
+   "title": "A Review of Agrivoltaic Systems: Addressing Challenges and Enhancing Sustainability",
+   "type": "journal-article",
+   "year": 2024,
+   "cited_by": [
+    "Qiao2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.atech.2024.100664",
+   "title": "Assessing the impact of overhead agrivoltaic systems on GNSS signal performance for precision agriculture",
+   "type": "journal-article",
+   "year": 2024,
+   "cited_by": [
+    "Campana2025",
+    "Qiao2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.3390/agriculture15232437",
+   "title": "Optimization Design of Agrivoltaic Systems Based on Light Environment Simulation",
+   "type": "journal-article",
+   "year": 2025,
+   "cited_by": [
+    "Qiao2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.rser.2018.06.001",
+   "title": "Assessment and comparison of the solar radiation distribution inside the main commercial photovoltaic greenhouse types in Europe",
+   "type": "journal-article",
+   "year": 2018,
+   "cited_by": [
+    "Qiao2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.3390/su16030981",
+   "title": "Design and Performance Evaluation of a Photovoltaic Greenhouse as an Energy Hub with Battery Storage and an Electric Vehicle Charger",
+   "type": "journal-article",
+   "year": 2024,
+   "cited_by": [
+    "Qiao2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.3389/fagro.2025.1699126",
+   "title": "Integrated modelling of shading effects on alfalfa growth across different agrivoltaic systems",
+   "type": "journal-article",
+   "year": 2025,
+   "cited_by": [
+    "Qiao2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.3389/fpls.2021.655851",
+   "title": "Yield Response and Physiological Adaptation of Green Bean to Photovoltaic Greenhouses",
+   "type": "journal-article",
+   "year": 2021,
+   "cited_by": [
+    "Qiao2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.rineng.2025.105278",
+   "title": "Design, simulation, and experimental evaluation of an agrivoltaic greenhouse in Turkey",
+   "type": "journal-article",
+   "year": 2025,
+   "cited_by": [
+    "Qiao2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.3389/fsufs.2021.659175",
+   "title": "Herbage Yield, Lamb Growth and Foraging Behavior in Agrivoltaic Production System",
+   "type": "journal-article",
+   "year": 2021,
+   "cited_by": [
+    "Mamun2022",
+    "Qiao2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.3390/agriengineering7060178",
+   "title": "Tomato Yield Under Different Shading Levels in an Agrivoltaic Greenhouse in Southern Spain",
+   "type": "journal-article",
+   "year": 2025,
+   "cited_by": [
+    "Qiao2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.solener.2022.10.022",
+   "title": "Water evaporation reduction by the agrivoltaic systems development",
+   "type": "journal-article",
+   "year": 2022,
+   "cited_by": [
+    "Campana2025",
+    "Qiao2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.agwat.2023.108187",
+   "title": "Effects of shade and deficit irrigation on maize growth and development in fixed and dynamic AgriVoltaic systems",
+   "type": "journal-article",
+   "year": 2023,
+   "cited_by": [
+    "Campana2025",
+    "Cosme2025",
+    "Qiao2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.renene.2024.120513",
+   "title": "Field Assessment of Vertical Bifacial Agrivoltaics with Vegetable Production: A Case Study in Lahore, Pakistan",
+   "type": "journal-article",
+   "year": 2024,
+   "cited_by": [
+    "Qiao2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1038/s41598-025-27602-9",
+   "title": "Agri-Photovoltaic technology allows dual use of land for tomato production and electricity generation",
+   "type": "journal-article",
+   "year": 2025,
+   "cited_by": [
+    "Qiao2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.31545/intagr/184133",
+   "title": "Agrivoltaics: dual usage of agricultural land for sustainable development",
+   "type": "journal-article",
+   "year": 2024,
+   "cited_by": [
+    "Qiao2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.heliyon.2024.e32300",
+   "title": "Agrivoltaic systems for sustainable energy and agriculture integration in Turkey",
+   "type": "journal-article",
+   "year": 2024,
+   "cited_by": [
+    "Qiao2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.apenergy.2025.126021",
+   "title": "Bringing solar to agriculture: An interdisciplinary design and analysis of a Concord grape agrivoltaic system",
+   "type": "journal-article",
+   "year": 2025,
+   "cited_by": [
+    "Qiao2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.3390/su18104819",
+   "title": "Agrivoltaic Systems as Socio-Ecological Infrastructure for Mitigating Abiotic Stress Under Climate Change",
+   "type": "journal-article",
+   "year": 2026,
+   "cited_by": [
+    "Qiao2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1002/ese3.1870",
+   "title": "Performance evaluation of agrivoltaic system for the synergy among greengram (\n                    <i>Vigna radiata</i>\n                    L. Wilczek) production and solar electric power generation",
+   "type": "journal-article",
+   "year": 2024,
+   "cited_by": [
+    "Qiao2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.64898/2026.03.31.715529",
+   "title": "Robot-based 3D-multispectral monitoring of soybean in a spatially heterogenous agrivoltaic environment",
+   "type": "posted-content",
+   "year": 2026,
+   "cited_by": [
+    "Qiao2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.scitotenv.2023.169274",
+   "title": "Techno-economic and life cycle assessment of agrivoltaic system (AVS) designs",
+   "type": "journal-article",
+   "year": 2024,
+   "cited_by": [
+    "Campana2025",
+    "Qiao2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1007/s44173-022-00007-x",
+   "title": "Do agrivoltaics improve public support for solar? A survey on perceptions, preferences, and priorities",
+   "type": "journal-article",
+   "year": 2022,
+   "cited_by": [
+    "Campana2025",
+    "Qiao2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.apenergy.2026.128450",
+   "title": "Techno-economic assessment and stakeholder perspectives on agrivoltaics in East Africa",
+   "type": "journal-article",
+   "year": 2026,
+   "cited_by": [
+    "Qiao2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.3390/agronomy11061097",
+   "title": "Analysis of the Viability of a Photovoltaic Greenhouse with Semi-Transparent Amorphous Silicon (a-Si) Glass",
+   "type": "journal-article",
+   "year": 2021,
+   "cited_by": [
+    "Qiao2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.clrc.2021.100030",
+   "title": "Life cycle assessment of pasture-based agrivoltaic systems: Emissions and energy use of integrated rabbit production",
+   "type": "journal-article",
+   "year": 2021,
+   "cited_by": [
+    "Mamun2022",
+    "Qiao2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1038/s41598-025-96166-5",
+   "title": "Regulatory effect of agriphotovoltaic systems with different panel heights on the thermal environment",
+   "type": "journal-article",
+   "year": 2025,
+   "cited_by": [
+    "Campana2025",
+    "Qiao2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.3389/fpls.2026.1755040",
+   "title": "Research on time series prediction of microclimate in agrivoltaic systems based on the long short-term memory and attention mechanism",
+   "type": "journal-article",
+   "year": 2026,
+   "cited_by": [
+    "Qiao2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.atech.2022.100168",
+   "title": "Crop-driven optimization of agrivoltaics using a digital-replica framework",
+   "type": "journal-article",
+   "year": 2023,
+   "cited_by": [
+    "Qiao2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.jclepro.2025.147275",
+   "title": "Optimisation of agrivoltaic systems within the water-energy-food nexus",
+   "type": "journal-article",
+   "year": 2026,
+   "cited_by": [
+    "Qiao2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.renene.2026.126155",
+   "title": "A model predictive control approach to dual-axis agrivoltaic panel tracking",
+   "type": "journal-article",
+   "year": 2026,
+   "cited_by": [
+    "Qiao2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.renene.2024.121151",
+   "title": "How does module tracking for agrivoltaics differ from standard photovoltaics? Food, energy, and technoeconomic implications",
+   "type": "journal-article",
+   "year": 2024,
+   "cited_by": [
+    "Campana2025",
+    "Qiao2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1109/jphotov.2021.3136158",
+   "title": "Crop-Specific Optimization of Bifacial PV Arrays for Agrivoltaic Food-Energy Production: The Light-Productivity-Factor Approach",
+   "type": "journal-article",
+   "year": 2022,
+   "cited_by": [
+    "Mamun2022",
+    "Qiao2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.agwat.2026.110281",
+   "title": "Regulated deficit irrigation based on plant water status and Agrivoltaic systems as possible improvements on water resources management in tomato",
+   "type": "journal-article",
+   "year": 2026,
+   "cited_by": [
+    "Qiao2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.solener.2026.114456",
+   "title": "An integrated control framework for optimal sunlight sharing in agrivoltaic systems",
+   "type": "journal-article",
+   "year": 2026,
+   "cited_by": [
+    "Qiao2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.jenvman.2023.117539",
+   "title": "Drawing transformation pathways for making use of joint effects of food and energy production with biodiversity agriphotovoltaics and electrified agricultural machinery",
+   "type": "journal-article",
+   "year": 2023,
+   "cited_by": [
+    "Campana2025",
+    "Qiao2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.psep.2025.108053",
+   "title": "Sowing watts, reaping sustainability: Multi-dimensional performance of agrivoltaic electric vehicle charging systems",
+   "type": "journal-article",
+   "year": 2025,
+   "cited_by": [
+    "Qiao2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.3390/cleantechnol4040064",
+   "title": "Cost\u2013Benefit Analysis of Kaposv\u00e1r Solar Photovoltaic Park Considering Agrivoltaic Systems",
+   "type": "journal-article",
+   "year": 2022,
+   "cited_by": [
+    "Monasterio2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1109/pvsc57443.2024.10749352",
+   "title": "A Machine Learning Model Predicts Crop-Energy Yields in Agrivoltaics",
+   "type": "proceedings-article",
+   "year": 2024,
+   "cited_by": [
+    "Monasterio2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.3390/en18143877",
+   "title": "Optimizing Agri-PV System: Systematic Methodology to Assess Key Design Parameters",
+   "type": "journal-article",
+   "year": 2025,
+   "cited_by": [
+    "Monasterio2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.compag.2024.109237",
+   "title": "Multi-Objective optimization for design of an Agrophotovoltaic system under Non-Dominated sorting Genetic algorithm II",
+   "type": "journal-article",
+   "year": 2024,
+   "cited_by": [
+    "Monasterio2026"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.2172/1882930",
+   "title": "The 5 Cs of Agrivoltaic Success Factors in the United States: Lessons from the InSPIRE Research Study",
+   "type": "report",
+   "year": 2022,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1038/s41893-025-01546-4",
+   "title": "Impacts of agrisolar co-location on the food\u2013energy\u2013water nexus and economic security",
+   "type": "journal-article",
+   "year": 2025,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.landusepol.2024.107099",
+   "title": "Agrivoltaics and landscape change: First evidence from built cases in the Netherlands",
+   "type": "journal-article",
+   "year": 2024,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.erss.2023.103408",
+   "title": "Landscape user experiences of interspace and overhead agrivoltaics: A comparative analysis of two novel types of solar landscapes in the Netherlands",
+   "type": "journal-article",
+   "year": 2024,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.3390/su13010137",
+   "title": "Agrivoltaics Align with Green New Deal Goals While Supporting Investment in the US\u2019 Rural Economy",
+   "type": "journal-article",
+   "year": 2020,
+   "cited_by": [
+    "Campana2025",
+    "Mamun2022"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.rser.2024.114515",
+   "title": "A multidisciplinary view on agrivoltaics: Future of energy and agriculture",
+   "type": "journal-article",
+   "year": 2024,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.jclepro.2023.140235",
+   "title": "Experimental results, integrated model validation, and economic aspects of agrivoltaic systems at northern latitudes",
+   "type": "journal-article",
+   "year": 2024,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.apenergy.2024.122970",
+   "title": "Agrivoltaics: Synergies and trade-offs in achieving the sustainable development goals at the global and local scale",
+   "type": "journal-article",
+   "year": 2024,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.69766/xaeu5008",
+   "title": "Dual Land Use for Agriculture and Solar Power Production: Overview and Performance of Agrivoltaic Systems",
+   "type": "report",
+   "year": 2025,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.31223/x5wj00",
+   "title": "Optimisation of Agrivoltaic Systems within the Water-Energy-Food Nexus",
+   "type": "posted-content",
+   "year": 2025,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": false
+  },
+  {
+   "doi": "10.1016/j.apenergy.2023.120799",
+   "title": "Technological advancements and research prospects of innovative concentrating agrivoltaics",
+   "type": "journal-article",
+   "year": 2023,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.rser.2022.112799",
+   "title": "Environmental and economic performance assessment of integrated conventional solar photovoltaic and agrophotovoltaic systems",
+   "type": "journal-article",
+   "year": 2022,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.agsy.2021.103193",
+   "title": "An analytical framework to estimate the economics and adoption potential of dual land-use systems: The case of agrivoltaics",
+   "type": "journal-article",
+   "year": 2021,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.jrurstud.2023.01.014",
+   "title": "Social acceptance of dual land use approaches: Stakeholders' perceptions of the drivers and barriers confronting agrivoltaics diffusion",
+   "type": "journal-article",
+   "year": 2023,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.renene.2019.02.048",
+   "title": "Sector-wide social impact scoping of agrivoltaic systems: A case study in Japan",
+   "type": "journal-article",
+   "year": 2019,
+   "cited_by": [
+    "Campana2025",
+    "Mamun2022"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.erss.2021.102023",
+   "title": "Integrating solar energy with agriculture: Industry perspectives on the market, community, and socio-political dimensions of agrivoltaics",
+   "type": "journal-article",
+   "year": 2021,
+   "cited_by": [
+    "Campana2025",
+    "Mamun2022"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.3390/en16010053",
+   "title": "Energy Policy for Agrivoltaics in Alberta Canada",
+   "type": "journal-article",
+   "year": 2022,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.apenergy.2024.124272",
+   "title": "Rethinking agrivoltaic incentive programs: A science-based approach to encourage practical design solutions",
+   "type": "journal-article",
+   "year": 2025,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.3390/su16020911",
+   "title": "A Spatial Multicriteria Analysis for a Regional Assessment of Eligible Areas for Sustainable Agrivoltaic Systems in Italy",
+   "type": "journal-article",
+   "year": 2024,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.21203/rs.3.rs-4791170/v1",
+   "title": "Advancing Agrivoltaics through a Systematic Design Framework: Guidelines for Integration and Informed Decision-Making",
+   "type": "posted-content",
+   "year": 2024,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": false
+  },
+  {
+   "doi": "10.1016/b978-0-323-89866-9.00012-2",
+   "title": "Agrivoltaics: solar power generation and food production",
+   "type": "book-chapter",
+   "year": 2022,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.spc.2025.03.006",
+   "title": "A systematic review of agrivoltaics: productivity, profitability, and environmental co-benefits",
+   "type": "journal-article",
+   "year": 2025,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.renene.2023.119343",
+   "title": "Vertical free-swinging photovoltaic racking energy modeling: A novel approach to agrivoltaics",
+   "type": "journal-article",
+   "year": 2023,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.rser.2024.115160",
+   "title": "Structural optimisation of free-swinging agrivoltaic fences",
+   "type": "journal-article",
+   "year": 2025,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.apenergy.2023.121619",
+   "title": "Can synergies in agriculture through an integration of solar energy reduce the cost of agrivoltaics? An economic analysis in apple farming",
+   "type": "journal-article",
+   "year": 2023,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1007/s10098-023-02690-1",
+   "title": "Techno-economic analysis of agrivoltaic system for affordable and clean energy with food production in India",
+   "type": "journal-article",
+   "year": 2024,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.apenergy.2024.123709",
+   "title": "Agrivoltaics system for sustainable agriculture and green energy in Bangladesh",
+   "type": "journal-article",
+   "year": 2024,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1371/journal.pone.0254482",
+   "title": "Increasing the comprehensive economic benefits of farmland with Even-lighting Agrivoltaic Systems",
+   "type": "journal-article",
+   "year": 2021,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.apenergy.2024.122679",
+   "title": "Potential of sugar beet (Beta vulgaris) and wheat (Triticum aestivum) production in vertical bifacial, tracked, or elevated agrivoltaic systems in Belgium",
+   "type": "journal-article",
+   "year": 2024,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.3389/fhort.2025.1624013",
+   "title": "The effect of agrivoltaic system on nutrient content, yield, and water productivity of potatoes",
+   "type": "journal-article",
+   "year": 2025,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.3390/su17114799",
+   "title": "Regenerative Agrivoltaics: Integrating Photovoltaics and Regenerative Agriculture for Sustainable Food and Energy Systems",
+   "type": "journal-article",
+   "year": 2025,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1038/s41598-022-08673-4",
+   "title": "Agrivoltaic systems have the potential to meet energy demands of electric vehicles in rural Oregon, US",
+   "type": "journal-article",
+   "year": 2022,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.apenergy.2024.123585",
+   "title": "Remote-sensing extraction and carbon emission reduction benefit assessment for centralized photovoltaic power plants in Agrivoltaic systems",
+   "type": "journal-article",
+   "year": 2024,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1038/s41598-023-28484-5",
+   "title": "Designing plant\u2013transparent agrivoltaics",
+   "type": "journal-article",
+   "year": 2023,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.mtener.2024.101673",
+   "title": "Green-light wavelength-selective organic solar cells: module fabrication and crop evaluation towards agrivoltaics",
+   "type": "journal-article",
+   "year": 2024,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.heliyon.2024.e26323",
+   "title": "Testing the effect of semi-transparent spectrally selective thin film photovoltaics for agrivoltaic application: A multi-experimental and multi-specific approach",
+   "type": "journal-article",
+   "year": 2024,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.ynexs.2025.100074",
+   "title": "Selective light transmission in agrivoltaics: Modeling light spectra and photosynthetic rate",
+   "type": "journal-article",
+   "year": 2025,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.isci.2023.108129",
+   "title": "Large-scale and cost-efficient agrivoltaics system by spectral separation",
+   "type": "journal-article",
+   "year": 2023,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.3390/agronomy12081842",
+   "title": "Crop Cultivation Underneath Agro-Photovoltaic Systems and Its Effects on Crop Growth, Yield, and Photosynthetic Efficiency",
+   "type": "journal-article",
+   "year": 2022,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.3390/agronomy14081824",
+   "title": "Integration of Crops, Livestock, and Solar Panels: A Review of Agrivoltaic Systems",
+   "type": "journal-article",
+   "year": 2024,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1038/s41598-024-84216-3",
+   "title": "Agrivoltaics shading enhanced the microclimate, photosynthesis, growth and yields of vigna radiata genotypes in tropical Nigeria",
+   "type": "journal-article",
+   "year": 2025,
+   "cited_by": [
+    "Campana2025",
+    "Cosme2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.erss.2024.103737",
+   "title": "Agrivoltaic systems offer symbiotic benefits across the water-energy-food-environment nexus in West Africa: A systematic review",
+   "type": "journal-article",
+   "year": 2024,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1007/s12667-024-00712-5",
+   "title": "Agrivoltaic systems in Indian context: a multi-dimensional examination",
+   "type": "journal-article",
+   "year": 2024,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.apenergy.2024.122782",
+   "title": "An evaluation of the potential of agrivoltaic systems in Brazil",
+   "type": "journal-article",
+   "year": 2024,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1007/s10457-024-01121-4",
+   "title": "Advances and challenges of agrivoltaic in the Americas: a look at its current situation",
+   "type": "journal-article",
+   "year": 2024,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1007/s10457-023-00906-3",
+   "title": "Assessment of the ground coverage ratio of agrivoltaic systems as a proxy for potential crop productivity",
+   "type": "journal-article",
+   "year": 2023,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.scienta.2024.113062",
+   "title": "Berry shade tolerance for agrivoltaics systems: A meta-analysis",
+   "type": "journal-article",
+   "year": 2024,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1088/1755-1315/170/4/042069",
+   "title": "Optimizing Light Environment of the Oblique Single-axis Tracking Agrivoltaic System",
+   "type": "journal-article",
+   "year": 2018,
+   "cited_by": [
+    "Campana2025",
+    "Mamun2022"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1117/1.jpe.15.032703",
+   "title": "Enhancing agrivoltaic synergies through optimized tracking strategies",
+   "type": "journal-article",
+   "year": 2025,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.2139/ssrn.5430917",
+   "title": "A Novel Operational Strategy to Maximize Crop and Electricity Production in Single Axis Agrivoltaic Systems Based on Light Response Curve and Daily Light Integral",
+   "type": "posted-content",
+   "year": 2025,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": false
+  },
+  {
+   "doi": "10.3390/agronomy13020299",
+   "title": "Agrivoltaics: The Environmental Impacts of Combining Food Crop Cultivation and Solar Energy Generation",
+   "type": "journal-article",
+   "year": 2023,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1063/5.0156779",
+   "title": "Life cycle assessment of an agrivoltaic system with conventional potato production",
+   "type": "journal-article",
+   "year": 2023,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.rser.2024.114321",
+   "title": "Environmental life cycle assessment of a stilted and vertical bifacial crop-based agrivoltaic multi land-use system and comparison with a mono land-use of agricultural land",
+   "type": "journal-article",
+   "year": 2024,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.apenergy.2025.125826",
+   "title": "Economic evaluation of one-axis, vertical, and elevated agrivoltaic systems across Europe: a Monte Carlo Analysis",
+   "type": "journal-article",
+   "year": 2025,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1007/s11625-024-01601-7",
+   "title": "Farming the sun: the political economy of agrivoltaics in the European Union",
+   "type": "journal-article",
+   "year": 2025,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.3390/su16062325",
+   "title": "The Economic Potential of Agrivoltaic Systems in Apple Cultivation\u2014A Hungarian Case Study",
+   "type": "journal-article",
+   "year": 2024,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.ref.2025.100751",
+   "title": "Assessing financial feasibility and equity prospects in agrivoltaics: a case study of Hachinohe, Japan",
+   "type": "journal-article",
+   "year": 2026,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.erss.2024.103657",
+   "title": "Harnessing the sun for agriculture: Pathways to the successful expansion of Agrivoltaic systems in East Africa",
+   "type": "journal-article",
+   "year": 2024,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1080/23299460.2019.1647085",
+   "title": "Land use conflicts between biomass and power production \u2013 citizens\u2019 participation in the technology development of Agrophotovoltaics",
+   "type": "journal-article",
+   "year": 2019,
+   "cited_by": [
+    "Campana2025",
+    "Mamun2022"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.rser.2023.113815",
+   "title": "Justice-driven agrivoltaics: Facilitating agrivoltaics embedded in energy justice",
+   "type": "journal-article",
+   "year": 2023,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1007/s11625-025-01643-5",
+   "title": "Nothing sweet about agrivoltaics? Discussions on the territorial adequacy of agrivoltaics in Reunion Island",
+   "type": "journal-article",
+   "year": 2025,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.rser.2023.113250",
+   "title": "Circularity and landscape experience of agrivoltaics: A systematic review of literature and built systems",
+   "type": "journal-article",
+   "year": 2023,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.esd.2024.101562",
+   "title": "Doomed in the agrivoltaic campaign? The case of Chinese smallholder agriculture in the deployment of agrivoltaic projects",
+   "type": "journal-article",
+   "year": 2024,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.apenergy.2023.121832",
+   "title": "Impacts of agrivoltaics in rural electrification and decarbonization in the Philippines",
+   "type": "journal-article",
+   "year": 2023,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1021/acs.estlett.0c00349",
+   "title": "Economic Potential for Rainfed Agrivoltaics in Groundwater-Stressed Regions",
+   "type": "journal-article",
+   "year": 2020,
+   "cited_by": [
+    "Campana2025",
+    "Mamun2022"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1063/5.0115906",
+   "title": "Comparative study on the land-use policy reforms to promote agrivoltaics",
+   "type": "proceedings-article",
+   "year": 2022,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.renene.2023.04.137",
+   "title": "Farmers\u2019 perspectives on challenges and opportunities of agrivoltaics in Turkiye: An institutional perspective",
+   "type": "journal-article",
+   "year": 2023,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.apenergy.2024.122934",
+   "title": "Factors influencing the willingness to use agrivoltaics: A quantitative study among German farmers",
+   "type": "journal-article",
+   "year": 2024,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1063/5.0103335",
+   "title": "Legal framework of agrivoltaics in Germany",
+   "type": "proceedings-article",
+   "year": 2022,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": false
+  },
+  {
+   "doi": "10.1016/j.energy.2024.132074",
+   "title": "Solar energy modelling and proposed crops for different types of agrivoltaics systems",
+   "type": "journal-article",
+   "year": 2024,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.52825/agripv.v1i.600",
+   "title": "AgriPV Systems: Potential Opportunities for Aotearoa\u2013New Zealand",
+   "type": "journal-article",
+   "year": 2024,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.spc.2024.08.001",
+   "title": "Balancing photovoltaic development and cropland protection: Assessing agrivoltaic potential in China",
+   "type": "journal-article",
+   "year": 2024,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.rser.2024.114706",
+   "title": "The spatial socio-technical potential of agrivoltaics in Germany",
+   "type": "journal-article",
+   "year": 2024,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.62777/pec.v1i1.3",
+   "title": "Optimising Agrivoltaic Systems: Identifying Suitable Solar Development Sites for Integrated Food and Energy Production",
+   "type": "journal-article",
+   "year": 2024,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.rser.2025.115469",
+   "title": "Spatial potential analysis and site selection for agrivoltaics in Germany",
+   "type": "journal-article",
+   "year": 2025,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.renene.2025.123039",
+   "title": "GIS-based potential analysis and agro-economic site selection for agrivoltaics using AHP in two German counties",
+   "type": "journal-article",
+   "year": 2025,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.apenergy.2025.125527",
+   "title": "The spatial potential for agrivoltaics to address energy-agriculture land use conflicts in Great Britain",
+   "type": "journal-article",
+   "year": 2025,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.3390/agronomy15051177",
+   "title": "How Much Longer Can We Tolerate Further Loss of Farmland Without Proper Planning? The Agrivoltaic Case in the Apulia Region (Italy)",
+   "type": "journal-article",
+   "year": 2025,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.3390/agronomy13020513",
+   "title": "Integrating Agrivoltaic Systems into Local Industries: A Case Study and Economic Analysis of Rural Japan",
+   "type": "journal-article",
+   "year": 2023,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.3390/agronomy14020398",
+   "title": "Geographic Information System-Based Analysis of Reclaimable Idle Cropland for Agrivoltaics in Kansai, Japan: Enhancing Energy and Food Security",
+   "type": "journal-article",
+   "year": 2024,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.rser.2025.115380",
+   "title": "Enhancing ecosystem services and biodiversity in agrivoltaics through habitat-enhancing strategies",
+   "type": "journal-article",
+   "year": 2025,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.esd.2024.101618",
+   "title": "Harnessing solar PV potential for decarbonization in Nepal: A GIS based assessment of ground-mounted, rooftop, and agrivoltaic solar systems for Nepal",
+   "type": "journal-article",
+   "year": 2025,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.solener.2025.113571",
+   "title": "An innovative method based on CFD to simulate the influence of photovoltaic panels on the microclimate in agrivoltaic conditions",
+   "type": "journal-article",
+   "year": 2025,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.nexus.2025.100516",
+   "title": "Wind sheltering in vertical agrivoltaics can increase crop yields: A modeling study for Northern Europe",
+   "type": "journal-article",
+   "year": 2025,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1007/s10457-025-01248-y",
+   "title": "Impacts of year-to-year weather variability and inter-panel spacing on agrivoltaic crop yields in Massachusetts",
+   "type": "journal-article",
+   "year": 2025,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.3390/agronomy10121885",
+   "title": "A First Investigation of Agriculture Sector Perspectives on the Opportunities and Barriers for Agrivoltaics",
+   "type": "journal-article",
+   "year": 2020,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.rser.2022.112784",
+   "title": "Estimating the economics and adoption potential of agrivoltaics in Germany using a farm-level bottom-up approach",
+   "type": "journal-article",
+   "year": 2022,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.jrurstud.2025.103572",
+   "title": "\u201cEnough is enough, we like our farms\u201d: The role of landscape ideology in shaping perceptions of solar energy and agrivoltaics in the rural American Southwest",
+   "type": "journal-article",
+   "year": 2025,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.3390/su16135414",
+   "title": "Opportunities and Barriers for Agrivoltaics on Tribal Lands",
+   "type": "journal-article",
+   "year": 2024,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1186/s13705-023-00387-3",
+   "title": "Does agrivoltaism reconcile energy and agriculture? Lessons from a French case study",
+   "type": "journal-article",
+   "year": 2023,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.2478/jlecol-2025-0010",
+   "title": "Impact Assessment of Renewable Energy in the Region: A Case Study of the \u0160luknov Agrivoltaic Power Plant",
+   "type": "journal-article",
+   "year": 2025,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.3390/su132011325",
+   "title": "Analyzing the Impact of Agrophotovoltaic Power Plants on the Amenity Value of Agricultural Landscape: The Case of the Republic of Korea",
+   "type": "journal-article",
+   "year": 2021,
+   "cited_by": [
+    "Campana2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.jenvman.2018.08.013",
+   "title": "Assessment of new functional units for agrivoltaic systems",
+   "type": "journal-article",
+   "year": 2018,
+   "cited_by": [
+    "Mamun2022"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1088/1755-1315/146/1/012002",
+   "title": "Promising Potentials of Agrivoltaic Systems for the Development of Malaysia Green Economy",
+   "type": "journal-article",
+   "year": 2018,
+   "cited_by": [
+    "Mamun2022"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.jclepro.2020.124476",
+   "title": "Conceptual Design and Rationale for a New Agrivoltaics Concept: Pasture-Raised Rabbits and Solar Farming",
+   "type": "journal-article",
+   "year": 2021,
+   "cited_by": [
+    "Mamun2022"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.3390/inventions6040071",
+   "title": "Parametric Open Source Cold-Frame Agrivoltaic Systems",
+   "type": "journal-article",
+   "year": 2021,
+   "cited_by": [
+    "Mamun2022"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.jenvman.2020.110864",
+   "title": "Driving and restraining forces for the implementation of the Agrophotovoltaics system technology \u2013 A system dynamics analysis",
+   "type": "journal-article",
+   "year": 2020,
+   "cited_by": [
+    "Mamun2022"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1063/1.5118010",
+   "title": "Tropical field assessment on pests for Misai Kucing cultivation under agrivoltaics farming system",
+   "type": "proceedings-article",
+   "year": 2019,
+   "cited_by": [
+    "Mamun2022"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.3390/en14206724",
+   "title": "Performance Estimation Modeling via Machine Learning of an Agrophotovoltaic System in South Korea",
+   "type": "journal-article",
+   "year": 2021,
+   "cited_by": [
+    "Mamun2022"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.3390/agronomy11081584",
+   "title": "An Efficient Structure of an Agrophotovoltaic System in a Temperate Climate Region",
+   "type": "journal-article",
+   "year": 2021,
+   "cited_by": [
+    "Mamun2022"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.resconrec.2018.06.017",
+   "title": "Influence of allocation methods on the LC-CO2 emission of an agrivoltaic system",
+   "type": "journal-article",
+   "year": 2018,
+   "cited_by": [
+    "Mamun2022"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.3390/environments6060065",
+   "title": "Solar Sharing for Both Food and Clean Energy Production: Performance of Agrivoltaic Systems for Corn, A Typical Shade-Intolerant Crop",
+   "type": "journal-article",
+   "year": 2019,
+   "cited_by": [
+    "Mamun2022"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.3390/en16073012",
+   "title": "Characterization of Agrivoltaic Crop Environment Conditions Using Opaque and Thin-Film Semi-Transparent Modules",
+   "type": "journal-article",
+   "year": 2023,
+   "cited_by": [
+    "Cosme2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1038/s41598-021-86756-4",
+   "title": "Partial shading by solar panels delays bloom, increases floral abundance during the late-season for pollinators in a dryland, agrivoltaic ecosystem",
+   "type": "journal-article",
+   "year": 2021,
+   "cited_by": [
+    "Cosme2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1088/1755-1315/1426/1/012013",
+   "title": "Evaluating the Impact of Agrivoltaic Systems on Microclimate and Andrographis paniculata Growth",
+   "type": "journal-article",
+   "year": 2024,
+   "cited_by": [
+    "Cosme2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.52825/agripv.v1i.692",
+   "title": "One Year of Grassland Vegetation Dynamics in Two Sheep-Grazed Agrivoltaic Systems",
+   "type": "journal-article",
+   "year": 2024,
+   "cited_by": [
+    "Cosme2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.apenergy.2023.121943",
+   "title": "Agrivoltaic approach in improving soil resistivity in large scale solar farms for energy sustainability",
+   "type": "journal-article",
+   "year": 2023,
+   "cited_by": [
+    "Cosme2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.3390/su17020634",
+   "title": "Opportunities, Technological Challenges and Monitoring Approaches in Agrivoltaic Systems for Sustainable Management",
+   "type": "journal-article",
+   "year": 2025,
+   "cited_by": [
+    "Cosme2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.3390/app14073095",
+   "title": "Effects of the Agrivoltaic System on Crop Production: The Case of Tomato (Solanum\u00a0lycopersicum L.)",
+   "type": "journal-article",
+   "year": 2024,
+   "cited_by": [
+    "Cosme2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.14710/ijred.2022.41116",
+   "title": "Efficiency Improvement of Ground-Mounted Solar Power Generation in Agrivoltaic System by Cultivation of Bok Choy (Brassica rapa subsp. chinensis L.) Under the Panels",
+   "type": "journal-article",
+   "year": 2021,
+   "cited_by": [
+    "Cosme2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.11628/ksppe.2022.25.6.659",
+   "title": "Effects of Environmental Changes by an Agrivoltaic System on Growth and Quality Characteristics of Kimchi Cabbage",
+   "type": "journal-article",
+   "year": 2022,
+   "cited_by": [
+    "Cosme2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.agwat.2022.107675",
+   "title": "Effects of different photovoltaic shading levels on kiwifruit growth, yield and water productivity under \u201cagrivoltaic\u201d system in Southwest China",
+   "type": "journal-article",
+   "year": 2022,
+   "cited_by": [
+    "Cosme2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.apenergy.2025.125285",
+   "title": "Energy performance and crop yield production of a semitransparent photovoltaic greenhouse",
+   "type": "journal-article",
+   "year": 2025,
+   "cited_by": [
+    "Cosme2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1016/j.renene.2025.122913",
+   "title": "Impacts of type of partial transparency on strawberry agrivoltaics: Uniform illumination thin film cadmium-telluride and non-uniform crystalline silicon solar photovoltaic modules",
+   "type": "journal-article",
+   "year": 2025,
+   "cited_by": [
+    "Cosme2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.52825/agripv.v2i.1032",
+   "title": "Agrivoltaics Over Berries in Chile: Potential for Clean Energy Generation and Climate Change Adaption",
+   "type": "journal-article",
+   "year": 2024,
+   "cited_by": [
+    "Cosme2025"
+   ],
+   "retrieved": true
+  },
+  {
+   "doi": "10.1109/access.2025.3586204",
+   "title": "Next-Generation Water Management and Crop Modeling of Sustainable Energy in PLC Based on Agrivoltaics Systems With IoT",
+   "type": "journal-article",
+   "year": 2025,
+   "cited_by": [
+    "Cosme2025"
+   ],
+   "retrieved": true
+  }
+ ],
+ "n_known": 289,
+ "n_retrieved": 281
+}

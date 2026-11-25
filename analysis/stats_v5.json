@@ -1,0 +1,1375 @@
+{
+ "N": 594,
+ "year": {
+  "2011": 1,
+  "2012": 3,
+  "2013": 1,
+  "2014": 2,
+  "2015": 3,
+  "2016": 4,
+  "2017": 8,
+  "2018": 8,
+  "2019": 11,
+  "2020": 16,
+  "2021": 30,
+  "2022": 38,
+  "2023": 62,
+  "2024": 95,
+  "2025": 144,
+  "2026": 168
+ },
+ "study_type": {
+  "simulation_modeling": 343,
+  "field_experiment_with_model": 149,
+  "system_development": 60,
+  "data_driven_model": 25,
+  "mixed": 17
+ },
+ "text_basis": {
+  "abstract_only": 370,
+  "full_text": 224
+ },
+ "arid_focus": {
+  "none": 431,
+  "explicit": 103,
+  "motivation_only": 60
+ },
+ "mena": {
+  "no": 562,
+  "yes": 32
+ },
+ "dt_term_used": {
+  "no": 583,
+  "yes": 11
+ },
+ "dt_maturity": {
+  "digital_model": 526,
+  "NA": 58,
+  "digital_twin": 8,
+  "digital_shadow": 2
+ },
+ "ai_used": {
+  "no": 550,
+  "yes": 44
+ },
+ "temporal_resolution": {
+  "NR": 362,
+  "minute_to_hourly": 188,
+  "daily": 22,
+  "coarser": 10,
+  "sub_minute": 7,
+  "NA": 5
+ },
+ "data_duration": {
+  "NR": 268,
+  "one_season_or_year": 196,
+  "multi_season_or_multi_year": 72,
+  "less_than_one_season": 44,
+  "NA": 14
+ },
+ "data_or_code_available": {
+  "no_or_NR": 573,
+  "yes_public": 21
+ },
+ "real_time": {
+  "offline": 499,
+  "real_time_operation_demonstrated": 43,
+  "designed_for_real_time": 43,
+  "NR": 9
+ },
+ "validation_setting": {
+  "none": 335,
+  "field_measurements_single_site": 158,
+  "simulation_benchmark_only": 49,
+  "laboratory_or_prototype": 33,
+  "field_measurements_multi_site": 19
+ },
+ "av_configuration": {
+  "elevated": 156,
+  "generic_or_unspecified": 155,
+  "pv_greenhouse": 151,
+  "tracking_or_dynamic": 144,
+  "semi_transparent_or_spectral": 87,
+  "vertical_bifacial": 84,
+  "interspace_ground_mounted": 53,
+  "grazing": 10
+ },
+ "koppen_main": {
+  "C": 225,
+  "NR": 213,
+  "B": 94,
+  "D": 67,
+  "A": 46,
+  "E": 1
+ },
+ "arid_constraints": {
+  "none": 415,
+  "water_scarcity_irrigation": 115,
+  "heat_or_high_temperature": 97,
+  "high_irradiance": 47,
+  "dust_soiling": 17,
+  "salinity": 3
+ },
+ "dt_functions": {
+  "prediction": 505,
+  "optimization_control": 296,
+  "monitoring_state_estimation": 104
+ },
+ "decision_stage": {
+  "design": 482,
+  "operation": 176
+ },
+ "subsystems": {
+  "pv_energy": 418,
+  "light_shading": 406,
+  "crop": 260,
+  "economics": 161,
+  "microclimate": 147,
+  "water": 125,
+  "soiling": 10
+ },
+ "method_families": {
+  "physics_based": 494,
+  "statistical": 99,
+  "rule_based_control": 82,
+  "metaheuristic_optimization": 32,
+  "mathematical_programming": 32,
+  "deep_learning": 29,
+  "classical_ml": 21,
+  "none": 13,
+  "hybrid_physics_ml": 8,
+  "model_predictive_control": 3,
+  "reinforcement_learning": 1
+ },
+ "ai_role": {
+  "forecasting": 17,
+  "classification_or_detection": 14,
+  "estimation_or_soft_sensing": 12,
+  "surrogate_of_simulation": 8,
+  "design_optimization": 7,
+  "control_or_decision": 2
+ },
+ "data_types": {
+  "meteorological_irradiance": 379,
+  "simulated_synthetic": 326,
+  "microclimate_under_array": 143,
+  "crop_plant_measurements": 142,
+  "public_dataset_or_database": 121,
+  "pv_electrical": 88,
+  "soil": 71,
+  "NR": 30,
+  "remote_sensing": 9
+ },
+ "sensing_modalities": {
+  "none": 283,
+  "in_situ_environmental_sensors": 182,
+  "plant_sensors_or_manual_crop_sampling": 123,
+  "pv_monitoring": 81,
+  "NR": 63,
+  "soil_sensors": 57,
+  "iot_wireless_network": 40,
+  "imaging_rgb_multispectral_thermal": 24,
+  "satellite": 7,
+  "uav": 2
+ },
+ "deployment": {
+  "offline_desktop_or_server": 518,
+  "edge_or_embedded": 43,
+  "NR": 35,
+  "cloud": 22,
+  "multi_tier": 11,
+  "fog_or_gateway": 8,
+  "NA": 7
+ },
+ "decision_timescale": {
+  "season_or_longer": 476,
+  "minutes_to_hours": 123,
+  "days_to_weeks": 51,
+  "seconds_or_faster": 10
+ },
+ "n_no_country": 178,
+ "country": {
+  "Italy": 58,
+  "United States": 49,
+  "China": 35,
+  "India": 32,
+  "Spain": 29,
+  "France": 21,
+  "Germany": 16,
+  "South Korea": 16,
+  "Sweden": 14,
+  "Bangladesh": 14,
+  "Turkey": 12,
+  "Belgium": 11,
+  "Japan": 9,
+  "Brazil": 9,
+  "Australia": 8,
+  "Pakistan": 7,
+  "Canada": 6,
+  "Netherlands": 6,
+  "Morocco": 6,
+  "Singapore": 5,
+  "Iran": 5,
+  "New Zealand": 5,
+  "Israel": 4,
+  "Finland": 4,
+  "Colombia": 4,
+  "Mexico": 4,
+  "Poland": 4,
+  "Egypt": 4,
+  "Chile": 4,
+  "United Kingdom": 4,
+  "Malaysia": 3,
+  "Russia": 3,
+  "Norway": 3,
+  "Thailand": 3,
+  "Algeria": 3,
+  "Tunisia": 3,
+  "Uzbekistan": 3,
+  "Czech Republic": 3,
+  "Portugal": 3,
+  "Denmark": 2,
+  "Taiwan": 2,
+  "Greece": 2,
+  "Saudi Arabia": 2,
+  "Austria": 2,
+  "United Arab Emirates": 2,
+  "Indonesia": 2,
+  "Switzerland": 1,
+  "Latvia": 1,
+  "Lithuania": 1,
+  "Estonia": 1,
+  "Iceland": 1,
+  "Serbia": 1,
+  "Peru": 1,
+  "Kuwait": 1,
+  "Qatar": 1,
+  "Chad": 1,
+  "Ecuador": 1,
+  "Philippines": 1,
+  "Lebanon": 1,
+  "Nigeria": 1,
+  "Vietnam": 1,
+  "Oman": 1,
+  "Sri Lanka": 1,
+  "Fiji": 1,
+  "Hungary": 1,
+  "Romania": 1,
+  "Botswana": 1,
+  "Zimbabwe": 1,
+  "Uganda": 1
+ },
+ "n_countries": 69,
+ "venue_type": {
+  "journal": 382,
+  "conference": 212
+ },
+ "x_function_method": {
+  "prediction": {
+   "physics_based": 468,
+   "deep_learning": 22,
+   "statistical": 85,
+   "rule_based_control": 43,
+   "mathematical_programming": 21,
+   "metaheuristic_optimization": 28,
+   "classical_ml": 19,
+   "hybrid_physics_ml": 7,
+   "model_predictive_control": 3,
+   "reinforcement_learning": 1,
+   "none": 1
+  },
+  "optimization_control": {
+   "physics_based": 241,
+   "rule_based_control": 80,
+   "metaheuristic_optimization": 30,
+   "statistical": 50,
+   "mathematical_programming": 31,
+   "classical_ml": 10,
+   "hybrid_physics_ml": 4,
+   "deep_learning": 10,
+   "model_predictive_control": 3,
+   "reinforcement_learning": 1,
+   "none": 1
+  },
+  "monitoring_state_estimation": {
+   "statistical": 32,
+   "physics_based": 53,
+   "rule_based_control": 36,
+   "none": 12,
+   "deep_learning": 13,
+   "mathematical_programming": 6,
+   "model_predictive_control": 3,
+   "classical_ml": 4,
+   "metaheuristic_optimization": 1,
+   "reinforcement_learning": 1,
+   "hybrid_physics_ml": 1
+  }
+ },
+ "x_function_data": {
+  "prediction": {
+   "simulated_synthetic": 314,
+   "crop_plant_measurements": 106,
+   "meteorological_irradiance": 343,
+   "pv_electrical": 62,
+   "microclimate_under_array": 102,
+   "public_dataset_or_database": 115,
+   "soil": 47,
+   "NR": 19,
+   "remote_sensing": 8
+  },
+  "optimization_control": {
+   "simulated_synthetic": 176,
+   "crop_plant_measurements": 70,
+   "meteorological_irradiance": 187,
+   "microclimate_under_array": 63,
+   "soil": 34,
+   "pv_electrical": 53,
+   "public_dataset_or_database": 63,
+   "NR": 13,
+   "remote_sensing": 4
+  },
+  "monitoring_state_estimation": {
+   "microclimate_under_array": 62,
+   "meteorological_irradiance": 63,
+   "soil": 36,
+   "crop_plant_measurements": 45,
+   "simulated_synthetic": 22,
+   "public_dataset_or_database": 16,
+   "pv_electrical": 34,
+   "NR": 6,
+   "remote_sensing": 4
+  }
+ },
+ "x_function_deploy": {
+  "prediction": {
+   "offline_desktop_or_server": 481,
+   "edge_or_embedded": 15,
+   "NR": 11,
+   "cloud": 11,
+   "NA": 7,
+   "multi_tier": 5,
+   "fog_or_gateway": 4
+  },
+  "optimization_control": {
+   "offline_desktop_or_server": 239,
+   "NR": 26,
+   "edge_or_embedded": 35,
+   "cloud": 16,
+   "multi_tier": 9,
+   "fog_or_gateway": 8,
+   "NA": 5
+  },
+  "monitoring_state_estimation": {
+   "offline_desktop_or_server": 54,
+   "cloud": 19,
+   "edge_or_embedded": 31,
+   "NR": 23,
+   "multi_tier": 11,
+   "fog_or_gateway": 8
+  }
+ },
+ "x_maturity_deploy": {
+  "digital_model": {
+   "offline_desktop_or_server": 503,
+   "edge_or_embedded": 13,
+   "NR": 12,
+   "cloud": 8,
+   "NA": 7,
+   "multi_tier": 2,
+   "fog_or_gateway": 2
+  },
+  "NA": {
+   "NR": 20,
+   "cloud": 10,
+   "edge_or_embedded": 25,
+   "offline_desktop_or_server": 12,
+   "multi_tier": 5,
+   "fog_or_gateway": 3
+  },
+  "digital_twin": {
+   "NR": 2,
+   "multi_tier": 3,
+   "fog_or_gateway": 3,
+   "edge_or_embedded": 4,
+   "cloud": 3,
+   "offline_desktop_or_server": 3
+  },
+  "digital_shadow": {
+   "NR": 1,
+   "multi_tier": 1,
+   "edge_or_embedded": 1,
+   "cloud": 1
+  }
+ },
+ "x_maturity_realtime": {
+  "digital_model": {
+   "offline": 490,
+   "designed_for_real_time": 19,
+   "real_time_operation_demonstrated": 13,
+   "NR": 4
+  },
+  "NA": {
+   "real_time_operation_demonstrated": 27,
+   "designed_for_real_time": 17,
+   "NR": 5,
+   "offline": 9
+  },
+  "digital_twin": {
+   "designed_for_real_time": 6,
+   "real_time_operation_demonstrated": 2
+  },
+  "digital_shadow": {
+   "designed_for_real_time": 1,
+   "real_time_operation_demonstrated": 1
+  }
+ },
+ "x_dtterm_maturity": {
+  "no": {
+   "digital_model": 518,
+   "NA": 57,
+   "digital_twin": 7,
+   "digital_shadow": 1
+  },
+  "yes": {
+   "digital_model": 8,
+   "NA": 1,
+   "digital_twin": 1,
+   "digital_shadow": 1
+  }
+ },
+ "x_ai_function": {
+  "no": {
+   "prediction": 469,
+   "optimization_control": 279,
+   "monitoring_state_estimation": 89
+  },
+  "yes": {
+   "prediction": 36,
+   "optimization_control": 17,
+   "monitoring_state_estimation": 15
+  }
+ },
+ "x_ai_validation": {
+  "no": {
+   "none": 329,
+   "field_measurements_single_site": 135,
+   "laboratory_or_prototype": 30,
+   "simulation_benchmark_only": 39,
+   "field_measurements_multi_site": 17
+  },
+  "yes": {
+   "field_measurements_single_site": 23,
+   "none": 6,
+   "laboratory_or_prototype": 3,
+   "simulation_benchmark_only": 10,
+   "field_measurements_multi_site": 2
+  }
+ },
+ "x_timescale_deploy": {
+  "season_or_longer": {
+   "offline_desktop_or_server": 456,
+   "NR": 8,
+   "cloud": 9,
+   "edge_or_embedded": 13,
+   "multi_tier": 3,
+   "fog_or_gateway": 2,
+   "NA": 6
+  },
+  "minutes_to_hours": {
+   "offline_desktop_or_server": 77,
+   "NR": 25,
+   "edge_or_embedded": 25,
+   "cloud": 10,
+   "NA": 1,
+   "multi_tier": 6,
+   "fog_or_gateway": 4
+  },
+  "days_to_weeks": {
+   "offline_desktop_or_server": 27,
+   "cloud": 8,
+   "NR": 12,
+   "edge_or_embedded": 13,
+   "multi_tier": 6,
+   "fog_or_gateway": 5,
+   "NA": 1
+  },
+  "seconds_or_faster": {
+   "offline_desktop_or_server": 7,
+   "edge_or_embedded": 5,
+   "cloud": 1,
+   "NR": 1
+  }
+ },
+ "x_subsystem_method": {
+  "crop": {
+   "physics_based": 204,
+   "statistical": 68,
+   "rule_based_control": 37,
+   "mathematical_programming": 16,
+   "metaheuristic_optimization": 14,
+   "classical_ml": 13,
+   "deep_learning": 13,
+   "none": 8,
+   "hybrid_physics_ml": 4,
+   "reinforcement_learning": 1,
+   "model_predictive_control": 1
+  },
+  "light_shading": {
+   "physics_based": 359,
+   "statistical": 71,
+   "rule_based_control": 52,
+   "metaheuristic_optimization": 20,
+   "classical_ml": 8,
+   "deep_learning": 10,
+   "mathematical_programming": 18,
+   "none": 6,
+   "reinforcement_learning": 1,
+   "hybrid_physics_ml": 4,
+   "model_predictive_control": 2
+  },
+  "pv_energy": {
+   "deep_learning": 16,
+   "physics_based": 361,
+   "rule_based_control": 67,
+   "metaheuristic_optimization": 31,
+   "statistical": 63,
+   "mathematical_programming": 29,
+   "classical_ml": 13,
+   "hybrid_physics_ml": 6,
+   "none": 5,
+   "model_predictive_control": 3,
+   "reinforcement_learning": 1
+  },
+  "microclimate": {
+   "physics_based": 105,
+   "statistical": 39,
+   "mathematical_programming": 10,
+   "rule_based_control": 38,
+   "none": 8,
+   "deep_learning": 8,
+   "hybrid_physics_ml": 2,
+   "classical_ml": 5,
+   "metaheuristic_optimization": 10,
+   "reinforcement_learning": 1
+  },
+  "water": {
+   "statistical": 27,
+   "physics_based": 96,
+   "rule_based_control": 38,
+   "metaheuristic_optimization": 5,
+   "classical_ml": 3,
+   "hybrid_physics_ml": 1,
+   "deep_learning": 5,
+   "none": 7,
+   "mathematical_programming": 10
+  },
+  "economics": {
+   "physics_based": 145,
+   "mathematical_programming": 21,
+   "statistical": 27,
+   "deep_learning": 4,
+   "rule_based_control": 22,
+   "classical_ml": 3,
+   "metaheuristic_optimization": 17,
+   "model_predictive_control": 2
+  },
+  "soiling": {
+   "physics_based": 9,
+   "mathematical_programming": 2,
+   "model_predictive_control": 1,
+   "none": 1,
+   "rule_based_control": 2
+  }
+ },
+ "x_aid_year": {
+  "2011": {
+   "no": 1
+  },
+  "2012": {
+   "no": 2,
+   "yes": 1
+  },
+  "2013": {
+   "no": 1
+  },
+  "2014": {
+   "no": 2
+  },
+  "2015": {
+   "no": 3
+  },
+  "2016": {
+   "no": 4
+  },
+  "2017": {
+   "no": 8
+  },
+  "2018": {
+   "no": 8
+  },
+  "2019": {
+   "no": 11
+  },
+  "2020": {
+   "no": 16
+  },
+  "2021": {
+   "no": 29,
+   "yes": 1
+  },
+  "2022": {
+   "no": 37,
+   "yes": 1
+  },
+  "2023": {
+   "no": 57,
+   "yes": 5
+  },
+  "2024": {
+   "no": 88,
+   "yes": 7
+  },
+  "2025": {
+   "yes": 10,
+   "no": 134
+  },
+  "2026": {
+   "no": 149,
+   "yes": 19
+  }
+ },
+ "arid_compare": {
+  "ai_used": [
+   [
+    3,
+    103
+   ],
+   [
+    41,
+    491
+   ]
+  ],
+  "field_validation": [
+   [
+    28,
+    103
+   ],
+   [
+    149,
+    491
+   ]
+  ],
+  "multi_season": [
+   [
+    14,
+    103
+   ],
+   [
+    58,
+    491
+   ]
+  ],
+  "water_subsystem": [
+   [
+    35,
+    103
+   ],
+   [
+    90,
+    491
+   ]
+  ],
+  "soiling_subsystem": [
+   [
+    6,
+    103
+   ],
+   [
+    4,
+    491
+   ]
+  ],
+  "in_situ_sensors": [
+   [
+    29,
+    103
+   ],
+   [
+    189,
+    491
+   ]
+  ]
+ },
+ "ai_methods_detail": [
+  "Artificial neural network predicting instantaneous PV electricity production",
+  "Multilayer deep neural network (DeepLearning4J, Xavier initialisation, MSE loss, best with 8 hidden nodes); polynomial regression (called ML by authors, coded statistical)",
+  "Feed-forward backpropagation ANN modelling pump flow rate as a function of input power and total head, trained on manufacturer performance curves, coupled to I-V/MPPT PV model",
+  "K-means clustering for farmland detection from satellite imagery",
+  "CNN (TensorFlow, Adam optimizer) for tomato leaf disease classification from PiCam images; actuators controlled by threshold rules",
+  "Artificial neural network (ANN) combined with genetic algorithm (GA)",
+  "Random Forest Regression, Gradient Boosted Trees, Support Vector Regression, Linear Regression trained on CFD simulation data; dual annealing optimization applied to the GBT model",
+  "Unspecified machine-learning model using panel-layout features to forecast shaded insolation (algorithm not named in abstract)",
+  "unspecified machine learning regression surrogate trained on outputs of an in-house physics-based crop-PV model (algorithm not named in abstract)",
+  "GRU (gated recurrent unit) hybridised with AdaBoost for classification of crop health and solar panel condition; cosine-similarity redundancy elimination for data aggregation",
+  "Support vector machine (SVM) and decision tree (DT) regression for crop yield forecasting",
+  "CNN-BiGRU-Attention hybrid deep learning model tuned with the TTAO metaheuristic optimizer; benchmarked against 9 comparison models",
+  "GWO-optimised BP (back-propagation) neural network for greenhouse temperature forecasting; APSO-optimised fuzzy PID temperature controller",
+  "Transformer, Informer, Pyraformer, TimesNet (transformer-based time-series forecasting models)",
+  "CNN transfer learning with pre-trained EfficientNetV2L, EfficientNetV2M and ResNet50 (Keras) for chili crop counting and harvest prediction",
+  "Random Forest PV-output predictor per louvre angle; Q-learning louvre-angle agent; SVM classifier and MLP regression for microclimate stability; K-means and Isolation Forest for plant-health anomalies; ARIMA early-warning risk (statistical)",
+  "k-medoids clustering (MATLAB, elbow method for k) to group ground insolation profiles; unsupervised classical ML used only for scenario reduction",
+  "Multi-Layer Perceptron (MLP) artificial neural network",
+  "Conv1D and MaxPooling feature extraction with a modified spiking neural network (Adaptive Exponential Integrate-and-Fire, SNN-AdEx) classifier; Euclidean distance threshold for redundancy filtering; compared against MLEM, MLELMAKF, SOF-SVM and MRMR-KNN baselines",
+  "U-Net fully convolutional surrogate trained with combined L1 and adversarial (GAN discriminator) loss on Radiance/Accelerad raytracing outputs; k-means clustering to sample weather data",
+  "Artificial Neural Network (ANN), Gaussian Process Regression (GPR), Linear Regression (LR), Decision Tree (DT), Support Vector Machine (SVM)",
+  "M-MDNet deep segmentation network: multi-layer multi-scale window attention backbone (M-MWA), enhanced ASPP, scSE attention",
+  "Principal component analysis; K-means clustering (supervised yield prediction attempted but limited by label sparsity)",
+  "MLP, CNN, ResNet (deep learning) for residual heat prediction",
+  "Simple RNN (two 50-unit layers, dropout); directed spatio-temporal GNN combining a 4-head graph attention network (GAT) with LSTM; Adam optimiser, MSE loss, 96-step input window",
+  "VMD_IMF12-Informer-BiLSTM (variational mode decomposition combined with Informer transformer and bidirectional LSTM), benchmarked against 8 other prediction methods",
+  "AI-assisted surrogate model (algorithm not named in abstract) combined with evolutionary multi-objective optimization producing Pareto-optimal solutions",
+  "Bayesian-optimized (Optuna TPE) sequence-to-sequence LSTM; benchmarks LightGBM, CNN-LSTM, TCN, SARIMA/SARIMAX, persistence",
+  "U-Net++ (EfficientNet-B0 encoder) and DeepLabv3+ canopy segmentation; EfficientNet-B0/B2/B3 stress classification with focal loss; ResNet-34 CNN LAI regression; HRNet/Keypoint R-CNN height; Mask R-CNN leaf counting; YOLOv8-s/Faster R-CNN fruit detection; Grad-CAM",
+  "Kriging (Gaussian process) surrogate models of ray-tracing/physics PV and APSIM soybean simulations, with NSGA-II multi-objective optimization",
+  "Random Forest, Histogram Gradient Boosting, XGBoost with feature importance and partial dependence plots; multiple linear regression baseline",
+  "Stacked ensemble of XGBoost and CatBoost (gradient boosting), SHAP for interpretability",
+  "k-means clustering of respiration rate classes; PCA plus XGBoost to predict respiration rate and build a hybrid heat stress index; Bayesian Ridge Regression for heat stress class transition probabilities",
+  "Random Forest and Artificial Neural Network for crop yield and energy prediction; multi-objective optimization (method not named)",
+  "COCO-pretrained YOLOv8 (Ultralytics) for apple detection, applied without fine-tuning; SIFT coregistration and rule-based HSV red-pixel colour analysis; Mann-Whitney U and Fisher tests",
+  "Machine learning surrogate models (algorithm not named in abstract) trained on CFD simulations to estimate convection and air temperature",
+  "Random Forest, Decision Tree, KNN, SVR, XGBoost, CatBoost, LightGBM, LSTM, SHAP interpretation, and a proposed SHAP-Guided Stacked Ensemble-LSTM (SG-SEL) hybrid",
+  "Bayesian Regularization neural network (MATLAB) trained on NSRDB climatic data to impute missing soil moisture data; yield model itself is linear regression on a compound irradiance-soil moisture variable",
+  "Unspecified machine learning techniques for forecasting PV generation and water availability from GCM outputs (algorithms not named in abstract); NSGA-II for multi-objective optimization (not AI)",
+  "ResNet-50 classifier, DeepLabV3+ segmentation, U-Net shadow canonization with FiLM conditioning on PV geometry and sun priors, federated prototype contrastive learning (InfoNCE), FedAvg with secure aggregation and differential privacy",
+  "Dual attention mechanism-based quantum LSTM (DAM-QLSTM) for forecasting; variational quantum circuit (VQC) based rolling optimization for scheduling",
+  "LSTM-Attention (main model), compared with standard LSTM, LSTM-GRU, BP neural network and SVM; Pearson correlation for feature selection",
+  "Physics-informed explainable AI framework with SHAP (SHapley Additive exPlanations) feature attribution on a learned model of the Light Stability Index; the underlying ML model is not named in the abstract",
+  "MobileNetV2-based CNN regression for leaf counts; U-Net segmentation refinement; pseudo-labeling"
+ ],
+ "three_functions": 22,
+ "dt_term_and_twin": 1,
+ "extra": {
+  "physical_counterpart": {
+   "generic_design": 381,
+   "specific_installation": 198,
+   "NA": 15
+  },
+  "implementation_status": {
+   "NA": 394,
+   "prototype_or_testbed": 84,
+   "concept_or_proposal": 75,
+   "operating_installation": 41
+  },
+  "coupling": {
+   "one_way": 247,
+   "single_subsystem": 176,
+   "parallel_uncoupled": 109,
+   "two_way_or_integrated": 62
+  },
+  "data_assimilation": {
+   "none": 499,
+   "calibration_only": 94,
+   "sequential_updating": 1
+  },
+  "uncertainty_quantification": {
+   "no": 563,
+   "yes": 31
+  },
+  "fault_or_anomaly_detection": {
+   "no": 579,
+   "yes": 15
+  },
+  "koppen_B_subclass": {
+   "BSh": 34,
+   "BSk": 33,
+   "BWh": 30,
+   "BWk": 5,
+   "B": 3
+  },
+  "n_hot_arid": 61,
+  "n_cold_arid": 36,
+  "n_site_specific": 381,
+  "n_B": 94,
+  "n_nonB": 287,
+  "cmp_ai": {
+   "B": [
+    4,
+    94
+   ],
+   "nonB": [
+    18,
+    287
+   ],
+   "p": 0.6135764575358646,
+   "ciB": [
+    1.6670278401570267,
+    10.435799587031408
+   ],
+   "ciNonB": [
+    4.0036369944003765,
+    9.695091110519966
+   ]
+  },
+  "cmp_field_validation": {
+   "B": [
+    26,
+    94
+   ],
+   "nonB": [
+    102,
+    287
+   ],
+   "p": 0.16882068555694155,
+   "ciB": [
+    19.629891934748105,
+    37.4435819250416
+   ],
+   "ciNonB": [
+    30.226873768615913,
+    41.23525544536174
+   ]
+  },
+  "cmp_water": {
+   "B": [
+    31,
+    94
+   ],
+   "nonB": [
+    58,
+    287
+   ],
+   "p": 0.016437586774269635,
+   "ciB": [
+    24.307351447114595,
+    42.98672387462993
+   ],
+   "ciNonB": [
+    15.970746633405666,
+    25.234362952018152
+   ]
+  },
+  "cmp_soiling": {
+   "B": [
+    6,
+    94
+   ],
+   "nonB": [
+    2,
+    287
+   ],
+   "p": 0.0035655655327466477,
+   "ciB": [
+    2.9579332197396004,
+    13.23313479223077
+   ],
+   "ciNonB": [
+    0.1913097540734947,
+    2.504865758645456
+   ]
+  },
+  "cmp_measured": {
+   "B": [
+    29,
+    94
+   ],
+   "nonB": [
+    134,
+    287
+   ],
+   "p": 0.008129158441985456,
+   "ciB": [
+    22.419957891141777,
+    40.785876845820816
+   ],
+   "ciNonB": [
+    40.99963088386404,
+    52.46760351451639
+   ]
+  },
+  "cmp_operation": {
+   "B": [
+    19,
+    94
+   ],
+   "nonB": [
+    81,
+    287
+   ],
+   "p": 0.1387140788490322,
+   "ciB": [
+    13.339378292301518,
+    29.42525352075141
+   ],
+   "ciNonB": [
+    23.329891660088315,
+    33.691387276625015
+   ]
+  },
+  "ai_by_koppen": {
+   "NR": 22,
+   "C": 16,
+   "D": 5,
+   "B": 4,
+   "A": 1
+  },
+  "ai_by_year": {
+   "2026": 19,
+   "2025": 10,
+   "2024": 7,
+   "2023": 5,
+   "2012": 1,
+   "2021": 1,
+   "2022": 1
+  },
+  "indicators_all": {
+   "specific_installation": [
+    198,
+    594
+   ],
+   "measured_data": [
+    248,
+    594
+   ],
+   "multi_season": [
+    47,
+    594
+   ],
+   "field_validation": [
+    177,
+    594
+   ],
+   "ai": [
+    44,
+    594
+   ],
+   "realtime_demo": [
+    43,
+    594
+   ],
+   "online_tier": [
+    52,
+    594
+   ],
+   "shadow_or_twin": [
+    10,
+    594
+   ],
+   "coupled": [
+    309,
+    594
+   ],
+   "two_way": [
+    62,
+    594
+   ],
+   "assimilation": [
+    1,
+    594
+   ],
+   "calibration": [
+    95,
+    594
+   ],
+   "uq": [
+    31,
+    594
+   ],
+   "open_data": [
+    21,
+    594
+   ]
+  },
+  "indicators_operational": {
+   "specific_installation": [
+    82,
+    176
+   ],
+   "measured_data": [
+    108,
+    176
+   ],
+   "multi_season": [
+    18,
+    176
+   ],
+   "field_validation": [
+    64,
+    176
+   ],
+   "ai": [
+    27,
+    176
+   ],
+   "realtime_demo": [
+    39,
+    176
+   ],
+   "online_tier": [
+    43,
+    176
+   ],
+   "shadow_or_twin": [
+    10,
+    176
+   ],
+   "coupled": [
+    71,
+    176
+   ],
+   "two_way": [
+    21,
+    176
+   ],
+   "assimilation": [
+    1,
+    176
+   ],
+   "calibration": [
+    37,
+    176
+   ],
+   "uq": [
+    7,
+    176
+   ],
+   "open_data": [
+    4,
+    176
+   ]
+  },
+  "indicators_design": {
+   "specific_installation": [
+    116,
+    418
+   ],
+   "measured_data": [
+    140,
+    418
+   ],
+   "multi_season": [
+    29,
+    418
+   ],
+   "field_validation": [
+    113,
+    418
+   ],
+   "ai": [
+    17,
+    418
+   ],
+   "realtime_demo": [
+    4,
+    418
+   ],
+   "online_tier": [
+    9,
+    418
+   ],
+   "shadow_or_twin": [
+    0,
+    418
+   ],
+   "coupled": [
+    238,
+    418
+   ],
+   "two_way": [
+    41,
+    418
+   ],
+   "assimilation": [
+    0,
+    418
+   ],
+   "calibration": [
+    58,
+    418
+   ],
+   "uq": [
+    24,
+    418
+   ],
+   "open_data": [
+    17,
+    418
+   ]
+  },
+  "indicators_p": {
+   "specific_installation": 1.5982547318358624e-05,
+   "measured_data": 4.2665313469676125e-10,
+   "multi_season": 0.1848987345607816,
+   "field_validation": 0.03044004793238714,
+   "ai": 7.528424075065506e-06,
+   "realtime_demo": 3.840111032011962e-18,
+   "online_tier": 1.0817755046527575e-16,
+   "shadow_or_twin": 4.3375596702585325e-06,
+   "coupled": 0.00022812905125473042,
+   "two_way": 0.4634819605401506,
+   "assimilation": 0.2962962962962963,
+   "calibration": 0.03684044499615838,
+   "uq": 0.42657125530999035,
+   "open_data": 0.33881236260653513
+  },
+  "n_design_only": 418,
+  "ai_by_period": {
+   "studies up to 2021": [
+    2,
+    87
+   ],
+   "studies from 2022 to 2023": [
+    6,
+    100
+   ],
+   "studies from 2024 to 2026": [
+    36,
+    407
+   ]
+  },
+  "ai_by_koppen_full": {
+   "NR": 22,
+   "C": 16,
+   "D": 5,
+   "B": 4,
+   "A": 1
+  },
+  "n_with_model": 536,
+  "n_lim_text": 217,
+  "n_fut_text": 188,
+  "n_operational": 176,
+  "function_by_stage": {
+   "monitoring_state_estimation": {
+    "design_only": 23,
+    "operation": 73
+   },
+   "prediction": {
+    "design_only": 393,
+    "operation": 102
+   },
+   "optimization_control": {
+    "design_only": 166,
+    "operation": 130
+   }
+  },
+  "sens": {
+   "temporal_resolution_reported": {
+    "full": [
+     179,
+     224
+    ],
+    "abs": [
+     48,
+     370
+    ],
+    "p": 4.014838372019755e-62
+   },
+   "data_duration_reported": {
+    "full": [
+     199,
+     224
+    ],
+    "abs": [
+     113,
+     370
+    ],
+    "p": 5.506182065219914e-47
+   },
+   "deployment_reported": {
+    "full": [
+     214,
+     224
+    ],
+    "abs": [
+     338,
+     370
+    ],
+    "p": 0.06834242171950555
+   },
+   "validation_reported": {
+    "full": [
+     129,
+     224
+    ],
+    "abs": [
+     130,
+     370
+    ],
+    "p": 1.0828550951799237e-07
+   },
+   "field_validation": {
+    "full": [
+     98,
+     224
+    ],
+    "abs": [
+     79,
+     370
+    ],
+    "p": 1.2519260974404292e-08
+   },
+   "realtime_demo": {
+    "full": [
+     23,
+     224
+    ],
+    "abs": [
+     20,
+     370
+    ],
+    "p": 0.03319748413485108
+   },
+   "open_data": {
+    "full": [
+     20,
+     224
+    ],
+    "abs": [
+     1,
+     370
+    ],
+    "p": 2.7095810145435195e-08
+   },
+   "ai": {
+    "full": [
+     14,
+     224
+    ],
+    "abs": [
+     30,
+     370
+    ],
+    "p": 0.4248915451051389
+   },
+   "shadow_or_twin": {
+    "full": [
+     9,
+     224
+    ],
+    "abs": [
+     1,
+     370
+    ],
+    "p": 0.0009321378183687247
+   },
+   "limitations_stated": {
+    "full": [
+     183,
+     224
+    ],
+    "abs": [
+     34,
+     370
+    ],
+    "p": 2.829529244769588e-75
+   }
+  },
+  "n_fulltext": 224,
+  "n_abstract": 370,
+  "venue_kind": {
+   "journal": 382,
+   "conference": 212
+  },
+  "not_retrieved_publishers": {
+   "No DOI": 57,
+   "Other": 34,
+   "Elsevier": 4,
+   "MDPI": 2,
+   "Springer": 2,
+   "AIP": 1
+  },
+  "n_not_retrieved": 100,
+  "calib": {
+   "Included on eligibility": {
+    "full": 90,
+    "abs": 87,
+    "both": 87,
+    "n": 90
+   },
+   "AI used": {
+    "n": 87,
+    "full": 6,
+    "abs": 4,
+    "both": 4,
+    "agree": 85
+   },
+   "Digital shadow or twin": {
+    "n": 87,
+    "full": 2,
+    "abs": 1,
+    "both": 1,
+    "agree": 86
+   },
+   "Operational decisions addressed": {
+    "n": 87,
+    "full": 29,
+    "abs": 25,
+    "both": 21,
+    "agree": 75
+   },
+   "Specific real installation": {
+    "n": 87,
+    "full": 38,
+    "abs": 35,
+    "both": 29,
+    "agree": 72
+   },
+   "Measured data used": {
+    "n": 87,
+    "full": 42,
+    "abs": 36,
+    "both": 35,
+    "agree": 79
+   },
+   "Field validation": {
+    "n": 87,
+    "full": 30,
+    "abs": 21,
+    "both": 20,
+    "agree": 76
+   },
+   "Real-time operation demonstrated": {
+    "n": 87,
+    "full": 7,
+    "abs": 4,
+    "both": 3,
+    "agree": 82
+   },
+   "Edge, fog, cloud, or multi-tier deployment": {
+    "n": 87,
+    "full": 11,
+    "abs": 6,
+    "both": 6,
+    "agree": 82
+   },
+   "Temporal resolution reported": {
+    "n": 87,
+    "full": 69,
+    "abs": 5,
+    "both": 5,
+    "agree": 23
+   },
+   "Measured data over more than one season": {
+    "n": 87,
+    "full": 12,
+    "abs": 7,
+    "both": 6,
+    "agree": 80
+   },
+   "Two-way or integrated coupling": {
+    "n": 87,
+    "full": 10,
+    "abs": 15,
+    "both": 8,
+    "agree": 78
+   },
+   "Data or code shared": {
+    "n": 87,
+    "full": 11,
+    "abs": 2,
+    "both": 1,
+    "agree": 76
+   }
+  },
+  "calib_n": 90
+ }
+}

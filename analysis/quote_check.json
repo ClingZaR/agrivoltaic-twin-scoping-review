@@ -1,0 +1,13 @@
+{
+ "n_quotes": 170,
+ "n_quotes_ok": 169,
+ "n_st_quotes": 22,
+ "n_st_quotes_ok": 22,
+ "bad": [
+  [
+   "R2549",
+   "audit_input_ev",
+   "This study employs hourly monitored data collected between May 2024 and April 2025."
+  ]
+ ]
+}

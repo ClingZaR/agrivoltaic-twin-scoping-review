@@ -1,0 +1,138 @@
+{
+ "rows": [
+  [
+   "AI use",
+   224,
+   "14 (6%)",
+   "6% (3 to 11)"
+  ],
+  [
+   "Multi-season measured data",
+   224,
+   "35 (16%)",
+   "17% (11 to 23)"
+  ],
+  [
+   "Operational decisions",
+   224,
+   "79 (35%)",
+   "41% (33 to 49)"
+  ],
+  [
+   "Real-time operation demonstrated",
+   224,
+   "23 (10%)",
+   "12% (7 to 18)"
+  ],
+  [
+   "Model compared with no measurements",
+   208,
+   "119 (57%)",
+   "56% (48 to 64)"
+  ],
+  [
+   "Model validated and coupled",
+   208,
+   "28 (13%)",
+   "16% (10 to 22)"
+  ]
+ ],
+ "ind": {
+  "AI use": {
+   "n": 224,
+   "k": 14,
+   "raw": 6,
+   "rw": 6,
+   "lo": 3,
+   "hi": 11
+  },
+  "Multi-season measured data": {
+   "n": 224,
+   "k": 35,
+   "raw": 16,
+   "rw": 17,
+   "lo": 11,
+   "hi": 23
+  },
+  "Operational decisions": {
+   "n": 224,
+   "k": 79,
+   "raw": 35,
+   "rw": 41,
+   "lo": 33,
+   "hi": 49
+  },
+  "Real-time operation demonstrated": {
+   "n": 224,
+   "k": 23,
+   "raw": 10,
+   "rw": 12,
+   "lo": 7,
+   "hi": 18
+  },
+  "Model compared with no measurements": {
+   "n": 208,
+   "k": 119,
+   "raw": 57,
+   "rw": 56,
+   "lo": 48,
+   "hi": 64
+  },
+  "Model validated and coupled": {
+   "n": 208,
+   "k": 28,
+   "raw": 13,
+   "rw": 16,
+   "lo": 10,
+   "hi": 22
+  }
+ },
+ "ess": 163,
+ "trimmed": 12,
+ "trim_pct": 95,
+ "max_shift": 6,
+ "n_ft": 224,
+ "kappa": {
+  "audit_designed": [
+   0.91,
+   0.83,
+   0.97
+  ],
+  "audit_demonstrated": [
+   0.94,
+   0.87,
+   0.98
+  ]
+ },
+ "n_audit": 111,
+ "audit_demo_agree": 107,
+ "audit_des_agree": 105,
+ "variants": {
+  "with risk-set covariate": {
+   "AI use": 5,
+   "Multi-season measured data": 16,
+   "Operational decisions": 34,
+   "Real-time operation demonstrated": 9,
+   "Model compared with no measurements": 56,
+   "Model validated and coupled": 16
+  },
+  "without library-obtained studies": {
+   "AI use": 6,
+   "Multi-season measured data": 16,
+   "Operational decisions": 33,
+   "Real-time operation demonstrated": 10,
+   "Model compared with no measurements": 65,
+   "Model validated and coupled": 11
+  },
+  "without library-obtained studies, unweighted": {
+   "AI use": 7,
+   "Multi-season measured data": 14,
+   "Operational decisions": 32,
+   "Real-time operation demonstrated": 9,
+   "Model compared with no measurements": 62,
+   "Model validated and coupled": 10
+  }
+ },
+ "variant_max_shift": 9,
+ "n_lib": 28
+}

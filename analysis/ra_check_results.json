@@ -1,0 +1,181 @@
+{
+ "partA": {
+  "Q1": [
+   40,
+   39,
+   0.0
+  ],
+  "Q2": [
+   39,
+   39,
+   1.0
+  ],
+  "Q3": [
+   39,
+   39,
+   1.0
+  ],
+  "Q4": [
+   39,
+   34,
+   0.76
+  ],
+  "Q5": [
+   39,
+   35,
+   0.8
+  ],
+  "Q6": [
+   39,
+   37,
+   0.9
+  ]
+ },
+ "dis": {
+  "Q1": [
+   [
+    "R2073",
+    "Yes",
+    "No"
+   ]
+  ],
+  "Q4": [
+   [
+    "R2317",
+    "No",
+    "Yes"
+   ],
+   [
+    "R2280",
+    "Yes",
+    "No"
+   ],
+   [
+    "R0644",
+    "No",
+    "Yes"
+   ],
+   [
+    "R2668",
+    "No",
+    "Yes"
+   ],
+   [
+    "R2661",
+    "No",
+    "Yes"
+   ]
+  ],
+  "Q5": [
+   [
+    "R1808",
+    "Operation",
+    "Design only"
+   ],
+   [
+    "R2509",
+    "Operation",
+    "Neither"
+   ],
+   [
+    "R0644",
+    "Operation",
+    "Design only"
+   ],
+   [
+    "R1811",
+    "Operation",
+    "Neither"
+   ]
+  ],
+  "Q6": [
+   [
+    "R1322",
+    "No site named",
+    "No"
+   ],
+   [
+    "R1423",
+    "Yes",
+    "No"
+   ]
+  ]
+ },
+ "partB": [
+  [
+   "R0804",
+   "Agree",
+   "p. 10: \"The monitoring system transmits data on the state of the soil and plants, the control system determines the sections and irrigation rates.\" | Also p. 2: \"The article presents the concept of an agricultural complex...\" | Pure concept, no hardware or data, so None demonstrated and concept/proposal are right. The designed twin rests only on the irrigation chain; panel rotation follows fixed rules (p. 8). Minor: the review's \"real time\" quote is about the railer reporting back, not live data reaching a model. (medium confidence)"
+  ],
+  [
+   "R0909",
+   "Agree",
+   "p. 4: \"A conceptual algorithm is presented in Figure 3. The solar panels are oriented using information collected from environmental and plant sensors.\" | p. 2: \"...the demonstration AV system in Tresserre is mentioned in this study only for the perspectives of work.\" | Designed twin is right, but both review quotes come from the conceptual section. In the field (Piolenc) the panels followed a fixed afternoon-shading schedule; the AI steering was not tested. \"Digital model\" holds only because ETo was computed offline from site data with Penman-Monteith (p. 3). If that does not count as a model, demonstrated = No model. (medium)"
+  ],
+  [
+   "R1149",
+   "Agree",
+   "p. 2: \"Based on these analyses, the system will be able to generate automatic fertigation events\" | p. 17: \"Users can schedule fertigation events through a dedicated module.\" | The predictive model and automatic fertigation are future tense. What was built and trialled is LoRaWAN-to-AWS monitoring, a dashboard and user-scheduled fertigation, so designed twin / demonstrated No model / prototype are right. (high)"
+  ],
+  [
+   "R1443",
+   "Agree",
+   "p. 1: \"Although the implementation and simulation are ongoing, this study contributes a comprehensive architectural blueprint\" | p. 6: \"The implementation, simulation, and experimental validation are currently under development...\" | Closed-loop design (ML models set the louvre angle every 10 min), so designed twin; nothing implemented or tested. (high)"
+  ],
+  [
+   "R1618",
+   "Can't tell",
+   "Abstract only (full text paywalled; abstract from Crossref, api.crossref.org/works/10.26634/jps.13.4.1243): \"The effectiveness of the proposed PLC and LoRaWAN-enabled agri-voltaic architecture is confirmed by MATLAB-based simulations and real-world practical case studies.\" | Two issues need the full text. (1) The review cites the nutrient module that \"dynamically regulates fertilizer supply\" as equipment control but codes the design as a shadow; if that regulation is model-driven, the design is a twin. (2) The \"real-world practical case studies\" could contradict None demonstrated / concept if they used real installation data. (low)"
+  ],
+  [
+   "R1637",
+   "Agree",
+   "p. 4: \"...in the second, they were managed by the controller until a malfunction ended the test\" | p. 2: \"a new measurement of outdoor global irradiance is taken; this value... is then transmitted to a physical model\" | Live outdoor GHI reaches the model automatically every 5 min, and the optimiser set PV blinds and grow lights with no approval for about 3 months, so a demonstrated twin is right. Minor: the review's quote mentions indoor PAR, but p. 2 says the PAR readings \"could not be directly used\". The installation could arguably be coded testbed. (medium)"
+  ],
+  [
+   "R1762",
+   "Agree",
+   "p. 2: \"The system envisaged is a prototype mini photovoltaic (PV) greenhouse designed for installation in the Savona campus\" | The designed loop is a twin (MATLAB returns manipulated variables to actuators, p. 4). Nothing is shown running: the hardware tables list requirements, and there are no data or control results, despite the abstract saying the case study \"demonstrates\" effectiveness. (medium)"
+  ],
+  [
+   "R1814",
+   "Agree",
+   "p. 9: \"A precomputed lookup table was generated offline using Pareto-optimal simulation outcomes across different environmental states.\" | The model was run offline on historical data from a real PV greenhouse testbed, and the field controller is a lookup table, so demonstrated Digital model / prototype is right. Caveats: (a) the designed twin rests on the Fig. 2 live optimiser (p. 5), while the paper's own real-time design is the offline table, so the designed level is arguably Digital model; (b) the paper says the validation is \"retrospective\" (p. 8) yet claims the control loop ran in the field for 97 days (p. 9). (medium)"
+  ],
+  [
+   "R2039",
+   "Disagree",
+   "Sec. 3.2.2: \"When the simulate function is triggered, the current ROI and array parameters are transmitted to the API.\" and \"all simulations were performed for a single clear-sky day.\" | Sec. 3.3.1: MQTT data enable \"the real-time display of sensor data on the dashboard.\" | Demonstrated should be Digital model, not Digital shadow. The only model (pvlib) is run by the user with hand-set inputs on a clear-sky day. The live link only carries the angles of a lab tracker kit to a dashboard, and that data never reaches the model. The review's data-link quote is from the methods overview, not the implementation. Designed shadow is arguable for the same reason. Agree the paper's \"true digital twin\" claim is wrong (setpoints are manual). Full text: mdpi-res.com PDF of machines-14-00254. (medium)"
+  ],
+  [
+   "R2062",
+   "Agree",
+   "p. 7: \"We evaluate our approach with a simulated agrivoltaic system.\" and \"We use historical solar irradiance and temperature data.\" | The designed MPC sets the panels automatically from live measurements, so designed twin. It was evaluated only on a synthetic system with NSRDB data, so None demonstrated / concept. Note: the text checked is the arXiv preprint. (high)"
+  ],
+  [
+   "R2177",
+   "Agree",
+   "p. 7: \"used to compute realized PPFD and power generation, which serve as proxies for actual sensor measurements.\" | p. 8: \"We conducted 385 simulations...\" | Designed closed-loop tilt control, so twin. All results come from simulating a notional 5 MW farm with weather-station proxies, so None demonstrated / concept. (high)"
+  ],
+  [
+   "R1384",
+   "Agree",
+   "p. 3: \"Depending on the computed ambient light, the dimming level of the LEDs will be changed from the 11 range of values between 0% and 100%.\" | p. 4: \"This value was divided by 11 to create ranges of values...\" | No model is right. The equation Lux = 114*GHI^0.769 was fitted once offline (3 days of data, Google Sheets) and only increases with irradiance, so together with the 11-band table it is the same as 11 fixed thresholds on GHI. The indoor sensor only monitors (p. 3), and there is no predictive model of greenhouse light. (high)"
+  ],
+  [
+   "R0341",
+   "Disagree",
+   "p. 6: \"a (g) and b (g) are coefficients fitted on the control plot\" | p. 11: fresh mass \"in the various devices of the AV installation (slope of regression line between 0.94 and 1.05, MAE between 7 and 23 g)\" | Outputs compared (water, crop) and the error statistic are right. Separate validation data should be \"yes\" for crop: the fresh-mass coefficients were fitted on the control plot only, then tested on the ST, CT and HD agrivoltaic plots. For water alone \"no\" is right: p. 4 says the soil-water measurements \"aim at the parameterisation\" and they are also the comparison data. Caveat: the paper never states a calibration/validation split, and the review's quote joins two passages. (medium)"
+  ],
+  [
+   "R1200",
+   "Disagree",
+   "Sec. 4.1 (PDF p. 11): \"on average, the ST-PVG produces 57.4 kWh less energy than theoretically predicted for each month\" | Sec. 3: \"Using the online platform Solar Explorer, a simulation was carried out for ST-PVG\" | Separate validation data should be \"yes\", not NR. The \"theoretical\" production is an a-priori Solar Explorer simulation (nominal tilt, azimuth, 96% inverter, 14% losses, 2004-2016 historical data), never fitted to the 2019-2021 measured data. The review's error evidence is also wrong: the 6.8% is measured 2021 vs measured 2019 output (Eq. 1; \"6.8% of the energy produced in 2019\", PDF p. 12), not a model error. \"Error statistic: yes\" still holds through the -57.4 kWh/month bias. Full text: mdpi-res.com PDF of sustainability-16-00981. (medium)"
+  ],
+  [
+   "R2195",
+   "Disagree",
+   "p. 7: \"At JSG, the specific leaf area (slatop) for C3 grass was calibrated to align with observed NPP.\" | p. 10: \"simulated soil moisture (0-20 cm) also corresponded well with observations across patches (Figures 3e-3h), with R2 values of 0.79, 0.86, 0.77, and 0.79\" | Outputs (light, water, crop) and the error statistic are right. Separate validation data should be \"yes\" for water and light: every calibration named (p. 6-7) targets crop or carbon variables, while soil moisture and PPFD at JSG were not calibration targets but were checked against observations. For crop alone \"no\" is right. Caveat: same site and season; the supplementary parameter tables were not checked. (medium)"
+  ]
+ ]
+}

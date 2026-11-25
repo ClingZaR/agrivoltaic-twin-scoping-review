@@ -1,0 +1,62 @@
+[
+ {
+  "rid": "R0648",
+  "eligible_apart_from_language": "yes",
+  "eligibility_reason": "Agrivoltaic system (corn grown under PV at the Jeollanamdo Agricultural Research and Extension Services APV). It develops polynomial-regression PV-yield and crop-yield models, K-means farmland detection and IoT microclimate sensing inside a DSS for one specific installation. It is a peer-reviewed journal article (JKSIE 45(4)).",
+  "virtual_model": "yes",
+  "automated_input": "yes",
+  "automated_input_evidence": "\"IOT(Internet of things) 기술이 적용된 미기상 관측센서를 통해 얻어진 데이터를 모델에 적용하여 발전량을 예측한다\" [Data obtained through IoT-enabled microclimate observation sensors are applied to the model to predict power generation]; English abstract (original): \"the real-time monitoring data is used as an input of the DSS system for performance estimation\" [same in English]",
+  "model_driven_actuation": "no",
+  "actuation_evidence": "\"농업인들과 시스템 엔지니어들은 영농형 태양광 시스템을 구성하는 데 있어, 각자의 농경지에 가장 알맞은 시스템 조건을 선택하는 것이 가능하다\" [Farmers and system engineers can choose the system conditions best suited to their farmland when configuring an APV system] (outputs go to people; no actuator control)",
+  "implementation_status": "prototype_or_testbed",
+  "designed_level": "digital_shadow",
+  "demonstrated_level": "digital_model",
+  "validated_against_measurements": "yes",
+  "justification": "As designed, the DSS feeds real-time IoT microclimate data from the APV into polynomial-regression PV and corn-yield models and gives design and profit recommendations to people through a mobile app (digital shadow), but no data pipeline is described. Only offline validation on archived 2020 data was reported (\"일일 실제 발전량 관측 데이터 (테스트 셋)\" [observed daily generation data (test set)]; R2 95.89% for PV, 86.03% for yield), so the demonstrated level is digital_model."
+ },
+ {
+  "rid": "R0513",
+  "eligible_apart_from_language": "yes",
+  "eligibility_reason": "Agrivoltaic design study (crop-light-saturation-driven APV layout). It uses a computational ray-tracing irradiance model (Rhino/Grasshopper with Honeybee/Ladybug) plus PVsyst to optimize design parameters (height, GCR, tilt, azimuth, tracking type) for a generic system configuration at plot scale. It is a peer-reviewed journal article (J. Korean Solar Energy Society 41(2)).",
+  "virtual_model": "yes",
+  "automated_input": "no",
+  "automated_input_evidence": "\"EnergyPlus 기반 Ladybug map에서 제공하는 2015년 인천광역시 Test Reference Year (TRY)를 사용하였다\" [The 2015 Incheon Test Reference Year weather data provided by the EnergyPlus-based Ladybug map were used]",
+  "model_driven_actuation": "no",
+  "actuation_evidence": "none stated",
+  "implementation_status": "NA",
+  "designed_level": "digital_model",
+  "demonstrated_level": "digital_model",
+  "validated_against_measurements": "no",
+  "justification": "This is a pure simulation study: a ray-tracing light model and PVsyst driven by typical-year weather evaluate under-array irradiance mean, uniformity and transposition factor across design variants, and tracking is only simulated in Grasshopper. No installation, sensor data or comparison with measurements is reported."
+ },
+ {
+  "rid": "R1300",
+  "eligible_apart_from_language": "yes",
+  "eligibility_reason": "PV greenhouse (flexible CIGS cells on arch-roof plastic greenhouses) with red leaf lettuce grown underneath, so protected-cultivation agrivoltaics. It applies a ray-tracing light model of the specific greenhouses (SOLIDWORKS/OptisWorks) to estimate floor-area light distribution, along with sensor monitoring. It is a peer-reviewed journal article (Hortic. Sci. Technol. 42(2)).",
+  "virtual_model": "yes",
+  "automated_input": "no",
+  "automated_input_evidence": "\"CIE 표준 천구 모델을 기반으로 일반적인 맑은 날 (CIE standard sky)의 태양광을 구현하였으며, 이 때 직사광과 산란광의 비율은 6:4였다\" [Sunlight on a typical clear day was implemented based on the CIE standard sky model, with a direct-to-diffuse ratio of 6:4]",
+  "model_driven_actuation": "no",
+  "actuation_evidence": "\"센서와 연동된 온실 내 자동측창개폐장치를 사용해 25°C 이상의 기온에서는 측창을 열고, 15°C 이하에서는 온풍난방을 하였다\" [Using a sensor-linked automatic side-window device, side windows opened above 25°C and warm-air heating ran below 15°C] (sensor-threshold control, no model in loop)",
+  "implementation_status": "prototype_or_testbed",
+  "designed_level": "digital_model",
+  "demonstrated_level": "digital_model",
+  "validated_against_measurements": "yes",
+  "justification": "The ray-tracing model of the three experimental greenhouses is driven by a standard clear-sky model, not by installation data, and was compared offline with measured PPFD/DLI (RMSE 14.8 µmol·m-2·day-1). The ventilation and heating actuation is threshold-based with no virtual model in the loop."
+ },
+ {
+  "rid": "R1031",
+  "eligible_apart_from_language": "yes",
+  "eligibility_reason": "A 20 kW independent-pillar agrophotovoltaic test-bed (30% shading ratio) over farmland (하부 농지) in Naju. It applies a computational irradiance/shading model (Autodesk Ecotect) of that specific installation, compares it with 9 in-field irradiance sensors, and uses it to design improved module layouts. It is a peer-reviewed journal article (J. Korean Solar Energy Society 43(1)). Caveat: the site is described as idle land (유휴부지) and no crop yield is reported, but the system is explicitly an APV built over farmland.",
+  "virtual_model": "yes",
+  "automated_input": "no",
+  "automated_input_evidence": "\"일사량 분석을 위한 기상데이터는 전남 나주시를 기반으로 일사량 온도, 습도, 등 8가지의 기상 데이터를 기반으로 만들어진 'Meteonorm' 데이터를 활용하였다\" [For the irradiance analysis, Meteonorm weather data for Naju, built from eight weather variables such as irradiance, temperature and humidity, were used]",
+  "model_driven_actuation": "no",
+  "actuation_evidence": "none stated",
+  "implementation_status": "prototype_or_testbed",
+  "designed_level": "digital_model",
+  "demonstrated_level": "digital_model",
+  "validated_against_measurements": "yes",
+  "justification": "The Ecotect shading/irradiance model uses Meteonorm typical-year weather, not installation data, and its incidence ratios were compared offline with four months of measured sensor data from the test-bed (\"전산모사와 실증 결과에서의 일사량 입사 비율은 센서 위치에 따라 유사한 증감 경향을 나타내었으며\" [simulated and measured incidence ratios showed similar trends by sensor position]). The model is used only for layout redesign, with no actuation."
+ }
+]

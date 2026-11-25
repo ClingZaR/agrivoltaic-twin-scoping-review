@@ -1,0 +1,56 @@
+{
+ "n_double": 175,
+ "eligible": [
+  0.9885714285714285,
+  0.9746413563251702
+ ],
+ "n_both_included": 114,
+ "ai_used": [
+  1.0,
+  1.0
+ ],
+ "dt_maturity": [
+  1.0,
+  1.0
+ ],
+ "arid_focus": [
+  0.9473684210526315,
+  0.8431192660550457
+ ],
+ "mena": [
+  1.0,
+  1.0
+ ],
+ "validation_setting": [
+  0.9298245614035088,
+  0.883539777806155
+ ],
+ "study_type": [
+  0.9298245614035088,
+  0.884732052578362
+ ],
+ "dt_term_used": [
+  0.9912280701754386,
+  0.0
+ ],
+ "real_time": [
+  0.956140350877193,
+  0.8600883652430044
+ ],
+ "temporal_resolution": [
+  0.7631578947368421,
+  0.5388073119568475
+ ],
+ "dt_functions_jaccard": 0.9327485380116959,
+ "method_families_jaccard": 0.922514619883041,
+ "data_types_jaccard": 0.7631787802840434,
+ "sensing_modalities_jaccard": 0.8510233918128655,
+ "deployment_jaccard": 0.8771929824561403,
+ "subsystems_jaccard": 0.9238304093567251,
+ "koppen_main_jaccard": 0.8596491228070176,
+ "decision_timescale_jaccard": 0.9342105263157895,
+ "eligibility_disagreements": [
+  "R0022",
+  "R0268"
+ ]
+}

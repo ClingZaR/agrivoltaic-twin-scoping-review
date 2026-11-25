@@ -1,0 +1,37 @@
+{
+ "screening": {
+  "n": 30,
+  "agree": 27,
+  "kappa": 0.8
+ },
+ "eligibility": {
+  "n": 50,
+  "agree": 48,
+  "kappa": 0.87
+ },
+ "ai_used": {
+  "n": 40,
+  "agree": 39,
+  "kappa": 0.87
+ },
+ "level": {
+  "n": 40,
+  "agree": 39,
+  "kappa": 0.89
+ },
+ "operational": {
+  "n": 40,
+  "agree": 37,
+  "kappa": 0.83
+ },
+ "field_validation": {
+  "n": 40,
+  "agree": 35,
+  "kappa": 0.75
+ },
+ "arid_site": {
+  "n": 40,
+  "agree": 39,
+  "kappa": 0.96
+ }
+}

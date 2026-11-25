@@ -1,0 +1,590 @@
+{
+ "R3212": {
+  "A": {
+   "rid": "R3212",
+   "decision": "EXCLUDE",
+   "criterion": "E5",
+   "reason": "This is an overview book chapter in an Elsevier edited volume (DOI prefix b978-), so it is not peer-reviewed primary research, and its review character also triggers E4."
+  },
+  "B": {
+   "rid": "R3212",
+   "decision": "EXCLUDE",
+   "criterion": "E5",
+   "reason": "This is a chapter in an edited Elsevier book (DOI prefix b978-) that gives an overview of agrivoltaics, so it is not peer-reviewed primary research (E5), and as an overview it also falls under E4."
+  }
+ },
+ "R3259": {
+  "A": {
+   "rid": "R3259",
+   "decision": "NEED_FULL_TEXT",
+   "criterion": "I2",
+   "reason": "The packet has only the title, which suggests solar and agriculture co-location (I1), but with no abstract and no full text it cannot settle whether there is a model or data enabler (I2) or a specific system rather than a regional potential assessment (I3/E3); if the full text still cannot be retrieved, E6 applies."
+  },
+  "B": {
+   "rid": "R3259",
+   "decision": "NEED_FULL_TEXT",
+   "criterion": "I2",
+   "reason": "The title points to solar-agriculture co-location in drylands (likely I1), but the packet has no abstract and no full text, so it cannot show whether the study uses a model or data system for a specific system (I2/I3) or is a regional potential assessment (E3); if the Applied Energy 2016 full text cannot be retrieved, E6 (no full record available) would apply."
+  }
+ },
+ "R0542": {
+  "B": {
+   "rid": "R0542",
+   "decision": "EXCLUDE",
+   "criterion": "E2",
+   "reason": "The study builds an economic feasibility model (gross margin, profit, benefit-cost ratio, NPV) for a Niger farm, and the LER is a by-product, so it is an economic-only analysis with no AI, data, digital twin or system-behavior model."
+  },
+  "A": {
+   "rid": "R0542",
+   "decision": "EXCLUDE",
+   "criterion": "E2",
+   "reason": "The study is an economic feasibility analysis of a Niger case-study farm (gross margin, benefit-cost ratio, NPV, with LER as a side metric), so it is economic-only with no AI, data, or system-behavior model."
+  }
+ },
+ "R0548": {
+  "B": {
+   "rid": "R0548",
+   "decision": "EXCLUDE",
+   "criterion": "E2",
+   "reason": "This is a legal framework and policy analysis of agrivoltaics in the U.S. with no technical enabler."
+  },
+  "A": {
+   "rid": "R0548",
+   "decision": "EXCLUDE",
+   "criterion": "E2",
+   "reason": "It applies Legal Framework Analysis to agrivoltaic policy in the U.S. and Massachusetts, which makes it a policy and legal study with no technical enabler."
+  }
+ },
+ "R0608": {
+  "B": {
+   "rid": "R0608",
+   "decision": "EXCLUDE",
+   "criterion": "E2",
+   "reason": "This residential agrivoltaic field experiment only reports measured lettuce growth, irrigation use, panel temperature and power, with no model or data system developed."
+  },
+  "A": {
+   "rid": "R0608",
+   "decision": "EXCLUDE",
+   "criterion": "E2",
+   "reason": "It is a residential agrivoltaic field experiment that only reports measured lettuce growth, irrigation use, panel temperature and power, with no model or data system."
+  }
+ },
+ "R0634": {
+  "B": {
+   "rid": "R0634",
+   "decision": "EXCLUDE",
+   "criterion": "E2",
+   "reason": "This is a techno-economic evaluation (LCB, NPW, IRR, payback, LCOE, sensitivity) that scales field returns up to a 520 kWp system, making it economic-only analysis with no computational model of system behavior."
+  },
+  "A": {
+   "rid": "R0634",
+   "decision": "EXCLUDE",
+   "criterion": "E2",
+   "reason": "It is a techno-economic evaluation that extrapolates field returns from a 105 kWp system to 520 kWp and compares LCB, NPW, IRR, payback and LCOE, so the analysis is economic-only."
+  }
+ },
+ "R0684": {
+  "B": {
+   "rid": "R0684",
+   "decision": "NEED_FULL_TEXT",
+   "criterion": "I2",
+   "reason": "The abstract describes the Cordoba experimental installation and gives preliminary results, but it does not say whether the characterization includes a monitoring or data-acquisition system or any model, so I2 cannot be decided from the packet."
+  },
+  "A": {
+   "rid": "R0684",
+   "decision": "EXCLUDE",
+   "criterion": "E2",
+   "reason": "The abstract only describes an experimental agrivoltaic plant in Cordoba and gives preliminary economic results, and it names no model, AI method, sensing, or data-acquisition system."
+  }
+ },
+ "R0709": {
+  "B": {
+   "rid": "R0709",
+   "decision": "EXCLUDE",
+   "criterion": "E2",
+   "reason": "This field study measures I-V curves and performance ratio at a Chilean pilot plant to quantify soiling losses, reporting measured outcomes only, with no model or dedicated data system developed."
+  },
+  "A": {
+   "rid": "R0709",
+   "decision": "EXCLUDE",
+   "criterion": "E2",
+   "reason": "It is a six-month field measurement study of soiling losses (I-V curves, performance ratio) at a Chilean agrivoltaic pilot plant that only reports measured outcomes, with no model or data system."
+  }
+ },
+ "R0731": {
+  "B": {
+   "rid": "R0731",
+   "decision": "NEED_FULL_TEXT",
+   "criterion": "I2",
+   "reason": "The abstract is cut off after one sentence, so the packet cannot show whether this PV grassland study goes beyond reporting measured light, soil water and productivity outcomes."
+  },
+  "A": {
+   "rid": "R0731",
+   "decision": "NEED_FULL_TEXT",
+   "criterion": "I2",
+   "reason": "The study is clearly agrivoltaic (forage grassland under PV), but the abstract is cut off after one sentence and no full text is available, so the packet cannot show whether a modeling or data enabler is used beyond measured outcomes."
+  }
+ },
+ "R0765": {
+  "B": {
+   "rid": "R0765",
+   "decision": "EXCLUDE",
+   "criterion": "E3",
+   "reason": "This paper compares electricity and food yields under scenarios across the African context and urges policy support, so it is a regional potential assessment that does not model a specific agrivoltaic system."
+  },
+  "A": {
+   "rid": "R0765",
+   "decision": "EXCLUDE",
+   "criterion": "E3",
+   "reason": "It is a continent-scale scenario and opportunity assessment of crop-area PV in Africa that ends in policy recommendations, and it does not model a specific system."
+  }
+ },
+ "R1042": {
+  "B": {
+   "rid": "R1042",
+   "decision": "EXCLUDE",
+   "criterion": "E2",
+   "reason": "Field trial of tomato under conventional and semi-transparent agrivoltaic panels that reports only measured PAR, soil temperature, yield, irrigation demand and fruit quality, with no model, AI method or data system described."
+  },
+  "A": {
+   "rid": "R1042",
+   "decision": "EXCLUDE",
+   "criterion": "E2",
+   "reason": "A field trial of tomato under conventional and semi-transparent agrivoltaic panels that reports only measured PAR, soil temperature, yield, irrigation and fruit-quality outcomes, with no model, AI method or data system."
+  }
+ },
+ "R1054": {
+  "B": {
+   "rid": "R1054",
+   "decision": "EXCLUDE",
+   "criterion": "E2",
+   "reason": "Field experiment on cucumber growth under and outside mono-facial PV modules that reports only measured growth and production parameters plus a simple correlation with distance, with no enabling model or data system."
+  },
+  "A": {
+   "rid": "R1054",
+   "decision": "EXCLUDE",
+   "criterion": "E2",
+   "reason": "A field experiment on cucumber growth under and outside mono-facial PV modules in the UAE that reports measured growth parameters and a simple correlation with distance, with no modeling or data-system enabler."
+  }
+ },
+ "R1401": {
+  "B": {
+   "rid": "R1401",
+   "decision": "EXCLUDE",
+   "criterion": "E2",
+   "reason": "Field study measuring soil physicochemical and biochemical parameters in an agrivoltaic array against a control, reporting measured outcomes only, with no model, AI or data system."
+  },
+  "A": {
+   "rid": "R1401",
+   "decision": "EXCLUDE",
+   "criterion": "E2",
+   "reason": "A field study that measures soil physicochemical and biochemical parameters under and between PV arrays against a control, reporting measured outcomes only, with no model or data system."
+  }
+ },
+ "R1412": {
+  "B": {
+   "rid": "R1412",
+   "decision": "EXCLUDE",
+   "criterion": "E3",
+   "reason": "National technical-potential assessment for Jordan using geospatial analysis to map agrivoltaic-suitable zones, without modeling a specific system."
+  },
+  "A": {
+   "rid": "R1412",
+   "decision": "EXCLUDE",
+   "criterion": "E3",
+   "reason": "A national technical-potential assessment of agrivoltaics in Jordan using geospatial suitability analysis, not a model of a specific system."
+  }
+ },
+ "R1652": {
+  "B": {
+   "rid": "R1652",
+   "decision": "EXCLUDE",
+   "criterion": "E2",
+   "reason": "Field trial of processing tomato under red and blue spectral filters in which microclimate, soil and plant responses are monitored as trial measurements; no model, AI method or dedicated monitoring system is developed."
+  },
+  "A": {
+   "rid": "R1652",
+   "decision": "EXCLUDE",
+   "criterion": "E2",
+   "reason": "A field trial of processing tomato under red and blue light filters, standing in for spectrally selective PV, that reports monitored microclimate, evapotranspiration, yield and WUE outcomes without any developed model, AI method or dedicated data system."
+  }
+ },
+ "R1687": {
+  "B": {
+   "rid": "R1687",
+   "decision": "EXCLUDE",
+   "criterion": "E2",
+   "reason": "Field study of a grape agrivoltaic system in Puglia that reports measured soil moisture, microclimate, spectra, vine yield, electricity output and LER, with no enabling model or data system."
+  },
+  "A": {
+   "rid": "R1687",
+   "decision": "EXCLUDE",
+   "criterion": "E2",
+   "reason": "A field study of grapevines under an agrivoltaic system in Puglia that reports measured soil moisture, microclimate, spectral, yield and LER outcomes, with no modeling, AI or data-system enabler described."
+  }
+ },
+ "R1707": {
+  "B": {
+   "rid": "R1707",
+   "decision": "EXCLUDE",
+   "criterion": "E3",
+   "reason": "Global assessment that pairs spatial overlays with a spatialized agro-hydrological model across worldwide harvested areas rather than modeling a specific installation or system configuration."
+  },
+  "A": {
+   "rid": "R1707",
+   "decision": "EXCLUDE",
+   "criterion": "E3",
+   "reason": "A global land-water competition and potential assessment that runs a spatialized agro-hydrological model over harvested areas worldwide rather than modeling a specific agrivoltaic installation or system configuration."
+  }
+ },
+ "R1719": {
+  "B": {
+   "rid": "R1719",
+   "decision": "EXCLUDE",
+   "criterion": "E2",
+   "reason": "Field evidence from agrivoltaic sites in Tanzania and Kenya that reports measured crop performance, water savings and electricity benefits, with no model, AI method or data system described."
+  },
+  "A": {
+   "rid": "R1719",
+   "decision": "EXCLUDE",
+   "criterion": "E2",
+   "reason": "Field evidence from agrivoltaic sites in Tanzania and Kenya that reports measured crop, energy and water outcomes only, with no model, AI method or data system."
+  }
+ },
+ "R0253": {
+  "A": {
+   "rid": "R0253",
+   "decision": "EXCLUDE",
+   "criterion": "E2",
+   "reason": "A conceptual paper that lists crops suited to agrivoltaic systems by height, water need and shade tolerance, with no AI, model, digital twin or sensing system and with field trials only proposed as future work."
+  },
+  "B": {
+   "rid": "R0253",
+   "decision": "EXCLUDE",
+   "criterion": "E2",
+   "reason": "A concept paper that screens crops for agrivoltaic use by height, water need and shade tolerance, with no AI, model, digital twin or sensing/data system."
+  }
+ },
+ "R0312": {
+  "A": {
+   "rid": "R0312",
+   "decision": "EXCLUDE",
+   "criterion": "E3",
+   "reason": "A regional potential assessment of energy generation and land sales across the agricultural lands of the Phoenix metropolitan area, not a model of a specific agrivoltaic installation or design."
+  },
+  "B": {
+   "rid": "R0312",
+   "decision": "EXCLUDE",
+   "criterion": "E3",
+   "reason": "A regional potential assessment of agrivoltaic energy generation across agricultural lands in the Phoenix MSA, not a model of a specific system."
+  }
+ },
+ "R0347": {
+  "A": {
+   "rid": "R0347",
+   "decision": "EXCLUDE",
+   "criterion": "E2",
+   "reason": "A concept description with first measured results from a pilot plant in Chile, which the field-experiment rule excludes because the abstract reports no model, simulation, sensing or data system."
+  },
+  "B": {
+   "rid": "R0347",
+   "decision": "EXCLUDE",
+   "criterion": "E2",
+   "reason": "Presents the agrivoltaic concept for Chile and first measured results from a pilot plant, and the abstract describes no modeling, simulation, sensing system or AI method."
+  }
+ },
+ "R0350": {
+  "A": {
+   "rid": "R0350",
+   "decision": "EXCLUDE",
+   "criterion": "E4",
+   "reason": "Explicitly a review of agrophotovoltaic applications, challenges and opportunities, so it is secondary literature rather than primary research."
+  },
+  "B": {
+   "rid": "R0350",
+   "decision": "EXCLUDE",
+   "criterion": "E4",
+   "reason": "Explicitly a review of agrophotovoltaic applications, challenges and opportunities (secondary study)."
+  }
+ },
+ "R0381": {
+  "A": {
+   "rid": "R0381",
+   "decision": "EXCLUDE",
+   "criterion": "E6",
+   "reason": "There is no abstract and no full text, so no full record is available; the DOI points to the Crop Science Society of Japan meeting proceedings, which also suggests a short conference abstract (E5)."
+  },
+  "B": {
+   "rid": "R0381",
+   "decision": "EXCLUDE",
+   "criterion": "E5",
+   "reason": "The DOI (jcsproc) places it in the Japanese Society of Crop Science meeting-abstract proceedings, a conference abstract with no abstract or full text available (also E6)."
+  }
+ },
+ "R0506": {
+  "A": {
+   "rid": "R0506",
+   "decision": "NEED_FULL_TEXT",
+   "criterion": "I2",
+   "reason": "An agrivoltaic plot model driven by stochastic weather simulates net revenues, and the abstract cannot show whether it contains crop-yield or PV-output models (I2a or I2c) or only finances, which would make it economic-only (E2)."
+  },
+  "B": {
+   "rid": "R0506",
+   "decision": "EXCLUDE",
+   "criterion": "E2",
+   "reason": "Its model is a financial risk simulation of net revenues from stochastic weather and commodity prices, an economic-only analysis that describes no model of light, energy, crop or microclimate behavior."
+  }
+ },
+ "R0508": {
+  "A": {
+   "rid": "R0508",
+   "decision": "EXCLUDE",
+   "criterion": "E2",
+   "reason": "A techno-economic pre-feasibility study whose reported outcomes are NPV and payback period for a farm in Chile, with no stated AI, crop, light or microclimate model, so it is economic-only."
+  },
+  "B": {
+   "rid": "R0508",
+   "decision": "EXCLUDE",
+   "criterion": "E2",
+   "reason": "A techno-economic pre-feasibility assessment that reports NPV and payback for a Chilean horticulture agrivoltaic design (economic-only), with no AI, system-behavior model or data system described."
+  }
+ },
+ "R0510": {
+  "A": {
+   "rid": "R0510",
+   "decision": "EXCLUDE",
+   "criterion": "E4",
+   "reason": "A discussion paper on the opportunities and challenges of agrivoltaics in East Africa, which is a perspective rather than primary research with an enabler."
+  },
+  "B": {
+   "rid": "R0510",
+   "decision": "EXCLUDE",
+   "criterion": "E4",
+   "reason": "A discussion of opportunities and challenges for agrivoltaics in East Africa (perspective), with no primary modeling or data system."
+  }
+ },
+ "R0771": {
+  "B": {
+   "rid": "R0771",
+   "decision": "EXCLUDE",
+   "criterion": "I3",
+   "reason": "Although framed for agrivoltaic applications, the study fits and validates PAR diffuse-fraction decomposition models on open-field ICOS meteorological station data and gives country-level coefficients for Sweden, so no agrivoltaic installation, design or array configuration (shading under PV) is modelled."
+  },
+  "A": {
+   "rid": "R0771",
+   "decision": "EXCLUDE",
+   "criterion": "I3",
+   "reason": "The PAR decomposition regression models are fitted and validated on open-field ICOS meteorological stations and never represent an agrivoltaic installation, design or array configuration, so this is a generic irradiance study framed for agrivoltaic use."
+  }
+ },
+ "R0776": {
+  "B": {
+   "rid": "R0776",
+   "decision": "EXCLUDE",
+   "criterion": "E2",
+   "reason": "The study compares the cost of agrivoltaic cover with plastic shading nets for Chilean blueberries using a price metric, which is an economic-only analysis with no AI, model of system behaviour, digital twin or data system."
+  },
+  "A": {
+   "rid": "R0776",
+   "decision": "EXCLUDE",
+   "criterion": "E2",
+   "reason": "It is an economic-only analysis that introduces a cost metric for covering cropland with agrivoltaics compared with shading nets, with no AI, model of system behavior or data system."
+  }
+ },
+ "R0789": {
+  "B": {
+   "rid": "R0789",
+   "decision": "EXCLUDE",
+   "criterion": "E2",
+   "reason": "This is a multi-year field experiment under a dynamic agrivoltaic apple orchard that only reports measured microclimate, irrigation, leaf physiology and yield outcomes with no model or data system, and the record is also an SSRN preprint (E5)."
+  },
+  "A": {
+   "rid": "R0789",
+   "decision": "EXCLUDE",
+   "criterion": "E2",
+   "reason": "This multi-season apple orchard field experiment under a dynamic agrivoltaic system only reports measured outcomes (microclimate, physiology, yield) with no model or data system, and the record is also an SSRN preprint (E5)."
+  }
+ },
+ "R0843": {
+  "B": {
+   "rid": "R0843",
+   "decision": "EXCLUDE",
+   "criterion": "E2",
+   "reason": "This field experiment under an agrivoltaic array in Colorado reports only measured grassland productivity and forage quality under simulated grazing, with no model, AI or data-system enabler."
+  },
+  "A": {
+   "rid": "R0843",
+   "decision": "EXCLUDE",
+   "criterion": "E2",
+   "reason": "This field experiment on simulated grazing of grassland under an agrivoltaic array only reports measured productivity and forage-quality outcomes, with no model or data system."
+  }
+ },
+ "R0904": {
+  "B": {
+   "rid": "R0904",
+   "decision": "EXCLUDE",
+   "criterion": "E3",
+   "reason": "Tree-based ML ensembles of CMIP6 data are used to forecast regional renewable energy and rainwater-harvesting potential for East Thrace, which is a regional potential assessment and does not model a specific agrivoltaic system."
+  },
+  "A": {
+   "rid": "R0904",
+   "decision": "EXCLUDE",
+   "criterion": "E3",
+   "reason": "Tree-based machine learning is used to forecast the region-wide renewable energy and rainwater-harvesting potential of East Thrace, which is a regional potential assessment that does not model a specific agrivoltaic system."
+  }
+ },
+ "R0923": {
+  "B": {
+   "rid": "R0923",
+   "decision": "EXCLUDE",
+   "criterion": "E4",
+   "reason": "The paper reviews existing agrivoltaic methods, technologies and arrangements to build a comparison framework and recommend a system for the UAE, so it is a secondary review/feasibility discussion rather than primary research with a modelling or data enabler."
+  },
+  "A": {
+   "rid": "R0923",
+   "decision": "EXCLUDE",
+   "criterion": "E4",
+   "reason": "The paper reviews existing agrivoltaic methods, technologies and arrangements to recommend a system for the UAE, which makes it a secondary or overview study rather than primary modeling research."
+  }
+ },
+ "R0929": {
+  "B": {
+   "rid": "R0929",
+   "decision": "EXCLUDE",
+   "criterion": "E2",
+   "reason": "The paper reports measured long-term electrical output and seasonal trends of PV glass windows in a greenhouse, so it is a field performance study that only reports measured outcomes; no model or data system is developed, and the abstract does not confirm that plants were grown."
+  },
+  "A": {
+   "rid": "R0929",
+   "decision": "NEED_FULL_TEXT",
+   "criterion": "I2",
+   "reason": "The abstract reports long-term field monitoring of PV glass windows on a greenhouse, but it does not say whether plants were grown (I1) or whether the monitoring and trend-analysis methods count as a data-acquisition or data-driven system rather than only measured outcomes (E2), and no full text is available."
+  }
+ },
+ "R0931": {
+  "B": {
+   "rid": "R0931",
+   "decision": "EXCLUDE",
+   "criterion": "E2",
+   "reason": "This socio-technical transitions and policy analysis of what drives industry adoption of agrivoltaics in the U.S. has no AI, model or data-system enabler."
+  },
+  "A": {
+   "rid": "R0931",
+   "decision": "EXCLUDE",
+   "criterion": "E2",
+   "reason": "This policy and socio-technical transitions study of what drives US industry adoption of agrivoltaics has no AI, modeling or data-system enabler."
+  }
+ },
+ "R1799": {
+  "A": {
+   "rid": "R1799",
+   "decision": "EXCLUDE",
+   "criterion": "E2",
+   "reason": "This is a field trial of a dynamic agrivoltaic system that reports measured microclimate, biomass and essential-oil yield; ETo and ETc are worked out from the measured weather data with the standard Turc and crop-coefficient formulas, not from a model of the agrivoltaic system itself."
+  },
+  "B": {
+   "rid": "R1799",
+   "decision": "EXCLUDE",
+   "criterion": "E2",
+   "reason": "This is a field experiment comparing measured microclimate, growth and essential oil yield under a dynamic agrivoltaic system against full sun; ET was only derived from measured data with the standard Turc/Kc formula, and no model of system behaviour was built for prediction, design or control."
+  }
+ },
+ "R2363": {
+  "A": {
+   "rid": "R2363",
+   "decision": "EXCLUDE",
+   "criterion": "E2",
+   "reason": "This is an urban agrivoltaic field experiment where the sensors only measure microclimate and soil moisture against a full-sun control; it develops no model, AI method or monitoring system of its own."
+  },
+  "B": {
+   "rid": "R2363",
+   "decision": "EXCLUDE",
+   "criterion": "E2",
+   "reason": "This is a field experiment in which environmental sensors measure microclimate and soil moisture under an urban agrivoltaic setup versus a full-sun control; it reports measured outcomes only and develops no model or data system."
+  }
+ },
+ "R2550": {
+  "A": {
+   "rid": "R2550",
+   "decision": "EXCLUDE",
+   "criterion": "E3",
+   "reason": "It runs a regional agrivoltaic parameterization in the ORCHIDEE land surface model across the whole Iberian Peninsula, so it is a regional scenario assessment and not a model of an installation or system configuration at plot, system or farm scale."
+  },
+  "B": {
+   "rid": "R2550",
+   "decision": "EXCLUDE",
+   "criterion": "E3",
+   "reason": "It applies a regional agrivoltaic land-surface model (ORCHIDEE) across the whole Iberian Peninsula to test fertilizer scenarios, so it is a regional assessment rather than a model of a specific installation at plot, system or farm scale."
+  }
+ },
+ "R2592": {
+  "A": {
+   "rid": "R2592",
+   "decision": "EXCLUDE",
+   "criterion": "E1",
+   "reason": "The PVM-DIC system puts the PV on marginal saline land to power drip irrigation on cropland next to it, so the PV is deliberately not on the same land as the crops (and the study is also regional, covering the Hetao Irrigation District)."
+  },
+  "B": {
+   "rid": "R2592",
+   "decision": "EXCLUDE",
+   "criterion": "E1",
+   "reason": "The PVM-DIC system puts PV on marginal saline land to power drip irrigation on adjacent cropland, so PV and crops are not on the same land unit, and the SWAT-AG assessment is also district-scale."
+  }
+ },
+ "R2895": {
+  "A": {
+   "rid": "R2895",
+   "decision": "EXCLUDE",
+   "criterion": "E1",
+   "reason": "The full text shows the simulated REGACE pilot greenhouse is an ordinary greenhouse with a polycarbonate and polyethylene cover, shading screens and pad-fan cooling, and nothing about PV is included in the system description or the model; PV integration is only a future project goal."
+  },
+  "B": {
+   "rid": "R2895",
+   "decision": "EXCLUDE",
+   "criterion": "E1",
+   "reason": "Although the paper is framed as a first step toward an Agri-PV greenhouse digital twin, the full text shows the modelled pilot greenhouse has polycarbonate walls and a polyethylene roof with no PV; the IDA ICE microclimate model includes no PV generation, and PV is only a future project aim."
+  }
+ },
+ "R3063": {
+  "A": {
+   "rid": "R3063",
+   "decision": "EXCLUDE",
+   "criterion": "E3",
+   "reason": "It combines geographic data with literature estimates to assess installed-capacity and environmental-benefit scenarios across the Mar Menor region, a regional potential assessment that models no specific system."
+  },
+  "B": {
+   "rid": "R3063",
+   "decision": "EXCLUDE",
+   "criterion": "E3",
+   "reason": "It combines geographical data with literature estimates to assess regional PV capacity scenarios (in GWp) and environmental benefits for the Mar Menor area, rather than modelling a specific agrivoltaic system."
+  }
+ },
+ "R3123": {
+  "A": {
+   "rid": "R3123",
+   "decision": "EXCLUDE",
+   "criterion": "E2",
+   "reason": "It is a discussion of land-use and policy questions about large-scale solar on Australian farmland, using a case study and a brief literature review, with no model, AI method or data system."
+  },
+  "B": {
+   "rid": "R3123",
+   "decision": "EXCLUDE",
+   "criterion": "E2",
+   "reason": "This is a discussion and case study of how large-scale solar affects agriculture in NSW, with a brief literature review; it uses no AI, model, digital twin or sensing system."
+  }
+ },
+ "R3126": {
+  "A": {
+   "rid": "R3126",
+   "decision": "EXCLUDE",
+   "criterion": "E1",
+   "reason": "It models soil microclimate and moisture around PV panels in arid solar farms that have no crops or grazing, so it is a solar-farm study rather than an agrivoltaic one."
+  },
+  "B": {
+   "rid": "R3126",
+   "decision": "EXCLUDE",
+   "criterion": "E1",
+   "reason": "It models how large-scale PV solar farms in arid Northwest China affect soil microclimate and moisture, with no agricultural production co-located under the panels."
+  }
+ }
+}

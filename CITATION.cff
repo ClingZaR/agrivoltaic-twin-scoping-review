@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use these data or code, please cite them as below, and also cite the article once it is published."
+type: dataset
+title: "Are Agrivoltaic Models Ready for Digital Twins? Data and code for a scoping review"
+version: 1.0.0
+license: CC-BY-4.0
+authors:
+  - family-names: Nabulsi
+    given-names: Omar
+    affiliation: "OpenUAE Research and Development Group, Research Institute of Sciences and Engineering, University of Sharjah"
+  - family-names: Abu Talib
+    given-names: Manar
+    affiliation: "Department of Computer Science, College of Computing and Informatics, University of Sharjah"
+  - family-names: Ghenai
+    given-names: Chaouki
+    affiliation: "Department of Sustainable and Renewable Energy Engineering, College of Engineering, University of Sharjah"
+  - family-names: Nasir
+    given-names: Qassim
+    affiliation: "Department of Computer Engineering, College of Computing and Informatics, University of Sharjah"
+  - family-names: Bettayeb
+    given-names: Maamar
+    affiliation: "Department of Electrical Engineering, College of Engineering, University of Sharjah"
+  - family-names: Dakalbab
+    given-names: Fatima
+    affiliation: "Aviation Center of Excellence, Research Institute of Sciences and Engineering, University of Sharjah"
+keywords:
+  - agrivoltaics
+  - digital twins
+  - scoping review
+  - artificial intelligence
+  - arid regions

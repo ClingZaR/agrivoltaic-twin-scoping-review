@@ -1,0 +1,966 @@
+{
+ "n": 51,
+ "both": [
+  "R3029",
+  "R3049",
+  "R3079",
+  "R3127",
+  "R3175",
+  "R0094",
+  "R1194",
+  "R1335",
+  "R1905",
+  "R2304",
+  "R2682",
+  "R2849",
+  "R2883",
+  "R3018"
+ ],
+ "either": [
+  "R3029",
+  "R3049",
+  "R3079",
+  "R3127",
+  "R3175",
+  "R0094",
+  "R1194",
+  "R1335",
+  "R1905",
+  "R2304",
+  "R2682",
+  "R2849",
+  "R2883",
+  "R3018"
+ ],
+ "st": [
+  "R1194",
+  "R1335",
+  "R2304",
+  "R2883"
+ ],
+ "arid": [
+  "R0094",
+  "R1905",
+  "R2682"
+ ],
+ "codes": {
+  "R3029": {
+   "A": {
+    "rid": "R3029",
+    "decision": "INCLUDE_IF_ENGLISH",
+    "criterion": "I1, I2(a)/(d), I3 met",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "no",
+    "reason": "Three named agrophotovoltaic stations in Zhejiang with grassland, nursery and vegetable PV+ modes. PV strings are extracted from UAV imagery by object-oriented classification (data-driven remote-sensing monitoring), and the result feeds power-generation estimates for each specific station. Humid Zhejiang site."
+   },
+   "B": {
+    "rid": "R3029",
+    "decision": "INCLUDE_IF_ENGLISH",
+    "criterion": "I1-I3 met; fails only E6",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "no",
+    "reason": "Three agrophotovoltaic stations in Zhejiang covering ten 'PV+' modes (grassland, nursery, vegetable). Uses UAV imagery and object-oriented classification to extract PV strings, then estimates generation, so it counts under I2(a)/(d) at specific-installation scale. This is one-off image analysis, not a live-linked model."
+   }
+  },
+  "R3035": {
+   "A": {
+    "rid": "R3035",
+    "decision": "EXCLUDE",
+    "criterion": "E2",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "no",
+    "reason": "Ecological product (ecosystem-service) value accounting for the Jiangshan agrophotovoltaic station. This is a monetary valuation exercise with no model of light, energy, crop or microclimate behavior and no AI or data system."
+   },
+   "B": {
+    "rid": "R3035",
+    "decision": "EXCLUDE",
+    "criterion": "E2",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "no",
+    "reason": "Valuation of ecological products and ecosystem services at the Jiangshan 200 MW agrophotovoltaic station. This is economic and ecological accounting, with no model of light, energy, crop or microclimate behaviour."
+   }
+  },
+  "R3038": {
+   "A": {
+    "rid": "R3038",
+    "decision": "EXCLUDE",
+    "criterion": "E1/E3",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "no",
+    "reason": "Threats to historic cultural landscapes, with regional siting studies of renewables in two Czech regions. Agrivoltaics is only mentioned in passing. This is a landscape and policy study with no specific system modeled."
+   },
+   "B": {
+    "rid": "R3038",
+    "decision": "EXCLUDE",
+    "criterion": "E2/E3",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "no",
+    "reason": "Study of threats to cultural landscapes and of where renewable energy can be sited in two Czech regions. Agrivoltaics is mentioned only in passing. It is a landscape and regional siting study with no enabler."
+   }
+  },
+  "R3049": {
+   "A": {
+    "rid": "R3049",
+    "decision": "INCLUDE_IF_ENGLISH",
+    "criterion": "I1, I2(c), I3 met",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "NR",
+    "reason": "PV greenhouse (420 m2 roof) assessed against plant growth requirements. A radiative heat gain model, validated by experiment, simulates indoor irradiance, air temperature and PV power under different module coverage rates to find the optimal coverage. It is offline simulation, not linked to live data."
+   },
+   "B": {
+    "rid": "R3049",
+    "decision": "INCLUDE_IF_ENGLISH",
+    "criterion": "I1-I3 met; fails only E6",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "NR",
+    "reason": "PV greenhouse (420 m2 roof). Builds a radiative heat-gain model, checks it against experiments, and simulates indoor irradiance, air temperature and PV output under different module coverage rates, then picks the best coverage for plant growth. Fits I2(c) design optimisation."
+   }
+  },
+  "R3065": {
+   "A": {
+    "rid": "R3065",
+    "decision": "EXCLUDE",
+    "criterion": "E2",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "NR",
+    "reason": "Soil aggregate stability and organic carbon under different crops on PV agricultural slopes. These are field sampling and correlation results only, with no model or data system."
+   },
+   "B": {
+    "rid": "R3065",
+    "decision": "EXCLUDE",
+    "criterion": "E2",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "NR",
+    "reason": "Field soil sampling of aggregate stability and organic carbon under different crops on PV slopes. Reports measured outcomes and correlations only, with no model or data system."
+   }
+  },
+  "R3066": {
+   "A": {
+    "rid": "R3066",
+    "decision": "EXCLUDE",
+    "criterion": "E2",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "no",
+    "reason": "Development and profit models for agrivoltaics (smile curve, internal rate of return) with a Hubei case study. Economic and business-model only, partly a summary of prior results."
+   },
+   "B": {
+    "rid": "R3066",
+    "decision": "EXCLUDE",
+    "criterion": "E2/E4",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "no",
+    "reason": "Summarises earlier crop results and proposes development and profit models, with an internal-rate-of-return case study in Hubei. It is economic and business-model only, partly a review."
+   }
+  },
+  "R3076": {
+   "A": {
+    "rid": "R3076",
+    "decision": "EXCLUDE",
+    "criterion": "E2",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "no",
+    "reason": "Field shading experiment (0-90% shade levels) on sunflower in coastal saline-alkali land. It reports measured soil water/salt and crop outcomes only, with no model. The shading is simulated rather than an actual PV array."
+   },
+   "B": {
+    "rid": "R3076",
+    "decision": "EXCLUDE",
+    "criterion": "E2",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "NR",
+    "reason": "Field experiment on sunflower in coastal saline-alkali land under four artificial shading levels, measuring soil water, salt and crop physiology. Measured outcomes only, with no model. The shading is a proxy for PV rather than an actual PV array."
+   }
+  },
+  "R3079": {
+   "A": {
+    "rid": "R3079",
+    "decision": "INCLUDE_IF_ENGLISH",
+    "criterion": "I1, I2(d), I3 met (borderline)",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "NR",
+    "reason": "An agrophotovoltaic plant fitted with a meteorological observation system that monitored radiation and microclimate at three positions every 30 minutes for a year. This is a borderline sensing/data-acquisition enabler. Under the prefer-MAYBE rule for clearly agrivoltaic records that mention sensors, it is passed on to full-text review. The site location is not stated."
+   },
+   "B": {
+    "rid": "R3079",
+    "decision": "INCLUDE_IF_ENGLISH",
+    "criterion": "Borderline I2(d); MAYBE tie-break applied",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "NR",
+    "reason": "Agrophotovoltaic plant with an integrated meteorological observation system logging radiation and microclimate every 30 min for a year at three sites (above, under and outside the array). Clearly agrivoltaic and centred on a monitoring/data-acquisition system, so the rule favouring MAYBE applies. At full text it could still fail E2 as measured outcomes only."
+   }
+  },
+  "R3081": {
+   "A": {
+    "rid": "R3081",
+    "decision": "EXCLUDE",
+    "criterion": "E4",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "NR",
+    "reason": "Overview of Agri-PV technology, worldwide case studies, Common Agricultural Policy goals and evaluation criteria. A descriptive, review-style article with no primary modeling or data system."
+   },
+   "B": {
+    "rid": "R3081",
+    "decision": "EXCLUDE",
+    "criterion": "E4",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "NR",
+    "reason": "Overview of agro-PV technology, worldwide case studies and Common Agricultural Policy (CAP) goals. This is a secondary, review-style paper."
+   }
+  },
+  "R3089": {
+   "A": {
+    "rid": "R3089",
+    "decision": "EXCLUDE",
+    "criterion": "E1",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "NR",
+    "reason": "Off-grid PV supplying the equipment of a family fish farm, with techno-economic payback. This is aquaculture powered by PV, with no crops or pasture under the array, so it is not agrivoltaic."
+   },
+   "B": {
+    "rid": "R3089",
+    "decision": "EXCLUDE",
+    "criterion": "E1/E2",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "NR",
+    "reason": "Technical and economic feasibility of an off-grid PV system powering equipment on a family fish farm. It is aquaculture with no crops under PV, and the analysis is load sizing plus payback only."
+   }
+  },
+  "R3094": {
+   "A": {
+    "rid": "R3094",
+    "decision": "EXCLUDE",
+    "criterion": "E3",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "no",
+    "reason": "Compares energy yield per hectare of bioenergy, ground-mounted PV, agrivoltaics and wind on German agricultural land. It is a generic land-use and energy comparison with a policy recommendation and no specific system modeled."
+   },
+   "B": {
+    "rid": "R3094",
+    "decision": "EXCLUDE",
+    "criterion": "E3/E2",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "no",
+    "reason": "Generic comparison of energy yield per hectare for biomass, ground-mounted PV, agrivoltaics and wind on German farmland. It models no specific system and has no enabler."
+   }
+  },
+  "R3101": {
+   "A": {
+    "rid": "R3101",
+    "decision": "EXCLUDE",
+    "criterion": "E2",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "no",
+    "reason": "Status of ground-mounted PV in Germany and a nature-conservation compensation matrix. A policy, legal and landscape study."
+   },
+   "B": {
+    "rid": "R3101",
+    "decision": "EXCLUDE",
+    "criterion": "E2",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "no",
+    "reason": "Policy and nature-conservation paper on ground-mounted PV in Germany and the impact-mitigation rules, using a matrix of permissible system types. No enabler."
+   }
+  },
+  "R3117": {
+   "A": {
+    "rid": "R3117",
+    "decision": "EXCLUDE",
+    "criterion": "E1",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "NR",
+    "reason": "Raspberry Pi/Arduino hybrid solar tracker with weather-threshold control, tested on a small PV prototype. PV agriculture is cited only as a possible application, and there is no crop or agricultural production. Control is by threshold rules, not by a model of an installation."
+   },
+   "B": {
+    "rid": "R3117",
+    "decision": "EXCLUDE",
+    "criterion": "E1",
+    "possible_shadow_or_twin": "yes",
+    "arid_site": "NR",
+    "reason": "Generic solar hybrid tracking prototype (Raspberry Pi, Node-Red, Arduino, STM32) whose multi-threshold weather criterion controls the tracker. PV agriculture is named only as one possible application, and the work involves no crops or agrivoltaic installation. It is flagged because the controller runs equipment from live irradiance data."
+   }
+  },
+  "R3127": {
+   "A": {
+    "rid": "R3127",
+    "decision": "INCLUDE_IF_ENGLISH",
+    "criterion": "I1, I2(c), I3 met",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "NR",
+    "reason": "A transient CFD model of a PV greenhouse, driven by hourly temperature and radiation, simulates air and soil temperature and soil-surface irradiance for different module layouts. The 50% coverage option is chosen against crop light and temperature needs. Design simulation only."
+   },
+   "B": {
+    "rid": "R3127",
+    "decision": "INCLUDE_IF_ENGLISH",
+    "criterion": "I1-I3 met; fails only E6",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "NR",
+    "reason": "Transient computational fluid dynamics (CFD) model of a PV greenhouse driven by hourly ambient temperature and radiation, simulating air and soil temperature and soil-surface irradiance under different module layouts. It selects 50% coverage from crop needs, so it fits I2(c) design modelling."
+   }
+  },
+  "R3133": {
+   "A": {
+    "rid": "R3133",
+    "decision": "EXCLUDE",
+    "criterion": "E2",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "no",
+    "reason": "Farm household income calculation model for agricultural PV in Korea under different subsidy assumptions. Economic only."
+   },
+   "B": {
+    "rid": "R3133",
+    "decision": "EXCLUDE",
+    "criterion": "E2",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "no",
+    "reason": "Model of farm household income under agricultural PV in Korea, driven by assumed subsidies and productivity. Economic-only, with no model of system behaviour."
+   }
+  },
+  "R3140": {
+   "A": {
+    "rid": "R3140",
+    "decision": "EXCLUDE",
+    "criterion": "E2",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "no",
+    "reason": "Seedling-stage screening of 31 soybean varieties under PV panels in a Zhejiang solar greenhouse. PCA, a membership function and cluster analysis rank shade tolerance from measured traits. This is an agronomic trial with standard multivariate statistics and no model of system behavior (borderline)."
+   },
+   "B": {
+    "rid": "R3140",
+    "decision": "EXCLUDE",
+    "criterion": "E2",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "no",
+    "reason": "Agronomic screening of 31 soybean varieties under PV panels in a Zhejiang greenhouse. The 'shade tolerance evaluation model' is PCA, membership functions and clustering used to rank measured traits, not a model of agrivoltaic behaviour used for prediction or design. This is borderline: a lenient screener might send it to MAYBE."
+   }
+  },
+  "R3141": {
+   "A": {
+    "rid": "R3141",
+    "decision": "EXCLUDE",
+    "criterion": "E2",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "no",
+    "reason": "Planning study for agricultural use (species selection, costs and revenues) at an existing 8.8 ha Slovenian PV plant. No model, AI or data system."
+   },
+   "B": {
+    "rid": "R3141",
+    "decision": "EXCLUDE",
+    "criterion": "E2",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "no",
+    "reason": "Case study planning crop selection, costs and revenues for land under an existing 8.8 ha solar plant in Slovenia. Planning and economics only, with no model or data system."
+   }
+  },
+  "R3150": {
+   "A": {
+    "rid": "R3150",
+    "decision": "EXCLUDE",
+    "criterion": "E2",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "NR",
+    "reason": "Pot experiment in a glass greenhouse on a red/blue optical filter and lettuce, cucumber and water spinach growth. It reports measured outcomes only, with no PV energy or modeling component."
+   },
+   "B": {
+    "rid": "R3150",
+    "decision": "EXCLUDE",
+    "criterion": "E2",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "NR",
+    "reason": "Pot experiment in a greenhouse comparing plant growth under a red/blue optical filter with a control. Measured outcomes only, with no model or data system."
+   }
+  },
+  "R3153": {
+   "A": {
+    "rid": "R3153",
+    "decision": "EXCLUDE",
+    "criterion": "E1/E2",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "NR",
+    "reason": "Kinematic/kinetic modeling and controller design for a panel-cleaning robot carrier in solar farms (MATLAB-ADAMS co-simulation). The abstract describes solar farms with no agricultural production, and robot dynamics is not a model of agrivoltaic system behavior. Simulation only, not linked to live data."
+   },
+   "B": {
+    "rid": "R3153",
+    "decision": "EXCLUDE",
+    "criterion": "E1/E2",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "NR",
+    "reason": "Dynamic modelling and control (ADAMS and Simulink co-simulation) of a robot that carries panel cleaners on solar farms. The abstract describes solar farms with no agriculture, and robot kinematics is not a model of light, energy, crop or microclimate behaviour."
+   }
+  },
+  "R3168": {
+   "A": {
+    "rid": "R3168",
+    "decision": "EXCLUDE",
+    "criterion": "E2/E5",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "no",
+    "reason": "Commentary on a ruling by the Puglia administrative court on agrivoltaic plants. Legal analysis, not primary research."
+   },
+   "B": {
+    "rid": "R3168",
+    "decision": "EXCLUDE",
+    "criterion": "E2",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "NR",
+    "reason": "Commentary on a Puglia administrative court ruling about agrivoltaic plants. Legal, with no enabler."
+   }
+  },
+  "R3175": {
+   "A": {
+    "rid": "R3175",
+    "decision": "INCLUDE_IF_ENGLISH",
+    "criterion": "I1, I2(c), I3 met",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "NR",
+    "reason": "Agro-PV array design using a spectral filter film that reflects red/blue light to the crops, with array layout and spacing designed. PVsyst modeling computes PV generation and ground illumination between rows (+27.26%). Tilt adjustment is part of the concept, but the model is not fed live installation data."
+   },
+   "B": {
+    "rid": "R3175",
+    "decision": "INCLUDE_IF_ENGLISH",
+    "criterion": "I1-I3 met; fails only E6",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "NR",
+    "reason": "New agro-PV array design with SiO2/TiO2 spectral filter films that reflect red and blue light onto crops. Array output and ground illumination between rows are modelled in PVsyst, so it fits I2(c) design modelling. The real-time tilt adjustment is part of the design concept, not a model fed with live data."
+   }
+  },
+  "R3196": {
+   "A": {
+    "rid": "R3196",
+    "decision": "EXCLUDE",
+    "criterion": "E2",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "no",
+    "reason": "One-year follow-up of grass growth and sheep performance under PV at Verneuil, Nièvre (France). Monitoring results only, with no model or dedicated data system. Possibly a short report."
+   },
+   "B": {
+    "rid": "R3196",
+    "decision": "EXCLUDE",
+    "criterion": "E2",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "no",
+    "reason": "One-year follow-up of grass growth and sheep performance under PV panels at the Verneuil site, Nièvre (France). Measured outcomes only, with no model or data system."
+   }
+  },
+  "R3199": {
+   "A": {
+    "rid": "R3199",
+    "decision": "EXCLUDE",
+    "criterion": "E3",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "no",
+    "reason": "Allocation of PV capacity potential across municipalities in Japan's Chubu region, with solar sharing as one category. A regional potential assessment with no specific system."
+   },
+   "B": {
+    "rid": "R3199",
+    "decision": "EXCLUDE",
+    "criterion": "E3",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "no",
+    "reason": "Allocates future PV capacity, including solar sharing, across municipalities in Japan's Chubu region. This is a regional potential assessment with no specific system."
+   }
+  },
+  "R3209": {
+   "A": {
+    "rid": "R3209",
+    "decision": "EXCLUDE",
+    "criterion": "E2",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "no",
+    "reason": "Topic modeling of YouTube posts and comments on rural solar power in Korea. A social-opinion and perception study, with no AI applied to an agrivoltaic system."
+   },
+   "B": {
+    "rid": "R3209",
+    "decision": "EXCLUDE",
+    "criterion": "E2",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "no",
+    "reason": "Topic modelling of YouTube posts and comments about rural solar power in Korea. Social perception study; the machine learning is applied to public opinion, not to an agrivoltaic system."
+   }
+  },
+  "R3223": {
+   "A": {
+    "rid": "R3223",
+    "decision": "EXCLUDE",
+    "criterion": "E2",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "yes",
+    "reason": "Field trial of saladette tomato under PV panels at three tilt angles against a control in semi-arid Arequipa, Peru. Reports measured growth and yield only, with no model or data system. The site is semi-arid/desert."
+   },
+   "B": {
+    "rid": "R3223",
+    "decision": "EXCLUDE",
+    "criterion": "E2",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "yes",
+    "reason": "Tomato field trial under PV panels at three tilt angles against a control, in semi-arid Arequipa, Peru. Reports measured growth and yield only, with no model or data system. The arid site makes it relevant context."
+   }
+  },
+  "R0094": {
+   "B": {
+    "rid": "R0094",
+    "decision": "INCLUDE_IF_ENGLISH",
+    "criterion": "E6 only (I1 borderline, check at full text)",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "yes",
+    "reason": "PV-greenhouse system at KACST al-Muzahmyah, Saudi Arabia, with a data measurement and collection system (I2d) and PV sizing for desert operation, in a full ISHS proceedings paper. I1 is uncertain: the 14.72 kW array powers the greenhouse and may stand beside it rather than shade the crops, so it could count as PV serving a farm building with no plants under the panels."
+   },
+   "A": {
+    "rid": "R0094",
+    "decision": "INCLUDE_IF_ENGLISH",
+    "criterion": "I1 uncertain; I2(d)/(c), I3, I4 plausibly met",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "yes",
+    "reason": "Stand-alone PV system (14.72 kW, battery, data measurement and collection system) powering a crop greenhouse at KACST al-Muzahmyah, Saudi Arabia. Electricity demand and solar supply were quantified to optimize the system for desert operation, across several planting cycles. The abstract does not say whether the PV sits on or over the greenhouse, so I1 needs a full-text check. Acta Horticulturae normally publishes in English, so the language flag is worth rechecking."
+   }
+  },
+  "R1194": {
+   "B": {
+    "rid": "R1194",
+    "decision": "INCLUDE_IF_ENGLISH",
+    "criterion": "E6 only",
+    "possible_shadow_or_twin": "yes",
+    "arid_site": "no",
+    "reason": "Two agrivoltaic smart greenhouses in southern Brazil with a sensor network, a weather station, an AI system that controls the greenhouses on its own, and modeling and simulation of the lighting (I2a, c, d). Full conference paper. AI control driven by live sensor data suggests a shadow or twin."
+   },
+   "A": {
+    "rid": "R1194",
+    "decision": "INCLUDE_IF_ENGLISH",
+    "criterion": "I1-I4 met",
+    "possible_shadow_or_twin": "yes",
+    "arid_site": "no",
+    "reason": "Two smart greenhouses with agrivoltaic systems, growing banana and orchid seedlings in southern Brazil. They have a sensor network, a weather station and AI-based autonomous control. The lighting system was designed by modeling and simulation, and measured PV yields are reported. Full conference paper. AI control fed by live sensor data suggests a shadow or twin."
+   }
+  },
+  "R1335": {
+   "B": {
+    "rid": "R1335",
+    "decision": "INCLUDE_IF_ENGLISH",
+    "criterion": "E6 only",
+    "possible_shadow_or_twin": "yes",
+    "arid_site": "no",
+    "reason": "Solar-panel (agrivoltaic) vertical farm in Karawang, Indonesia, with an IoT/AI system for real-time monitoring and automatic management and soil moisture sensors (I2d). Journal article. Drought is caused by El Nino, but the site is tropical, not arid."
+   },
+   "A": {
+    "rid": "R1335",
+    "decision": "INCLUDE_IF_ENGLISH",
+    "criterion": "I1-I4 met",
+    "possible_shadow_or_twin": "yes",
+    "arid_site": "no",
+    "reason": "Vertical farm in Karawang, Indonesia, with solar panels shading the crops (agrivoltaics). Uses AI and IoT with soil moisture, temperature and humidity sensors for automatic, real-time monitoring and management. Journal article. The site is tropical and drought-prone, not arid."
+   }
+  },
+  "R1343": {
+   "B": {
+    "rid": "R1343",
+    "decision": "EXCLUDE",
+    "criterion": "E4",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "NR",
+    "reason": "Perspective or report on large-scale PV and landscape integration (nomenclature, culture, aesthetics, policy support). No primary modeling or data system (also E2)."
+   },
+   "A": {
+    "rid": "R1343",
+    "decision": "EXCLUDE",
+    "criterion": "E4",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "NR",
+    "reason": "Broad perspective or report on integrating PV with landscapes, nomenclature, culture and policy. Not primary research, no enabler, and no specific system."
+   }
+  },
+  "R1369": {
+   "B": {
+    "rid": "R1369",
+    "decision": "EXCLUDE",
+    "criterion": "E3",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "NR",
+    "reason": "GIS-AHP multi-criteria site selection for agrivoltaic plants across a region of Andalusia. A land-suitability mapping study that models no specific system."
+   },
+   "A": {
+    "rid": "R1369",
+    "decision": "EXCLUDE",
+    "criterion": "E3",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "NR",
+    "reason": "GIS-based multi-criteria (AHP) site selection for agrivoltaic plants across the Andalusia region. A regional land-suitability study that does not model a specific system."
+   }
+  },
+  "R1905": {
+   "B": {
+    "rid": "R1905",
+    "decision": "INCLUDE_IF_ENGLISH",
+    "criterion": "E6 only",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "yes",
+    "reason": "Python/PVlib simulation of irradiance, PV yield and tomato biomass for a specific 8-module agrivoltaic system 2.5 m high in Russas, Ceara (I2c, system scale). Journal article. The site is semi-arid."
+   },
+   "A": {
+    "rid": "R1905",
+    "decision": "INCLUDE_IF_ENGLISH",
+    "criterion": "I1-I4 met",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "yes",
+    "reason": "Python/PVlib simulation of a specific agrivoltaic configuration (8 x 550 W modules at 2.5 m height) over tomato in Russas, Ceara. Irradiance, energy yield and crop biomass are simulated over 12 months (I2c). Peer-reviewed journal. Semi-arid site."
+   }
+  },
+  "R1984": {
+   "B": {
+    "rid": "R1984",
+    "decision": "EXCLUDE",
+    "criterion": "E1",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "yes",
+    "reason": "National economic and food-security study of growing maize and coffee locally in Saudi Arabia. Agrivoltaics appears only as a policy recommendation, and no system is modeled (also E2, E3)."
+   },
+   "A": {
+    "rid": "R1984",
+    "decision": "EXCLUDE",
+    "criterion": "E1/E2",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "yes",
+    "reason": "National study of the economic viability and market potential of growing maize and coffee locally in Saudi Arabia. Agrivoltaics appears only as a policy recommendation. No agrivoltaic system or enabler. The context is arid at national scale, with no specific site."
+   }
+  },
+  "R2028": {
+   "B": {
+    "rid": "R2028",
+    "decision": "EXCLUDE",
+    "criterion": "E5",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "NR",
+    "reason": "Thesis posted on Zenodo, not peer reviewed. A conceptual framework for open-data potential maps and site selection for rural communities (also E3)."
+   },
+   "A": {
+    "rid": "R2028",
+    "decision": "EXCLUDE",
+    "criterion": "E5/E3",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "NR",
+    "reason": "Thesis deposited on Zenodo, so not peer-reviewed. It is a conceptual framework that uses open data to produce site-selection and potential maps for rural communities, with no specific system modeled."
+   }
+  },
+  "R2304": {
+   "B": {
+    "rid": "R2304",
+    "decision": "INCLUDE_IF_ENGLISH",
+    "criterion": "E6 only (I4 and primary-research status uncertain)",
+    "possible_shadow_or_twin": "yes",
+    "arid_site": "no",
+    "reason": "Simulation-based design of an elevated agrivoltaic irrigation microgrid for the Dominican Republic, with analog MPPT, hybrid storage, hardware load control and an optional AI layer for forecasting and maintenance (I2c, possibly a). It reports expected results only, and the journal's peer review is unclear. MAYBE level."
+   },
+   "A": {
+    "rid": "R2304",
+    "decision": "INCLUDE_IF_ENGLISH",
+    "criterion": "I1-I4 plausibly met",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "no",
+    "reason": "Simulation-based design of an elevated agrivoltaic PV array that shades crops and feeds an irrigation nanogrid in the Dominican Republic, with analog MPPT, hybrid storage, load control and an optional AI forecasting layer. Borderline: it is a conceptual design with only expected results, the agrivoltaic part is secondary to the microgrid electronics, and whether the venue is peer-reviewed needs checking. The control is analog hardware rather than a live data-driven model."
+   }
+  },
+  "R2489": {
+   "B": {
+    "rid": "R2489",
+    "decision": "EXCLUDE",
+    "criterion": "E5",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "NR",
+    "reason": "Commentary on vertical farming in The Conversation. Not peer-reviewed primary research and not about an agrivoltaic system (also E4, E1)."
+   },
+   "A": {
+    "rid": "R2489",
+    "decision": "EXCLUDE",
+    "criterion": "E4/E5",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "NR",
+    "reason": "Commentary on vertical farming in The Conversation. Not peer-reviewed primary research, and PV greenhouses get only a passing mention."
+   }
+  },
+  "R2682": {
+   "B": {
+    "rid": "R2682",
+    "decision": "INCLUDE_IF_ENGLISH",
+    "criterion": "E6 only (possible E4)",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "yes",
+    "reason": "Case study of Israeli agrivoltaic and off-grid systems at six units (Arava Valley, Ramat Negev and others), using IoT and precision sensors to monitor microclimate and productivity, with LER and WUE results (I2d). The headline figures may be drawn from the literature, so check at full text whether it is primary research. MAYBE."
+   },
+   "A": {
+    "rid": "R2682",
+    "decision": "INCLUDE_IF_ENGLISH",
+    "criterion": "I1-I4 plausibly met; possible E4",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "yes",
+    "reason": "Case study of six Israeli agrivoltaic and off-grid sites (Arava Valley, Ramat Negev and others). IoT and precision sensors monitor microclimate and productivity, and LER and WUE indicators are reported. The full text should confirm the study is primary rather than a desk synthesis drawn from literature. Arid sites."
+   }
+  },
+  "R2811": {
+   "B": {
+    "rid": "R2811",
+    "decision": "EXCLUDE",
+    "criterion": "E1",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "yes",
+    "reason": "Regional framework for restoring coal-mining areas in Gansu (AHP-entropy coupling index). Agro-PV appears only as one industrial model, and no agrivoltaic system is modeled (also E3)."
+   },
+   "A": {
+    "rid": "R2811",
+    "decision": "EXCLUDE",
+    "criterion": "E1/E3",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "yes",
+    "reason": "Regional analysis of ecological restoration in coal mining areas of Gansu (AHP-entropy human-land coupling index). Agro-photovoltaic appears only as one industrial model. No specific agrivoltaic system is studied. One cluster is in the arid Hexi Corridor."
+   }
+  },
+  "R2849": {
+   "B": {
+    "rid": "R2849",
+    "decision": "INCLUDE_IF_ENGLISH",
+    "criterion": "E6 only",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "no",
+    "reason": "Rhino/Grasshopper/Ladybug simulation of PAR, light homogeneity and DLI for different module layouts at a specific open-field agrivoltaic installation 3.8 m high in Jiangsu, checked against field radiation measurements and used for layout optimization (I2c)."
+   },
+   "A": {
+    "rid": "R2849",
+    "decision": "INCLUDE_IF_ENGLISH",
+    "criterion": "I1-I4 met",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "no",
+    "reason": "Annual light-environment simulation (Rhino/Grasshopper/Ladybug) of PV module layouts in a specific open-field agrivoltaic installation in Lianyungang, Jiangsu, validated with field radiation measurements. Covers PAR, light homogeneity and DLI for layout optimization (I2c). Peer-reviewed journal."
+   }
+  },
+  "R2850": {
+   "B": {
+    "rid": "R2850",
+    "decision": "EXCLUDE",
+    "criterion": "E2",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "no",
+    "reason": "Field experiment that monitors microclimate and wheat growth under a flexible PV array in Sihong, Jiangsu, and reports only measured outcomes. No model or data system."
+   },
+   "A": {
+    "rid": "R2850",
+    "decision": "EXCLUDE",
+    "criterion": "E2",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "no",
+    "reason": "Field experiment that monitors microclimate and measures wheat growth, physiology and yield under a flexible PV array in Sihong, Jiangsu. Reports measured outcomes only, with no model or data system."
+   }
+  },
+  "R2861": {
+   "B": {
+    "rid": "R2861",
+    "decision": "EXCLUDE",
+    "criterion": "E4",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "NR",
+    "reason": "Systematic review of anthocyanin DSSCs plus a conceptual panel design. Greenhouses and agrivoltaics are mentioned only as target uses (also E1)."
+   },
+   "A": {
+    "rid": "R2861",
+    "decision": "EXCLUDE",
+    "criterion": "E4/E1",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "NR",
+    "reason": "Systematic review of anthocyanin dye-sensitized solar cells plus a conceptual panel design. A secondary, materials-level study with no agrivoltaic system."
+   }
+  },
+  "R2883": {
+   "B": {
+    "rid": "R2883",
+    "decision": "INCLUDE_IF_ENGLISH",
+    "criterion": "E6 only",
+    "possible_shadow_or_twin": "yes",
+    "arid_site": "no",
+    "reason": "PV greenhouse in southern Guangxi with Ecotect simulation of roof PV coverage against interior light, a LoRa/NB-IoT and cloud monitoring system, and WOA-LSTM temperature prediction for advance control (I2a, c, d). Live monitoring data feed the prediction and control."
+   },
+   "A": {
+    "rid": "R2883",
+    "decision": "INCLUDE_IF_ENGLISH",
+    "criterion": "I1-I4 met",
+    "possible_shadow_or_twin": "yes",
+    "arid_site": "no",
+    "reason": "PV greenhouse cluster in southern Guangxi. Ecotect simulation sets roof PV coverage, a LoRa/NB-IoT and cloud monitoring system collects data, and a WOA-LSTM model trained on that data predicts temperature for real-time monitoring and advance control. Live data feeding a prediction and control model suggests a shadow or twin."
+   }
+  },
+  "R2885": {
+   "B": {
+    "rid": "R2885",
+    "decision": "EXCLUDE",
+    "criterion": "E2 (borderline)",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "NR",
+    "reason": "Field trial comparing fixed and tracking PV structures over winter wheat. Quantum sensors serve only as measuring instruments, and only measured light, photosynthesis and yield are reported. No model or data system is presented."
+   },
+   "A": {
+    "rid": "R2885",
+    "decision": "EXCLUDE",
+    "criterion": "E2",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "NR",
+    "reason": "Field test comparing fixed and tracking PV brackets over winter wheat. Quantum sensors record radiation and photosynthesis and yield are measured. The sensors only measure outcomes, with no model or data system. Borderline, because the criteria's tie-breaker favours MAYBE when sensors are mentioned."
+   }
+  },
+  "R2894": {
+   "B": {
+    "rid": "R2894",
+    "decision": "EXCLUDE",
+    "criterion": "E2",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "no",
+    "reason": "Description of the planned Ovilab sheep agrivoltaic experiment and demonstration platform in France. No model, data system or results are reported."
+   },
+   "A": {
+    "rid": "R2894",
+    "decision": "EXCLUDE",
+    "criterion": "E2",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "no",
+    "reason": "Describes a planned agrivoltaic experimentation and demonstration platform for sheep farming (Ovilab, Haute-Vienne, France), where fodder, microclimate and animal welfare will be measured. No model, data system or results."
+   }
+  },
+  "R2911": {
+   "B": {
+    "rid": "R2911",
+    "decision": "EXCLUDE",
+    "criterion": "E2 (borderline)",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "no",
+    "reason": "Coverage-density field experiment (50, 75 and 100 percent) with sweet potato in Nanjing that monitors PAR and soil temperature and reports measured yield and quality. The layout response mapping looks descriptive, not a fitted model."
+   },
+   "A": {
+    "rid": "R2911",
+    "decision": "EXCLUDE",
+    "criterion": "E2",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "no",
+    "reason": "Coverage-density field experiment (50, 75 and 100 percent) in Nanjing that monitors PAR and soil temperature and measures sweet potato yield and quality. Reports measured outcomes only. The 'response relationships' it mentions do not clearly indicate a fitted model."
+   }
+  },
+  "R2920": {
+   "B": {
+    "rid": "R2920",
+    "decision": "EXCLUDE",
+    "criterion": "E2",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "no",
+    "reason": "Management and institutional-theory case study of an agrivoltaic firm in Yunlin, Taiwan. Business and policy only, with no technical enabler."
+   },
+   "A": {
+    "rid": "R2920",
+    "decision": "EXCLUDE",
+    "criterion": "E2",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "no",
+    "reason": "Management case study of institutional entrepreneurship at a Taiwanese agrivoltaic firm. A business and policy study with no technical enabler."
+   }
+  },
+  "R2924": {
+   "B": {
+    "rid": "R2924",
+    "decision": "EXCLUDE",
+    "criterion": "E2 (borderline)",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "no",
+    "reason": "Field experiment on PV panel densities in southern Jiangsu. The environmental monitoring setup only records radiation and temperature for comparing treatments. Measured outcomes, no model or data-system contribution."
+   },
+   "A": {
+    "rid": "R2924",
+    "decision": "EXCLUDE",
+    "criterion": "E2",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "no",
+    "reason": "Field experiment with modified PV panel densities in southern Jiangsu, using an environmental monitoring system to record hourly radiation and temperature. The monitoring only measures outcomes. Borderline under the sensor tie-breaker."
+   }
+  },
+  "R2925": {
+   "B": {
+    "rid": "R2925",
+    "decision": "EXCLUDE",
+    "criterion": "E4",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "NR",
+    "reason": "Overview of the state of agrivoltaics in ruminant farming in France (regulation, fodder, animal welfare). A secondary study."
+   },
+   "A": {
+    "rid": "R2925",
+    "decision": "EXCLUDE",
+    "criterion": "E4",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "NR",
+    "reason": "State-of-the-art overview of agrivoltaics for ruminant farming in France. A secondary study."
+   }
+  },
+  "R2966": {
+   "B": {
+    "rid": "R2966",
+    "decision": "EXCLUDE",
+    "criterion": "E2",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "no",
+    "reason": "Literature review plus field observations at six French grassland sites, reporting measured microclimate, biomass and flora responses. No model or data system (partly E4)."
+   },
+   "A": {
+    "rid": "R2966",
+    "decision": "EXCLUDE",
+    "criterion": "E2",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "no",
+    "reason": "Literature review plus field measurements of microclimate, forage and flora on low-productivity grasslands at six French agrivoltaic sites. Measured outcomes only, with no model or data system."
+   }
+  },
+  "R2977": {
+   "B": {
+    "rid": "R2977",
+    "decision": "EXCLUDE",
+    "criterion": "E2",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "NR",
+    "reason": "Legal and policy analysis of agrivoltaics under EU Directive 2018/2001 and Italian decrees. No technical enabler."
+   },
+   "A": {
+    "rid": "R2977",
+    "decision": "EXCLUDE",
+    "criterion": "E2",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "NR",
+    "reason": "Legal and policy analysis of agrivoltaics under EU Directive 2018/2001 and Italian decrees. No technical enabler."
+   }
+  },
+  "R2991": {
+   "B": {
+    "rid": "R2991",
+    "decision": "EXCLUDE",
+    "criterion": "E2",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "no",
+    "reason": "Summer test of illuminance and temperature at three sections of an open-field agricultural PV array in the Yangtze River Delta. Measured outcomes only."
+   },
+   "A": {
+    "rid": "R2991",
+    "decision": "EXCLUDE",
+    "criterion": "E2",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "no",
+    "reason": "Experimental measurement of summer light and thermal conditions in sections of an open-field agricultural PV array in the Yangtze River Delta. Measured outcomes only."
+   }
+  },
+  "R3018": {
+   "B": {
+    "rid": "R3018",
+    "decision": "INCLUDE_IF_ENGLISH",
+    "criterion": "E6 only (I2 borderline)",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "no",
+    "reason": "Agrivoltaic systems at three module heights in Nanjing with fig yield measurements. It also calculates yearly shading-width patterns as a function of latitude and installation height, which is a possible geometric shading model used for design (I2c). Mostly field measurement. MAYBE level."
+   },
+   "A": {
+    "rid": "R3018",
+    "decision": "INCLUDE_IF_ENGLISH",
+    "criterion": "I1-I4 plausibly met (I2c borderline)",
+    "possible_shadow_or_twin": "no",
+    "arid_site": "no",
+    "reason": "Field tests at module heights of 2.5, 3.2 and 3.9 m over fig in Nanjing. They also calculate annual shading-width patterns that depend on latitude and installation height, which implies a geometric shading model used to choose panel height (I2c). The full text should confirm this is a model and not just measurement."
+   }
+  }
+ }
+}

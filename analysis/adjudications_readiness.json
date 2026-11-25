@@ -1,0 +1,12 @@
+{
+ "R0984": {
+  "condition": "every traded-off output validated with an error statistic",
+  "result": "fail",
+  "reason": "Crop yield was measured in the field and fitted with empirical response curves to the same data; only the light (shading) model was tested on held-out data with an error statistic, so the crop output was not validated with an error statistic."
+ },
+ "R1200": {
+  "condition": "every traded-off output validated with an error statistic",
+  "result": "fail",
+  "reason": "The PV-output prediction is independent of the measured data, but soiling is not modeled: the soiling loss is inferred afterwards from the gap between predicted and measured output, and the authors state that this estimate still needs comparison with future measurements."
+ }
+}
