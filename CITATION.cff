@@ -3,6 +3,8 @@ message: "If you use these data or code, please cite them as below, and also cit
 type: dataset
 title: "Are Agrivoltaic Models Ready for Digital Twins? Data and code for a scoping review"
 version: 1.0.0
+doi: 10.5281/zenodo.24544901
+repository-code: "https://github.com/ClingZaR/agrivoltaic-twin-scoping-review"
 license: CC-BY-4.0
 authors:
   - family-names: Nabulsi

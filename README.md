@@ -1,5 +1,7 @@
 # Are Agrivoltaic Models Ready for Digital Twins? Data and code
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24544901.svg)](https://doi.org/10.5281/zenodo.24544901)
+
 Data, protocols, and analysis code for the scoping review *Are Agrivoltaic Models Ready for Digital Twins? A Scoping Review of Modeling, Data, AI, and Computing Studies, with Implications for Arid Regions* (Nabulsi, Abu Talib, Ghenai, Nasir, Bettayeb, and Dakalbab; manuscript submitted for publication).
 
 The repository holds every screening and charting decision behind the review, the protocols used to make them, and the code that turns them into the statistics, tables, and figure reported in the manuscript and its supplementary material.
@@ -64,4 +66,6 @@ Data and documentation: [CC BY 4.0](LICENSE-DATA.md). Code: [MIT](LICENSE).
 
 ## Citation
 
-See `CITATION.cff`. Please also cite the article once it is published.
+Nabulsi, O., Abu Talib, M., Ghenai, C., Nasir, Q., Bettayeb, M., and Dakalbab, F. (2026). *Are Agrivoltaic Models Ready for Digital Twins? Data and code for a scoping review* (version 1.0.0). Zenodo. https://doi.org/10.5281/zenodo.24544901
+
+This DOI identifies version 1.0.0, the version analysed in the manuscript. To cite all versions, use https://doi.org/10.5281/zenodo.24544900. Please also cite the article once it is published. Citation details are also in `CITATION.cff`.
