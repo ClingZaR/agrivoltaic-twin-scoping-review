@@ -236,9 +236,9 @@
   "United Arab Emirates": 2,
   "Indonesia": 2,
   "Switzerland": 1,
-  "Iceland": 1,
   "Estonia": 1,
   "Latvia": 1,
+  "Iceland": 1,
   "Lithuania": 1,
   "Serbia": 1,
   "Peru": 1,
@@ -285,8 +285,8 @@
    "statistical": 50,
    "mathematical_programming": 31,
    "classical_ml": 10,
-   "deep_learning": 10,
    "hybrid_physics_ml": 4,
+   "deep_learning": 10,
    "model_predictive_control": 3,
    "reinforcement_learning": 1,
    "none": 1
@@ -329,10 +329,10 @@
    "remote_sensing": 4
   },
   "monitoring_state_estimation": {
-   "crop_plant_measurements": 45,
-   "meteorological_irradiance": 63,
-   "microclimate_under_array": 62,
    "soil": 36,
+   "microclimate_under_array": 62,
+   "meteorological_irradiance": 63,
+   "crop_plant_measurements": 45,
    "simulated_synthetic": 22,
    "public_dataset_or_database": 16,
    "pv_electrical": 34,
@@ -375,8 +375,8 @@
    "NR": 12,
    "cloud": 8,
    "NA": 7,
-   "fog_or_gateway": 2,
-   "multi_tier": 2
+   "multi_tier": 2,
+   "fog_or_gateway": 2
   },
   "NA": {
    "NR": 20,
@@ -501,6 +501,19 @@
   }
  },
  "x_subsystem_method": {
+  "crop": {
+   "physics_based": 204,
+   "statistical": 68,
+   "rule_based_control": 37,
+   "mathematical_programming": 16,
+   "metaheuristic_optimization": 14,
+   "classical_ml": 13,
+   "deep_learning": 13,
+   "none": 8,
+   "hybrid_physics_ml": 4,
+   "reinforcement_learning": 1,
+   "model_predictive_control": 1
+  },
   "light_shading": {
    "physics_based": 359,
    "statistical": 71,
@@ -513,19 +526,6 @@
    "reinforcement_learning": 1,
    "hybrid_physics_ml": 4,
    "model_predictive_control": 2
-  },
-  "crop": {
-   "physics_based": 204,
-   "statistical": 68,
-   "rule_based_control": 37,
-   "mathematical_programming": 16,
-   "classical_ml": 13,
-   "metaheuristic_optimization": 14,
-   "deep_learning": 13,
-   "none": 8,
-   "hybrid_physics_ml": 4,
-   "reinforcement_learning": 1,
-   "model_predictive_control": 1
   },
   "pv_energy": {
    "deep_learning": 16,
@@ -556,10 +556,10 @@
    "physics_based": 96,
    "statistical": 27,
    "rule_based_control": 38,
-   "classical_ml": 3,
    "metaheuristic_optimization": 5,
-   "deep_learning": 5,
+   "classical_ml": 3,
    "hybrid_physics_ml": 1,
+   "deep_learning": 5,
    "none": 7,
    "mathematical_programming": 10
   },

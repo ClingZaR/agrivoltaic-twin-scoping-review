@@ -1244,6 +1244,12 @@ if os.path.exists(os.path.join(_SE, "sens_elig.json")):
         "rows": [[i, "variant strings" if _it[i]["set"] == "variant_search" else "title exclusion re-screened", _it[i]["title"], _it[i].get("year"), _it[i].get("doi"), _sa[i]["decision"], _sb[i]["decision"],
                   _el[i]["decision"], _el[i].get("code") or "", "yes" if _el[i].get("uncertain") else "no", _el[i].get("description") or _el[i].get("reason") or ""] for i in _fw]}
 
+
+_prp = os.path.join(os.path.dirname(os.path.abspath(__file__)), "pdf_recheck.json")
+if os.path.exists(_prp):
+    _PR = json.load(open(_prp, encoding="utf-8")); _fav = set(_PR["text"]["any_ready_ids"]) | set(_PR["pdf"]["any_ready_ids"]) | set(_SU.get("t", set()) if "_SU" in globals() else set())
+    f["rs_fav_n"] = len(_fav); f["rs_fav_cites"] = "".join("{" + r + "}" for r in sorted(_fav))
+
 # ---------- 10. miscellaneous reconciliations ----------
 f["n_validation_multi"] = sum(s["validation_setting"] == "field_measurements_multi_site" for s in F)
 f["n_calibrated"] = sum(s.get("data_assimilation") in ("calibration_only", "sequential_updating") for s in F); f["pct_calibrated"] = pct(f["n_calibrated"], N)

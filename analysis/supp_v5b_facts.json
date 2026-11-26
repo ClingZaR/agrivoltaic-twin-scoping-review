@@ -1143,6 +1143,8 @@
  "sens_elig_gh": 17,
  "sens_noabs_elig": 0,
  "sens_twin_terms": 0,
+ "rs_fav_n": 1,
+ "rs_fav_cites": "{R0984}",
  "n_validation_multi": 19,
  "n_calibrated": 95,
  "pct_calibrated": "16",

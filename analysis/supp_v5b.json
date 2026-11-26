@@ -12288,7 +12288,7 @@
     "R0984",
     "every traded-off output validated with an error statistic",
     "fail",
-    "Crop yield was measured in the field and fitted with empirical response curves to the same data; only the light (shading) model was tested on held-out data with an error statistic, so the crop output was not validated with an error statistic."
+    "The crop-loss estimates (20% and 15%) are set beside the measured losses (26% and 22%) and called similar, with no error statistic, and the crop response curves were fitted to the same field data; only the light and PV outputs were compared with measurements using an error statistic, so not every traded-off output is validated with an error statistic."
    ],
    [
     "R1200",
@@ -18713,7 +18713,7 @@
     "pv_energy",
     "PDF",
     "Similar results were measured in the field. In the rain-fed growing season of 2021, the root biomass of sugar beets decreased by 26% in the vertical setup, whereas in the smart tracking setup, the reduction was only 22%. (p.5, Sec. 3.2) | the specific yield was found to be 10% lower for the vertical system and 7% lower for the tracker setup compared to theoretical expectations (p.10, Sec. 4)",
-    "The crop estimate (20% and 15% loss, Fig. 14) is set beside measured losses (26% and 22%) and called 'similar' with no error statistic reported, so only PV output, which has a reported percentage deviation and a measured-data calibration with train/test split, qualifies."
+    "The crop-loss estimates (20% and 15%) are set beside the measured losses (26% and 22%) and called similar, with no error statistic, and the crop response curves were fitted to the same field data; only the light and PV outputs were compared with measurements using an error statistic, so not every traded-off output is validated with an error statistic."
    ],
    [
     "R1449",
