@@ -746,10 +746,15 @@ if os.path.exists(_mp):
     f["n_adj_readiness"] = len(_ADJ)
     SUP["adjudications"] = {"header": ["Record ID", "Condition", "Result", "Reason"], "rows": [[k, v["condition"], v["result"], v["reason"]] for k, v in _ADJ.items()]}
     _VALL = {"trk": lambda v: "crop" in v and "pv_energy" in v, "irr": lambda v: "water" in v and "crop" in v, "cln": lambda v: "pv_energy" in v and "soiling" in v}
+    _EO = {"trk": ("crop", "pv_energy"), "irr": ("water", "crop"), "cln": ("pv_energy", "soiling")}
+    def _valok(s, key):
+        m = _MC[s["rid"]]
+        if "_E_adj" in m: return all(o in m["_E_adj"] for o in _EO[key])
+        return _VALL[key](_V(s)) and _gof(s)
     _SU = {k: set() for k in "abceit"}; _srows = []
     _base = {"trk": f["rd_trk_e"], "irr": f["rd_irr_e"], "cln": f["rd_cln_e"]}
     for lab, subs, outs, need, vok, key in _DEC:
-        a = [s for s in _core if need(s)]; b = [s for s in a if _VALL[key](_V(s)) and _gof(s)]; c = [s for s in b if _ln(s)]; e = [s for s in c if _sp(s)]
+        a = [s for s in _core if need(s)]; b = [s for s in a if _valok(s, key)]; c = [s for s in b if _ln(s)]; e = [s for s in c if _sp(s)]
         i_ = [s for s in e if _ind(s)]; t_ = [s for s in i_ if _MC[s["rid"]]["model_time_step"] in _TS[key]]
         for nm, L in zip("abceit", [a, b, c, e, i_, t_]): f[f"rs_{key}_{nm}"] = len(L); _SU[nm] |= {s["rid"] for s in L}
         f[f"rs_{key}_vall"] = sum(1 for s in a if _VALL[key](_V(s)))
@@ -953,7 +958,9 @@ if os.path.exists(_hcp):
     for q, v in _A.items(): f[f"hc_{q.lower()}_agree"] = v[1]; f[f"hc_{q.lower()}_n"] = v[0]
     _pb = [x[1] for x in HC["partB"]]; f["hc_b_n"] = len(_pb); f["hc_b_agree"] = _pb.count("Agree"); f["hc_b_dis"] = _pb.count("Disagree"); f["hc_b_cant"] = len(_pb) - f["hc_b_agree"] - f["hc_b_dis"]
     _L = json.load(open(_hca, encoding="utf-8")) if os.path.exists(_hca) else []
-    f["hc_changes"] = sum(1 for x in _L if x["change"] != "none"); f["hc_kept"] = sum(1 for x in _L if x["change"] == "none")
+    _Lc = [x for x in _L if x.get("part") in ("A", "B")]
+    f["hc_changes"] = sum(1 for x in _Lc if x["change"] != "none"); f["hc_kept"] = sum(1 for x in _Lc if x["change"] == "none"); f["hc_adjudicated"] = len(_Lc)
+    f["hc_q1_note"] = "in scope for all sampled studies, so kappa is not informative"
     SUP["hc_check"] = {"header": ["Question", "Studies compared", "Agreement", "Cohen's kappa"], "rows": [[_names[q], v[0], f"{v[1]}/{v[0]}", v[2] if v[2] is not None else "n/a"] for q, v in _A.items()]}
     SUP["hc_adjudications"] = {"header": ["Record ID", "Part", "Change made", "Reason"], "rows": [[x["rid"], x["part"], json.dumps(x["change"], ensure_ascii=False) if x["change"] != "none" else "none (review's code kept)", x["reason"]] for x in _L]}
 
@@ -996,7 +1003,7 @@ if os.path.exists(_mp):
     def _meets(s, cond):
         for k, (n, outs, ts) in _need.items():
             if not n <= set(s["subsystems"]): continue
-            if cond == "val" and outs <= _Vq(s) and _MCq[s["rid"]]["goodness_of_fit_reported"] == "yes" and not _ADJq.get(s["rid"], {}).get("condition", "").startswith("every traded-off"): return True
+            if cond == "val" and ((set(outs) <= set(_MCq[s["rid"]]["_E_adj"])) if "_E_adj" in _MCq[s["rid"]] else (outs <= _Vq(s) and _MCq[s["rid"]]["goodness_of_fit_reported"] == "yes" and not _ADJq.get(s["rid"], {}).get("condition", "").startswith("every traded-off"))): return True
             if cond == "ts" and _MCq[s["rid"]]["model_time_step"] in ts: return True
         return False
     f["rmm_cand"] = len(_cand); f["rmm_val"] = sum(_meets(s, "val") for s in _cand)
@@ -1096,7 +1103,7 @@ if "_core" in globals():
     for lab, subs, outs, need, vok, key in _DEC:
         for s in _core:
             if not need(s): continue
-            ok = {"val": _VALL[key](_V(s)) and _gof(s), "link": _ln(s), "spec": _sp(s), "ind": _ind(s), "ts": _MC[s["rid"]]["model_time_step"] in _TS[key]}
+            ok = {"val": _valok(s, key), "link": _ln(s), "spec": _sp(s), "ind": _ind(s), "ts": _MC[s["rid"]]["model_time_step"] in _TS[key]}
             fl = [c for c in _CN if not ok[c]]
             if s["rid"] not in _pm or len(fl) < len(_pm[s["rid"]][1]): _pm[s["rid"]] = (key, fl, ok)
     _f1 = {r: v for r, v in _pm.items() if len(v[1]) == 1}
@@ -1168,6 +1175,74 @@ if os.path.exists(_lp):
     f["level_recheck_cites"] = "".join("{" + r + "}" for r in dict.fromkeys(x["rid"] for x in _LV))
     SUP["level_checks"] = {"header": ["Record ID", "Question", "Field", "Current code", "Decision", "Changed", "Quotations", "Reason"],
         "rows": [[x["rid"], x["question"], x["field"], str(x.get("current", "")), str(x["decision"]), "yes" if x.get("changed") else "no", " | ".join(x.get("quotes", [])), x["reason"]] for x in _LV]}
+
+
+# ---------- 9q. adjudication of the readiness conditions, coding agreement, multiplicity by family, stratified arid estimate ----------
+_rap = os.path.join(os.path.dirname(os.path.abspath(__file__)), "readiness_adjudication.json")
+if os.path.exists(_rap):
+    _RA = json.load(open(_rap, encoding="utf-8"))
+    f["ra_fields"] = len(_RA); f["ra_models"] = len({x["rid"] for x in _RA})
+    for k in ("text", "PDF", "neither", "both"): f[f"ra_side_{k.lower()}"] = sum(1 for x in _RA if x["sided_with"] == k)
+    _fmt = lambda v: ", ".join(v) if isinstance(v, list) else ("yes" if v is True else "no" if v is False else str(v))
+    SUP["readiness_adjudication"] = {"header": ["Record ID", "Condition", "Text coding", "PDF recode", "Adjudicated", "Agrees with", "Quotations", "Reason"],
+        "rows": [[x["rid"], x["field"].replace("_", " "), _fmt(x["text"]), _fmt(x["pdf"]), _fmt(x["final"]), x["sided_with"], x["quotes"], x["reason"]] for x in _RA]}
+_rcp = os.path.join(os.path.dirname(os.path.abspath(__file__)), "readiness_coding_agreement.json")
+if os.path.exists(_rcp):
+    _RC = json.load(open(_rcp, encoding="utf-8")); SUP["readiness_coding_agreement"] = _RC
+    for row in _RC["rows"]:
+        key = {"Every traded-off output validated, with an error statistic": "val", "Independent validation data": "ind", "Links the subsystems": "link", "Specific installation": "spec", "Hourly or finer time step": "ts"}[row[0]]
+        f[f"rca_{key}_text"] = row[2] + row[3]; f[f"rca_{key}_pdf"] = row[2] + row[4]; f[f"rca_{key}_kappa"] = row[6]; f[f"rca_{key}_p"] = pf(float(row[7]))
+    f["rca_n"] = _RC["rows"][0][1]
+    _ks = [float(r[6]) for r in _RC["rows"]]; f["rca_kappa_min"] = f"{min(_ks):.2f}"; f["rca_kappa_max"] = f"{max(_ks):.2f}"
+def _holm(items):
+    items = sorted(items, key=lambda x: x[1]); m = len(items); out = []
+    for i, (lab, pv) in enumerate(items):
+        if pv * (m - i) < 0.05: out.append(lab)
+        else: break
+    return out, m
+_ar = []
+for k, (lab, fn) in IND.items():
+    a, n1, c, n0 = f[f"c5_arid_{k}_x"], f[f"c5_arid_{k}_n"], f[f"c5_arid_{k}_x0"], f[f"c5_arid_{k}_n0"]
+    _ar.append((lab, fisher(a, n1 - a, c, n0 - c)))
+_s, _m = _holm(_ar); f["arid_holm_n"] = len(_s); f["arid_holm_m"] = _m; f["arid_holm_rows"] = "; ".join(_s) if _s else "none"
+_gp = []
+for lab in ["AI used", "Uses measured data", "Measured data over more than one season", "Field validation", "Real-time operation demonstrated",
+            "Models or instruments a specific installation", "Subsystems coupled (one-way or two-way)", "Digital shadow or twin, as designed", "Digital shadow or twin, as demonstrated"]:
+    if lab not in INDO: continue
+    a = sum(1 for s in _Gh if INDO[lab](s)); c = sum(1 for s in _Of if INDO[lab](s)); _gp.append((lab.lower(), fisher(a, len(_Gh) - a, c, len(_Of) - c)))
+_s, _m = _holm(_gp); f["gh_holm_n"] = len(_s); f["gh_holm_m"] = _m; f["gh_holm_rows"] = "; ".join(_s) if _s else "none"
+# Mantel-Haenszel risk difference for measured data, arid against other sites, stratified by study type (simulation or other)
+_num = _den = _var = 0.0; _strata = []
+for simv in (True, False):
+    G1 = [s for s in Bg if (s["study_type"] == "simulation_modeling") == simv]; G0 = [s for s in Ng if (s["study_type"] == "simulation_modeling") == simv]
+    if not G1 or not G0: continue
+    n1, n0 = len(G1), len(G0); p1 = sum(1 for s in G1 if meas(s)) / n1; p0 = sum(1 for s in G0 if meas(s)) / n0
+    w = n1 * n0 / (n1 + n0); _num += w * (p1 - p0); _den += w; _var += w * w * (p1 * (1 - p1) / n1 + p0 * (1 - p0) / n0); _strata.append((simv, n1, n0))
+if _den:
+    _rd = _num / _den; _se = math.sqrt(_var) / _den
+    _r = lambda x: "0" if round(100 * x) == 0 else (f"+{round(100 * x)}" if x > 0 else f"−{abs(round(100 * x))}")
+    f["c5_arid_meas_mh"] = f"{_r(_rd)} ({_r(_rd - 1.96 * _se)} to {_r(_rd + 1.96 * _se)})"
+
+
+# ---------- 9r. search-sensitivity check (variant strings; re-screen of title exclusions without an abstract) ----------
+_SE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "search")
+if os.path.exists(os.path.join(_SE, "sens_elig.json")):
+    _lg = json.load(open(os.path.join(_SE, "sens_log.json"))); _it = {x["id"]: x for x in json.load(open(os.path.join(_SE, "sens_screen_items.json"), encoding="utf-8"))}
+    _sa = json.load(open(os.path.join(_SE, "sens_screen_A.json"), encoding="utf-8")); _sb = json.load(open(os.path.join(_SE, "sens_screen_B.json"), encoding="utf-8"))
+    _el = json.load(open(os.path.join(_SE, "sens_elig.json"), encoding="utf-8")); _nf = json.load(open(os.path.join(_SE, "noabs_found.json"), encoding="utf-8"))
+    f["sens_hits"] = sum(v["openalex"] + v["semantic_scholar"] for k, v in _lg.items() if isinstance(v, dict)); f["sens_new"] = _lg["n_new"]; f["sens_screenable"] = _lg["n_new_screenable"]
+    f["sens_noabs_n"] = len(_nf["ids"]); f["sens_noabs_found"] = len(_nf["found"]); f["sens_screened"] = len(_it)
+    _fw = [i for i in _it if _sa[i]["decision"] == "KEEP" or _sb[i]["decision"] == "KEEP"]; f["sens_fw"] = len(_fw)
+    _ag = sum(1 for i in _it if _sa[i]["decision"] == _sb[i]["decision"]); _pa = sum(1 for i in _it if _sa[i]["decision"] == "KEEP") / len(_it); _pb = sum(1 for i in _it if _sb[i]["decision"] == "KEEP") / len(_it)
+    _po = _ag / len(_it); _pe = _pa * _pb + (1 - _pa) * (1 - _pb); f["sens_kappa"] = f"{(_po - _pe) / (1 - _pe):.2f}"
+    _inc = [i for i in _fw if _el[i]["decision"] == "INCLUDE"]
+    f["sens_elig"] = len(_inc); f["sens_elig_unc"] = sum(1 for i in _inc if _el[i].get("uncertain")); f["sens_elig_pct"] = pct(len(_inc), N)
+    f["sens_elig_gh"] = sum(1 for i in _inc if re.search(r"greenhouse", _it[i]["title"] + " " + (_el[i].get("description") or ""), re.I))
+    f["sens_noabs_elig"] = sum(1 for i in _inc if _it[i]["set"] != "variant_search")
+    f["sens_twin_terms"] = sum(1 for i in _inc if re.search(r"digital twin|digital shadow|real[- ]time|closed[- ]loop", _it[i]["title"] + " " + (_it[i].get("abstract") or ""), re.I))
+    SUP["search_sensitivity"] = {"header": ["ID", "Source", "Title", "Year", "DOI", "Screener A", "Screener B", "Eligibility", "Code", "Uncertain", "Reason or description"],
+        "rows": [[i, "variant strings" if _it[i]["set"] == "variant_search" else "title exclusion re-screened", _it[i]["title"], _it[i].get("year"), _it[i].get("doi"), _sa[i]["decision"], _sb[i]["decision"],
+                  _el[i]["decision"], _el[i].get("code") or "", "yes" if _el[i].get("uncertain") else "no", _el[i].get("description") or _el[i].get("reason") or ""] for i in _fw]}
 
 # ---------- 10. miscellaneous reconciliations ----------
 f["n_validation_multi"] = sum(s["validation_setting"] == "field_measurements_multi_site" for s in F)

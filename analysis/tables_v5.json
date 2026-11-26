@@ -452,27 +452,27 @@
    ],
    [
     "Digital shadow or twin (designed)",
-    "8",
+    "9",
     "10",
-    "88% (53–98%)",
+    "78% (45–94%)",
     "70% (40–89%)",
     "98%"
    ],
    [
     "Operational decisions addressed",
-    "78",
+    "79",
     "73",
     "87% (78–93%)",
-    "93% (85–97%)",
+    "95% (87–98%)",
     "93%"
    ],
    [
     "Specific real installation",
-    "107",
+    "112",
     "97",
-    "82% (74–88%)",
-    "91% (83–95%)",
-    "87%"
+    "79% (71–86%)",
+    "92% (85–96%)",
+    "85%"
    ],
    [
     "Measured data used",
@@ -660,13 +660,13 @@
    ],
    [
     "Specific real installation",
-    "198",
-    "33"
+    "205",
+    "35"
    ],
    [
     "Generic or planned design",
-    "381",
-    "64"
+    "374",
+    "63"
    ],
    [
     "Not applicable",
@@ -1017,9 +1017,9 @@
    ],
    [
     "**Of which address operational decisions**",
-    "176",
+    "177",
     "73",
-    "102",
+    "103",
     "130"
    ]
   ],
@@ -1456,16 +1456,16 @@
    ],
    [
     "Digital twin",
-    "7",
+    "8",
     "1",
-    "7",
-    "3"
+    "8",
+    "4"
    ],
    [
     "Not applicable",
-    "59",
+    "58",
     "10",
-    "21",
+    "20",
     "9"
    ],
    [
@@ -1616,7 +1616,7 @@
     "42"
    ]
   ],
-  "note": "N = 594. Deployment and decision timescale are multi-valued, so a study can appear under several tiers; a multi-tier architecture can be coded together with the tiers it combines. Offline under deployment means that no deployment beyond a desktop or server is reported, and simulation studies that report no deployment are coded offline; offline under real-time operation means that the study does not operate on live data. Digital twin levels follow Kritzinger et al. {Kritzinger2018}: the designed level is the level of the system as described, and the demonstrated level is the highest level whose data flows were run on an installation, prototype, or testbed with results reported; none demonstrated marks shadows and twins that were only designed. Not applicable marks sensing or control systems without a virtual model, and, for implementation status, pure simulations or analyses with no system to implement. A validation setting of none means that no validation is reported. The last two columns give the counts among the 224 studies charted from full text, which are the better guide for fields that abstracts rarely report (Table 5). In the full-text core, 203 studies have a virtual model by the level coding and 209 by the full-text model-structure coding (Supplementary Table S5.3); the two codings disagree for 10 studies (2 with a virtual model by the level coding only, 8 by the model-structure coding only). Categories are not mutually exclusive, so counts can sum to more than the column total. Of all 594 studies, 535 have a virtual model; the other 59 are sensing, data, or computing studies without one."
+  "note": "N = 594. Deployment and decision timescale are multi-valued, so a study can appear under several tiers; a multi-tier architecture can be coded together with the tiers it combines. Offline under deployment means that no deployment beyond a desktop or server is reported, and simulation studies that report no deployment are coded offline; offline under real-time operation means that the study does not operate on live data. Digital twin levels follow Kritzinger et al. {Kritzinger2018}: the designed level is the level of the system as described, and the demonstrated level is the highest level whose data flows were run on an installation, prototype, or testbed with results reported; none demonstrated marks shadows and twins that were only designed. Not applicable marks sensing or control systems without a virtual model, and, for implementation status, pure simulations or analyses with no system to implement. A validation setting of none means that no validation is reported. The last two columns give the counts among the 224 studies charted from full text, which are the better guide for fields that abstracts rarely report (Table 5). In the full-text core, 204 studies have a virtual model by the level coding and 209 by the full-text model-structure coding (Supplementary Table S5.3); the two codings disagree for 11 studies (3 with a virtual model by the level coding only, 8 by the model-structure coding only). Categories are not mutually exclusive, so counts can sum to more than the column total. Of all 594 studies, 536 have a virtual model; the other 58 are sensing, data, or computing studies without one."
  },
  "T11_twins": {
   "caption": "Table 11 Included Studies at the Digital Shadow and Digital Twin Levels, With the Evidence for Each Level",
@@ -1664,6 +1664,17 @@
     "AI steering algorithm combining sensors with mechanistic crop models (designed); Penman-Monteith ETo analysis",
     "Model output sets actuators automatically (designed only): “we propose to use an artificial intelligence to pilot the orientation of solar panels using environmental and plant indicators derived from both”",
     "“Variables that are difficult to evaluate continuously in the field such as predawn water potential can be estimated by crop models and used to take decisions”"
+   ],
+   [
+    "{R1149}",
+    "2024",
+    "Digital twin",
+    "Sensing system without a model",
+    "Prototype or testbed",
+    "Full text",
+    "Proposed AI predictive model of soil evapotranspiration; planned, not implemented",
+    "Model output sets actuators automatically (designed only): “Based on these analyses, the system will be able to generate automatic fertigation events, optimizing the use of water resources and ensuring”",
+    "“Data transmitted over LoRaWan frequencies, after being interpreted by the gateway, are processed, stored, and analyzed within the AWS cloud environment”"
    ],
    [
     "{R1443}",
@@ -1749,7 +1760,7 @@
   "caption": "Table 12 Twin-Relevant Indicators for Studies Addressing Operational Decisions and for Design-Only Studies in the Full-Text Core",
   "header": [
    "Indicator",
-   "Operational decisions (n = 79)",
+   "Operational decisions (n = 80)",
    "Design only (n = 140)",
    "Difference, percentage points (95% CI)"
   ],
@@ -1762,27 +1773,27 @@
   "rows": [
    [
     "Models or instruments a specific installation",
-    "46 (58%)",
-    "58 (41%)",
-    "+17 (+3 to +30)"
+    "48 (60%)",
+    "64 (46%)",
+    "+14 (+1 to +27)"
    ],
    [
     "Uses measured data",
-    "53 (67%)",
+    "54 (68%)",
     "66 (47%)",
-    "+20 (+6 to +32)"
+    "+20 (+7 to +33)"
    ],
    [
     "Measured data over more than one season",
     "14 (18%)",
     "19 (14%)",
-    "+4 (−5 to +15)"
+    "+4 (−6 to +15)"
    ],
    [
     "Field validation",
-    "36 (46%)",
+    "37 (46%)",
     "59 (42%)",
-    "+3 (−10 to +17)"
+    "+4 (−9 to +18)"
    ],
    [
     "AI used",
@@ -1793,8 +1804,8 @@
    [
     "Subsystems coupled (one-way or two-way)",
     "38 (48%)",
-    "85 (61%)",
-    "−13 (−26 to +1)"
+    "83 (59%)",
+    "−12 (−25 to +2)"
    ],
    [
     "Two-way or integrated coupling",
@@ -1804,9 +1815,9 @@
    ],
    [
     "Model calibrated against measurements",
-    "25 (32%)",
+    "26 (32%)",
     "37 (26%)",
-    "+5 (−7 to +18)"
+    "+6 (−6 to +19)"
    ],
    [
     "Model updated repeatedly from measurements",
@@ -1818,25 +1829,25 @@
     "Uncertainty quantified",
     "6 (8%)",
     "14 (10%)",
-    "−2 (−10 to +7)"
+    "−3 (−10 to +6)"
    ],
    [
     "Real-time operation demonstrated",
-    "21 (27%)",
+    "21 (26%)",
     "2 (1%)",
-    "+25 (+16 to +36)"
+    "+25 (+16 to +35)"
    ],
    [
     "Edge, fog, cloud, or multi-tier deployment",
     "27 (34%)",
     "6 (4%)",
-    "+30 (+19 to +41)"
+    "+29 (+19 to +41)"
    ],
    [
     "Digital shadow or twin, as designed",
-    "8 (10%)",
+    "9 (11%)",
     "0 (0%)",
-    "+10 (+5 to +19)"
+    "+11 (+5 to +20)"
    ],
    [
     "Digital shadow or twin, as demonstrated",
@@ -1851,7 +1862,7 @@
     "−6 (−13 to +2)"
    ]
   ],
-  "note": "Operational decisions include tracking, irrigation, cleaning, scheduling, and fault detection during operation; design-only studies address only design-stage decisions. Differences are operational minus design-only shares with Newcombe 95% intervals, reported as descriptive contrasts; they are not adjusted for multiple comparisons (Holm-adjusted results are in the text); cluster-bootstrap intervals resampling first authors are in Supplementary Material S2, sheet 'Cluster-robust intervals'. Real-time operation and deployment indicators are more likely by definition in studies of operation. 5 core studies, mostly sensing or measurement systems, address neither design nor operational decisions and are in neither group. 2 design-only studies demonstrate real-time operation on live data during experiments, for example to collect the measurements a design study uses."
+  "note": "Operational decisions include tracking, irrigation, cleaning, scheduling, and fault detection during operation; design-only studies address only design-stage decisions. Differences are operational minus design-only shares with Newcombe 95% intervals, reported as descriptive contrasts; they are not adjusted for multiple comparisons (Holm-adjusted results are in the text); cluster-bootstrap intervals resampling first authors are in Supplementary Material S2, sheet 'Cluster-robust intervals'. Real-time operation and deployment indicators are more likely by definition in studies of operation. 4 core studies, mostly sensing or measurement systems, address neither design nor operational decisions and are in neither group. 2 design-only studies demonstrate real-time operation on live data during experiments, for example to collect the measurements a design study uses."
  },
  "T13_themes": {
   "caption": "Table 13 Limitations and Future Work Stated by the Study Authors",
@@ -2108,14 +2119,14 @@
    ],
    [
     "F3",
-    "102: prediction for operational decisions",
-    "19: hybrid, or statistical or machine learning combined with a physics-based model",
+    "103: prediction for operational decisions",
+    "20: hybrid, or statistical or machine learning combined with a physics-based model",
     "1: fog or multi-tier"
    ],
    [
     "F4",
-    "54: water modeled for operational decisions",
-    "33: water modeled together with the crop",
+    "55: water modeled for operational decisions",
+    "34: water modeled together with the crop",
     "7: fog, cloud, or multi-tier"
    ],
    [
@@ -2132,7 +2143,7 @@
    ],
    [
     "F7",
-    "482: design decisions",
+    "483: design decisions",
     "31: light, crop, PV, and water all modeled and coupled",
     "Not counted: offline is the default for design"
    ],
@@ -2180,12 +2191,12 @@
     "Tracking and shading control",
     "Light, PV output, crop",
     63,
+    1,
+    1,
+    1,
     0,
     0,
-    0,
-    0,
-    0,
-    4
+    5
    ],
    [
     "Irrigation scheduling",
@@ -2196,7 +2207,7 @@
     3,
     0,
     0,
-    11
+    13
    ],
    [
     "Module cleaning",
@@ -2213,12 +2224,12 @@
     "Any of the three decisions",
     "",
     80,
-    3,
-    3,
-    3,
+    4,
+    4,
+    4,
     0,
     0,
-    15
+    18
    ]
   ],
   "note": "Full-text core, 209 studies with a virtual model. Each column counts the studies in the previous column that also meet the stated condition, so each row nests; the 'any' row counts studies that meet the conditions for at least one decision. Readiness is judged from the model's capability, whatever decision the study itself addresses. Every traded-off output validated = crop and PV output for tracking and shading control; water and crop for irrigation; PV output and soiling loss for cleaning; each compared with field or laboratory measurements with a reported error statistic. Links the subsystems = one-way or two-way coupling, or a physical feedback represented within one integrated model. Time step fine enough = hourly or finer for tracking, daily or finer for irrigation and cleaning. Base rule = covers the subsystems, at least one decision output validated against any measurements, linked, and of a specific installation (S5, Section Q). No model at any stage is designed to receive installation data automatically (0). A recode of all candidates from the original PDFs, including tables and figures, also found no ready model after adjudication (S2, sheets 'PDF recheck' and 'PDF recheck summary')."

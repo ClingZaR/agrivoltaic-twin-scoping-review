@@ -1,0 +1,240 @@
+{
+  "N002": {
+    "decision": "EXCLUDE",
+    "code": "E6",
+    "reason": "No venue, DOI or abstract; the record cannot be verified or assessed.",
+    "description": null,
+    "uncertain": false
+  },
+  "N003": {
+    "decision": "INCLUDE",
+    "code": null,
+    "reason": "Crops under PV plant; Ecotect irradiance/PAR simulation used to design crop layout (I2c); IEEE PVSC conference paper.",
+    "description": "Crops under ground-mounted PV plant; Ecotect irradiance and PAR simulation for crop layout and species selection; enabler (c) light model.",
+    "uncertain": false
+  },
+  "N004": {
+    "decision": "EXCLUDE",
+    "code": "E2",
+    "reason": "Mechanical design of a teleoperated field robot under panels; camera only aids operator; no AI, model or data system for agrivoltaic data.",
+    "description": null,
+    "uncertain": true
+  },
+  "N007": {
+    "decision": "EXCLUDE",
+    "code": "E1",
+    "reason": "Building-facade PV shading with vertical farming (productive facade); urban building system, not PV co-located with farmland or greenhouse. ANN present.",
+    "description": null,
+    "uncertain": true
+  },
+  "N009": {
+    "decision": "EXCLUDE",
+    "code": "E1",
+    "reason": "School-building facade PV shading with vertical farming; building comfort/energy study, not PV co-located with farmland or greenhouse.",
+    "description": null,
+    "uncertain": true
+  },
+  "N010": {
+    "decision": "EXCLUDE",
+    "code": "E5",
+    "reason": "Three-page book chapter (Springer ASTI proceedings, pp. 1029-1031) reporting preliminary results; no abstract; not a full paper.",
+    "description": null,
+    "uncertain": true
+  },
+  "N012": {
+    "decision": "EXCLUDE",
+    "code": "E5",
+    "reason": "Zenodo deposit of a national agricultural-engineering conference paper; peer review unverified; CWSI index is a borderline enabler.",
+    "description": null,
+    "uncertain": true
+  },
+  "N018": {
+    "decision": "INCLUDE",
+    "code": null,
+    "reason": "PV-roof greenhouse with crops; PVsyst simulation of annual PV yield by panel arrangement (I2c) alongside measurements.",
+    "description": "PV-roof plastic greenhouse with eggplant (Iraq); measured microclimate and yield plus PVsyst annual PV yield simulation by panel arrangement; enabler (c).",
+    "uncertain": true
+  },
+  "N019": {
+    "decision": "EXCLUDE",
+    "code": "E1",
+    "reason": "Residential productive facades (PV shading plus vertical farming); building system, not PV co-located with farmland or greenhouse. Optimization present.",
+    "description": null,
+    "uncertain": true
+  },
+  "N025": {
+    "decision": "INCLUDE",
+    "code": null,
+    "reason": "Agrivoltaic soybean pilot; Revit shading simulation and empirical yield model (I2a, c). Venue is a university repository; publication type unverified.",
+    "description": "Soybean agrivoltaic pilot design (Nigeria); Revit shading simulation plus empirical light-yield model and LER; enablers (a) and (c).",
+    "uncertain": true
+  },
+  "N026": {
+    "decision": "EXCLUDE",
+    "code": "E2",
+    "reason": "Side-by-side greenhouse trial with and without roof PV; reports measured growth and energy only; no model or data system.",
+    "description": null,
+    "uncertain": false
+  },
+  "N027": {
+    "decision": "INCLUDE",
+    "code": null,
+    "reason": "PV-shaded medicinal-herb greenhouse; microcontroller multipoint temperature sensing and alarm system (I2d); targets power equipment, crop data unclear.",
+    "description": "PV greenhouse for medicinal herbs in a cold region; microcontroller with DS18B20 multipoint temperature monitoring and alarms; enabler (d).",
+    "uncertain": true
+  },
+  "N032": {
+    "decision": "INCLUDE",
+    "code": null,
+    "reason": "Chinese solar greenhouse with PV; sky illumination and shading model used to optimize PV panel size and spacing (I2c).",
+    "description": "Chinese solar greenhouse with grid PV strips; sky illumination and shading model for PV size optimization; enabler (c).",
+    "uncertain": false
+  },
+  "N036": {
+    "decision": "INCLUDE",
+    "code": null,
+    "reason": "Rice agrivoltaic demonstrator; radiative simulation of shade heterogeneity (I2c), mainly ecophysiology; may be a short framing paper.",
+    "description": "Rice agrivoltaic demonstrator (ADELI, Camargue); radiative simulation of intra-day shade heterogeneity informing crop model adaptation; enabler (c).",
+    "uncertain": true
+  },
+  "N052": {
+    "decision": "INCLUDE",
+    "code": null,
+    "reason": "Greenhouse shaded by external tracking PV; experiment plus simulated annual PV energy (I2c), which is a minor component.",
+    "description": "Greenhouse with external tracking PV arrays and chili pepper; microclimate and growth measurements plus PV energy simulation; enabler (c).",
+    "uncertain": true
+  },
+  "N053": {
+    "decision": "EXCLUDE",
+    "code": "E6",
+    "reason": "No venue, DOI or abstract; title partly non-English; full record unavailable for assessment.",
+    "description": null,
+    "uncertain": false
+  },
+  "N054": {
+    "decision": "INCLUDE",
+    "code": null,
+    "reason": "Greenhouse-integrated PV pilot; IoT sensors and cablebot robot for monitoring and microclimate automation (I2d); journal article.",
+    "description": "GIPV smart greenhouse with Aloe vera (Patras); IoT sensors and KYTION cablebot for monitoring and microclimate automation; enabler (d).",
+    "uncertain": false
+  },
+  "N056": {
+    "decision": "EXCLUDE",
+    "code": "E2",
+    "reason": "Two-greenhouse trial with and without roof PV and IR heating; reports measured energy, climate and plant results only.",
+    "description": null,
+    "uncertain": false
+  },
+  "N057": {
+    "decision": "INCLUDE",
+    "code": null,
+    "reason": "PV-roof greenhouse; numerical temperature simulation validated against measurements (I2c). Crops in the tested greenhouse not stated.",
+    "description": "PV-roof versus sawtooth greenhouse in tropical climate; validated numerical natural-convection temperature model; enabler (c).",
+    "uncertain": true
+  },
+  "N058": {
+    "decision": "INCLUDE",
+    "code": null,
+    "reason": "Greenhouse PV; coupled PV generation and greenhouse light/thermal/water load models (I2c), not economics only.",
+    "description": "Greenhouse PV on a 10 kV distribution network; coupled PV generation and greenhouse environmental-load model for benefit evaluation; enabler (c).",
+    "uncertain": true
+  },
+  "N064": {
+    "decision": "INCLUDE",
+    "code": null,
+    "reason": "Semi-transparent PV greenhouse for energy autonomy; 4-page control conference paper; abstract too thin to confirm enabler; full text needed.",
+    "description": "Semi-transparent PV greenhouse for Aloe vera; GIPV design for energy autonomy; enabler not stated (likely energy sizing or control).",
+    "uncertain": true
+  },
+  "N070": {
+    "decision": "INCLUDE",
+    "code": null,
+    "reason": "Greenhouse-integrated concentrator PV preserving PAR; geometric, ray-tracing and electrical models (I2c). EU PVSEC visual-session paper.",
+    "description": "Greenhouse with Voltiris spectral-splitting tracking concentrators; ray-tracing and electrical simulation feeding TNO SIOM greenhouse model; enabler (c).",
+    "uncertain": true
+  },
+  "N071": {
+    "decision": "INCLUDE",
+    "code": null,
+    "reason": "PV greenhouse; method to calculate light distribution for crop choice (I2c). Repository record; original publication type unverified.",
+    "description": "PV greenhouse; calculation method for incident solar light distribution to guide crop selection and management; enabler (c).",
+    "uncertain": true
+  },
+  "N072": {
+    "decision": "EXCLUDE",
+    "code": "E1",
+    "reason": "PV used only as power supply for an automated rooftop greenhouse; no PV-crop co-location or shading interaction described.",
+    "description": null,
+    "uncertain": true
+  },
+  "N073": {
+    "decision": "INCLUDE",
+    "code": null,
+    "reason": "Semi-transparent PV greenhouse; ECOTECT simulation of indoor PAR and PV yield (I2c). Repository record; publication type unverified.",
+    "description": "Semi-transparent PV greenhouse 'Serra d'Arte' (Pompeii); ECOTECT simulation of indoor PAR and annual PV yield; enabler (c).",
+    "uncertain": true
+  },
+  "N074": {
+    "decision": "INCLUDE",
+    "code": null,
+    "reason": "Venlo greenhouse with PV roof; simulation framework for light availability, heating and cooling demand (I2c); IEEE conference paper.",
+    "description": "Venlo greenhouse with PV roof (Tehran); simulation of natural light, heating and cooling demand versus PV coverage; enabler (c).",
+    "uncertain": false
+  },
+  "N078": {
+    "decision": "INCLUDE",
+    "code": null,
+    "reason": "PV on greenhouse roof; PVsyst 3D energy yield simulation for orientation and tilt design (I2c); crop side not modeled.",
+    "description": "PV on a 5,032 m2 greenhouse roof (Turkey); PVsyst 3D yield simulation of orientations and tilts with economics; enabler (c).",
+    "uncertain": true
+  },
+  "N084": {
+    "decision": "INCLUDE",
+    "code": null,
+    "reason": "Glasshouse with integrated transparent PV; load clustering, heat-pump climate model and stochastic sizing/scheduling optimization (I2a, c).",
+    "description": "Glasshouse with transparent and conventional PV, battery and heat pump; load clustering and stochastic sizing and scheduling optimization; enablers (a) and (c).",
+    "uncertain": false
+  },
+  "N087": {
+    "decision": "INCLUDE",
+    "code": null,
+    "reason": "Solar greenhouse; irradiance and structure model with nonlinear optimization of dimensions (I2c); energy only, electro-agriculture context.",
+    "description": "Single-slope solar greenhouse (Mediterranean data); irradiance-structure model with nonlinear optimization of dimensions for PV energy; enabler (c).",
+    "uncertain": true
+  },
+  "N090": {
+    "decision": "INCLUDE",
+    "code": null,
+    "reason": "PV-storage agricultural greenhouse micro-grid; robust operation optimization under PV output uncertainty (I2c); energy-economic focus.",
+    "description": "PV-storage agricultural greenhouse micro-energy grid (Gannan village); robust operation and storage optimization under PV uncertainty; enabler (c).",
+    "uncertain": true
+  },
+  "N093": {
+    "decision": "INCLUDE",
+    "code": null,
+    "reason": "PV-integrated greenhouse; validated 3D radiation and PV thermal models predicting light distribution and electricity yield (I2c).",
+    "description": "PV-integrated greenhouse (SE China); validated 3D radiation and PV thermal models for layout and electricity yield; enabler (c).",
+    "uncertain": false
+  },
+  "N124": {
+    "decision": "EXCLUDE",
+    "code": "E2",
+    "reason": "Industry showcase of vertical bifacial agri-PV park; reports observed yields, microclimate and revenue; no model or data system described.",
+    "description": null,
+    "uncertain": true
+  },
+  "N132": {
+    "decision": "EXCLUDE",
+    "code": "E1",
+    "reason": "National survey of defects across 55 generic PV stations; agri-PV is only a subgroup; not a specific agrivoltaic system.",
+    "description": null,
+    "uncertain": true
+  },
+  "R0283": {
+    "decision": "EXCLUDE",
+    "code": "E5",
+    "reason": "One-page extended abstract (Avestia EHST'17); mainly algae biofuel spectrum splitter; greenhouse crops mentioned only briefly.",
+    "description": null,
+    "uncertain": false
+  }
+}

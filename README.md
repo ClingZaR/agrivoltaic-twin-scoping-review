@@ -34,6 +34,7 @@ These outputs are also committed, so they can be inspected without running anyth
 | `search/` | Search strings, raw result counts, all 3,273 deduplicated records (bibliographic metadata and automatic exclusions), the outputs of both screening passes at each stage with their reasons, and the scripts used to run the searches |
 | `analysis/` | Every charting run and its adjudications, the model-structure and validation coding, the level audit, the cross-model check, the recoding of readiness candidates from the PDFs, the comparison with published human coding, the first author's manual check, and the analysis code |
 | `protocols/` | Eligibility criteria, charting codebook, title-screening instructions, and the charting output schema |
+| `search/sens_*.json`, `search/noabs_found.json` | Search-sensitivity check: variant strings, both screening passes, and eligibility of the new records (abstracts removed) |
 | `fulltext/` | The retrieval log for open-access full texts (sources and status only; no texts) |
 | `supplementary/` | Supplementary Material S1 to S5 as submitted |
 
@@ -50,6 +51,7 @@ Main data files in `analysis/`:
 | `ra_check_results.json`, `hc_adjudications.json` | The first author's manual check against the original publications, and the resulting corrections |
 | `adjudications_readiness.json` | Adjudicated readiness codes |
 | `eligibility_checks.json`, `level_checks.json` | Re-adjudication of borderline eligibility decisions and of level and model codes, with quotations from the texts |
+| `readiness_adjudication.json`, `readiness_coding_agreement.json` | Adjudication against the papers of every disagreement between the text coding and the PDF recode on the readiness conditions, and the model-level agreement between the two codings |
 
 ## How the decisions were made
 
@@ -67,6 +69,6 @@ Data and documentation: [CC BY 4.0](LICENSE-DATA.md). Code: [MIT](LICENSE).
 
 ## Citation
 
-Nabulsi, O., Abu Talib, M., Ghenai, C., Nasir, Q., Bettayeb, M., and Dakalbab, F. (2026). *Are Agrivoltaic Models Ready for Digital Twins? Data and code for a scoping review* (version 1.1.0). Zenodo. https://doi.org/10.5281/zenodo.24544900
+Nabulsi, O., Abu Talib, M., Ghenai, C., Nasir, Q., Bettayeb, M., and Dakalbab, F. (2026). *Are Agrivoltaic Models Ready for Digital Twins? Data and code for a scoping review* (version 1.2.0). Zenodo. https://doi.org/10.5281/zenodo.24544900
 
-This DOI always resolves to the latest version. Version 1.1.0 (https://doi.org/10.5281/zenodo.24545388) is the version analysed in the manuscript; version 1.0.0 (https://doi.org/10.5281/zenodo.24544901) matches an earlier draft. Please also cite the article once it is published. Citation details are also in `CITATION.cff`.
+This DOI always resolves to the latest version. Version 1.2.0 is the version analysed in the manuscript; version 1.1.0 (https://doi.org/10.5281/zenodo.24545388) and version 1.0.0 (https://doi.org/10.5281/zenodo.24544901) matches an earlier draft. Please also cite the article once it is published. Citation details are also in `CITATION.cff`.

@@ -17,9 +17,9 @@ for f in ["ai_used", "dt_maturity", "arid_focus", "mena", "validation_setting", 
     res[f] = kappa([(A[r][f], B[r][f]) for r in inc])
 def jacc(a, b):
     a, b = set(a), set(b)
-    return 1.0 if not a and not b else len(a & b) / len(a | b)
+    return None if not a and not b else len(a & b) / len(a | b)
 for f in ["dt_functions", "method_families", "data_types", "sensing_modalities", "deployment", "subsystems", "koppen_main", "decision_timescale"]:
-    vals = [jacc(A[r][f], B[r][f]) for r in inc]
+    vals = [v for v in (jacc(A[r][f], B[r][f]) for r in inc) if v is not None]
     res[f + "_jaccard"] = sum(vals) / len(vals) if vals else None
 res["eligibility_disagreements"] = [r for r in both if A[r]["eligible"] != B[r]["eligible"]]
 json.dump(res, open(sys.argv[2], "w"), indent=1)

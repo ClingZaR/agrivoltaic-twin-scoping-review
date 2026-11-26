@@ -13,8 +13,8 @@
  "agreement": {
   "any output validated": {
    "n": 80,
-   "agree": 72,
-   "kappa": 0.8
+   "agree": 74,
+   "kappa": 0.85
   },
   "crop validated": {
    "n": 80,
@@ -28,13 +28,13 @@
   },
   "water validated": {
    "n": 80,
-   "agree": 76,
-   "kappa": 0.64
+   "agree": 78,
+   "kappa": 0.82
   },
   "error statistic reported": {
    "n": 80,
-   "agree": 70,
-   "kappa": 0.72
+   "agree": 72,
+   "kappa": 0.78
   },
   "independent validation": {
    "n": 80,
@@ -48,17 +48,17 @@
   },
   "specific installation": {
    "n": 80,
-   "agree": 65,
-   "kappa": 0.63
+   "agree": 67,
+   "kappa": 0.68
   }
  },
- "pdf_more_validation": 10,
- "pdf_less_validation": 5,
+ "pdf_more_validation": 9,
+ "pdf_less_validation": 4,
  "text": {
   "cand": {
    "trk": 62,
    "irr": 43,
-   "cln": 5
+   "cln": 4
   },
   "ready": {
    "trk": 1,
@@ -68,10 +68,10 @@
   "base": {
    "trk": 4,
    "irr": 11,
-   "cln": 1
+   "cln": 0
   },
   "any_ready": 1,
-  "any_base": 16,
+  "any_base": 15,
   "any_ready_ids": [
    "R0984"
   ],
@@ -84,7 +84,6 @@
    "R0967",
    "R0979",
    "R0984",
-   "R1200",
    "R1759",
    "R1814",
    "R1988",
@@ -95,10 +94,10 @@
   ],
   "marginal": {
    "every traded-off output validated with an error statistic": 4,
-   "linked": 97,
-   "specific installation": 49,
+   "linked": 96,
+   "specific installation": 48,
    "independent validation data": 12,
-   "adequate time step": 68
+   "adequate time step": 67
   },
   "drop_one": {
    "every traded-off output validated with an error statistic": 4,
@@ -134,7 +133,7 @@
   "cand": {
    "trk": 62,
    "irr": 43,
-   "cln": 5
+   "cln": 4
   },
   "ready": {
    "trk": 0,
@@ -144,10 +143,10 @@
   "base": {
    "trk": 5,
    "irr": 12,
-   "cln": 1
+   "cln": 0
   },
   "any_ready": 0,
-  "any_base": 18,
+  "any_base": 17,
   "any_ready_ids": [],
   "any_base_ids": [
    "R0149",
@@ -158,26 +157,25 @@
    "R0967",
    "R0979",
    "R0984",
-   "R1200",
    "R1759",
    "R1814",
+   "R1988",
    "R2195",
    "R2207",
    "R2220",
    "R2311",
    "R2523",
-   "R2700",
    "R3122"
   ],
   "marginal": {
    "every traded-off output validated with an error statistic": 5,
-   "linked": 93,
-   "specific installation": 69,
-   "independent validation data": 24,
+   "linked": 92,
+   "specific installation": 67,
+   "independent validation data": 23,
    "adequate time step": 79
   },
   "drop_one": {
-   "every traded-off output validated with an error statistic": 12,
+   "every traded-off output validated with an error statistic": 11,
    "linked": 0,
    "specific installation": 0,
    "independent validation data": 3,
@@ -189,7 +187,6 @@
     "R0922",
     "R0979",
     "R0984",
-    "R1200",
     "R1330",
     "R1759",
     "R2207",
@@ -212,7 +209,7 @@
   "cand": {
    "trk": 62,
    "irr": 43,
-   "cln": 5
+   "cln": 4
   },
   "ready": {
    "trk": 0,
@@ -222,10 +219,10 @@
   "base": {
    "trk": 5,
    "irr": 12,
-   "cln": 1
+   "cln": 0
   },
   "any_ready": 0,
-  "any_base": 18,
+  "any_base": 17,
   "any_ready_ids": [],
   "any_base_ids": [
    "R0149",
@@ -236,26 +233,25 @@
    "R0967",
    "R0979",
    "R0984",
-   "R1200",
    "R1759",
    "R1814",
+   "R1988",
    "R2195",
    "R2207",
    "R2220",
    "R2311",
    "R2523",
-   "R2700",
    "R3122"
   ],
   "marginal": {
    "every traded-off output validated with an error statistic": 5,
-   "linked": 93,
-   "specific installation": 69,
-   "independent validation data": 24,
+   "linked": 92,
+   "specific installation": 67,
+   "independent validation data": 23,
    "adequate time step": 79
   },
   "drop_one": {
-   "every traded-off output validated with an error statistic": 12,
+   "every traded-off output validated with an error statistic": 11,
    "linked": 0,
    "specific installation": 0,
    "independent validation data": 3,
@@ -267,7 +263,6 @@
     "R0922",
     "R0979",
     "R0984",
-    "R1200",
     "R1330",
     "R1759",
     "R2207",
@@ -902,13 +897,13 @@
    "R1988",
    "The microclimatic and ecohydrological effects of photovoltaic facilities in arid/semi-arid regions of China: An integrated modeling study",
    "microclimate, water",
-   "none",
-   "none",
-   "NA",
+   "microclimate, water",
+   "microclimate, water",
+   "NR",
    "yes",
-   "no",
-   "hourly",
-   "'Measured performance data for utility-scale plants in the Bajío are not publicly available, so a comparison with field data was not possible.' The PV model was checked only against a 1 ha simulation, PVWatts and pvlib (model-to-model). Light, crop factor and water are simulated with no measurements.",
+   "yes",
+   "NR",
+   "Simulated vs observed soil moisture and temperature, 1-10 July 2021, at the Desheng PV station: moisture RMSE 0.0012 and 0.0007, R2 0.973 and 0.962; temperature RMSE 0.015 and 0.019 C, R2 0.931 and 0.893. Wind profiles were also compared. The workflow includes a 'calibration and validation step... to adjust key parameters', and independence from calibration data is not stated. Biomass gains come from field quadrats, not a model-vs-measurement comparison.",
    "layout-preserving text from the PDF"
   ],
   [
@@ -1266,13 +1261,13 @@
    "R2700",
    "Sustainability of Agrivoltaic Dual Land Use in the Bajío Region, Mexico: A Techno-Economic, Water-Use and Uncertainty Assessment",
    "none",
-   "microclimate, water",
-   "microclimate, water",
-   "NR",
+   "none",
+   "none",
+   "NA",
    "yes",
-   "yes",
-   "NR",
-   "Simulated vs observed soil moisture and temperature, 1-10 July 2021, at the Desheng PV station: moisture RMSE 0.0012 and 0.0007, R2 0.973 and 0.962; temperature RMSE 0.015 and 0.019 C, R2 0.931 and 0.893. Wind profiles were also compared. The workflow includes a 'calibration and validation step... to adjust key parameters', and independence from calibration data is not stated. Biomass gains come from field quadrats, not a model-vs-measurement comparison.",
+   "no",
+   "hourly",
+   "'Measured performance data for utility-scale plants in the Bajío are not publicly available, so a comparison with field data was not possible.' The PV model was checked only against a 1 ha simulation, PVWatts and pvlib (model-to-model). Light, crop factor and water are simulated with no measurements.",
    "layout-preserving text from the PDF"
   ],
   [

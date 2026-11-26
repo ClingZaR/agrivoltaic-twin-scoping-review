@@ -257,7 +257,7 @@
    "crop",
    "microclimate"
   ],
-  "validation_independent": "NR",
+  "validation_independent": "yes",
   "validation_duration": "more_than_one_season",
   "goodness_of_fit_reported": "yes",
   "crop_representation": "process_based",
@@ -387,7 +387,7 @@
   "validation_duration": "less_than_one_season",
   "goodness_of_fit_reported": "yes",
   "crop_representation": "process_based",
-  "model_time_step": "NR",
+  "model_time_step": "hourly",
   "feedbacks_represented": [
    "none"
   ],
@@ -513,7 +513,7 @@
   "validation_duration": "NA",
   "goodness_of_fit_reported": "NA",
   "crop_representation": "process_based",
-  "model_time_step": "hourly",
+  "model_time_step": "sub_hourly",
   "feedbacks_represented": [
    "none"
   ],
@@ -1634,7 +1634,7 @@
   "validation_duration": "NA",
   "goodness_of_fit_reported": "NA",
   "crop_representation": "empirical_or_statistical",
-  "model_time_step": "seasonal_or_static",
+  "model_time_step": "hourly",
   "feedbacks_represented": [
    "none"
   ],
@@ -1714,7 +1714,10 @@
   "operational_benefit_measured": "NA",
   "governance_or_security": "no",
   "compute_footprint": "no",
-  "evidence": "electricity generation and crop production models are devised by polynomial regression (PR) based on field experiment data ... The coefficient of determination ( R 2 ) of Equation (4) is 99.72%"
+  "evidence": "electricity generation and crop production models are devised by polynomial regression (PR) based on field experiment data ... The coefficient of determination ( R 2 ) of Equation (4) is 99.72%",
+  "_E_adj": [
+   "crop"
+  ]
  },
  "R0909": {
   "rid": "R0909",
@@ -1773,8 +1776,9 @@
  "R0737": {
   "rid": "R0737",
   "validated_subsystems": [
-   "pv_energy",
-   "other"
+   "crop",
+   "other",
+   "pv_energy"
   ],
   "validation_independent": "NR",
   "validation_duration": "one_season_or_year",
@@ -1787,7 +1791,11 @@
   "operational_benefit_measured": "NA",
   "governance_or_security": "no",
   "compute_footprint": "no",
-  "evidence": "the proposed approach is validated based on field experiment data collected from the APV system at Jeollanam-do Agricultural Research and Extension Services ... can predict the electricity generation quantity in the APV system with an R2 of 80.4%"
+  "evidence": "the proposed approach is validated based on field experiment data collected from the APV system at Jeollanam-do Agricultural Research and Extension Services ... can predict the electricity generation quantity in the APV system with an R2 of 80.4%",
+  "_E_adj": [
+   "crop",
+   "pv_energy"
+  ]
  },
  "R0795": {
   "rid": "R0795",
@@ -1903,7 +1911,7 @@
   "validated_subsystems": [
    "crop"
   ],
-  "validation_independent": "NR",
+  "validation_independent": "yes",
   "validation_duration": "more_than_one_season",
   "goodness_of_fit_reported": "yes",
   "crop_representation": "process_based",
@@ -1963,7 +1971,7 @@
   "validation_duration": "NR",
   "goodness_of_fit_reported": "no",
   "crop_representation": "process_based",
-  "model_time_step": "NR",
+  "model_time_step": "hourly",
   "feedbacks_represented": [
    "none"
   ],
@@ -2085,7 +2093,7 @@
   "validated_subsystems": [
    "pv_energy"
   ],
-  "validation_independent": "NR",
+  "validation_independent": "yes",
   "validation_duration": "more_than_one_season",
   "goodness_of_fit_reported": "yes",
   "crop_representation": "none",
@@ -2281,13 +2289,12 @@
  "R3122": {
   "rid": "R3122",
   "validated_subsystems": [
-   "light_shading",
-   "pv_energy",
-   "crop"
+   "crop",
+   "light_shading"
   ],
   "validation_independent": "yes",
   "validation_duration": "one_season_or_year",
-  "goodness_of_fit_reported": "no",
+  "goodness_of_fit_reported": "yes",
   "crop_representation": "process_based",
   "model_time_step": "hourly",
   "feedbacks_represented": [
@@ -2296,7 +2303,10 @@
   "operational_benefit_measured": "NA",
   "governance_or_security": "no",
   "compute_footprint": "no",
-  "evidence": "Validation of the sub-models is performed showing good agreement with measured data and commercial software. ... the crop yield validation for oat has been performed by using the 2018 agricultural data from the Lanna weather station"
+  "evidence": "Validation of the sub-models is performed showing good agreement with measured data and commercial software. ... the crop yield validation for oat has been performed by using the 2018 agricultural data from the Lanna weather station",
+  "_E_adj": [
+   "crop"
+  ]
  },
  "R0613": {
   "rid": "R0613",
@@ -2344,9 +2354,9 @@
   "validation_duration": "NA",
   "goodness_of_fit_reported": "NA",
   "crop_representation": "empirical_or_statistical",
-  "model_time_step": "NR",
+  "model_time_step": "hourly",
   "feedbacks_represented": [
-   "albedo_bifacial"
+   "none"
   ],
   "operational_benefit_measured": "NA",
   "governance_or_security": "no",
@@ -2364,7 +2374,7 @@
   "crop_representation": "none",
   "model_time_step": "sub_hourly",
   "feedbacks_represented": [
-   "crop_cools_modules"
+   "none"
   ],
   "operational_benefit_measured": "NA",
   "governance_or_security": "no",
@@ -2774,11 +2784,11 @@
    "light_shading",
    "pv_energy"
   ],
-  "validation_independent": "NR",
+  "validation_independent": "yes",
   "validation_duration": "NR",
   "goodness_of_fit_reported": "yes",
   "crop_representation": "none",
-  "model_time_step": "NR",
+  "model_time_step": "sub_hourly",
   "feedbacks_represented": [
    "none"
   ],
@@ -2796,14 +2806,17 @@
   "validation_duration": "more_than_one_season",
   "goodness_of_fit_reported": "yes",
   "crop_representation": "empirical_or_statistical",
-  "model_time_step": "seasonal_or_static",
+  "model_time_step": "daily",
   "feedbacks_represented": [
    "none"
   ],
   "operational_benefit_measured": "NA",
   "governance_or_security": "no",
   "compute_footprint": "yes",
-  "evidence": "Using irradiation and soil moisture data collected, an equation to determine yield was developed. ... the correlation between a joint variable, made up of irradiation and soil moisture, and yield was found to be 0.475."
+  "evidence": "Using irradiation and soil moisture data collected, an equation to determine yield was developed. ... the correlation between a joint variable, made up of irradiation and soil moisture, and yield was found to be 0.475.",
+  "_E_adj": [
+   "crop"
+  ]
  },
  "R2529": {
   "rid": "R2529",
@@ -3031,7 +3044,7 @@
   ],
   "validation_independent": "yes",
   "validation_duration": "NA",
-  "goodness_of_fit_reported": "no",
+  "goodness_of_fit_reported": "yes",
   "crop_representation": "process_based",
   "model_time_step": "hourly",
   "feedbacks_represented": [
@@ -3041,7 +3054,10 @@
   "operational_benefit_measured": "NA",
   "governance_or_security": "no",
   "compute_footprint": "no",
-  "evidence": "This paper assesses the operating layer itself: the distinctness and the internal consistency of the nine modes ... The crop parameters are literature-based and were not fitted to the case study."
+  "evidence": "This paper assesses the operating layer itself: the distinctness and the internal consistency of the nine modes ... The crop parameters are literature-based and were not fitted to the case study.",
+  "_E_adj": [
+   "crop"
+  ]
  },
  "R2700": {
   "rid": "R2700",
@@ -3059,7 +3075,8 @@
   "operational_benefit_measured": "NA",
   "governance_or_security": "no",
   "compute_footprint": "no",
-  "evidence": "Energy was modeled with the System Advisor Model and verified with two alternative models ... The results are simulation-based: they identify the conditions for viability and the evidence still needed"
+  "evidence": "Energy was modeled with the System Advisor Model and verified with two alternative models ... The results are simulation-based: they identify the conditions for viability and the evidence still needed",
+  "_E_adj": []
  },
  "R0596": {
   "rid": "R0596",
@@ -3160,7 +3177,7 @@
   "validation_duration": "NA",
   "goodness_of_fit_reported": "NA",
   "crop_representation": "empirical_or_statistical",
-  "model_time_step": "NR",
+  "model_time_step": "hourly",
   "feedbacks_represented": [
    "none"
   ],
@@ -3282,11 +3299,12 @@
  "R2311": {
   "rid": "R2311",
   "validated_subsystems": [
-   "none"
+   "crop",
+   "water"
   ],
-  "validation_independent": "NA",
+  "validation_independent": "yes",
   "validation_duration": "NA",
-  "goodness_of_fit_reported": "NA",
+  "goodness_of_fit_reported": "yes",
   "crop_representation": "process_based",
   "model_time_step": "hourly",
   "feedbacks_represented": [
@@ -3296,7 +3314,10 @@
   "operational_benefit_measured": "NA",
   "governance_or_security": "no",
   "compute_footprint": "no",
-  "evidence": "Externally, the same chain was compared hour by hour against pvlib, a community supported open-source reference implementation of photovoltaic modeling"
+  "evidence": "Externally, the same chain was compared hour by hour against pvlib, a community supported open-source reference implementation of photovoltaic modeling",
+  "_E_adj": [
+   "crop"
+  ]
  },
  "R2323": {
   "rid": "R2323",
@@ -3344,7 +3365,7 @@
   "validation_duration": "NA",
   "goodness_of_fit_reported": "NA",
   "crop_representation": "empirical_or_statistical",
-  "model_time_step": "NR",
+  "model_time_step": "hourly",
   "feedbacks_represented": [
    "none"
   ],
@@ -3555,11 +3576,12 @@
  "R2317": {
   "rid": "R2317",
   "validated_subsystems": [
-   "none"
+   "crop",
+   "pv_energy"
   ],
   "validation_independent": "NA",
   "validation_duration": "NA",
-  "goodness_of_fit_reported": "NA",
+  "goodness_of_fit_reported": "no",
   "crop_representation": "process_based",
   "model_time_step": "NR",
   "feedbacks_represented": [
@@ -3568,7 +3590,8 @@
   "operational_benefit_measured": "NA",
   "governance_or_security": "no",
   "compute_footprint": "no",
-  "evidence": "none"
+  "evidence": "none",
+  "_E_adj": []
  },
  "R0442": {
   "rid": "R0442",
@@ -3630,7 +3653,7 @@
   "validated_subsystems": [
    "light_shading"
   ],
-  "validation_independent": "NR",
+  "validation_independent": "yes",
   "validation_duration": "less_than_one_season",
   "goodness_of_fit_reported": "yes",
   "crop_representation": "process_based",
@@ -3754,8 +3777,8 @@
  "R0984": {
   "rid": "R0984",
   "validated_subsystems": [
-   "pv_energy",
-   "crop"
+   "crop",
+   "pv_energy"
   ],
   "validation_independent": "yes",
   "validation_duration": "more_than_one_season",
@@ -3768,7 +3791,10 @@
   "operational_benefit_measured": "yes",
   "governance_or_security": "no",
   "compute_footprint": "yes",
-  "evidence": "This shading factor was calibrated using measured data, employing a training set (comprising 75% of the data) and a test set (comprising 25% of the data) ... Similar results were measured in the field."
+  "evidence": "This shading factor was calibrated using measured data, employing a training set (comprising 75% of the data) and a test set (comprising 25% of the data) ... Similar results were measured in the field.",
+  "_E_adj": [
+   "pv_energy"
+  ]
  },
  "R1108": {
   "rid": "R1108",
@@ -4002,7 +4028,7 @@
   "validation_duration": "one_season_or_year",
   "goodness_of_fit_reported": "yes",
   "crop_representation": "empirical_or_statistical",
-  "model_time_step": "hourly",
+  "model_time_step": "daily",
   "feedbacks_represented": [
    "water_energy"
   ],
@@ -4028,7 +4054,10 @@
   "operational_benefit_measured": "NA",
   "governance_or_security": "no",
   "compute_footprint": "no",
-  "evidence": "\"simulation results are compared with observed temperature, humidity, and soil moisture data to adjust key parameters.\" \"For air temperature, the RMSE ranged from 0.015 to 0.019 °C... For soil moisture, the RMSE was less than 0.0012 v/v\""
+  "evidence": "\"simulation results are compared with observed temperature, humidity, and soil moisture data to adjust key parameters.\" \"For air temperature, the RMSE ranged from 0.015 to 0.019 °C... For soil moisture, the RMSE was less than 0.0012 v/v\"",
+  "_E_adj": [
+   "water"
+  ]
  },
  "R2067": {
   "rid": "R2067",
@@ -4089,7 +4118,7 @@
   "validated_subsystems": [
    "water"
   ],
-  "validation_independent": "no",
+  "validation_independent": "yes",
   "validation_duration": "less_than_one_season",
   "goodness_of_fit_reported": "yes",
   "crop_representation": "empirical_or_statistical",
@@ -4130,7 +4159,7 @@
   "validation_duration": "more_than_one_season",
   "goodness_of_fit_reported": "yes",
   "crop_representation": "process_based",
-  "model_time_step": "sub_hourly",
+  "model_time_step": "daily",
   "feedbacks_represented": [
    "rain_redistribution",
    "shade_microclimate_crop"
@@ -4161,14 +4190,14 @@
  "R0915": {
   "rid": "R0915",
   "validated_subsystems": [
-   "microclimate",
-   "pv_energy",
    "light_shading",
-   "other"
+   "microclimate",
+   "other",
+   "pv_energy"
   ],
   "validation_independent": "NR",
   "validation_duration": "NR",
-  "goodness_of_fit_reported": "yes",
+  "goodness_of_fit_reported": "no",
   "crop_representation": "empirical_or_statistical",
   "model_time_step": "NR",
   "feedbacks_represented": [
@@ -4177,7 +4206,8 @@
   "operational_benefit_measured": "NA",
   "governance_or_security": "no",
   "compute_footprint": "no",
-  "evidence": "the coupled optical-thermal-electrical model is validated using measurement data ... the MBE and RMSE of the temperature are − 0.85 ◦C and 1.29 ◦C, respectively ... the simulated power generation of the PV arrays and measurement are plotted in Fig. 10"
+  "evidence": "the coupled optical-thermal-electrical model is validated using measurement data ... the MBE and RMSE of the temperature are − 0.85 ◦C and 1.29 ◦C, respectively ... the simulated power generation of the PV arrays and measurement are plotted in Fig. 10",
+  "_E_adj": []
  },
  "R0979": {
   "rid": "R0979",
@@ -4185,9 +4215,9 @@
    "light_shading",
    "pv_energy"
   ],
-  "validation_independent": "NR",
+  "validation_independent": "yes",
   "validation_duration": "one_season_or_year",
-  "goodness_of_fit_reported": "no",
+  "goodness_of_fit_reported": "yes",
   "crop_representation": "empirical_or_statistical",
   "model_time_step": "sub_hourly",
   "feedbacks_represented": [
@@ -4196,6 +4226,9 @@
   "operational_benefit_measured": "NA",
   "governance_or_security": "no",
   "compute_footprint": "yes",
-  "evidence": "on-site experimentally validated ray-tracing and irradiance modeling simulation software ... allowed a direct calculation of energy yield and comparison between monitored and simulated power"
+  "evidence": "on-site experimentally validated ray-tracing and irradiance modeling simulation software ... allowed a direct calculation of energy yield and comparison between monitored and simulated power",
+  "_E_adj": [
+   "pv_energy"
+  ]
  }
 }

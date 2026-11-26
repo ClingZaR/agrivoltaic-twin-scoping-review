@@ -1,0 +1,2220 @@
+[
+{
+"id": "N001",
+"set": "variant_search",
+"title": "Grazing Under Photovoltaic Panels The Utilisation of pastures under photovoltaic panels",
+"venue": "Zenodo (CERN European Organization for Nuclear Research)",
+"year": 2025,
+"doi": "10.5281/zenodo.18505883",
+"abstract": "",
+"queries": [
+"V1_descriptive:OA"
+]
+},
+{
+"id": "N002",
+"set": "variant_search",
+"title": "GROWING CROPS UNDER SOLAR PANELS",
+"venue": null,
+"year": 2019,
+"doi": "",
+"abstract": "",
+"queries": [
+"V1_descriptive:OA"
+]
+},
+{
+"id": "N003",
+"set": "variant_search",
+"title": "Analysis of Light Environment Under Solar Panels and Crop Layout",
+"venue": "Conference record of the IEEE Photovoltaic Specialists Conference",
+"year": 2017,
+"doi": "10.1109/pvsc.2017.8521475",
+"abstract": "",
+"queries": [
+"V1_descriptive:OA",
+"V1_descriptive:S2"
+]
+},
+{
+"id": "N004",
+"set": "variant_search",
+"title": "Agricultural Robot under Solar Panels for Sowing, Pruning, and Harvesting in a Synecoculture Environment",
+"venue": "Agriculture",
+"year": 2022,
+"doi": "10.3390/agriculture13010018",
+"abstract": "",
+"queries": [
+"V1_descriptive:OA",
+"V1_descriptive:S2"
+]
+},
+{
+"id": "N005",
+"set": "variant_search",
+"title": "Improvement in lettuce growth by light diffusion under solar panels",
+"venue": "Journal of Agricultural Meteorology",
+"year": 2014,
+"doi": "10.2480/agrmet.d-14-00005",
+"abstract": "",
+"queries": [
+"V1_descriptive:OA",
+"V1_descriptive:S2"
+]
+},
+{
+"id": "N006",
+"set": "variant_search",
+"title": "Effects of Greenhouse Photovoltaic Shading on Yield of Lettuce and Cabbage Crops: Clear agronomic advantage of lettuce compared to cabbage",
+"venue": "HAL",
+"year": 2026,
+"doi": "",
+"abstract": "",
+"queries": [
+"V1_descriptive:OA",
+"V2_greenhouse:OA"
+]
+},
+{
+"id": "N007",
+"set": "variant_search",
+"title": "Efficiency Analysis of the Photovoltaic Shading and Vertical Farming System by Employing the Artificial Neural Network (ANN) Method",
+"venue": "Buildings",
+"year": 2023,
+"doi": "10.3390/buildings14010094",
+"abstract": "",
+"queries": [
+"V1_descriptive:OA",
+"V1_descriptive:S2"
+]
+},
+{
+"id": "N008",
+"set": "variant_search",
+"title": "Energy sustainable greenhouse crop cultivation using photovoltaic technologies",
+"venue": "Renewable and Sustainable Energy Reviews",
+"year": 2019,
+"doi": "10.1016/j.rser.2019.04.026",
+"abstract": "",
+"queries": [
+"V1_descriptive:OA",
+"V1_descriptive:S2"
+]
+},
+{
+"id": "N009",
+"set": "variant_search",
+"title": "Integration of Photovoltaic Shading Device and Vertical Farming on School Buildings to Improving Indoor Daylight, Thermal Comfort and Energy Performance in Three Different Cities in China",
+"venue": "Buildings",
+"year": 2024,
+"doi": "10.3390/buildings14113502",
+"abstract": "",
+"queries": [
+"V1_descriptive:OA",
+"V1_descriptive:S2"
+]
+},
+{
+"id": "N010",
+"set": "variant_search",
+"title": "Management of a Mobile Photovoltaic Shading net in a Greenhouse: Preliminary Results",
+"venue": "Advances in Science, Technology & Innovation/Advances in science, technology & innovation",
+"year": 2026,
+"doi": "10.1007/978-3-032-16581-7_228",
+"abstract": "",
+"queries": [
+"V1_descriptive:OA"
+]
+},
+{
+"id": "N011",
+"set": "variant_search",
+"title": "Cultivation of High-Value Vegetable sunder Solar Panels: A Pathway to Sustainable Income and Food Security",
+"venue": "Indian Horticulture",
+"year": 2025,
+"doi": "",
+"abstract": "",
+"queries": [
+"V1_descriptive:OA"
+]
+},
+{
+"id": "N012",
+"set": "variant_search",
+"title": "Agrivoltaic systems impact on water stress of greenhouse crops",
+"venue": "Zenodo (CERN European Organization for Nuclear Research)",
+"year": 2025,
+"doi": "10.5281/zenodo.19060770",
+"abstract": "",
+"queries": [
+"V1_descriptive:OA"
+]
+},
+{
+"id": "N013",
+"set": "variant_search",
+"title": "Planning the installation of building-integrated photovoltaic shading devices: A GIS-based spatiotemporal analysis and optimization approach",
+"venue": "Renewable Energy",
+"year": 2023,
+"doi": "10.1016/j.renene.2023.119084",
+"abstract": "",
+"queries": [
+"V1_descriptive:OA"
+]
+},
+{
+"id": "N014",
+"set": "variant_search",
+"title": "Plant and soil responses to ground-mounted solar panels in temperate agricultural systems",
+"venue": "Environmental Research Letters",
+"year": 2025,
+"doi": "10.1088/1748-9326/ada45b",
+"abstract": "",
+"queries": [
+"V1_descriptive:OA",
+"V1_descriptive:S2"
+]
+},
+{
+"id": "N015",
+"set": "variant_search",
+"title": "Integration of Solar Energy and Agriculture: Agrivoltaic Systems for Sustainable Food and Energy Production",
+"venue": "Preprints.org",
+"year": 2024,
+"doi": "10.20944/preprints202408.0025.v1",
+"abstract": "",
+"queries": [
+"V1_descriptive:OA"
+]
+},
+{
+"id": "N016",
+"set": "variant_search",
+"title": "Inside the black box: illuminating the soil microbiome from agricultural fields to urban rooftops",
+"venue": null,
+"year": 2026,
+"doi": "10.25675/3.027204",
+"abstract": "",
+"queries": [
+"V1_descriptive:OA"
+]
+},
+{
+"id": "N017",
+"set": "variant_search",
+"title": "Micro-Agrivoltaics: Hiding in plain sight",
+"venue": "CGSPace A Repository of Agricultural Research Outputs (Consultative Group for International Agricultural Research)",
+"year": 2025,
+"doi": "",
+"abstract": "",
+"queries": [
+"V1_descriptive:OA"
+]
+},
+{
+"id": "N018",
+"set": "variant_search",
+"title": "Study the Possibility of Using Solar Panels on the Rooftop of Plastic Greenhouse for Power Generation During Iraqi Climate",
+"venue": "Journal of Advanced Research in Fluid Mechanics and Thermal Sciences",
+"year": 2020,
+"doi": "10.37934/arfmts.69.2.91110",
+"abstract": "",
+"queries": [
+"V1_descriptive:OA",
+"V1_descriptive:S2"
+]
+},
+{
+"id": "N019",
+"set": "variant_search",
+"title": "Multi-Objective Analysis of Visual, Thermal, and Energy Performance in Coordination with the Outdoor Thermal Environment of Productive Façades of Residential Communities in Guangzhou, China",
+"venue": "Buildings",
+"year": 2023,
+"doi": "10.3390/buildings13061540",
+"abstract": "",
+"queries": [
+"V1_descriptive:OA",
+"V1_descriptive:S2"
+]
+},
+{
+"id": "N020",
+"set": "variant_search",
+"title": "Lettuce Growth and Quality Responses to Light Environments Created by Semi-Transparent CdTe Photovoltaic Modules under Controlled Conditions",
+"venue": "SSRN Electronic Journal",
+"year": 2026,
+"doi": "10.2139/ssrn.7328551",
+"abstract": "",
+"queries": [
+"V1_descriptive:OA"
+]
+},
+{
+"id": "N021",
+"set": "variant_search",
+"title": "Solar parks provide heterogeneous habitats for winter‐active ground‐dwelling predatory arthropods",
+"venue": "Ecological Entomology",
+"year": 2025,
+"doi": "10.1111/een.70018",
+"abstract": "",
+"queries": [
+"V1_descriptive:OA",
+"V1_descriptive:S2"
+]
+},
+{
+"id": "N022",
+"set": "variant_search",
+"title": "Soil properties changes after seven years of ground mounted photovoltaic panels in Central Italy coastal area",
+"venue": "Geoderma Regional",
+"year": 2022,
+"doi": "10.1016/j.geodrs.2022.e00500",
+"abstract": "",
+"queries": [
+"V1_descriptive:OA"
+]
+},
+{
+"id": "N023",
+"set": "variant_search",
+"title": "PHOTOVOLTAIC SHADE HOUSES FOR HOT, ARID CLIMATES",
+"venue": "Acta Horticulturae",
+"year": 2014,
+"doi": "10.17660/actahortic.2014.1051.6",
+"abstract": "",
+"queries": [
+"V1_descriptive:OA"
+]
+},
+{
+"id": "N024",
+"set": "variant_search",
+"title": "Digital record of specimens, including voucher material, from the study of a pollinator habitat restoration site under a commercial solar array in Jackson County, Oregon, 2019",
+"venue": "CATALOG OREGON STATE ARTHROPOD COLLECTION",
+"year": 2021,
+"doi": "10.5399/osu/cat_osac.5.2.4855",
+"abstract": "",
+"queries": [
+"V1_descriptive:OA",
+"V1_descriptive:S2"
+]
+},
+{
+"id": "N025",
+"set": "variant_search",
+"title": "Agrivoltaic Technology Implementation on Soybean Farms in Nigeria",
+"venue": "AYBU AVESIS",
+"year": 2024,
+"doi": "",
+"abstract": "",
+"queries": [
+"V1_descriptive:OA"
+]
+},
+{
+"id": "N026",
+"set": "variant_search",
+"title": "Implementation of photovoltaics on greenhouses and shading effect to plant growth",
+"venue": "Acta Horticulturae",
+"year": 2019,
+"doi": "10.17660/actahortic.2019.1242.111",
+"abstract": "",
+"queries": [
+"V1_descriptive:OA"
+]
+},
+{
+"id": "N027",
+"set": "variant_search",
+"title": "Design of a multipoint intelligent temperature monitoring system for greenhouse substation equipment with 'medicine-light complement'",
+"venue": "International Conference on Information Optics and Optoelectronics Technology (CIOT)",
+"year": 2025,
+"doi": "10.1117/12.3098288",
+"abstract": "",
+"queries": [
+"V1_descriptive:OA",
+"V1_descriptive:S2"
+]
+},
+{
+"id": "N028",
+"set": "variant_search",
+"title": "MEWAC – Collaborative Project EXALT: Coupling thermal desalination and extraction of dewatered salt with hydroponic greenhouse cultivtion via heat pumps - Middle East Regional Water Research Cooperation Program (MEWAC)",
+"venue": "RENATE",
+"year": 2026,
+"doi": "10.34657/33309",
+"abstract": "",
+"queries": [
+"V1_descriptive:OA"
+]
+},
+{
+"id": "N029",
+"set": "variant_search",
+"title": "Photovoltaic power stations: an opportunity to promote European semi-natural grasslands?",
+"venue": "Frontiers in Environmental Science",
+"year": 2023,
+"doi": "10.3389/fenvs.2023.1137845",
+"abstract": "",
+"queries": [
+"V1_descriptive:OA",
+"V1_descriptive:S2"
+]
+},
+{
+"id": "N030",
+"set": "variant_search",
+"title": "Descriptive analysis of the environmental impact of intensive rabbit production",
+"venue": "World Rabbit Science",
+"year": 2024,
+"doi": "10.4995/wrs.2024.22642",
+"abstract": "",
+"queries": [
+"V1_descriptive:OA",
+"V1_descriptive:S2"
+]
+},
+{
+"id": "N031",
+"set": "variant_search",
+"title": "Production of biogas from various types of spent mushroom substrate under different growth conditions",
+"venue": "Bioresource Technology Reports",
+"year": 2024,
+"doi": "10.1016/j.biteb.2024.101964",
+"abstract": "",
+"queries": [
+"V1_descriptive:OA"
+]
+},
+{
+"id": "N032",
+"set": "variant_search",
+"title": "Research on the size optimization of photovoltaic panels and integrated application with Chinese solar greenhouses",
+"venue": "Renewable Energy",
+"year": 2021,
+"doi": "10.1016/j.renene.2021.10.031",
+"abstract": "",
+"queries": [
+"V1_descriptive:OA",
+"V1_descriptive:S2"
+]
+},
+{
+"id": "N033",
+"set": "variant_search",
+"title": "Potential positive effects of solar panels on peatland restoration",
+"venue": "EGU General Assembly Conference Abstracts",
+"year": 2026,
+"doi": "10.5194/egusphere-egu26-18911",
+"abstract": "",
+"queries": [
+"V1_descriptive:OA"
+]
+},
+{
+"id": "N034",
+"set": "variant_search",
+"title": "Agro-Microgrid Frequency Stabilization Using Puma Optimizer Tuned Virtual Synchronous Systems",
+"venue": "IEEE North-East India International Energy Conversion Conference and Exhibition (NE-IECCE)",
+"year": 2025,
+"doi": "10.1109/ne-iecce64154.2025.11182953",
+"abstract": "",
+"queries": [
+"V1_descriptive:OA",
+"V1_descriptive:S2"
+]
+},
+{
+"id": "N035",
+"set": "variant_search",
+"title": "Impacts of Land Acquisition for Solar Farm on Farmers’ Livelihoods in Viet Nam: A Case Study in Ninh Thuan Province, Vietnam",
+"venue": "Mathematical Statistician and Engineering Applications",
+"year": 2022,
+"doi": "",
+"abstract": "",
+"queries": [
+"V1_descriptive:OA"
+]
+},
+{
+"id": "N036",
+"set": "variant_search",
+"title": "Agrivoltaics intermittent shading: Defining ecophysiological responses and impact on rice yield",
+"venue": "AgriVoltaics Conference Proceedings",
+"year": 2025,
+"doi": "10.52825/agripv.v3i",
+"abstract": "",
+"queries": [
+"V1_descriptive:OA"
+]
+},
+{
+"id": "N037",
+"set": "variant_search",
+"title": "Effects of solar panels and management on pollinators and their interactions with plants in Southern French solar parks",
+"venue": "Biological Conservation",
+"year": 2025,
+"doi": "10.1016/j.biocon.2025.111209",
+"abstract": "",
+"queries": [
+"V1_descriptive:OA"
+]
+},
+{
+"id": "N038",
+"set": "variant_search",
+"title": "Defining the value of circularity in beef cattle production systems",
+"venue": "Animal Frontiers",
+"year": 2026,
+"doi": "10.1093/af/vfag042",
+"abstract": "",
+"queries": [
+"V1_descriptive:OA"
+]
+},
+{
+"id": "N039",
+"set": "variant_search",
+"title": "The impacts of ground-mounted solar parks on soil health in the UK",
+"venue": "EGU General Assembly Conference Abstracts",
+"year": 2023,
+"doi": "10.5194/egusphere-egu23-2672",
+"abstract": "",
+"queries": [
+"V1_descriptive:OA"
+]
+},
+{
+"id": "N040",
+"set": "variant_search",
+"title": "Effects of different shading levels on the growth of Bornmuellera emarginata, a nickel hyperaccumulator for use in agromining",
+"venue": "Ecological Research",
+"year": 2024,
+"doi": "10.1111/1440-1703.12456",
+"abstract": "",
+"queries": [
+"V1_descriptive:OA",
+"V1_descriptive:S2"
+]
+},
+{
+"id": "N041",
+"set": "variant_search",
+"title": "Alberta lamb producers sheep/goat vegetation management accreditation course",
+"venue": "Journal of Animal Science",
+"year": 2024,
+"doi": "10.1093/jas/skae234.724",
+"abstract": "",
+"queries": [
+"V1_descriptive:OA",
+"V1_descriptive:S2"
+]
+},
+{
+"id": "N042",
+"set": "variant_search",
+"title": "Agrivoltaics, a new possibility for horticulture",
+"venue": "CINECA IRIS Institutional Research Information System (University of Bari Aldo Moro)",
+"year": 2024,
+"doi": "",
+"abstract": "",
+"queries": [
+"V1_descriptive:OA"
+]
+},
+{
+"id": "N043",
+"set": "variant_search",
+"title": "Identifying land cover suitability factors for photovoltaic installations with focus on cropland and urban areas",
+"venue": "EGU General Assembly Conference Abstracts",
+"year": 2021,
+"doi": "10.5194/egusphere-egu21-14722",
+"abstract": "",
+"queries": [
+"V1_descriptive:OA"
+]
+},
+{
+"id": "N044",
+"set": "variant_search",
+"title": "Passive Ecovoltaics: Solar power plants as semi-natural ecosystems via spontaneous succession in forest landscapes",
+"venue": "Journal of Environmental Management",
+"year": 2026,
+"doi": "10.1016/j.jenvman.2026.131014",
+"abstract": "",
+"queries": [
+"V1_descriptive:OA",
+"V1_descriptive:S2"
+]
+},
+{
+"id": "N045",
+"set": "variant_search",
+"title": "Soil surface properties and implications for soil carbon sequestration in early-stage ecovoltaic grassland restoration",
+"venue": "Frontiers in Environmental Science",
+"year": 2025,
+"doi": "10.3389/fenvs.2025.1646181",
+"abstract": "",
+"queries": [
+"V1_descriptive:OA",
+"V1_descriptive:S2",
+"V3_colocation:OA",
+"V3_colocation:S2"
+]
+},
+{
+"id": "N046",
+"set": "variant_search",
+"title": "Designing of a New Type Air-Water Cooled Photovoltaic Collector",
+"venue": "Tehnički glasnik",
+"year": 2020,
+"doi": "10.31803/tg-20190227095246",
+"abstract": "",
+"queries": [
+"V1_descriptive:OA",
+"V1_descriptive:S2"
+]
+},
+{
+"id": "N047",
+"set": "variant_search",
+"title": "Effects of solar panels and management on soil mesofauna, respiration and plant traits in solar parks of two southern French regions",
+"venue": "Journal of Environmental Management",
+"year": 2026,
+"doi": "10.1016/j.jenvman.2026.129190",
+"abstract": "",
+"queries": [
+"V1_descriptive:OA",
+"V1_descriptive:S2"
+]
+},
+{
+"id": "N048",
+"set": "variant_search",
+"title": "Assessing the impact of land-use change for solar park development in the UK: implications for biodiversity and ecosystem services",
+"venue": "EGU General Assembly Conference Abstracts",
+"year": 2021,
+"doi": "10.5194/egusphere-egu21-1271",
+"abstract": "",
+"queries": [
+"V1_descriptive:OA",
+"V1_descriptive:S2"
+]
+},
+{
+"id": "N049",
+"set": "variant_search",
+"title": "Forestry energy internet with high permeability of photovoltaic",
+"venue": "Frontiers in Energy Research",
+"year": 2023,
+"doi": "10.3389/fenrg.2022.1089854",
+"abstract": "",
+"queries": [
+"V1_descriptive:OA"
+]
+},
+{
+"id": "N050",
+"set": "variant_search",
+"title": "Can Grasslands in Photovoltaic Parks Play a Role in Conserving Soil Arthropod Biodiversity?",
+"venue": "Life",
+"year": 2023,
+"doi": "10.3390/life13071536",
+"abstract": "",
+"queries": [
+"V1_descriptive:S2"
+]
+},
+{
+"id": "N051",
+"set": "variant_search",
+"title": "Establishing Pollinator Habitat at Solar Farms in North Carolina: A Feasibility Study",
+"venue": "",
+"year": 2015,
+"doi": "",
+"abstract": "",
+"queries": [
+"V1_descriptive:S2"
+]
+},
+{
+"id": "N052",
+"set": "variant_search",
+"title": "Effect of photovoltaics shading on the growth of chili pepper in controlled greenhouses",
+"venue": "Heliyon",
+"year": 2022,
+"doi": "10.1016/j.heliyon.2022.e08877",
+"abstract": "",
+"queries": [
+"V1_descriptive:S2"
+]
+},
+{
+"id": "N053",
+"set": "variant_search",
+"title": "High 設棚 hydroponics system with solar panels",
+"venue": "",
+"year": 2014,
+"doi": "",
+"abstract": "",
+"queries": [
+"V1_descriptive:S2"
+]
+},
+{
+"id": "N054",
+"set": "variant_search",
+"title": "The impact of greenhouse integrated photovoltaics on Aloe vera cultivation",
+"venue": "Notulae Botanicae Horti Agrobotanici Cluj-Napoca",
+"year": 2024,
+"doi": "10.15835/nbha52414168",
+"abstract": "",
+"queries": [
+"V2_greenhouse:OA",
+"V2_greenhouse:S2"
+]
+},
+{
+"id": "N055",
+"set": "variant_search",
+"title": "Effect of solar panels on greenhouse gas emissions in a rewetted peatland",
+"venue": "EGU General Assembly Conference Abstracts",
+"year": 2025,
+"doi": "10.5194/egusphere-egu25-13231",
+"abstract": "",
+"queries": [
+"V2_greenhouse:OA"
+]
+},
+{
+"id": "N056",
+"set": "variant_search",
+"title": "Greenhouse integrated photovoltaics (GIPV): effects in microclimatic parameters and canopy production",
+"venue": "Acta Horticulturae",
+"year": 2020,
+"doi": "10.17660/actahortic.2020.1271.10",
+"abstract": "",
+"queries": [
+"V2_greenhouse:OA",
+"V2_greenhouse:S2"
+]
+},
+{
+"id": "N057",
+"set": "variant_search",
+"title": "Thermal Performance of Sawtooth and Photovoltaic Roof Greenhouse in natural circulation mode for Tropical Climatic conditions",
+"venue": "National and International ISHMT-ASTFE Heat and Mass Transfer Conference (IHMTC)",
+"year": 2024,
+"doi": "10.1615/ihmtc-2023.2110",
+"abstract": "",
+"queries": [
+"V2_greenhouse:OA",
+"V2_greenhouse:S2"
+]
+},
+{
+"id": "N058",
+"set": "variant_search",
+"title": "Comprehensive Economic Benefits Evaluation Model of Greenhouse Photovoltaic",
+"venue": "Journal of Solar Energy Research Updates",
+"year": 2025,
+"doi": "10.31875/2410-2199.2022.09.04",
+"abstract": "",
+"queries": [
+"V2_greenhouse:OA",
+"V2_greenhouse:S2"
+]
+},
+{
+"id": "N059",
+"set": "variant_search",
+"title": "Adaptation of Asparagus acutifolius L. to Cultivation in a Photovoltaic Greenhouse",
+"venue": "UnissResearch (Università degli Studi di Sassari)",
+"year": 2020,
+"doi": "",
+"abstract": "",
+"queries": [
+"V2_greenhouse:OA"
+]
+},
+{
+"id": "N060",
+"set": "variant_search",
+"title": "Effects of photovoltaic greenhouse on growth, photosynthesis and quality of pakchoi.",
+"venue": "Zhongguo shucai",
+"year": 2017,
+"doi": "",
+"abstract": "",
+"queries": [
+"V2_greenhouse:OA"
+]
+},
+{
+"id": "N061",
+"set": "variant_search",
+"title": "Performance of an Integrated Solar-Greenhouse Photovoltaic Ventilated Dryer with Clay-CaCl 2 Energy Storage Desiccants for Tomato Drying",
+"venue": "American Journal of Energy Engineering",
+"year": 2021,
+"doi": "10.11648/j.ajee.20210902.11",
+"abstract": "",
+"queries": [
+"V2_greenhouse:OA",
+"V2_greenhouse:S2"
+]
+},
+{
+"id": "N062",
+"set": "variant_search",
+"title": "The Influence of the Layout of Rooftop Pv Panels on Vertical Cultivation of Edible Mushroom in Photovoltaic Greenhouse",
+"venue": "SSRN Electronic Journal",
+"year": 2025,
+"doi": "10.2139/ssrn.5265505",
+"abstract": "",
+"queries": [
+"V2_greenhouse:OA"
+]
+},
+{
+"id": "N063",
+"set": "variant_search",
+"title": "Growth evaluation on different vegetable species grown in a photovoltaic greenhouse with 40% coverage of solar panel on the roof.",
+"venue": "Taiwan Agricultural Research",
+"year": 2018,
+"doi": "",
+"abstract": "",
+"queries": [
+"V2_greenhouse:OA"
+]
+},
+{
+"id": "N064",
+"set": "variant_search",
+"title": "The Contribution of Semi-Transparent Photovoltaics for Energy Autonomy in Aloe Vera Greenhouse Cultivation",
+"venue": "Mediterranean Conference on Control and Automation (MED)",
+"year": 2023,
+"doi": "10.1109/med59994.2023.10185759",
+"abstract": "",
+"queries": [
+"V2_greenhouse:OA",
+"V2_greenhouse:S2"
+]
+},
+{
+"id": "N065",
+"set": "variant_search",
+"title": "A REVIEW OF THE ADVANCEMENTS OF ORGANIC SOLAR CELL TECHNOLOGY AND ITS INTEGRATION INTO PHOTOVOLTAIC APPLICATIONS",
+"venue": "Archivio Istituzionale della Ricerca - Università degli Studi della Campania \"Luigi Vanvitelli\"",
+"year": 2023,
+"doi": "",
+"abstract": "",
+"queries": [
+"V2_greenhouse:OA"
+]
+},
+{
+"id": "N066",
+"set": "variant_search",
+"title": "Modeling and Analysis of a Greenhouse-Integrated Semitransparent Photovoltaic Thermal System Coupled with CPC-PVT Water Collectors for Fish Farming",
+"venue": "SSRN Electronic Journal",
+"year": 2026,
+"doi": "10.2139/ssrn.7203629",
+"abstract": "",
+"queries": [
+"V2_greenhouse:OA"
+]
+},
+{
+"id": "N067",
+"set": "variant_search",
+"title": "Tackling Efficiency Challenges and Exploring Greenhouse-Integrated Organic Photovoltaics",
+"venue": "Energies",
+"year": 2023,
+"doi": "10.3390/en16166076",
+"abstract": "",
+"queries": [
+"V2_greenhouse:OA",
+"V2_greenhouse:S2"
+]
+},
+{
+"id": "N068",
+"set": "variant_search",
+"title": "High-performance and eco-friendly semitransparent organic solar cells for greenhouse applications",
+"venue": "Joule",
+"year": 2021,
+"doi": "10.1016/j.joule.2021.02.010",
+"abstract": "",
+"queries": [
+"V2_greenhouse:OA",
+"V2_greenhouse:S2"
+]
+},
+{
+"id": "N069",
+"set": "variant_search",
+"title": "High-Performance Semitransparent Organic Photovoltaics Featuring a Surface Phase-Matched Transmission-Enhancing Ag/ITO Electrode",
+"venue": "ACS Applied Materials & Interfaces",
+"year": 2020,
+"doi": "10.1021/acsami.0c10906",
+"abstract": "",
+"queries": [
+"V2_greenhouse:OA",
+"V2_greenhouse:S2"
+]
+},
+{
+"id": "N070",
+"set": "variant_search",
+"title": "Voltiris Greenhouse Concentrator: Practical Concentration Ratios and Array Performance",
+"venue": "EU PVSEC",
+"year": 2026,
+"doi": "10.4229/eupvsec2026/4dv.1.7",
+"abstract": "",
+"queries": [
+"V2_greenhouse:OA"
+]
+},
+{
+"id": "N071",
+"set": "variant_search",
+"title": "A method for the calculation of the solar light availability inside photovoltaic greenhouses",
+"venue": "UnissResearch (Università degli Studi di Sassari)",
+"year": 2015,
+"doi": "",
+"abstract": "",
+"queries": [
+"V2_greenhouse:OA"
+]
+},
+{
+"id": "N072",
+"set": "variant_search",
+"title": "Application of Photovoltaic Cells as a Power Supply for Smart Greenhouse Project",
+"venue": "KnE Energy",
+"year": 2015,
+"doi": "10.18502/ken.v2i2.372",
+"abstract": "",
+"queries": [
+"V2_greenhouse:OA",
+"V2_greenhouse:S2"
+]
+},
+{
+"id": "N073",
+"set": "variant_search",
+"title": "Energy performances of a new greenhouse for the area of Pompeii",
+"venue": "Archivio Istituzionale della Ricerca - Università degli Studi della Campania \"Luigi Vanvitelli\"",
+"year": 2015,
+"doi": "",
+"abstract": "",
+"queries": [
+"V2_greenhouse:OA"
+]
+},
+{
+"id": "N074",
+"set": "variant_search",
+"title": "Effect of PV roof coverage on the lighting availability, heating, and cooling demands for a Venlo greenhouse in Tehran",
+"venue": "International Conference on Technology and Energy Management (ICTEM)",
+"year": 2023,
+"doi": "10.1109/ictem56862.2023.10083896",
+"abstract": "",
+"queries": [
+"V2_greenhouse:OA",
+"V2_greenhouse:S2"
+]
+},
+{
+"id": "N075",
+"set": "variant_search",
+"title": "Manipulating Molecular Stacking for Semitransparent Organic Photovoltaics Achieving Light Utilization Efficiency >6%",
+"venue": "Advanced Materials",
+"year": 2025,
+"doi": "10.1002/adma.202420439",
+"abstract": "",
+"queries": [
+"V2_greenhouse:OA",
+"V2_greenhouse:S2"
+]
+},
+{
+"id": "N076",
+"set": "variant_search",
+"title": "Photovoltaic Canarian Greenhouses for Sustainable Tomatoes Production in the Mediterranean Countries",
+"venue": "SSRN Electronic Journal",
+"year": 2024,
+"doi": "10.2139/ssrn.4981071",
+"abstract": "",
+"queries": [
+"V2_greenhouse:OA"
+]
+},
+{
+"id": "N077",
+"set": "variant_search",
+"title": "An integrated energy and bioclimatic system for positive-energy buildings: BIPV, electrical storage and a rooftop greenhouse",
+"venue": null,
+"year": 2026,
+"doi": "10.5937/iizs26216v",
+"abstract": "",
+"queries": [
+"V2_greenhouse:OA",
+"V2_greenhouse:S2"
+]
+},
+{
+"id": "N078",
+"set": "variant_search",
+"title": "Modeling and Economic Analysis of Greenhouse Top Solar Power Plant with Pvsyst Software",
+"venue": "International Journal of Engineering and Innovative Research",
+"year": 2023,
+"doi": "10.47933/ijeir.1209362",
+"abstract": "",
+"queries": [
+"V2_greenhouse:OA",
+"V2_greenhouse:S2"
+]
+},
+{
+"id": "N079",
+"set": "variant_search",
+"title": "Photon-managed photovoltaic greenhouses: Spectral design rules for crop-compatible, reliable, and bankable food-energy systems",
+"venue": "Journal of Renewable and Sustainable Energy",
+"year": 2026,
+"doi": "10.1063/5.0350263",
+"abstract": "",
+"queries": [
+"V2_greenhouse:OA"
+]
+},
+{
+"id": "N080",
+"set": "variant_search",
+"title": "An overview of design and management of photovoltaic greenhouses: current weaknesses and solutions for the future",
+"venue": "UnissResearch (Università degli Studi di Sassari)",
+"year": 2019,
+"doi": "",
+"abstract": "",
+"queries": [
+"V2_greenhouse:OA"
+]
+},
+{
+"id": "N081",
+"set": "variant_search",
+"title": "Multi-Stage Crop Growth Dynamics-Informed Spatiotemporal Coordination of Photovoltaic Greenhouses and VSCs in Hybrid AC/DC Distribution Networks",
+"venue": "SSRN Electronic Journal",
+"year": 2026,
+"doi": "10.2139/ssrn.7570224",
+"abstract": "",
+"queries": [
+"V2_greenhouse:OA"
+]
+},
+{
+"id": "N082",
+"set": "variant_search",
+"title": "Agrivoltaics Policy Frameworks in the United States: Selected Policies and Programs Through 2024",
+"venue": "VTechWorks (Virginia Tech)",
+"year": 2026,
+"doi": "",
+"abstract": "",
+"queries": [
+"V2_greenhouse:OA"
+]
+},
+{
+"id": "N083",
+"set": "variant_search",
+"title": "Study on the assessment method of photovoltaic potential in agricultural greenhouses",
+"venue": "Other Conferences",
+"year": 2024,
+"doi": "10.1117/12.3044546",
+"abstract": "",
+"queries": [
+"V2_greenhouse:S2"
+]
+},
+{
+"id": "N084",
+"set": "variant_search",
+"title": "Self‐Reliant and Stochastic Design of Microgrid for Greenhouses With Transparent Solar Panels, Battery Storage and Adaptive Heat Pumps",
+"venue": "IET Generation, Transmission &amp; Distribution",
+"year": 2026,
+"doi": "10.1049/gtd2.70482",
+"abstract": "",
+"queries": [
+"V2_greenhouse:S2"
+]
+},
+{
+"id": "N085",
+"set": "variant_search",
+"title": "Greenhouse energy balance modeling review and perspectives",
+"venue": "IFAC Conference on Programmable Devices and Embedded Systems",
+"year": 2010,
+"doi": "10.3182/20101006-2-pl-4019.00031",
+"abstract": "",
+"queries": [
+"V2_greenhouse:S2"
+]
+},
+{
+"id": "N086",
+"set": "variant_search",
+"title": "Use of Solar Panels in Greenhouse Soil Disinfection",
+"venue": "",
+"year": 2017,
+"doi": "",
+"abstract": "",
+"queries": [
+"V2_greenhouse:S2"
+]
+},
+{
+"id": "N087",
+"set": "variant_search",
+"title": "Solar Greenhouse Design for Maximum Energy Production in Electro-agriculture",
+"venue": "2025 International Congress on Smart Agriculture and Sustainable Systems (SmartAgri&SuSY)",
+"year": 2025,
+"doi": "10.1109/smartagrisusy68475.2025.11466588",
+"abstract": "",
+"queries": [
+"V2_greenhouse:S2"
+]
+},
+{
+"id": "N088",
+"set": "variant_search",
+"title": "Validation of an automated end-to-end system for satellite-based wildfire detection in Sweden",
+"venue": "Journal of Pyrogeography",
+"year": 2026,
+"doi": "10.1016/j.pyro.2026.100004",
+"abstract": "",
+"queries": [
+"V2_greenhouse:S2"
+]
+},
+{
+"id": "N089",
+"set": "variant_search",
+"title": "Nano-layer and micro-structure technologies for energy efficiency and sustainability",
+"venue": "",
+"year": 2018,
+"doi": "",
+"abstract": "",
+"queries": [
+"V2_greenhouse:S2"
+]
+},
+{
+"id": "N090",
+"set": "variant_search",
+"title": "Optimization Study on the Operation of Micro-energy Network of Photovoltaic-storage Agricultural Greenhouses Based on the Choice of Operation Mode",
+"venue": "2024 IEEE 8th Conference on Energy Internet and Energy System Integration (EI2)",
+"year": 2024,
+"doi": "10.1109/ei264398.2024.10990336",
+"abstract": "",
+"queries": [
+"V2_greenhouse:S2"
+]
+},
+{
+"id": "N091",
+"set": "variant_search",
+"title": "A Simple Method to Obtain Protective Film against Acid Rain",
+"venue": "Inorganics",
+"year": 2022,
+"doi": "10.3390/inorganics10040044",
+"abstract": "",
+"queries": [
+"V2_greenhouse:S2"
+]
+},
+{
+"id": "N092",
+"set": "variant_search",
+"title": "The Impact of Semi‐Transparent Solar Panels on Tomato and Broccoli Growth",
+"venue": "Advanced Energy and Sustainability Research",
+"year": 2024,
+"doi": "10.1002/aesr.202300175",
+"abstract": "",
+"queries": [
+"V2_greenhouse:S2"
+]
+},
+{
+"id": "N093",
+"set": "variant_search",
+"title": "Performance analysis of radiation and electricity yield in a photovoltaic panel integrated greenhouse using the radiation and thermal models",
+"venue": "Computers and Electronics in Agriculture",
+"year": 2019,
+"doi": "10.1016/j.compag.2019.104904",
+"abstract": "",
+"queries": [
+"V2_greenhouse:S2"
+]
+},
+{
+"id": "N094",
+"set": "variant_search",
+"title": "Sizing Optimization and Experimental Verification of a Hybrid Generation Water Pumping System in a Greenhouse",
+"venue": "",
+"year": 2020,
+"doi": "10.1155/2020/3194196",
+"abstract": "",
+"queries": [
+"V2_greenhouse:S2"
+]
+},
+{
+"id": "N095",
+"set": "variant_search",
+"title": "Semi-Transparent Photovoltaic Panels for Greenhouses: Experimental Study on Microclimate, Crop Growth, and Dust Mitigation",
+"venue": "IEEE International Conference on Actual Problems of Electronics Instrument Engineering",
+"year": 2025,
+"doi": "10.1109/apeie66761.2025.11289424",
+"abstract": "",
+"queries": [
+"V2_greenhouse:S2"
+]
+},
+{
+"id": "N096",
+"set": "variant_search",
+"title": "Computational application to study the performance of an electric vehicle with photovoltaic panels",
+"venue": "IEEE International Conference on Renewable Energy Research and Applications",
+"year": 2012,
+"doi": "10.1109/icrera.2012.6477419",
+"abstract": "",
+"queries": [
+"V2_greenhouse:S2"
+]
+},
+{
+"id": "N097",
+"set": "variant_search",
+"title": "Sustainable agriculture supply chain network design considering water‐energy‐food nexus using queuing system: A hybrid robust possibilistic programming",
+"venue": "Natural Resource Modeling",
+"year": 2021,
+"doi": "10.1111/nrm.12337",
+"abstract": "",
+"queries": [
+"V2_greenhouse:S2"
+]
+},
+{
+"id": "N098",
+"set": "variant_search",
+"title": "Smart Control for Passive Greenhouses",
+"venue": "",
+"year": 2008,
+"doi": "",
+"abstract": "",
+"queries": [
+"V2_greenhouse:S2"
+]
+},
+{
+"id": "N099",
+"set": "variant_search",
+"title": "Optimal integration of microalgae production with photovoltaic panels: environmental impacts and energy balance",
+"venue": "Biotechnology for Biofuels",
+"year": 2019,
+"doi": "10.1186/s13068-019-1579-4",
+"abstract": "",
+"queries": [
+"V2_greenhouse:S2"
+]
+},
+{
+"id": "N100",
+"set": "variant_search",
+"title": "Solar Panel Fabrication's Greenhouse Gas Emissions",
+"venue": "",
+"year": 2010,
+"doi": "10.1021/cen102510131827",
+"abstract": "",
+"queries": [
+"V2_greenhouse:S2"
+]
+},
+{
+"id": "N101",
+"set": "variant_search",
+"title": "Hybrid Energy Accumulating System for Smart Highway Sustainability",
+"venue": "INTERNATIONAL JOURNAL OF SCIENTIFIC RESEARCH IN ENGINEERING AND MANAGEMENT",
+"year": 2025,
+"doi": "10.55041/ijsrem45439",
+"abstract": "",
+"queries": [
+"V2_greenhouse:S2"
+]
+},
+{
+"id": "N102",
+"set": "variant_search",
+"title": "Microclimate Observations and Pasture Trials within Commercial Solar Farms and Their Implications for Sheep Grazing Agrivoltaic Developments",
+"venue": "SSRN Electronic Journal",
+"year": 2024,
+"doi": "10.2139/ssrn.4807687",
+"abstract": "",
+"queries": [
+"V3_colocation:OA"
+]
+},
+{
+"id": "N103",
+"set": "variant_search",
+"title": "Australian first: co-location wind and solar farm planned near Crookwell",
+"venue": null,
+"year": 2015,
+"doi": "",
+"abstract": "",
+"queries": [
+"V3_colocation:OA"
+]
+},
+{
+"id": "N104",
+"set": "variant_search",
+"title": "5684385 Customized storage, high voltage, photovoltaic power station",
+"venue": "Solar Energy",
+"year": 1998,
+"doi": "10.1016/s0038-092x(98)90019-6",
+"abstract": "",
+"queries": [
+"V3_colocation:OA"
+]
+},
+{
+"id": "N105",
+"set": "variant_search",
+"title": "Developing conservoltaic systems to support biodiversity on solar farms",
+"venue": "Austral Ecology",
+"year": 2023,
+"doi": "10.1111/aec.13289",
+"abstract": "",
+"queries": [
+"V3_colocation:OA"
+]
+},
+{
+"id": "N106",
+"set": "variant_search",
+"title": "Sustainable vegetation management methods in commercial photovoltaic plants",
+"venue": "Agricultural Systems",
+"year": 2026,
+"doi": "10.1016/j.agsy.2026.104810",
+"abstract": "",
+"queries": [
+"V3_colocation:OA"
+]
+},
+{
+"id": "N107",
+"set": "variant_search",
+"title": "Solar Park Vegetation Management: Mowing, Grazing and Design",
+"venue": "Zenodo (CERN European Organization for Nuclear Research)",
+"year": 2026,
+"doi": "10.5281/zenodo.23883444",
+"abstract": "",
+"queries": [
+"V3_colocation:OA"
+]
+},
+{
+"id": "N108",
+"set": "variant_search",
+"title": "Determining the Locations of Solar Farms and Why That is Essential",
+"venue": "Digital Commons - Ursinus (Ursinus College)",
+"year": 2025,
+"doi": "",
+"abstract": "",
+"queries": [
+"V3_colocation:OA"
+]
+},
+{
+"id": "N109",
+"set": "variant_search",
+"title": "Risk-aware optimal planning for a hybrid wind-solar farm",
+"venue": "Renewable Energy",
+"year": 2020,
+"doi": "10.1016/j.renene.2020.05.003",
+"abstract": "",
+"queries": [
+"V3_colocation:OA",
+"V3_colocation:S2"
+]
+},
+{
+"id": "N110",
+"set": "variant_search",
+"title": "Opportunities for Hybrid Wind and Solar PV Plants in India",
+"venue": "OSTI OAI (U.S. Department of Energy Office of Scientific and Technical Information)",
+"year": 2022,
+"doi": "10.2172/1845272",
+"abstract": "",
+"queries": [
+"V3_colocation:OA",
+"V3_colocation:S2"
+]
+},
+{
+"id": "N111",
+"set": "variant_search",
+"title": "Adapting Rajasthan’s Agriculture to Climate Change with Solar Parks",
+"venue": "International Journal of Environment and Climate Change",
+"year": 2025,
+"doi": "10.9734/ijecc/2025/v15i54867",
+"abstract": "",
+"queries": [
+"V3_colocation:OA",
+"V3_colocation:S2"
+]
+},
+{
+"id": "N112",
+"set": "variant_search",
+"title": "The economic impact of location on a solar farm co-located with energy storage",
+"venue": "Energy",
+"year": 2023,
+"doi": "10.1016/j.energy.2023.127702",
+"abstract": "",
+"queries": [
+"V3_colocation:OA"
+]
+},
+{
+"id": "N113",
+"set": "variant_search",
+"title": "Economic benefits of establishing honeybee hives on solar parks in agricultural landscapes",
+"venue": "EGU General Assembly Conference Abstracts",
+"year": 2021,
+"doi": "10.5194/egusphere-egu21-8257",
+"abstract": "",
+"queries": [
+"V3_colocation:OA",
+"V3_colocation:S2"
+]
+},
+{
+"id": "N114",
+"set": "variant_search",
+"title": "Co-locating offshore wind and floating solar farms – Effect of high wind and wave conditions on solar power performance",
+"venue": "Energy",
+"year": 2022,
+"doi": "10.1016/j.energy.2022.126437",
+"abstract": "",
+"queries": [
+"V3_colocation:OA"
+]
+},
+{
+"id": "N115",
+"set": "variant_search",
+"title": "Co-located offshore wind and floating solar farms: A systematic quantitative literature review of site selection criteria",
+"venue": "Renewable energy focus",
+"year": 2024,
+"doi": "10.1016/j.ref.2024.100611",
+"abstract": "",
+"queries": [
+"V3_colocation:OA"
+]
+},
+{
+"id": "N116",
+"set": "variant_search",
+"title": "Land occupation by booming clean energy deserves attention",
+"venue": "Science Bulletin",
+"year": 2023,
+"doi": "10.1016/j.scib.2023.03.008",
+"abstract": "",
+"queries": [
+"V3_colocation:OA"
+]
+},
+{
+"id": "N117",
+"set": "variant_search",
+"title": "CREATION OF MINI-POWER PLANTS BASED ON BIOGAS TECHNOLOGY ON REMOTE SUMMER PASTURES",
+"venue": "STATE AND DEVELOPMENT PROSPECTS OF AGRIBUSINESS. In the frame of the XXIII Agribusiness Forum of the South of Russia and the Exhibition «Interagromash» Volume 1",
+"year": 2020,
+"doi": "10.23947/interagro.2020.1.517-521",
+"abstract": "",
+"queries": [
+"V3_colocation:OA",
+"V3_colocation:S2"
+]
+},
+{
+"id": "N118",
+"set": "variant_search",
+"title": "The Impact of Power Generation Caused by Dynamic Shading from Wind Turbine Blades in Hybrid Offshore Wind-Solar Systems",
+"venue": "IEEE International Conference on Mechatronics and Automation (ICMA)",
+"year": 2025,
+"doi": "10.1109/icma65362.2025.11120687",
+"abstract": "",
+"queries": [
+"V3_colocation:OA",
+"V3_colocation:S2"
+]
+},
+{
+"id": "N119",
+"set": "variant_search",
+"title": "Assessment of offshore wind-solar energy potentials and spatial layout optimization in mainland China",
+"venue": "Ocean Engineering",
+"year": 2023,
+"doi": "10.1016/j.oceaneng.2023.115914",
+"abstract": "",
+"queries": [
+"V3_colocation:OA"
+]
+},
+{
+"id": "N120",
+"set": "variant_search",
+"title": "Wavelet Multi-Scale Analysis of Wind Turbines Smoothing Effect and Power Fluctuations",
+"venue": "International Renewable and Sustainable Energy Conference (IRSEC)",
+"year": 2021,
+"doi": "10.1109/irsec53969.2021.9741097",
+"abstract": "",
+"queries": [
+"V3_colocation:OA",
+"V3_colocation:S2"
+]
+},
+{
+"id": "N121",
+"set": "variant_search",
+"title": "Voltage Profile Improvement in Solar PV Integrated Grid with Hybrid Energy Storage System",
+"venue": "IEEE International Conference on Smart Power, Energy, Renewables, and Transportation (SPERT)",
+"year": 2025,
+"doi": "10.1109/spert67079.2025.11469598",
+"abstract": "",
+"queries": [
+"V3_colocation:OA",
+"V3_colocation:S2"
+]
+},
+{
+"id": "N122",
+"set": "variant_search",
+"title": "MULTIFUNCTIONAL ORCHARD MODEL FOR SYNERGISTIC PRODUCTION",
+"venue": "Environment Technology Resources Proceedings of the International Scientific and Practical Conference",
+"year": 2024,
+"doi": "10.17770/etr2024vol1.8004",
+"abstract": "",
+"queries": [
+"V3_colocation:OA",
+"V3_colocation:S2"
+]
+},
+{
+"id": "N123",
+"set": "variant_search",
+"title": "A novel socio-techno-environmental GIS approach to assess the contribution of ground-mounted photovoltaics to achieve climate neutrality in Germany",
+"venue": "Renewable Energy",
+"year": 2024,
+"doi": "10.1016/j.renene.2024.120117",
+"abstract": "",
+"queries": [
+"V3_colocation:OA"
+]
+},
+{
+"id": "N124",
+"set": "variant_search",
+"title": "Next-level Agri-PV: Vertical Triple-module Stack for Future-ready Farming",
+"venue": "ETA Florence",
+"year": 2026,
+"doi": "10.5071/2ndipvc2025-6",
+"abstract": "",
+"queries": [
+"V3_colocation:OA"
+]
+},
+{
+"id": "N125",
+"set": "variant_search",
+"title": "Framework for Back-Testing PV+BESS Revenue Stacks Using Satellite-Based Solar Resource and Historical Forecast Data",
+"venue": "EU PVSEC",
+"year": 2026,
+"doi": "10.4229/eupvsec2026/5eo.1.3",
+"abstract": "",
+"queries": [
+"V3_colocation:OA"
+]
+},
+{
+"id": "N126",
+"set": "variant_search",
+"title": "Electroslag Refining (ESR) for Sustainable Battery Recycling: Technological Innovations, Economic Viability, and Patent Landscape in Low-Cost Electricity Regions",
+"venue": "Engineering Archive (engrXiv)",
+"year": 2025,
+"doi": "10.31224/5038",
+"abstract": "",
+"queries": [
+"V3_colocation:OA"
+]
+},
+{
+"id": "N127",
+"set": "variant_search",
+"title": "Hybrid Power Plants: Status of Operating and Proposed Plants, 2022 Edition [Slides]",
+"venue": "Lawrence Berkeley National Laboratory",
+"year": 2022,
+"doi": "10.2172/1880044",
+"abstract": "",
+"queries": [
+"V3_colocation:OA"
+]
+},
+{
+"id": "N128",
+"set": "variant_search",
+"title": "Utvärdering av det första agrivoltaiska systemet i Sverige",
+"venue": "DiVA (Mälardalen University College)",
+"year": 2023,
+"doi": "",
+"abstract": "",
+"queries": [
+"V3_colocation:OA"
+]
+},
+{
+"id": "N129",
+"set": "variant_search",
+"title": "Hybrid Power Plants: Status of Operating and Proposed Plants, 2022 Edition",
+"venue": "eScholarship (California Digital Library)",
+"year": 2022,
+"doi": "",
+"abstract": "",
+"queries": [
+"V3_colocation:OA"
+]
+},
+{
+"id": "N130",
+"set": "variant_search",
+"title": "Assessing Agrivoltaic Potential in the Netherlands: Impacts of Row Spacing, Tracking, and PAR Availability on LER",
+"venue": "SSRN Electronic Journal",
+"year": 2026,
+"doi": "10.2139/ssrn.6577418",
+"abstract": "",
+"queries": [
+"V3_colocation:OA"
+]
+},
+{
+"id": "N131",
+"set": "variant_search",
+"title": "Winter is coming",
+"venue": null,
+"year": 2015,
+"doi": "10.15200/winn.142960.03176",
+"abstract": "",
+"queries": [
+"V3_colocation:OA"
+]
+},
+{
+"id": "N132",
+"set": "variant_search",
+"title": "Investigation on microcracks and hot spots of photovoltaic modules in photovoltaic power stations",
+"venue": "International Conference on Green Energy, Environment and Sustainable Development",
+"year": 2026,
+"doi": "10.1117/12.3131013",
+"abstract": "",
+"queries": [
+"V3_colocation:S2"
+]
+},
+{
+"id": "R0093",
+"set": "title_excluded_no_abstract",
+"title": "Multiple air-jet window cooling for high-temperature pressurized volumetric receivers: Testing, evaluation, and modeling",
+"venue": "",
+"year": 2006,
+"doi": "10.1115/1.2212437",
+"abstract": ""
+},
+{
+"id": "R0116",
+"set": "title_excluded_no_abstract",
+"title": "Control of a large scale solar thermal energy storage system",
+"venue": "Proceedings of the 2011 American Control Conference",
+"year": 2011,
+"doi": "10.1109/acc.2011.5991593",
+"abstract": ""
+},
+{
+"id": "R0169",
+"set": "title_excluded_no_abstract",
+"title": "Influence of the Type of Oxygen Carriers on the Performance of a Hybrid Solar Chemical Looping Combustion System",
+"venue": "",
+"year": 2014,
+"doi": "10.1021/ef402542b",
+"abstract": ""
+},
+{
+"id": "R0144",
+"set": "title_excluded_no_abstract",
+"title": "Use of Low/Mid-Temperature Solar Heat for Thermochemical Upgrading of Energy, Part I: Application to a Novel Chemically-Recuperated Gas-Turbine Power Generation (SOLRGT) System",
+"venue": "",
+"year": 2012,
+"doi": "10.1115/1.4006083",
+"abstract": ""
+},
+{
+"id": "R0153",
+"set": "title_excluded_no_abstract",
+"title": "Proposal of a Solar-Coal Power Plant on Off-Design Operation",
+"venue": "",
+"year": 2013,
+"doi": "10.1115/1.4023359",
+"abstract": ""
+},
+{
+"id": "R0072",
+"set": "title_excluded_no_abstract",
+"title": "Role of solar agricultural-drying in developing countries",
+"venue": "",
+"year": 1990,
+"doi": "10.1080/01430750.1990.9675175",
+"abstract": ""
+},
+{
+"id": "R0106",
+"set": "title_excluded_no_abstract",
+"title": "Use of Low/Mid-Temperature Solar Heat for Thermochemical Upgrading of Energy, With Application to a Novel Chemically-Recuperated Gas-Turbine Power Generation (SOLRGT) System",
+"venue": "",
+"year": 2009,
+"doi": "10.1115/imece2009-13037",
+"abstract": ""
+},
+{
+"id": "R0134",
+"set": "title_excluded_no_abstract",
+"title": "Parameterization of High Solar Share Gas Turbine Systems",
+"venue": "",
+"year": 2012,
+"doi": "10.1115/gt2012-68608",
+"abstract": ""
+},
+{
+"id": "R0075",
+"set": "title_excluded_no_abstract",
+"title": "ACTIVE SOLAR AGRICULTURAL GREENHOUSES. THE STATE OF THE ART",
+"venue": "",
+"year": 1993,
+"doi": "10.1080/01425919308909793",
+"abstract": ""
+},
+{
+"id": "R0173",
+"set": "title_excluded_no_abstract",
+"title": "Modeling and Simulation of the Dynamic Operating Behavior of a High Solar Share Gas Turbine System",
+"venue": "",
+"year": 2014,
+"doi": "10.1115/1.4028445",
+"abstract": ""
+},
+{
+"id": "R0078",
+"set": "title_excluded_no_abstract",
+"title": "Simulation of a directly irradiated solar dryer with integrated collector",
+"venue": "",
+"year": 1994,
+"doi": "10.1080/01430750.1994.9675654",
+"abstract": ""
+},
+{
+"id": "R0086",
+"set": "title_excluded_no_abstract",
+"title": "Desorption-assisted sun diver missions",
+"venue": "",
+"year": 2002,
+"doi": "10.1063/1.1449761",
+"abstract": ""
+},
+{
+"id": "R0108",
+"set": "title_excluded_no_abstract",
+"title": "Integration of Combined Cycle Power Plants and Parabolic Solar Troughs Using CO2 as Heat Transfer Fluid",
+"venue": "",
+"year": 2010,
+"doi": "10.1115/gt2010-22886",
+"abstract": ""
+},
+{
+"id": "R0114",
+"set": "title_excluded_no_abstract",
+"title": "Choice of Solar Share of a Hybrid Power Plant of a Central Receiver System and a Biogas Plant in Dependency of the Geographical Latitude",
+"venue": "",
+"year": 2011,
+"doi": "10.3384/ecp110573710",
+"abstract": ""
+},
+{
+"id": "R0127",
+"set": "title_excluded_no_abstract",
+"title": "Effect of Variable Guide Vanes and Natural Gas Hybridization for Accommodating Fluctuations in Solar Input to a Gas Turbine",
+"venue": "",
+"year": 2012,
+"doi": "10.1115/gt2011-45331",
+"abstract": ""
+},
+{
+"id": "R0056",
+"set": "title_excluded_no_abstract",
+"title": "Safety procedures for the 25-kW solar photovoltaic array at Mead, Nebraska",
+"venue": "",
+"year": 1978,
+"doi": "10.2172/6652525",
+"abstract": ""
+},
+{
+"id": "R0079",
+"set": "title_excluded_no_abstract",
+"title": "The time delay of a solar grazing photon",
+"venue": "",
+"year": 1996,
+"doi": "10.1109/62.533751",
+"abstract": ""
+},
+{
+"id": "R0050",
+"set": "title_excluded_no_abstract",
+"title": "UTILITY SCALE AGRIVOLTAICS DEVELOPMENT PROXIMATE TO MICHIGAN COMMUNITIES WITH 100% RENEWABLE ENERGY GOALS",
+"venue": "",
+"year": null,
+"doi": "10.37099/mtu.dc.etdr/1452",
+"abstract": ""
+},
+{
+"id": "R0406",
+"set": "title_excluded_no_abstract",
+"title": "Agrivoltaic systems and its potential to optimize agricultural land use for energy production in Sri Lanka: A Review",
+"venue": "",
+"year": 2020,
+"doi": "10.22059/jser.2020.302720.1154",
+"abstract": ""
+},
+{
+"id": "R0285",
+"set": "title_excluded_no_abstract",
+"title": "System Optimization for Fischer-Tropsch Liquid Fuels Production via Solar Hybridized Dual Fluidized Bed Gasification of Solid Fuels",
+"venue": "",
+"year": 2017,
+"doi": "10.1021/acs.energyfuels.6b01755",
+"abstract": ""
+},
+{
+"id": "R0262",
+"set": "title_excluded_no_abstract",
+"title": "Design and proof of concept of an innovative very high temperature ceramic solar absorber",
+"venue": "",
+"year": 2017,
+"doi": "10.1063/1.4984375",
+"abstract": ""
+},
+{
+"id": "R0360",
+"set": "title_excluded_no_abstract",
+"title": "Economic Analysis of Korean Agro-photovoltaics Power Generation",
+"venue": "Journal of Regional Studies",
+"year": 2019,
+"doi": "10.31324/jrs.2019.06.27.2.1",
+"abstract": ""
+},
+{
+"id": "R0184",
+"set": "title_excluded_no_abstract",
+"title": "Thermoeconomic Optimization of CSP Hybrid Power Plants With Thermal Storage",
+"venue": "",
+"year": 2014,
+"doi": "10.1115/gt2014-25137",
+"abstract": ""
+},
+{
+"id": "R0273",
+"set": "title_excluded_no_abstract",
+"title": "Integration of concentrated solar power (CSP) and circulating fluidized bed (CFB) power plants: Final results of the COMBO-CFB project",
+"venue": "",
+"year": 2017,
+"doi": "10.1063/1.4984490",
+"abstract": ""
+},
+{
+"id": "R0283",
+"set": "title_excluded_no_abstract",
+"title": "Selective Solar Concentrators for Biofuel Production and Photovoltaic Applications",
+"venue": "",
+"year": 2017,
+"doi": "10.11159/ehst17.116",
+"abstract": ""
+},
+{
+"id": "R0241",
+"set": "title_excluded_no_abstract",
+"title": "Reduced Tariffs of Net Energy Metering: More Competitive Retail Rates of Electric Utilities Come Next?",
+"venue": "",
+"year": 2016,
+"doi": "10.22004/ag.econ.235797",
+"abstract": ""
+},
+{
+"id": "R0248",
+"set": "title_excluded_no_abstract",
+"title": "Thermodynamic Simulation of a Hybrid Brayton Thermosolar Plant",
+"venue": "",
+"year": 2016,
+"doi": "10.24084/repqj14.253",
+"abstract": ""
+},
+{
+"id": "R0310",
+"set": "title_excluded_no_abstract",
+"title": "Design and Fabrication of Solar Agricultural Spray Pump",
+"venue": "",
+"year": 2018,
+"doi": "10.22214/ijraset.2018.4154",
+"abstract": ""
+},
+{
+"id": "R0397",
+"set": "title_excluded_no_abstract",
+"title": "A Portfolio approach to wind and solar deployment in Australia",
+"venue": "",
+"year": 2020,
+"doi": "10.17863/cam.61837",
+"abstract": ""
+},
+{
+"id": "R1043",
+"set": "title_excluded_no_abstract",
+"title": "The New Solar Farms: Growing a Fertile Policy Environment for Agrivoltaics",
+"venue": "Minnesota journal of law, science &amp; technology",
+"year": 2023,
+"doi": "10.24926/15529541.3867",
+"abstract": ""
+},
+{
+"id": "R1136",
+"set": "title_excluded_no_abstract",
+"title": "Agrivoltaics: Technical, ecological, commercial and legal aspects",
+"venue": "",
+"year": 2024,
+"doi": "10.1049/pbpo245e",
+"abstract": ""
+},
+{
+"id": "R0827",
+"set": "title_excluded_no_abstract",
+"title": "A Study on Economic Analysis of Independent Pillar Type Agrophotovoltaic and High Value-Added Crop Cultivation",
+"venue": "Journal of the Korean Solar Energy Society",
+"year": 2023,
+"doi": "10.7836/kses.2023.43.1.013",
+"abstract": ""
+},
+{
+"id": "R1334",
+"set": "title_excluded_no_abstract",
+"title": "Pengaruh Inovasi Agrovoltaic Terhadap Pendapatan Petani Cabai di Daerah Transmigrasi",
+"venue": "MIMBAR AGRIBISNIS Jurnal Pemikiran Masyarakat Ilmiah Berwawasan Agribisnis",
+"year": 2024,
+"doi": "10.25157/ma.v10i1.13278",
+"abstract": ""
+},
+{
+"id": "R0500",
+"set": "title_excluded_no_abstract",
+"title": "Agrivoltaic Potential of Abandoned Farmlands in the National Capital Region of Japan",
+"venue": "",
+"year": 2021,
+"doi": "10.24778/jjser.42.2_93",
+"abstract": ""
+},
+{
+"id": "R0787",
+"set": "title_excluded_no_abstract",
+"title": "Selection and implication of the potential Site of Agrophotovoltaic: Focusing on Hoengseong-gun",
+"venue": "Journal of Environmental Policy and Administration",
+"year": 2022,
+"doi": "10.15301/jepa.2022.30.4.263",
+"abstract": ""
+},
+{
+"id": "R0800",
+"set": "title_excluded_no_abstract",
+"title": "The 5 Cs of Agrivoltaic Success Factors in the United States: Lessons from the InSPIRE Research Study",
+"venue": "",
+"year": 2022,
+"doi": "10.2172/1882930",
+"abstract": ""
+},
+{
+"id": "R0418",
+"set": "title_excluded_no_abstract",
+"title": "Capital Costs for Dual-Use Photovoltaic Installations: 2020 Benchmark for Ground-Mounted PV Systems with Pollinator-Friendly Vegetation, Grazing, and Crops",
+"venue": "",
+"year": 2020,
+"doi": "10.2172/1756713",
+"abstract": ""
+},
+{
+"id": "R1095",
+"set": "title_excluded_no_abstract",
+"title": "Adapting Agrivoltaics for Solar Mini-Grids in Haiti",
+"venue": "",
+"year": 2024,
+"doi": "10.2172/2331426",
+"abstract": ""
+},
+{
+"id": "R0635",
+"set": "title_excluded_no_abstract",
+"title": "The Social Dimensions of a Technological Innovation: Agrivoltaics in the U.S.",
+"venue": "",
+"year": 2021,
+"doi": "10.37099/mtu.dc.etdr/1177",
+"abstract": ""
+},
+{
+"id": "R1255",
+"set": "title_excluded_no_abstract",
+"title": "Front Cover: Green Light‐Responsive D‐π‐A‐π‐D Quinoxaline Emitters for Luminescent Solar Concentrators: Potential Integration in Agrivoltaic Systems (Eur. J. Org. Chem. 24/2024)",
+"venue": "Annalen der Pharmacie",
+"year": 2024,
+"doi": "10.1002/ejoc.202482401",
+"abstract": ""
+},
+{
+"id": "R1373",
+"set": "title_excluded_no_abstract",
+"title": "Session 3: Agrivoltaics Pathways",
+"venue": "",
+"year": 2024,
+"doi": "10.2172/2446837",
+"abstract": ""
+},
+{
+"id": "R0501",
+"set": "title_excluded_no_abstract",
+"title": "Agrivoltaic System: Concept and Features",
+"venue": "Precision Farming and Protected Cultivation: Concepts and Applications",
+"year": 2021,
+"doi": "10.1201/9781003196846-11",
+"abstract": ""
+},
+{
+"id": "R0410",
+"set": "title_excluded_no_abstract",
+"title": "Agrivoltaics: Exploring the Opportunities & Barriers to Combined Solar and Agriculture Systems",
+"venue": "2nd Global Virtual Conference of the Youth Environmental Alliance in Higher Education",
+"year": 2020,
+"doi": "10.37099/mtu.dc.yeah-conference/2020/all-events/38",
+"abstract": ""
+},
+{
+"id": "R1290",
+"set": "title_excluded_no_abstract",
+"title": "Introduction to the 3-Part Agrivoltaics Knowledge Series: Agrivoltaics 101",
+"venue": "",
+"year": 2024,
+"doi": "10.2172/2433913",
+"abstract": ""
+},
+{
+"id": "R1292",
+"set": "title_excluded_no_abstract",
+"title": "Investigating the microstructure and exploiting PTQ10 as donor polymer in sustainably-printed and versatile organic solar cells for indoor, outdoor and agrivoltaic applications",
+"venue": "Proceedings of the MATSUS Spring 2025 Conference",
+"year": 2024,
+"doi": "10.29363/nanoge.matsusspring.2025.348",
+"abstract": ""
+},
+{
+"id": "R3248",
+"set": "title_excluded_no_abstract",
+"title": "Solar energy in the context of energy use, energy transportation and energy storage",
+"venue": "Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences",
+"year": 2013,
+"doi": "10.1098/rsta.2011.0431",
+"abstract": ""
+},
+{
+"id": "R1964",
+"set": "title_excluded_no_abstract",
+"title": "Techno-economic analysis of pressure gain combustion gas turbine for island grids with high renewable solar share",
+"venue": "Applied Thermal Engineering",
+"year": 2025,
+"doi": "10.1016/j.applthermaleng.2025.125609",
+"abstract": ""
+},
+{
+"id": "R2752",
+"set": "title_excluded_no_abstract",
+"title": "The social acceptance of agrivoltaics: Exploring the cognitive and affective outcomes of technological, contextual, and personal beliefs",
+"venue": "Renewable Energy Focus",
+"year": 2026,
+"doi": "10.1016/j.ref.2026.100956",
+"abstract": ""
+},
+{
+"id": "R3265",
+"set": "title_excluded_no_abstract",
+"title": "Energy enterprises and the creation of economic potential of rural areas",
+"venue": "",
+"year": 2017,
+"doi": "10.5817/cz.muni.p210-8587-2017-122",
+"abstract": ""
+},
+{
+"id": "R1749",
+"set": "title_excluded_no_abstract",
+"title": "Improving Korea’s Agrivoltaic Policy: A Comparative Analysis of Major Countries’ Approaches",
+"venue": "Journal of Environmental Policy and Administration",
+"year": 2025,
+"doi": "10.15301/jepa.2025.33.2.75",
+"abstract": ""
+},
+{
+"id": "R1635",
+"set": "title_excluded_no_abstract",
+"title": "Dual Land Use for Agriculture and Solar Power Production: Overview and Performance of Agrivoltaic Systems",
+"venue": "",
+"year": 2025,
+"doi": "10.69766/xaeu5008",
+"abstract": ""
+},
+{
+"id": "R1609",
+"set": "title_excluded_no_abstract",
+"title": "Deploying solar pumps at scale in South Asia: opportunities for solarizing agriculture in South Asia",
+"venue": "",
+"year": 2025,
+"doi": "10.5337/2025.223",
+"abstract": ""
+},
+{
+"id": "R1538",
+"set": "title_excluded_no_abstract",
+"title": "An Analysis of the Factors Influencing the Intention to Adopt Agrivoltaics",
+"venue": "Journal of the Korea Academia-Industrial cooperation Society",
+"year": 2025,
+"doi": "10.5762/kais.2025.26.5.593",
+"abstract": ""
+},
+{
+"id": "R1685",
+"set": "title_excluded_no_abstract",
+"title": "Exploratory study on institutional improvement measures to strengthen the resident acceptance of Agrivoltaics",
+"venue": "Journal of Environmental Policy and Administration",
+"year": 2025,
+"doi": "10.15301/jepa.2025.33.2.47",
+"abstract": ""
+},
+{
+"id": "R1925",
+"set": "title_excluded_no_abstract",
+"title": "Social Aspects and Considerations for Agrivoltaics Implementation",
+"venue": "",
+"year": 2025,
+"doi": "10.2172/2583455",
+"abstract": ""
+},
+{
+"id": "R2383",
+"set": "title_excluded_no_abstract",
+"title": "Free midday electricity in a Solar Sharer scheme: Should Germany follow Australia's lead?",
+"venue": "Renewable Energy",
+"year": 2026,
+"doi": "10.1016/j.renene.2026.125735",
+"abstract": ""
+},
+{
+"id": "R1479",
+"set": "title_excluded_no_abstract",
+"title": "AgriSolar Clearinghouse",
+"venue": "",
+"year": 2025,
+"doi": "10.2172/3364308",
+"abstract": ""
+},
+{
+"id": "R2181",
+"set": "title_excluded_no_abstract",
+"title": "Analysis of Policy Priorities for Expanding Agrivoltaics Using the Fuzzy AHP",
+"venue": "New &amp; Renewable Energy",
+"year": 2026,
+"doi": "10.7849/ksnre.2026.0004",
+"abstract": ""
+},
+{
+"id": "R2456",
+"set": "title_excluded_no_abstract",
+"title": "Integrating Amaranth and Agrivoltaics in the Creation and Assessment of Climate Resilient Food Systems",
+"venue": "bioRxiv",
+"year": 2026,
+"doi": "10.64898/2026.06.19.732940",
+"abstract": ""
+},
+{
+"id": "R2494",
+"set": "title_excluded_no_abstract",
+"title": "Managing solar abundance through smart household flexibility: A socio-technical assessment of Australia's Solar Sharer Offer",
+"venue": "Smart Energy",
+"year": 2026,
+"doi": "10.1016/j.segy.2026.100269",
+"abstract": ""
+},
+{
+"id": "R2402",
+"set": "title_excluded_no_abstract",
+"title": "Future Mediterranean agrivoltaics: prospective life cycle assessment under climatic and socio-economic scenarios",
+"venue": "npj Climate Action",
+"year": 2026,
+"doi": "10.1038/s44168-026-00425-8",
+"abstract": ""
+},
+{
+"id": "R1970",
+"set": "title_excluded_no_abstract",
+"title": "The Effects of Agrivoltaics on the Rice Farm Incomes",
+"venue": "Korean Journal of Agricultural Management and Policy",
+"year": 2025,
+"doi": "10.30805/kjamp.2025.52.1.79",
+"abstract": ""
+},
+{
+"id": "R2701",
+"set": "title_excluded_no_abstract",
+"title": "Sustainability of Photovoltaic Social Solar Projects in rural areas: a general framework",
+"venue": "2026 IEEE Technology and Engineering Management Society (TEMSCON LATAM)",
+"year": 2026,
+"doi": "10.1109/temsconlatam69899.2026.11778476",
+"abstract": ""
+},
+{
+"id": "R0181",
+"set": "title_excluded_no_abstract",
+"title": "The Impact of Solar Penetration on Solar and Gas Market Value: An Application to the Italian Power Market",
+"venue": "",
+"year": 2014,
+"doi": "10.2139/ssrn.2589184",
+"abstract": ""
+},
+{
+"id": "R1206",
+"set": "title_excluded_no_abstract",
+"title": "Determinants of Consumers’ Willingness to Pay for Agrivoltaic Produce: The Mediating Role of Trust",
+"venue": "Social Science Research Network",
+"year": 2024,
+"doi": "10.2139/ssrn.4734821",
+"abstract": ""
+}
+]

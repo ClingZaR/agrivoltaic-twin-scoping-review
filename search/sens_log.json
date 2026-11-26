@@ -1,0 +1,20 @@
+{
+ "V1_descriptive": {
+  "openalex": 168,
+  "semantic_scholar": 113,
+  "new_cumulative": 62
+ },
+ "V2_greenhouse": {
+  "openalex": 160,
+  "semantic_scholar": 203,
+  "new_cumulative": 121
+ },
+ "V3_colocation": {
+  "openalex": 65,
+  "semantic_scholar": 31,
+  "new_cumulative": 156
+ },
+ "n_new": 156,
+ "n_new_screenable": 132,
+ "n_new_with_abstract": 106
+}

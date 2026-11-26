@@ -1,5 +1,5 @@
 """Compare PDF-based recoding of the readiness conditions with the text-based codes; recompute strict and base readiness;
-marginal and drop-one counts. Usage: pdf_recheck.py <run log .jsonl>. Writes pdf_recheck.json."""
+marginal and drop-one counts. Usage: pdf_recheck.py <journal.jsonl>. Writes pdf_recheck.json."""
 import json, os, sys
 AN = os.path.dirname(os.path.abspath(__file__))
 F = {s["rid"]: s for s in json.load(open(os.path.join(AN, "final_v5.json"), encoding="utf-8"))}
@@ -11,6 +11,9 @@ for _jf in sys.argv[1:]:
         if o.get("type") == "result":
             v = o["result"]; v = json.loads(v) if isinstance(v, str) else v
             for s in (v.get("studies", []) if isinstance(v, dict) else []): P[s["rid"]] = s
+# the recode run stored the codes of R1988 and R2700 under each other's IDs (each evidence note describes the other paper); swap them back
+if "R1988" in P and "R2700" in P:
+    _a, _b = dict(P["R2700"]), dict(P["R1988"]); _a["rid"], _b["rid"] = "R1988", "R2700"; P["R1988"], P["R2700"] = _a, _b
 # adjudication of disagreements that decide strict readiness, against the paper's own text
 ADJ = {       "R0984": ("outputs_with_error_statistic", ["pv_energy"], "Crop yield was fitted with empirical curves to the same field data; only the light model was tested on held-out data with an error statistic.")}
 P_raw = {k: dict(v) for k, v in P.items()}

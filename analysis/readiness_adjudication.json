@@ -1,0 +1,724 @@
+[
+ {
+  "rid": "R0008",
+  "field": "model_time_step",
+  "text": "seasonal_or_static",
+  "pdf": "hourly",
+  "final": "hourly",
+  "sided_with": "PDF",
+  "quotes": "Using these data, a model of yearly crop yield, land use, and economic production was created in Microsoft Excel. (PDF p.8, Model Development) | First, the model bases its projections on data from the winter solstice, in order to create a conservative estimate. (PDF p.15, Discussion/future work)",
+  "reason": "Convention: where the traded-off outputs come from sub-models with different steps, the step that resolves the trade-off (the coarsest among the traded-off outputs) is coded, as the conservative reading of 'time step of the model used for the decision outputs'; the crop output is a static yearly yield on a plantable area fixed from one winter-solstice shadow calculation, so the crop-PV trade-off is resolved statically; the PV sub-model alone is hourly (OpenDSS, 8760 h, 'sent to the AgPV model', PDF p.12), which would give 'hourly' under a finest-step convention."
+ },
+ {
+  "rid": "R0603",
+  "field": "linked",
+  "text": true,
+  "pdf": false,
+  "final": true,
+  "sided_with": "text",
+  "quotes": "To assess agricultural yield, the irradiation simulation based on the proposed system geometry concluded with an average annual photosynthetically active radiation (PAR) of 62%. (PDF p.8 / p.040001-7, Economic Analysis) | The agricultural yield assessments suggest a yield increase of 33% for cotton and 11% for tomato. (PDF p.8 / p.040001-7, Economic Analysis)",
+  "reason": "A one-way chain exists: the PV array geometry drives an irradiation simulation whose crop-level PAR (62%) is used 'to assess agricultural yield'; the PAR-to-yield step is literature-based and only annual-average, so the link is weak but present (the irrigation requirements are not linked to shading)."
+ },
+ {
+  "rid": "R0603",
+  "field": "specific_installation",
+  "text": false,
+  "pdf": true,
+  "final": true,
+  "sided_with": "PDF",
+  "quotes": "This paper summarizes the results of an agrivoltaic feasibility study conducted for a project site in Maharashtra, Western India, where an investor considered installing a GM-PV system on more than 100 ha of fertile agricultural land (PDF p.3 / p.040001-2, Introduction) | The geometric parameters are specified at a vertical clearance of 4 meters, a row distance of 5 meters, an orientation towards south west of 208 degree (PDF p.4 / p.040001-3, Proposed Technical and Agricultural Design)",
+  "reason": "The design is a planned system for a named, real project site (125 ha acquired by the investor) with site-specific layout parameters, not a generic design."
+ },
+ {
+  "rid": "R0915",
+  "field": "outputs_with_error_statistic",
+  "text": [
+   "pv_energy"
+  ],
+  "pdf": [],
+  "final": [],
+  "sided_with": "PDF",
+  "quotes": "Based on the PV cell temperature Tcell and power output Pm of Eq. (6), the simulated power generation of the PV arrays and measurement are plotted in Fig. 10. (p.12, Sec. 4.1.1 Coupled model validation) | The results indicate that the maximum RE and RMSE of the SOC are 3.45% and 0.01, respectively. (p.12, Sec. 4.1.1)",
+  "reason": "Simulated PV power is only plotted against measurement with no statistic; the reported errors are for air temperature, PAR and battery SOC, none of which is a traded-off output, and the photosynthesis R2 values (0.98, 0.95) are curve fits, not validation of crop output."
+ },
+ {
+  "rid": "R0984",
+  "field": "outputs_with_error_statistic",
+  "text": [
+   "crop",
+   "pv_energy"
+  ],
+  "pdf": [
+   "pv_energy"
+  ],
+  "final": [
+   "pv_energy"
+  ],
+  "sided_with": "PDF",
+  "quotes": "Similar results were measured in the field. In the rain-fed growing season of 2021, the root biomass of sugar beets decreased by 26% in the vertical setup, whereas in the smart tracking setup, the reduction was only 22%. (p.5, Sec. 3.2) | the specific yield was found to be 10% lower for the vertical system and 7% lower for the tracker setup compared to theoretical expectations (p.10, Sec. 4)",
+  "reason": "The crop estimate (20% and 15% loss, Fig. 14) is set beside measured losses (26% and 22%) and called 'similar' with no error statistic reported, so only PV output, which has a reported percentage deviation and a measured-data calibration with train/test split, qualifies."
+ },
+ {
+  "rid": "R1449",
+  "field": "model_time_step",
+  "text": "hourly",
+  "pdf": "daily",
+  "final": "sub_hourly",
+  "sided_with": "neither",
+  "quotes": "As GrassGro requires daily solar radiation as an input parameter, the insolation modelling calculations performed at the 15-minute time step were summed up to obtain daily ground surface insolation and provided as an input parameter to GrassGro. (p.5, Sec. 2.4) | Since, most agricultural models simulate agricultural production at daily timescale, the generated array of insolation profiles at hourly scale are summed up to yield the daily insolation (p.2, Sec. 2)",
+  "reason": "Convention: where the traded-off outputs come from sub-models with different steps, the step that resolves the trade-off (the coarsest among the traded-off outputs) is coded, as the conservative reading of 'time step of the model used for the decision outputs'; the crop output comes from GrassGro run daily on daily insolation sums, so the crop-PV trade-off is resolved daily; insolation is computed at 15 min and PV in SAM from hourly TMY data, which would give 'sub_hourly' under a finest-step convention."
+ },
+ {
+  "rid": "R1823",
+  "field": "model_time_step",
+  "text": "NR",
+  "pdf": "hourly",
+  "final": "hourly",
+  "sided_with": "PDF",
+  "quotes": "the shading factor for the one-axis and two-axis AV systems layouts needs to be calculated hourly (PDF p.12, Sec. VII.C) | The measured factors in this figure are irrigation supply, storage deficit, deficit rate, reliability and irrigation water productivity which are calculated from the planting starting date from 0 to 8 months. (PDF p.11, Sec. VIII.A)",
+  "reason": "Convention: where the traded-off outputs come from sub-models with different steps, the step that resolves the trade-off (the coarsest among the traded-off outputs) is coded, as the conservative reading of 'time step of the model used for the decision outputs'; only the PV and shading part is stated as hourly (with daily and monthly sums, Eq. 21, PDF p.10); the time step of the crop and water outputs is not stated (the water-rights model is indexed by year, PDF p.5), so NR is the conservative code; a finest-step convention would give 'hourly'."
+ },
+ {
+  "rid": "R2191",
+  "field": "linked",
+  "text": true,
+  "pdf": false,
+  "final": false,
+  "sided_with": "PDF",
+  "quotes": "A shading percentage of “normal” indicating 0% shading, 50% and 75% shading was studied. (p.20, Sec. 2.5 Methodology of sensitivity analysis) | the discrete shading levels applied in this study represent bounded conditions rather than exact replication (p.35, Sec. 3.4)",
+  "reason": "AquaCrop is run at fixed generic shading levels that are not derived from the PVsyst/HelioScope designs, and the two sides are combined only in a post hoc LER sum, so no sub-model feeds or exchanges variables with the other."
+ },
+ {
+  "rid": "R2355",
+  "field": "specific_installation",
+  "text": false,
+  "pdf": true,
+  "final": false,
+  "sided_with": "text",
+  "quotes": "The geographical coordinates of the site are essential to accurately model solar positioning and irradiance. The simulation is set in Valencia, Spain. (p.1, Sec. 3.A Location and Time Range) | The base agrivoltaic system comprises 176 solar panels covering a 2,678.5 m2 area. (p.2, Sec. 3.B Dimensions of agrivoltaic farm)",
+  "reason": "The farm is an author-defined design placed at Valencia city coordinates (39.47391, -0.37966) with Open-meteo weather; no existing or planned installation is named and the conclusions call the framework 'theoretical', so this is coded as a hypothetical design (conservative where the abstract's 'system located in Valencia' is loose)."
+ },
+ {
+  "rid": "R2529",
+  "field": "specific_installation",
+  "text": false,
+  "pdf": true,
+  "final": true,
+  "sided_with": "PDF",
+  "quotes": "The choice of a single-axis architecture is motivated by the existing APV infrastructure at the Kärrbo Prästgård research site near Västerås, Sweden (59.55N, 16.76E), which hosts the country's first operational APV facility. (pp.3-4, Sec. 2.1) | This alignment ensures consistency between the simulated tracking framework and the on-site system (p.4, Sec. 2.1)",
+  "reason": "The model reproduces the existing 26.1 kWp single-axis tracker at Kärrbo Prästgård (three 20 m rows, 10 m apart, 1.8 m hub, 45 named bifacial modules, rotation limits matched to site) with SMHI weather, so it represents a specific existing installation even though it is not validated."
+ },
+ {
+  "rid": "R2700",
+  "field": "outputs_with_error_statistic",
+  "text": [],
+  "pdf": [],
+  "final": [],
+  "sided_with": "both",
+  "quotes": "Measured performance data for utility-scale plants in the Bajío are not publicly available, so a comparison with field data was not possible; the result should be read as a typical-year estimate. (p.11, Sec. 4.1) | the analysis considers a single site, a typical meteorological year and a monofacial, fixed-tilt design, without measured PV or crop data from the site (p.23, Sec. 5)",
+  "reason": "No output is compared with measurements; the PV estimate is checked only against other models (1 ha run, PVWatts, pvlib). The PDF value ['water'] in the group file comes from a different paper (R1988, Desheng PV station soil-moisture validation), not this one."
+ },
+ {
+  "rid": "R2700",
+  "field": "specific_installation",
+  "text": false,
+  "pdf": false,
+  "final": false,
+  "sided_with": "both",
+  "quotes": "The reference site is located in the state of Querétaro at 20.747° N, 100.255° W (p.6, Sec. 3.1) | The reference system occupies a 1 ha plot and consists of fixed-tilt, south-facing rows of monofacial crystalline-silicon modules (p.6, Sec. 3.2)",
+  "reason": "An author-defined 'reference system' on a 1 ha plot at a reference site, with no existing or planned project and no site data, is a hypothetical design."
+ },
+ {
+  "rid": "R2700",
+  "field": "model_time_step",
+  "text": "hourly",
+  "pdf": "hourly",
+  "final": "hourly",
+  "sided_with": "both",
+  "quotes": "the shading yield factor is an exogenous, literature-bounded parameter rather than the output of a calibrated crop model (p.23, Sec. 5) | Crop water requirements were estimated using FAO-56 Penman–Monteith reference evapotranspiration (ET0), computed daily from the TMY (p.8, Sec. 3.4)",
+  "reason": "Convention: where the traded-off outputs come from sub-models with different steps, the step that resolves the trade-off (the coarsest among the traded-off outputs) is coded, as the conservative reading of 'time step of the model used for the decision outputs'; crop yield is a static seasonal factor fs (scaled by April-September shade), water is daily FAO-56 ET with monthly shading fractions, and PV is hourly SAM on NSRDB TMY; a finest-step convention would give 'hourly'."
+ },
+ {
+  "rid": "R0149",
+  "field": "independent",
+  "text": false,
+  "pdf": true,
+  "final": true,
+  "sided_with": "PDF",
+  "quotes": "From independent field measurements of each driver, we analyzed how PVP shade have modified plant and soil water losses, in order to explain the observed modification of AET (Sec. 2.2, p. 41 [PDF p. 4]) | the predictive quality of Eq. (7) used as a model would be rather poor: the corresponding root mean square error is 16 mm, i.e. 23% of the mean AET measured for lettuces with the soil water balance. (Sec. 2.2.2, p. 42 [PDF p. 5])",
+  "reason": "Eq. 7 is built from weather-based ET0, cover and stomatal-conductance fits and a literature soil-evaporation model, and none of these was fitted to the water-balance AET it is scored against, so that RMSE comparison uses measurements not used for fitting. It is the same site and season, not a held-out period."
+ },
+ {
+  "rid": "R0737",
+  "field": "outputs_with_error_statistic",
+  "text": [
+   "pv_energy"
+  ],
+  "pdf": [
+   "crop",
+   "pv_energy"
+  ],
+  "final": [
+   "crop",
+   "pv_energy"
+  ],
+  "sided_with": "PDF",
+  "quotes": "The R 2 value between the measured yields and the observed yields of the five crops is 96.36%. (Sec. 4.1 Model Validation) | The electricity estimation model has a R 2 of 80.17%, and the crop yield estimation model has a R 2 of 96.36%. (Sec. 6 Conclusions)",
+  "reason": "Both the crop-yield model (Eq. 17) and the electricity model are scored against field measurements with an R2. These are calibration-sample fits, but this field does not require independence."
+ },
+ {
+  "rid": "R0918",
+  "field": "specific_installation",
+  "text": false,
+  "pdf": true,
+  "final": false,
+  "sided_with": "text",
+  "quotes": "This study established a model that calculates the quantitative effect of the introducing the system in any area with solar irradiation data based on taro cultivation in Miyazaki Prefecture as a model case. (Sec. 5 Conclusions) | This study envisions the installing of the most basic fixed solar panels; however, the effects of varying shading rates between the cultivation period and non-cultivation period are examined. (Sec. 1.2 Purpose)",
+  "reason": "No existing or planned installation is modelled. It uses generic fixed panels with assumed shading rates, an assumed 10,000 m2 farm and the prefecture's 10-year mean PPFD. Miyazaki appears only as the regional model case and as the source of yield statistics."
+ },
+ {
+  "rid": "R1200",
+  "field": "independent",
+  "text": false,
+  "pdf": true,
+  "final": true,
+  "sided_with": "PDF",
+  "quotes": "Figure 8 a shows a summary of the predicted monthly energy production using historical data from 2004 to 2016 (blue bars) and measured data from 2019 to 2021 (orange bars). (Sec. 4.1) | Using the online platform Solar Explorer, a simulation was carried out for ST-PVG, considering the inclination of the roof of 23°, an azimuth angle of −8° representing the orientation of ST-PVG (Sec. 3)",
+  "reason": "The PV production estimate was simulated from 2004-2016 historical data and compared with inverter-measured production for 2019-2021, which was not used to build it. That is a held-out period, though only for PV production; the MPC energy-hub results are not validated."
+ },
+ {
+  "rid": "R1663",
+  "field": "specific_installation",
+  "text": false,
+  "pdf": true,
+  "final": true,
+  "sided_with": "PDF",
+  "quotes": "In the first part of the present work, the possible installation of a 10 kW APV plant was considered to serve the farm, while keeping the existing connection to the national grid. (p. 10) | a program employed for the assessment of each of the suggested solutions against energetic loads belonging to the real farm considered as a case study. (p. 17)",
+  "reason": "It models a planned 10 kW plant for a named, real farm (Vito Nigro's Farm, Sant'Arcangelo, with coordinates), using the farm's own electricity consumption data."
+ },
+ {
+  "rid": "R1663",
+  "field": "model_time_step",
+  "text": "NR",
+  "pdf": "hourly",
+  "final": "hourly",
+  "sided_with": "PDF",
+  "quotes": "The computational procedure employed an hourly temporal resolution to capture diurnal variations in solar positions and irradiance patterns (Sec. 3.1, p. 11) | The hourly data relative to APV electrical production were obtained by employing PVSyst® software, considering the actual plant configuration (p. 18)",
+  "reason": "Both the crop-shading calculation (Matlab) and the PV output (PVsyst feeding TRNSYS) are explicitly run hourly."
+ },
+ {
+  "rid": "R1949",
+  "field": "specific_installation",
+  "text": false,
+  "pdf": true,
+  "final": true,
+  "sided_with": "PDF",
+  "quotes": "A total of 43 modules were installed per site, yielding a PV DC nameplate capacity of 30 kWpDC. (Sec. 3.2) | Data such as solar radiation, precipitation, temperature, evapotranspiration were obtained from the IDEAM meteorological stations located in each case study area (Sec. 3.1)",
+  "reason": "It models planned pilot systems at two named municipalities (Pisba, Cabrera), with specified hardware and layout and local station data. This is borderline: the system is not yet built (Sec. 3.2: 'prior to fabricating any physical prototype') and is sited by municipality, not by a surveyed plot."
+ },
+ {
+  "rid": "R2220",
+  "field": "linked",
+  "text": false,
+  "pdf": true,
+  "final": false,
+  "sided_with": "text",
+  "quotes": "If water-stress probability > 0.7, or when the canopy wilting index exceeds the set threshold, irrigation is triggered. (Sec. 4.7, p. 112) | As per the ST-PV logs, the electrical yield went up with the proportion of shading, whilst the CNN-derived biomass estimates declined at 20-30% shading. (Sec. 5.5, p. 114)",
+  "reason": "The CNNs estimate crop state from images and fire threshold rules for shading and irrigation. No PV-output or water model receives or supplies these variables, and the PV-crop and water-crop trade-offs come from logged treatment data, not linked models. The closed-loop results are also unquantified placeholders ('x%', 'z%'), so I took the conservative code."
+ },
+ {
+  "rid": "R2430",
+  "field": "model_time_step",
+  "text": "hourly",
+  "pdf": "daily",
+  "final": "hourly",
+  "sided_with": "text",
+  "quotes": "The hourly irradiance data were averaged to obtain daily values used as the PAR input for AquaCrop. (Methodology, p. 834) | Open-field irradiance was replaced with daily ground-level irradiance derived from SAM and processed in Python. (Methodology, p. 838)",
+  "reason": "SAM's hourly ground irradiance is averaged to daily values before it enters AquaCrop. The PV-to-crop coupling and the crop and water outputs therefore run at a daily step; only the PV output is hourly."
+ },
+ {
+  "rid": "R2539",
+  "field": "specific_installation",
+  "text": false,
+  "pdf": true,
+  "final": true,
+  "sided_with": "PDF",
+  "quotes": "In this study, we explore this by assessing the technical and economic feasibility of a range agrivoltaic systems in a Zimbabwean farming community. (Introduction, p. 2) | A questionnaire (see Supplementary Methods) was used to determine the type of appliances and the number used within the eight homestead households surrounding the farm (Energy demand, p. 3)",
+  "reason": "Candidate designs are sized for a real 54 ha case-study farm, with load data from an on-site questionnaire and local climate inputs. This is consistent with R1663 (design options for a real farm)."
+ },
+ {
+  "rid": "R2539",
+  "field": "model_time_step",
+  "text": "NR",
+  "pdf": "hourly",
+  "final": "NR",
+  "sided_with": "text",
+  "quotes": "The daily useful PAR is determined by integrating the PAR available to the crop for the day, up to the LSP. (Agrivoltaic crop yield modelling, p. 7) | 5% of unmet energy affecting 3.9% of hours means that unmet energy demand is concentrated in high-load hours (Results, p. 9)",
+  "reason": "The main text never states the model time step. 'Hours' implies hourly CLOVER dispatch, and the crop yield ratio is computed per day; settings are deferred to the Supplementary Methods, so I coded the conservative NR."
+ },
+ {
+  "rid": "R2753",
+  "field": "linked",
+  "text": true,
+  "pdf": false,
+  "final": false,
+  "sided_with": "PDF",
+  "quotes": "Total taro weight was analysed using random-intercept linear mixed-effects models (LMMs). Panel size (PS), reflective-sheet treatment (RS), and experimental year (YR) were specified as fixed effects. (Data analysis, p. 7) | Since the power generation output is an estimated value based on PPFD, however, the LER is referred to as \"estimated LER\" in this paper. (Estimated land equivalent ratio, p. 7)",
+  "reason": "Crop yield is measured and tested statistically (LMM), not modelled. Electricity is a separate GCR x (1+α) estimate, and the two meet only in the LER sum, so no subsystem model feeds another."
+ },
+ {
+  "rid": "R2753",
+  "field": "model_time_step",
+  "text": "NR",
+  "pdf": "sub_hourly",
+  "final": "hourly",
+  "sided_with": "neither",
+  "quotes": "The average PPFD received by the back of the panel due to the reflective sheets during the entire cultivating period was approximately 20% of the top surface ... αij in Eq. (2) is estimated as 0.2. (p. 9) | A power generation simulation was performed using PVlib (William et al., 2018) to verify the consistency between the amount of PPFD and the amount of power generated (p. 7)",
+  "reason": "The decision outputs (electricity ratio, crop ratio, LER) are per-season values built from season-average PPFD. The 10-minute interval is the sensor logging rate, and the hourly PVlib run only checks the PPFD proxy; NR is the alternative if a time step must be stated explicitly."
+ },
+ {
+  "rid": "R0341",
+  "field": "model_time_step",
+  "text": "sub_hourly",
+  "pdf": "daily",
+  "final": "daily",
+  "sided_with": "PDF",
+  "quotes": "\"variables: soil water reserves, Leaf Area Index, dry matter, agricultural yield) and the model runs at a daily time step.\" (Sec. 2.5.3, p. 444) | \"However, the daily step of the model caused \"temporal errors\" for rainfalls or irrigations that occurred late in the day.\" (Sec. 3.2.1, p. 450)",
+  "reason": "AVirrig, which produces the crop and water outputs, is explicitly run at a daily step; sub-daily stomatal dynamics are integrated into daily stress factors and the 10-min data are only measurements."
+ },
+ {
+  "rid": "R0838",
+  "field": "specific_installation",
+  "text": false,
+  "pdf": true,
+  "final": false,
+  "sided_with": "text",
+  "quotes": "\"The specifications for the Greenhouse and the crops for the proposed model is shown in Table 1.\" (Sec. III.A, p. 2400) | \"Length 44 cm Width 33 cm Height 65 cm\" (Table 1, p. 2400) | \"The model is prepared as per the design using the technique of agrivoltaics, which involves utilizing solar panels on the same land where crops are grown.\" (Sec. V.B, p. 2406)",
+  "reason": "Genuinely ambiguous, so coded conservatively: the only built object is a 44 x 33 x 65 cm bench-scale physical model of a generic 'proposed' greenhouse design with no site, so it is a demonstrator of a design rather than a particular existing or planned installation."
+ },
+ {
+  "rid": "R0922",
+  "field": "independent",
+  "text": false,
+  "pdf": true,
+  "final": true,
+  "sided_with": "PDF",
+  "quotes": "\"2) the crop model has calibrated with crop yield measurements from the reference area; 3) the calibrated model has been then fed with the microclimatic conditions of the agrivoltaic system\" (Sec. 2.3, PDF p. 20) | \"The first conclusion is that the calibrated model shows a difference of 15% compared to the actual measurements of the average crop yield under the APV system.\" (Sec. 3.4, PDF p. 37)",
+  "reason": "The crop sub-model was calibrated only on open-field reference-area (group R) yields and then compared, without refitting, with yields measured under the APV system, a held-out plot."
+ },
+ {
+  "rid": "R0922",
+  "field": "model_time_step",
+  "text": "NR",
+  "pdf": "daily",
+  "final": "NR",
+  "sided_with": "text",
+  "quotes": "\"The model developed by Campana et al. (2021, 2022) has been employed in this study to simulate the effects of shadings on crop yield.\" (Sec. 2.3, PDF p. 19)",
+  "reason": "The paper never states the internal or output time step of Agri-OptiCE (no mention of hourly or daily steps); a daily step is plausible for an EPIC-type crop model but is not stated, so NR."
+ },
+ {
+  "rid": "R1271",
+  "field": "model_time_step",
+  "text": "NR",
+  "pdf": "hourly",
+  "final": "NR",
+  "sided_with": "text",
+  "quotes": "\"Our simulations utilize typical meteorological data for Khanewal, Punjab, Pakistan (30.2864 °N, 71.9320 °E) [32], [36].\" (Sec. II.B, p. 4) | \"ST is implemented for 𝑛 hours with n/2 number of hours on each side of midday (noon) while AT is implemented for the rest of the day\" (Sec. II.A, p. 4)",
+  "reason": "Typical-meteorological-year inputs and whole-hour tracking schedules imply an hourly step, but the paper never states the model time step, so the conservative code NR is kept."
+ },
+ {
+  "rid": "R1759",
+  "field": "independent",
+  "text": false,
+  "pdf": true,
+  "final": true,
+  "sided_with": "PDF",
+  "quotes": "\"the model was initially applied over the calibration sites for testing LAI and biomass accumulation (Site A) and phenology (Site B)\" (Sec. 2.3.3, p. 10) | \"The performance of the calibrated model was evaluated under bi-axial AVS (Site C) conditions during the 2024 growing season.\" (Sec. 3.3, p. 14)",
+  "reason": "Site C (bi-axial AVS, 2024) was not used for calibration and its dry matter yield was predicted with R2 0.94 and RMSE 39.3 g m-2, which is a held-out site; Site B was only partly independent because its phenology was used in calibration."
+ },
+ {
+  "rid": "R1988",
+  "field": "outputs_with_error_statistic",
+  "text": [
+   "water"
+  ],
+  "pdf": [
+   "water"
+  ],
+  "final": [
+   "water"
+  ],
+  "sided_with": "both",
+  "quotes": "\"For moisture content, the average RMSE values are 0.0012 under PV arrays (Figs. 4a) and 0.0007 between PV arrays (Fig. 4b), indicating a close match between simulation and observation. The corresponding R2 values are 0.973 and 0.962\" (Sec. 3.1, p. 7) | \"For soil moisture, the RMSE was less than 0.0012 v/v, with R2 above 0.96 and RE below 0.4 %, indicating excellent agreement with field observations.\" (Sec. 5, p. 13)",
+  "reason": "Simulated soil moisture (the water output) was compared with field observations using RMSE, R2 and RE; crop biomass comes only from field quadrats and was never compared with model output, so only water qualifies."
+ },
+ {
+  "rid": "R1988",
+  "field": "specific_installation",
+  "text": true,
+  "pdf": true,
+  "final": true,
+  "sided_with": "both",
+  "quotes": "\"The model was validated with field observations and applied to a representative PV site in Zhangjiakou, northern China.\" (Abstract, p. 1) | \"The PV panels in the study area are arranged in rows with east–west orientation and inclined southward at a set tilt angle of 25–35◦\" (Sec. 2.1.1, p. 3)",
+  "reason": "The SPPVAC model represents the existing Desheng PV station, using its panel layout and an inlet boundary 'based on observed data', and it was validated against measurements taken at that station."
+ },
+ {
+  "rid": "R1988",
+  "field": "model_time_step",
+  "text": "NR",
+  "pdf": "NR",
+  "final": "NR",
+  "sided_with": "both",
+  "quotes": "\"Wind velocity and direction were continuously recorded at 30-min intervals using JD-QC5 standard automatic meteorological stations\" (Sec. 2.1.2, p. 3) | \"A convergence criterion of 10− 6 was applied for residuals of velocity, pressure, and temperature\" (Sec. 2.2.3, p. 7)",
+  "reason": "The CFD model's time step is not stated (only solver convergence criteria are given), and the 30-min figure is the sensor logging interval, so NR."
+ },
+ {
+  "rid": "R2246",
+  "field": "model_time_step",
+  "text": "NR",
+  "pdf": "daily",
+  "final": "NR",
+  "sided_with": "text",
+  "quotes": "\"Ycrop,AV (Agrivoltaic): Simulated using STICS crop model with radiation inputs modified for agrivoltaic shading\" (Appendix A (LER calculation), p. 9) | \"Gtotal = 289 W/m² (annual global horizontal irradiance at Jodhpur)\" (Appendix A (energy component), p. 9)",
+  "reason": "The paper never states a STICS time step ('daily' does not appear for the model), and PV energy comes from a single annual-mean irradiance formula, so a daily step is not supported and NR is the conservative code."
+ },
+ {
+  "rid": "R2509",
+  "field": "linked",
+  "text": true,
+  "pdf": false,
+  "final": true,
+  "sided_with": "text",
+  "quotes": "\"To simulate crop growth, AquaCrop requires the integration of several model components, including the soil (through its water balance), the crop (through crop development, growth, and yield processes)\" (Sec. 2.1, p. 3) | \"Water stress influences crop development at multiple levels: it reduces canopy expansion (a), accelerates canopy senescence (b), and, under severe conditions, limits root deepening (c).\" (Sec. 2.1, p. 3)",
+  "reason": "For the irrigation decision the traded-off subsystems are water and crop, and AquaCrop is one integrated model in which the simulated soil water balance drives transpiration, biomass and yield; the missing PV or light coupling is irrelevant to this decision."
+ },
+ {
+  "rid": "R2576",
+  "field": "linked",
+  "text": true,
+  "pdf": false,
+  "final": false,
+  "sided_with": "PDF",
+  "quotes": "\"In the case of A. donax cultivated under tilted monofacial panels, a reduction in photosynthetically active radiation (PAR) between 25 and 30% is assumed.\" (Economic section, p. 14313) | \"the reported shading percentages represent estimates derived from the plant configurations selected and simulated in this study (module geometry, orientation, and row arrangement) and are therefore used as parametric inputs for yield assessment.\" (p. 14314)",
+  "reason": "Genuinely ambiguous, so coded conservatively: PAR reductions are assumed ranges and biomass losses are fixed literature-based percentages, and no light or PV model output is passed to a crop model (PVsyst gives energy only)."
+ },
+ {
+  "rid": "R2576",
+  "field": "specific_installation",
+  "text": false,
+  "pdf": true,
+  "final": false,
+  "sided_with": "text",
+  "quotes": "\"The objective is to evaluate the proposed approach through three representative agrivoltaic layouts, assessing renewable energy generation, biomass production, and techno-economic performance under the environmental conditions of the study area.\" (Case study: Augusta, p. 14311) | \"A PVsyst simulation was performed for a 1-hectare area using monofacial photovoltaic modules with a nominal power of 450 Wp.\" (Integrated system options, p. 14316)",
+  "reason": "The three 1-ha layouts are hypothetical 'representative' designs placed in a real region (Augusta), not a particular existing or planned installation."
+ },
+ {
+  "rid": "R2775",
+  "field": "linked",
+  "text": true,
+  "pdf": false,
+  "final": false,
+  "sided_with": "PDF",
+  "quotes": "\"The PV panels could not be interconnected to the grid, so the energy yield assessment was theoretical and obtained using the panel power and ambient temperature data over time\" (Sec. 2.4, p. 3) | \"A 2x3 factorial experiment (three crops x two growing conditions, AV vs. OF) with three replicates per treatment (N=3; 18 experimental units total) was conducted to measure biomass and bioelement content.\" (Abstract, p. 1)",
+  "reason": "The only model is a stand-alone PV energy equation driven by measured irradiance and temperature; crop output is measured, water is not modelled, and the LER only adds measured yield to theoretical energy, so no subsystem model feeds another."
+ },
+ {
+  "rid": "R0526",
+  "field": "model_time_step",
+  "text": "NR",
+  "pdf": "hourly",
+  "final": "NR",
+  "sided_with": "text",
+  "quotes": "The hourly variation of weathers data is shown in Table 3 and Table 4. The solar irradiation, temperature and relative humidity in greenhouse were considered from 6:00 to 18:00. (Sec. 2.2 Experimental measurements, p.3) | The thermal boundary conditions executed fixed temperatures at the side walls, roof, and surfaces and along the ground of the greenhouse model. (Sec. 3.4 Mesh and boundary conditions, p.6)",
+  "reason": "The hourly series are measured weather data (Tables 3-4). The paper never says whether the ANSYS Fluent CFD model is steady or transient, or what time step it uses, and it gives no time step for the crop/transpiration or PV energy outputs, so NR."
+ },
+ {
+  "rid": "R0897",
+  "field": "outputs_with_error_statistic",
+  "text": [
+   "crop"
+  ],
+  "pdf": [],
+  "final": [
+   "crop"
+  ],
+  "sided_with": "text",
+  "quotes": "The coefficient of determination (R2) of Equation (4) is 99.72% so that the developed model can accurately estimate soybean yields under different shading ratios. (Sec. 2.2.2 Crop Production Yield Estimation) | Table 1 describes the yield estimation model of Soybean production devised under different shading ratios based on the field study data. (Sec. 2.2.1)",
+  "reason": "Under the literal definitions, the R2 of the soybean regression compares the model with the Naju field yields given in the paper (-13/-21/-30%), so crop counts. It is an in-sample fit, though, so independence is 'no'. The PV regression (Eq. 3) has no statistic and no comparison with measurements."
+ },
+ {
+  "rid": "R0967",
+  "field": "model_time_step",
+  "text": "NR",
+  "pdf": "hourly",
+  "final": "hourly",
+  "sided_with": "PDF",
+  "quotes": "The OWEFE model of the agrivoltaics system Hegelbach has been simulated in an hourly time step for the year 2018. (Sec. 4.2, p.13) | Incoming hourly solar radiation from the sun is retrieved from the era5 dataset (B). (Sec. 4.1, p.12)",
+  "reason": "The paper states explicitly that the Hegelbach agrivoltaic model, which produces the electricity and wheat-yield outputs, runs at an hourly time step."
+ },
+ {
+  "rid": "R1312",
+  "field": "model_time_step",
+  "text": "NR",
+  "pdf": "sub_hourly",
+  "final": "hourly",
+  "sided_with": "neither",
+  "quotes": "The light models operate at the time resolution imposed by the weather data ... As the crop models currently available in PASE 1.0 operate on a daily time step, these irradiance data are integrated on a daily basis (Sec. 2.4.2, p.13) | The multi-year analysis was performed with PASE 1.0 using the hourly weather data PVGIS-SARAH from PVGIS (JRC, 2022), available on 12 years (Sec. 3.2, p.15)",
+  "reason": "The Wallhausen decision run uses hourly weather, so the light-sharing and PV chain runs hourly and the crop model runs daily. The quarter-hour step applied only to the Sec. 3.1 pyranometer validation, so sub_hourly is wrong. Hourly is the finest step behind the decision outputs. If the time-step condition is applied to the irrigation outputs (crop, water) on their own, the step is daily."
+ },
+ {
+  "rid": "R1783",
+  "field": "specific_installation",
+  "text": false,
+  "pdf": true,
+  "final": true,
+  "sided_with": "PDF",
+  "quotes": "The study system is located in the municipality of Slouguia, Beja governorate, northern Tunisia (36.73°N, 9.18°E, elevation 84 m). The site has deep calcareous vertisol soils with a field capacity of 0.38 m³/m³ (Sec. 3 Methodology, p.24) | The AV PV system comprises 480 bifacial PERC modules (manufacturer: LONGi Solar, model LR5-72HBD 550 Wp ...) mounted on galvanised steel racking structures at 32° fixed tilt, south-facing, with 8 m east-west row pitch (Sec. 3, p.25)",
+  "reason": "The model represents one particular 2 ha system at a real site, with site soil properties, a grid connection, named module and inverter models, row pitch, and steel quantities from 'structural engineering drawings'. That is a particular planned installation, not a generic design. The 'prospective' caveat (p.28) refers to modelled rather than operational outputs."
+ },
+ {
+  "rid": "R2043",
+  "field": "model_time_step",
+  "text": "hourly",
+  "pdf": "daily",
+  "final": "hourly",
+  "sided_with": "text",
+  "quotes": "Hourly irradiance values were aggregated to daily solar radiation (MJ/m²/day). These values replaced the solar radiation column in DSSAT weather files. (Sec. 3.1.1, p.4) | The model simulates daily crop growth based on weather data, soil properties, and crop genetics. (Sec. 2.1, p.2)",
+  "reason": "The only decision is irrigation, whose outputs (alfalfa biomass, water use efficiency) come from DSSAT at a daily step. SAM's hourly irradiance is only an input, aggregated to daily before it enters DSSAT."
+ },
+ {
+  "rid": "R2311",
+  "field": "outputs_with_error_statistic",
+  "text": [],
+  "pdf": [
+   "crop"
+  ],
+  "final": [
+   "crop"
+  ],
+  "sided_with": "PDF",
+  "quotes": "At n = 6 no single coefficient reliably summarizes the agreement ... the RMSE (0.154) approaches the field standard deviation (0.161) (Table 3 note, p.9-10) | The bibliographic parametrization (the genuine out-of-sample test) reproduces the direction and magnitude of the shade effect without systematic bias (mean bias +0.01) (Sec. 2.4, Validation of the Agronomic Constraint, p.11)",
+  "reason": "The crop yield ratio is compared with the Foggia field measurements and reported with RMSE 0.154 and MBE +0.01. The ETc (water) reduction is compared only as simulated vs observed values, with no statistic. PV is 'not field-validated here' and soiling is not compared, so only crop qualifies."
+ },
+ {
+  "rid": "R2311",
+  "field": "independent",
+  "text": false,
+  "pdf": true,
+  "final": true,
+  "sided_with": "PDF",
+  "quotes": "Table 3. Under-panel/full-sun fresh-yield ratio, simulated (both parametrizations) versus field, 2023. The bibliographic parametrization is the out-of-sample validation. The field-calibrated one is a calibratability demonstration. (Table 3 caption, p.9) | The crop-coupling sub-models were validated against two independent field campaigns of a dynamic single-axis tracker over six aromatic species [30,31]. (Sec. 2.4, p.9)",
+  "reason": "The bibliographic run uses literature parameters not fitted to the Foggia data, and the paper calls it explicitly the out-of-sample validation. At least one comparison therefore uses measurements not used for calibration. Only the separate field-calibrated run is in-sample."
+ },
+ {
+  "rid": "R2517",
+  "field": "independent",
+  "text": false,
+  "pdf": true,
+  "final": true,
+  "sided_with": "PDF",
+  "quotes": "These model inputs were customized based on measured soiling data collected at the Laujar site, which were used to assess and minimize deviations between Kimber model estimations and observed soiling behavior. (Sec. 2.4.2 PV model, p.7) | At the Seville site (Fig. 10), the simulations overestimated the measurements during all the period, with the exception of February 2024, leading to a R2 of 0.77, an MBE of 186 kWh (nMBE of 11.4 %) (Sec. 3.3, p.13)",
+  "reason": "The PV energy model is driven by CAMS/ERA5 reanalysis and generic coefficients. Its only site tuning (Kimber soiling) used Laujar soiling data. The Seville monthly energy measurements were never used to fit the model, so the Seville comparison is a held-out site."
+ },
+ {
+  "rid": "R2517",
+  "field": "model_time_step",
+  "text": "NR",
+  "pdf": "sub_hourly",
+  "final": "sub_hourly",
+  "sided_with": "PDF",
+  "quotes": "three different statistical indicators were calculated to evaluate the agreement between the simulated monthly energy estimations and the measured monthly energy yield at both sites. (Sec. 2.5 Error metrics, p.8) | Simulation time resolution was reduced to 15 min (Seville) and 1 min (Laujar) to match measurement granularity. (Fig. 3 caption, Sec. 3.1, p.9)",
+  "reason": "The 15-min and 1-min resolutions apply only to the crop-level ray-tracing shading comparison, not to the PV and soiling outputs the cleaning decision uses. The internal step of the PV/soiling chain is not stated: outputs are reported monthly and soiling uses monthly-average precipitation. NR is the conservative code."
+ },
+ {
+  "rid": "R2661",
+  "field": "outputs_with_error_statistic",
+  "text": [],
+  "pdf": [
+   "crop"
+  ],
+  "final": [
+   "crop"
+  ],
+  "sided_with": "PDF",
+  "quotes": "Under-panel to full-sun yield ratio, six aromatic species ... MBE +0.01, RMSE 0.154, Spearman ρ 0.37 (Table 3, Sec. 2.7, p.12) | The reference trial reports no electrical output, so the photovoltaic chain cannot be validated against it. That chain was therefore verified code-to-code against an independent open-source implementation, pvlib python (Sec. 2.7, p.12)",
+  "reason": "The crop yield ratio (sage, and six species) is compared with field measurements and reported with MBE and RMSE, so crop qualifies. PV is checked only against pvlib, which is not a measurement. Water is not compared with measurements."
+ },
+ {
+  "rid": "R2778",
+  "field": "independent",
+  "text": false,
+  "pdf": true,
+  "final": true,
+  "sided_with": "PDF",
+  "quotes": "The GHI is measured using a local weather station (CMP 11), while the DHI is estimated using the Erbs model. (Sec. 5.2.2, p.9) | Considering the entire dataset, the model demonstrated an overall R2 = 0.98, RMSE = 13 W/m2, and nRMSE < 5%. (Sec. 5.2.2, p.10)",
+  "reason": "The view-factor model has no fitted parameters. Its inputs are geometry, measured GHI with Erbs DHI, and a shade-net transparency measured separately with a reference cell, so the Belfaa pyranometer data serve only for comparison. Caveat: the validated output is ground irradiance, not a traded-off output, since crop yield and PV energy were never compared with measurements."
+ },
+ {
+  "rid": "R2778",
+  "field": "specific_installation",
+  "text": false,
+  "pdf": true,
+  "final": false,
+  "sided_with": "text",
+  "quotes": "A sensitivity analysis is carried out for an APVs in Agadir (30.341, − 9.507), Morocco. The reference APV layout consists of five rows of ten bPV modules rated at 500 Wp each. (Sec. 3, p.3) | The proposed configurations should therefore be considered as pre-design solutions and adjusted based on the crops, culture system and level of mechanization. (Sec. 6.2.1, p.14)",
+  "reason": "The decision outputs (PV yield, LPF/LER, wheat yield) come from a parametric reference array at Agadir (pitch 2-5 m, elevation 1.5-4.5 m, transparency 0-40%) with PVGIS TMY and an assumed albedo of 0.25. That is a hypothetical pre-design at a real location. The real Belfaa systems were used only to validate ground irradiance."
+ },
+ {
+  "rid": "R0532",
+  "field": "specific_installation",
+  "text": false,
+  "pdf": true,
+  "final": false,
+  "sided_with": "text",
+  "quotes": "As an illustrative example, all the simulations are performed for Lahore, Pakistan unless otherwise specified. (Sec. II-B, p.4) | The panel density, azimuth, and tilt angles are p/h = 2.8, 52° from south, and 20°respectively for both model and the experiment. (Sec. III-C, p.6)",
+  "reason": "The tracking analysis is run for an illustrative, generic Lahore array driven by typical meteorological data. The only real installation, Heggelbach, is a fixed-tilt array modelled just for a yield check and is not the installation the tracking decision is made for. The paper is ambiguous here, so the conservative code is no."
+ },
+ {
+  "rid": "R0532",
+  "field": "model_time_step",
+  "text": "NR",
+  "pdf": "hourly",
+  "final": "NR",
+  "sided_with": "text",
+  "quotes": "the solar irradiance is evaluated as a function of time during the day for the location specified by its latitude and longitude using Sandia's PVLib library (Sec. II-A, p.3) | By integrating the time-varying PAR over the entire day while imposing an upper limit of PARth for a given crop, we can obtain a crop-specific useful daily PAR (Sec. II-A, p.4)",
+  "reason": "The model computes irradiance within the day but never states its step: 'hourly' appears only in a reference title. Daily is just the integration period of useful PAR, and the outputs are shown monthly, so NR."
+ },
+ {
+  "rid": "R0909",
+  "field": "linked",
+  "text": true,
+  "pdf": false,
+  "final": false,
+  "sided_with": "PDF",
+  "quotes": "A conceptual algorithm is presented in Figure 3. The solar panels are oriented using information collected from environmental and plant sensors. (Sec. 3.4, p.4) | Variables that are difficult to evaluate continuously in the field such as predawn water potential can be estimated by crop models and used to take decisions (Chopard et al., 2021). (Sec. 3.4, p.4)",
+  "reason": "The study reports field measurements and shows only a conceptual steering schematic. No model linking irrigation water to crop response is described or run here, and the crop-model idea is cited to other work, so the code is no."
+ },
+ {
+  "rid": "R0979",
+  "field": "outputs_with_error_statistic",
+  "text": [],
+  "pdf": [
+   "pv_energy"
+  ],
+  "final": [
+   "pv_energy"
+  ],
+  "sided_with": "PDF",
+  "quotes": "The simulated and measured energy yield for a 300 W module, shown in Fig. 6e–f, indicates that overall, the daily generated energy error is approximately 11.82 % for the monitored time frame in 2020. (Sec. 3, p.12) | Yields for each plot were estimated and then averaged for each layout geometry or tracking scheme via the height-dependent full season energy density and observed-yield linear regression, as shown in Fig. 6c–d. (Sec. 3, p.12)",
+  "reason": "PV energy is compared with measured module output and reported with daily and total percentage errors. Yield is predicted from a regression fitted to the same observed yields, so its r = 0.243 is a fit statistic, not a validation. Only pv_energy counts."
+ },
+ {
+  "rid": "R0979",
+  "field": "independent",
+  "text": false,
+  "pdf": true,
+  "final": true,
+  "sided_with": "PDF",
+  "quotes": "Irradiance and temperature dependent current and voltage curves (IV curves) were not experimentally measured; therefore, PV module parameters were taken from the CEC database for the 300 W modules (Sec. 3, p.12) | The 100 W modules were not quantified by the CEC, therefore the single IV curve on the datasheet was leveraged with a PVLIB estimation algorithm to determine the best-fit parameters (Sec. 3, p.12)",
+  "reason": "The PV model parameters come from the CEC database or the module datasheet, so the measured module energy used in the comparison was never used to fit or calibrate the model. At least one comparison is therefore independent."
+ },
+ {
+  "rid": "R1443",
+  "field": "linked",
+  "text": false,
+  "pdf": true,
+  "final": false,
+  "sided_with": "text",
+  "quotes": "The Random Forest model predicts the nonlinear relationship among irradiance (It), panel temperature (Tp), and generated power (Pt) for different louvre angles (θt) (Sec. III-D, Light Optimization Sub-Module, p.4) | These are then normalized and combined into energy, plant, and risk scores, which feed into the multi-objective optimization engine. (Sec. III-D, Output Integration, p.5)",
+  "reason": "Crop and PV indicators are computed separately. The plant score comes from sensed plant state, and only PV power is predicted for each louvre angle. The two are only weighted together in a score, so no component represents an effect of one subsystem on the other. The undefined 'Plant_Illumination' term makes this ambiguous, and the framework is not implemented, so the conservative code is no."
+ },
+ {
+  "rid": "R1814",
+  "field": "model_time_step",
+  "text": "hourly",
+  "pdf": "daily",
+  "final": "daily",
+  "sided_with": "PDF",
+  "quotes": "the optimization model is based on quasi-steady-state environmental conditions using daily time steps, while micro-climatic fluctuations (e.g., sudden storms, quick humidity changes) might develop using shorter intervals (Sec. 9 Limitations, p.15) | Energy performance was modeled using dynamic PV generation (given by equation (1) and hourly load profiles including ventilation, irrigation, fertigation pumps, and supplemental lighting. (Sec. 6, p.11)",
+  "reason": "The paper states that the model runs at daily time steps. The only hourly element is the energy-load profile, which is not the step for the crop and water outputs."
+ },
+ {
+  "rid": "R2176",
+  "field": "linked",
+  "text": false,
+  "pdf": true,
+  "final": false,
+  "sided_with": "text",
+  "quotes": "Model-based panel-angle management using solar-position-dependent single-axis tracking and backtracking logic (Table 4, p.12) | Within the proposed digital decision-support platform, this module represents a generic maintenance recommendation methodology. (Sec. 2.3.3, p.15)",
+  "reason": "Each module runs separately on monitored data. Tilt follows solar position only, with no crop effect. Irrigation applies soil-moisture thresholds and a water balance with a fixed crop coefficient, with no crop response. Cleaning takes the soiling energy loss as a given input to a generic, unimplemented cost rule, and LCOAS only combines measured revenues. The cleaning rule is the closest to a link, so the paper is ambiguous and the conservative code is no."
+ },
+ {
+  "rid": "R2317",
+  "field": "outputs_with_error_statistic",
+  "text": [],
+  "pdf": [
+   "pv_energy"
+  ],
+  "final": [],
+  "sided_with": "text",
+  "quotes": "The prediction of the PV generation from the solar model in APSIM was in close agreement with the measured output from Solar Farm 2.0, with most discrepancies being less than 6% (Miljkovic et al., 2024). (Sec. 3.1, journal p.32 / PDF p.15) | The results showed a high level of agreement between the predictions of the soybean model and the actual historical field data from the USDA statistics (USDA NASS, 2024), as shown in Supplementary Figures 1f-h. (Sec. 3.1, journal p.32)",
+  "reason": "Both comparisons are described in words. 'Most discrepancies being less than 6%' is a loose bound, not a reported error statistic, and is credited to an earlier study. Neither traded-off output therefore has an error statistic in this paper. This is ambiguous, so the code is the conservative []."
+ },
+ {
+  "rid": "R2523",
+  "field": "outputs_with_error_statistic",
+  "text": [
+   "crop"
+  ],
+  "pdf": [
+   "crop",
+   "water"
+  ],
+  "final": [
+   "crop"
+  ],
+  "sided_with": "text",
+  "quotes": "the combined yield model output over two years against the actual yield found over both years, resulting in a p-value of 1.62 × 10−7 with a normalized mean square error (NMSE) of 0.00436 (Results, p.5) | The calculated data was compared to the given data set and found to have an RMSE = 0.18 ± 0.0354 and an R2 = 0.96 ± 0.013. (Methods, p.9; refers to the neural network used 'to estimate the unrecorded data' of soil moisture)",
+  "reason": "Yield has an NMSE and r2 against measured yield. The only water-side statistic belongs to a neural network that fills gaps in the soil-moisture records, which the model uses as an input at a non-irrigated site. That is not a predicted water output, so water is conservatively left out."
+ },
+ {
+  "rid": "R2523",
+  "field": "model_time_step",
+  "text": "seasonal_or_static",
+  "pdf": "hourly",
+  "final": "daily",
+  "sided_with": "neither",
+  "quotes": "Cumulative soil moisture for one instance was found by averaging the soil moisture over a given period of time, in this case daily, and summed over the duration of the growing season. (Methods, p.9) | the effective height of the array was adjusted on a simulated daily value to reflect the distance from tracker to top of the plant. (Results, p.4)",
+  "reason": "The yield model sums daily-averaged soil moisture and daily-updated shading over the season. No hourly step is stated anywhere, and 'seasonal' describes the yield output, not the model step."
+ },
+ {
+  "rid": "R2668",
+  "field": "linked",
+  "text": true,
+  "pdf": false,
+  "final": true,
+  "sided_with": "text",
+  "quotes": "To estimate the effect of measured soil alterations on crop yield, wheat growth was simulated with the agroecosystem simulation package Expert-N (Version XN5.2) (Sec. 2 Methodology, p.4) | Simulations of soil water dynamics and the relative reduction in actual transpiration Tact compared to potential transpiration Tpot (Figure 7) indicate that the plants suffer from water stress (Sec. 3.3, pp.7-8)",
+  "reason": "Expert-N is one integrated soil-crop model in which simulated soil water limits transpiration and crop growth. It therefore represents an effect of the water subsystem on crop yield. The missing yield validation affects other conditions, not linkage."
+ },
+ {
+  "rid": "R3122",
+  "field": "outputs_with_error_statistic",
+  "text": [],
+  "pdf": [
+   "crop"
+  ],
+  "final": [
+   "crop"
+  ],
+  "sided_with": "PDF",
+  "quotes": "The percentage error is 14% as compared to the actual yield measured in the farm where the Lanna weather station is located and 6% as compared to the county statistics. (Sec. 3.1, p.12) | A cross validation with the commercial software PVsyst® was also performed to further analyse the error in electricity production with the model implemented in this study. (Sec. 3.1, pp.11-12)",
+  "reason": "Oat yield is compared with measured farm yield and given a percentage error. PV output is checked only against PVsyst, which is software, not measurements, and water is not validated. Only crop counts."
+ },
+ {
+  "rid": "R3122",
+  "field": "specific_installation",
+  "text": false,
+  "pdf": true,
+  "final": true,
+  "sided_with": "PDF",
+  "quotes": "The data refer to a location nearby Västerås, Kärrbo Prästgård (59.5549° N, 16.7585° E) in Västmanland, where the first agrivoltaic system in Sweden will be installed. (Sec. 2.1, p.5) | We have simulated an agrivoltaic system of 22.8 kWp composed by 60 bifacial PV modules arranged in three rows. (Sec. 2.4, p.6)",
+  "reason": "The model is set up for the site of a named planned installation, with a defined 22.8 kWp system and named module and site-specific weather data, which meets 'planned installation with a real site'. Row distance and azimuth are still being optimised, so confidence is moderate."
+ }
+]

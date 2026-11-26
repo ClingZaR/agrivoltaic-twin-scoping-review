@@ -104,6 +104,9 @@ def kap(pp):
 rng = random.Random(20261125)
 boots = sorted(kap([pairs[rng.randrange(len(pairs))] for _ in pairs]) for _ in range(1000))
 g["twin_kappa_ci"] = f"{boots[25]:.2f}–{boots[974]:.2f}"
+_st = {"digital_shadow", "digital_twin"}
+_pa = sum(1 for a, b in pairs if a in _st and b in _st); _pb = sum(1 for a, b in pairs if (a in _st) != (b in _st))
+g["twin_pa_st"] = f"{2 * _pa / (2 * _pa + _pb):.2f}" if (_pa + _pb) else "NA"; g["twin_pa_st_both"] = _pa; g["twin_pa_st_one"] = _pb
 dis = [p for p in pairs if p[0] != p[1]]
 g["twin_disagree_n"] = len(dis)
 g["twin_agreed_shadow_twin"] = sum(1 for a, b in pairs if a == b and a in ("digital_shadow", "digital_twin"))

@@ -1,0 +1,987 @@
+{
+ "N001": {
+  "decision": "EXCLUDE",
+  "code": "E5",
+  "reason": "Zenodo deposit describing farm grazing practice; not peer-reviewed research"
+ },
+ "N002": {
+  "decision": "KEEP",
+  "code": "",
+  "reason": "Agrivoltaic title; no venue or abstract, enabler undeterminable"
+ },
+ "N003": {
+  "decision": "KEEP",
+  "code": "",
+  "reason": "Ecotect simulation of light under PV panels for crop layout"
+ },
+ "N004": {
+  "decision": "KEEP",
+  "code": "",
+  "reason": "Camera-guided agricultural robot operating under solar panels; possible sensing system"
+ },
+ "N005": {
+  "decision": "EXCLUDE",
+  "code": "E2",
+  "reason": "Greenhouse PV lettuce experiment reporting measured outcomes only"
+ },
+ "N006": {
+  "decision": "EXCLUDE",
+  "code": "E2",
+  "reason": "PV greenhouse crop trial reporting measured yield only, no model"
+ },
+ "N007": {
+  "decision": "KEEP",
+  "code": "",
+  "reason": "ANN predicting PV and vertical-farm yield on PV-shaded productive facade"
+ },
+ "N008": {
+  "decision": "EXCLUDE",
+  "code": "E4",
+  "reason": "Review of greenhouse PV technologies"
+ },
+ "N009": {
+  "decision": "KEEP",
+  "code": "",
+  "reason": "Simulation and optimization of PV shading with vertical farming facade; borderline system"
+ },
+ "N010": {
+  "decision": "KEEP",
+  "code": "",
+  "reason": "PV shading net management in greenhouse; no abstract, possible control"
+ },
+ "N011": {
+  "decision": "EXCLUDE",
+  "code": "E4",
+  "reason": "General overview article on vegetables under solar panels"
+ },
+ "N012": {
+  "decision": "KEEP",
+  "code": "",
+  "reason": "Greenhouse PV shading with CWSI computed from climate data; check type"
+ },
+ "N013": {
+  "decision": "EXCLUDE",
+  "code": "E1",
+  "reason": "Building-integrated PV shading planning, no agriculture"
+ },
+ "N014": {
+  "decision": "EXCLUDE",
+  "code": "E2",
+  "reason": "Field sampling of plant and soil responses at solar farms, no model"
+ },
+ "N015": {
+  "decision": "EXCLUDE",
+  "code": "E5",
+  "reason": "Preprint; general overview of agrivoltaics"
+ },
+ "N016": {
+  "decision": "EXCLUDE",
+  "code": "E5",
+  "reason": "Doctoral dissertation"
+ },
+ "N017": {
+  "decision": "EXCLUDE",
+  "code": "E5",
+  "reason": "Repository brief/commentary on micro-agrivoltaics"
+ },
+ "N018": {
+  "decision": "EXCLUDE",
+  "code": "E2",
+  "reason": "Greenhouse rooftop PV experiment reporting measured microclimate and yield"
+ },
+ "N019": {
+  "decision": "KEEP",
+  "code": "",
+  "reason": "Multi-objective modelling of PV-shading vertical-farm facade energy and crop yield"
+ },
+ "N020": {
+  "decision": "EXCLUDE",
+  "code": "E5",
+  "reason": "SSRN preprint"
+ },
+ "N021": {
+  "decision": "EXCLUDE",
+  "code": "E1",
+  "reason": "Arthropod ecology in solar parks; no agricultural production"
+ },
+ "N022": {
+  "decision": "EXCLUDE",
+  "code": "E2",
+  "reason": "Soil property measurements under ground-mounted PV; no model"
+ },
+ "N023": {
+  "decision": "EXCLUDE",
+  "code": "E2",
+  "reason": "PV shade house crop trial reporting measured biomass only"
+ },
+ "N024": {
+  "decision": "EXCLUDE",
+  "code": "E5",
+  "reason": "Specimen dataset record, not a research article"
+ },
+ "N025": {
+  "decision": "KEEP",
+  "code": "",
+  "reason": "Revit shading simulation and empirical soybean yield model for agrivoltaic design"
+ },
+ "N026": {
+  "decision": "EXCLUDE",
+  "code": "E2",
+  "reason": "Experimental PV greenhouse lettuce trial, measured outcomes only"
+ },
+ "N027": {
+  "decision": "KEEP",
+  "code": "",
+  "reason": "Sensor-based temperature monitoring system for PV-shaded herb greenhouse"
+ },
+ "N028": {
+  "decision": "EXCLUDE",
+  "code": "E5",
+  "reason": "Project report on desalination hydroponic greenhouse; not agrivoltaic"
+ },
+ "N029": {
+  "decision": "EXCLUDE",
+  "code": "E2",
+  "reason": "Ecological field survey of grazed solar park grasslands, no model"
+ },
+ "N030": {
+  "decision": "EXCLUDE",
+  "code": "E4",
+  "reason": "Descriptive literature review of rabbit production impacts"
+ },
+ "N031": {
+  "decision": "EXCLUDE",
+  "code": "E1",
+  "reason": "Biogas from mushroom substrate; unrelated to agrivoltaics"
+ },
+ "N032": {
+  "decision": "KEEP",
+  "code": "",
+  "reason": "Sky illumination model and PV panel optimization for solar greenhouses"
+ },
+ "N033": {
+  "decision": "EXCLUDE",
+  "code": "E5",
+  "reason": "Conference abstract on solar parks on peatland"
+ },
+ "N034": {
+  "decision": "EXCLUDE",
+  "code": "E1",
+  "reason": "Agricultural microgrid frequency control; no crop-PV co-location"
+ },
+ "N035": {
+  "decision": "EXCLUDE",
+  "code": "E1",
+  "reason": "Livelihood survey on solar farm land acquisition; not agrivoltaic"
+ },
+ "N036": {
+  "decision": "KEEP",
+  "code": "",
+  "reason": "Rice agrivoltaic study using simulated radiative heterogeneity under panels"
+ },
+ "N037": {
+  "decision": "EXCLUDE",
+  "code": "E2",
+  "reason": "Pollinator field survey in solar parks, no model"
+ },
+ "N038": {
+  "decision": "EXCLUDE",
+  "code": "E1",
+  "reason": "Beef cattle circularity perspective; not agrivoltaic"
+ },
+ "N039": {
+  "decision": "EXCLUDE",
+  "code": "E5",
+  "reason": "Conference abstract on solar park soil health"
+ },
+ "N040": {
+  "decision": "EXCLUDE",
+  "code": "E2",
+  "reason": "Greenhouse shading-level experiment without PV or model"
+ },
+ "N041": {
+  "decision": "EXCLUDE",
+  "code": "E2",
+  "reason": "Grazing accreditation course description; no model or data system"
+ },
+ "N042": {
+  "decision": "EXCLUDE",
+  "code": "E2",
+  "reason": "Grapevine agrivoltaic field trial reporting measured parameters only"
+ },
+ "N043": {
+  "decision": "EXCLUDE",
+  "code": "E5",
+  "reason": "Conference abstract on land-cover suitability for PV"
+ },
+ "N044": {
+  "decision": "EXCLUDE",
+  "code": "E1",
+  "reason": "Vegetation survey at solar plant in forest; no agriculture"
+ },
+ "N045": {
+  "decision": "EXCLUDE",
+  "code": "E1",
+  "reason": "Ecovoltaic grassland restoration soil study; no agricultural production"
+ },
+ "N046": {
+  "decision": "EXCLUDE",
+  "code": "E1",
+  "reason": "PV/T collector design; no crops co-located with PV"
+ },
+ "N047": {
+  "decision": "EXCLUDE",
+  "code": "E2",
+  "reason": "Soil fauna and plant trait survey in solar parks, no model"
+ },
+ "N048": {
+  "decision": "EXCLUDE",
+  "code": "E5",
+  "reason": "Conference abstract on solar park biodiversity"
+ },
+ "N049": {
+  "decision": "EXCLUDE",
+  "code": "E1",
+  "reason": "Forestry PV energy internet; not agrivoltaic"
+ },
+ "N050": {
+  "decision": "EXCLUDE",
+  "code": "E2",
+  "reason": "Soil arthropod survey in grazed PV parks, no model"
+ },
+ "N051": {
+  "decision": "EXCLUDE",
+  "code": "E1",
+  "reason": "Pollinator habitat at solar farms; no agricultural production"
+ },
+ "N052": {
+  "decision": "KEEP",
+  "code": "",
+  "reason": "PV greenhouse chili trial with simulated PV energy yield"
+ },
+ "N053": {
+  "decision": "EXCLUDE",
+  "code": "E6",
+  "reason": "Incomplete record, partly non-English title, no venue or abstract"
+ },
+ "N054": {
+  "decision": "KEEP",
+  "code": "",
+  "reason": "IoT sensors and cablebot monitoring in PV-integrated greenhouse"
+ },
+ "N055": {
+  "decision": "EXCLUDE",
+  "code": "E5",
+  "reason": "Conference abstract on peatland solar park GHG fluxes"
+ },
+ "N056": {
+  "decision": "EXCLUDE",
+  "code": "E2",
+  "reason": "Experimental PV greenhouse pepper trial, measured outcomes only"
+ },
+ "N057": {
+  "decision": "KEEP",
+  "code": "",
+  "reason": "Validated numerical thermal simulation of PV-roof greenhouse"
+ },
+ "N058": {
+  "decision": "KEEP",
+  "code": "",
+  "reason": "Coupled PV generation and greenhouse environment load model; check economics-only"
+ },
+ "N059": {
+  "decision": "EXCLUDE",
+  "code": "E2",
+  "reason": "Agronomic adaptation of asparagus in PV greenhouse, no model"
+ },
+ "N060": {
+  "decision": "EXCLUDE",
+  "code": "E2",
+  "reason": "PV greenhouse pakchoi growth trial, no model indicated"
+ },
+ "N061": {
+  "decision": "EXCLUDE",
+  "code": "E1",
+  "reason": "Solar greenhouse dryer for post-harvest tomato drying; no cultivation"
+ },
+ "N062": {
+  "decision": "EXCLUDE",
+  "code": "E5",
+  "reason": "SSRN preprint"
+ },
+ "N063": {
+  "decision": "EXCLUDE",
+  "code": "E2",
+  "reason": "Vegetable growth evaluation in PV greenhouse, agronomic trial only"
+ },
+ "N064": {
+  "decision": "KEEP",
+  "code": "",
+  "reason": "Semi-transparent PV greenhouse energy-autonomy system design for Aloe vera"
+ },
+ "N065": {
+  "decision": "EXCLUDE",
+  "code": "E4",
+  "reason": "Review of organic solar cells for greenhouse integration"
+ },
+ "N066": {
+  "decision": "EXCLUDE",
+  "code": "E5",
+  "reason": "SSRN preprint; also fish farming focus"
+ },
+ "N067": {
+  "decision": "EXCLUDE",
+  "code": "E4",
+  "reason": "Review of greenhouse-integrated organic photovoltaics"
+ },
+ "N068": {
+  "decision": "EXCLUDE",
+  "code": "E1",
+  "reason": "Device-level organic solar cell materials, not an agrivoltaic system study"
+ },
+ "N069": {
+  "decision": "EXCLUDE",
+  "code": "E1",
+  "reason": "Generic semitransparent organic PV electrode development"
+ },
+ "N070": {
+  "decision": "KEEP",
+  "code": "",
+  "reason": "Ray-tracing and electrical simulation of greenhouse PV concentrator arrays"
+ },
+ "N071": {
+  "decision": "KEEP",
+  "code": "",
+  "reason": "Calculation method for solar light availability inside PV greenhouses"
+ },
+ "N072": {
+  "decision": "KEEP",
+  "code": "",
+  "reason": "PV-powered smart greenhouse with automated control; check PV co-location"
+ },
+ "N073": {
+  "decision": "KEEP",
+  "code": "",
+  "reason": "Ecotect simulation of PAR and PV energy in a PV greenhouse"
+ },
+ "N074": {
+  "decision": "KEEP",
+  "code": "",
+  "reason": "Simulation framework for PV roof coverage effects on greenhouse light and energy"
+ },
+ "N075": {
+  "decision": "EXCLUDE",
+  "code": "E1",
+  "reason": "Generic semitransparent organic PV materials study"
+ },
+ "N076": {
+  "decision": "EXCLUDE",
+  "code": "E5",
+  "reason": "SSRN preprint"
+ },
+ "N077": {
+  "decision": "EXCLUDE",
+  "code": "E1",
+  "reason": "BIPV building with bioclimatic CO2 greenhouse; not agrivoltaic production"
+ },
+ "N078": {
+  "decision": "KEEP",
+  "code": "",
+  "reason": "PVsyst modelling of PV energy yield on greenhouse roof"
+ },
+ "N079": {
+  "decision": "EXCLUDE",
+  "code": "E4",
+  "reason": "Review of PV greenhouse spectral design"
+ },
+ "N080": {
+  "decision": "EXCLUDE",
+  "code": "E4",
+  "reason": "Overview review of PV greenhouse design and management"
+ },
+ "N081": {
+  "decision": "EXCLUDE",
+  "code": "E5",
+  "reason": "SSRN preprint"
+ },
+ "N082": {
+  "decision": "EXCLUDE",
+  "code": "E2",
+  "reason": "Agrivoltaics policy frameworks report, no model"
+ },
+ "N083": {
+  "decision": "EXCLUDE",
+  "code": "E3",
+  "reason": "Regional PV potential assessment of greenhouse roofs in a county"
+ },
+ "N084": {
+  "decision": "KEEP",
+  "code": "",
+  "reason": "Stochastic optimisation of microgrid for greenhouse with transparent PV"
+ },
+ "N085": {
+  "decision": "EXCLUDE",
+  "code": "E4",
+  "reason": "Review of greenhouse energy balance modelling"
+ },
+ "N086": {
+  "decision": "EXCLUDE",
+  "code": "E1",
+  "reason": "Solar panels for greenhouse soil disinfection; not crop-PV co-location"
+ },
+ "N087": {
+  "decision": "KEEP",
+  "code": "",
+  "reason": "Irradiance model and optimization of solar greenhouse structure dimensions"
+ },
+ "N088": {
+  "decision": "EXCLUDE",
+  "code": "E1",
+  "reason": "Satellite wildfire detection; unrelated"
+ },
+ "N089": {
+  "decision": "EXCLUDE",
+  "code": "E1",
+  "reason": "Nano-layer materials technologies; not agrivoltaic"
+ },
+ "N090": {
+  "decision": "KEEP",
+  "code": "",
+  "reason": "Robust optimisation of PV-storage agricultural greenhouse micro-energy network"
+ },
+ "N091": {
+  "decision": "EXCLUDE",
+  "code": "E1",
+  "reason": "Protective glass film against acid rain; materials study"
+ },
+ "N092": {
+  "decision": "EXCLUDE",
+  "code": "E2",
+  "reason": "Greenhouse semi-transparent PV crop trial, measured outcomes only"
+ },
+ "N093": {
+  "decision": "KEEP",
+  "code": "",
+  "reason": "3D radiation and thermal models of PV-integrated greenhouse yield"
+ },
+ "N094": {
+  "decision": "EXCLUDE",
+  "code": "E1",
+  "reason": "PV-wind water pumping sizing for greenhouse; PV not co-located with crops"
+ },
+ "N095": {
+  "decision": "EXCLUDE",
+  "code": "E2",
+  "reason": "Experimental semi-transparent PV greenhouse measurements, no model"
+ },
+ "N096": {
+  "decision": "EXCLUDE",
+  "code": "E1",
+  "reason": "Electric vehicle with PV panels; unrelated"
+ },
+ "N097": {
+  "decision": "EXCLUDE",
+  "code": "E1",
+  "reason": "Agricultural supply chain optimization; no PV co-location"
+ },
+ "N098": {
+  "decision": "EXCLUDE",
+  "code": "E1",
+  "reason": "Passive greenhouse control without PV"
+ },
+ "N099": {
+  "decision": "EXCLUDE",
+  "code": "E1",
+  "reason": "Microalgae biofuel raceways under PV; not crops or pasture"
+ },
+ "N100": {
+  "decision": "EXCLUDE",
+  "code": "E1",
+  "reason": "Solar panel fabrication emissions; unrelated"
+ },
+ "N101": {
+  "decision": "EXCLUDE",
+  "code": "E1",
+  "reason": "Solar-wind highway lighting system; unrelated to agriculture"
+ },
+ "N102": {
+  "decision": "EXCLUDE",
+  "code": "E5",
+  "reason": "SSRN preprint"
+ },
+ "N103": {
+  "decision": "EXCLUDE",
+  "code": "E1",
+  "reason": "News item on wind-solar co-location; no agriculture"
+ },
+ "N104": {
+  "decision": "EXCLUDE",
+  "code": "E1",
+  "reason": "Patent record for PV power station; not agrivoltaic"
+ },
+ "N105": {
+  "decision": "EXCLUDE",
+  "code": "E1",
+  "reason": "Conservation-solar concept on solar farms; no agriculture"
+ },
+ "N106": {
+  "decision": "EXCLUDE",
+  "code": "E3",
+  "reason": "Regional GIS and economic analysis of sheep grazing across PV plants"
+ },
+ "N107": {
+  "decision": "EXCLUDE",
+  "code": "E5",
+  "reason": "Zenodo technical note, explicitly not peer reviewed"
+ },
+ "N108": {
+  "decision": "EXCLUDE",
+  "code": "E5",
+  "reason": "College repository paper on solar farm siting"
+ },
+ "N109": {
+  "decision": "EXCLUDE",
+  "code": "E1",
+  "reason": "Hybrid wind-solar farm planning; no agriculture"
+ },
+ "N110": {
+  "decision": "EXCLUDE",
+  "code": "E1",
+  "reason": "Wind-solar hybrid plant report; no agriculture"
+ },
+ "N111": {
+  "decision": "EXCLUDE",
+  "code": "E4",
+  "reason": "Narrative synthesis on climate adaptation with solar parks"
+ },
+ "N112": {
+  "decision": "EXCLUDE",
+  "code": "E1",
+  "reason": "Solar farm with energy storage economics; no agriculture"
+ },
+ "N113": {
+  "decision": "EXCLUDE",
+  "code": "E5",
+  "reason": "Conference abstract on honeybee hives in solar parks"
+ },
+ "N114": {
+  "decision": "EXCLUDE",
+  "code": "E1",
+  "reason": "Offshore wind and floating solar; no agriculture"
+ },
+ "N115": {
+  "decision": "EXCLUDE",
+  "code": "E1",
+  "reason": "Review of offshore wind-floating solar siting; no agriculture"
+ },
+ "N116": {
+  "decision": "EXCLUDE",
+  "code": "E4",
+  "reason": "Commentary on clean energy land occupation"
+ },
+ "N117": {
+  "decision": "EXCLUDE",
+  "code": "E1",
+  "reason": "Biogas plants on pastures; no PV co-location"
+ },
+ "N118": {
+  "decision": "EXCLUDE",
+  "code": "E1",
+  "reason": "Offshore wind-solar shading model; no agriculture"
+ },
+ "N119": {
+  "decision": "EXCLUDE",
+  "code": "E1",
+  "reason": "Offshore wind-solar potential mapping; no agriculture"
+ },
+ "N120": {
+  "decision": "EXCLUDE",
+  "code": "E1",
+  "reason": "Wind farm power fluctuation analysis; no agriculture"
+ },
+ "N121": {
+  "decision": "EXCLUDE",
+  "code": "E1",
+  "reason": "Grid PV with hybrid storage scheduling; no agriculture"
+ },
+ "N122": {
+  "decision": "EXCLUDE",
+  "code": "E2",
+  "reason": "Conceptual orchard-livestock-PV production scheme; no computational model"
+ },
+ "N123": {
+  "decision": "EXCLUDE",
+  "code": "E3",
+  "reason": "National GIS multi-criteria siting of ground-mounted PV"
+ },
+ "N124": {
+  "decision": "KEEP",
+  "code": "",
+  "reason": "Vertical bifacial agri-PV park with microclimate and electrical performance analysis"
+ },
+ "N125": {
+  "decision": "EXCLUDE",
+  "code": "E1",
+  "reason": "PV plus battery revenue back-testing; no agriculture"
+ },
+ "N126": {
+  "decision": "EXCLUDE",
+  "code": "E1",
+  "reason": "Battery recycling by electroslag refining; unrelated"
+ },
+ "N127": {
+  "decision": "EXCLUDE",
+  "code": "E1",
+  "reason": "Slides on hybrid power plants; no agriculture"
+ },
+ "N128": {
+  "decision": "EXCLUDE",
+  "code": "E5",
+  "reason": "University repository thesis, Swedish-language title"
+ },
+ "N129": {
+  "decision": "EXCLUDE",
+  "code": "E1",
+  "reason": "Report on hybrid power plants; no agriculture"
+ },
+ "N130": {
+  "decision": "EXCLUDE",
+  "code": "E5",
+  "reason": "SSRN preprint"
+ },
+ "N131": {
+  "decision": "EXCLUDE",
+  "code": "E1",
+  "reason": "Magazine piece on smallholder climate shocks; no PV"
+ },
+ "N132": {
+  "decision": "KEEP",
+  "code": "",
+  "reason": "UAV and infrared inspection of PV stations including agri-PV hot spots"
+ },
+ "R0093": {
+  "decision": "EXCLUDE",
+  "code": "E1",
+  "reason": "Solar thermal receiver window cooling; unrelated"
+ },
+ "R0116": {
+  "decision": "EXCLUDE",
+  "code": "E1",
+  "reason": "Concentrated solar thermal storage control; unrelated"
+ },
+ "R0169": {
+  "decision": "EXCLUDE",
+  "code": "E1",
+  "reason": "Solar chemical looping combustion; unrelated"
+ },
+ "R0144": {
+  "decision": "EXCLUDE",
+  "code": "E1",
+  "reason": "Solar-assisted gas turbine cycle; unrelated"
+ },
+ "R0153": {
+  "decision": "EXCLUDE",
+  "code": "E1",
+  "reason": "Solar-coal hybrid power plant; unrelated"
+ },
+ "R0072": {
+  "decision": "EXCLUDE",
+  "code": "E1",
+  "reason": "Solar crop drying overview; no PV-crop co-location"
+ },
+ "R0106": {
+  "decision": "EXCLUDE",
+  "code": "E1",
+  "reason": "Solar-assisted gas turbine cycle; unrelated"
+ },
+ "R0134": {
+  "decision": "EXCLUDE",
+  "code": "E1",
+  "reason": "Solar hybrid gas turbine parameterization; unrelated"
+ },
+ "R0075": {
+  "decision": "EXCLUDE",
+  "code": "E4",
+  "reason": "State-of-the-art review of active solar thermal greenhouses"
+ },
+ "R0173": {
+  "decision": "EXCLUDE",
+  "code": "E1",
+  "reason": "Solar gas turbine dynamic simulation; unrelated"
+ },
+ "R0078": {
+  "decision": "EXCLUDE",
+  "code": "E1",
+  "reason": "Solar dryer simulation; no PV-crop co-location"
+ },
+ "R0086": {
+  "decision": "EXCLUDE",
+  "code": "E1",
+  "reason": "Solar sail space missions; unrelated"
+ },
+ "R0108": {
+  "decision": "EXCLUDE",
+  "code": "E1",
+  "reason": "Solar trough combined cycle integration; unrelated"
+ },
+ "R0114": {
+  "decision": "EXCLUDE",
+  "code": "E1",
+  "reason": "CSP-biogas hybrid plant (microbial fuel cell abstract); unrelated"
+ },
+ "R0127": {
+  "decision": "EXCLUDE",
+  "code": "E1",
+  "reason": "Solar gas turbine control strategies; unrelated"
+ },
+ "R0056": {
+  "decision": "EXCLUDE",
+  "code": "E1",
+  "reason": "Safety procedures for agricultural PV power array; no crops under PV"
+ },
+ "R0079": {
+  "decision": "EXCLUDE",
+  "code": "E1",
+  "reason": "Relativity solar-grazing photon delay; unrelated"
+ },
+ "R0050": {
+  "decision": "EXCLUDE",
+  "code": "E3",
+  "reason": "County-level GIS siting report for utility-scale agrivoltaics"
+ },
+ "R0406": {
+  "decision": "EXCLUDE",
+  "code": "E4",
+  "reason": "Review of agrivoltaic potential in Sri Lanka"
+ },
+ "R0285": {
+  "decision": "EXCLUDE",
+  "code": "E1",
+  "reason": "Solar hybridized gasification for liquid fuels; unrelated"
+ },
+ "R0262": {
+  "decision": "EXCLUDE",
+  "code": "E1",
+  "reason": "Ceramic solar absorber for gas turbines; unrelated"
+ },
+ "R0360": {
+  "decision": "EXCLUDE",
+  "code": "E6",
+  "reason": "Korean-language article; economic-only analysis of agro-PV"
+ },
+ "R0184": {
+  "decision": "EXCLUDE",
+  "code": "E1",
+  "reason": "CSP hybrid plant thermoeconomics; unrelated"
+ },
+ "R0273": {
+  "decision": "EXCLUDE",
+  "code": "E1",
+  "reason": "CSP and fluidized bed plant integration; unrelated"
+ },
+ "R0283": {
+  "decision": "EXCLUDE",
+  "code": "E1",
+  "reason": "Spectrum splitter for algae biofuel and PV; not crops"
+ },
+ "R0241": {
+  "decision": "EXCLUDE",
+  "code": "E1",
+  "reason": "Net metering tariff economics; unrelated"
+ },
+ "R0248": {
+  "decision": "EXCLUDE",
+  "code": "E1",
+  "reason": "Thermosolar Brayton plant simulation; unrelated"
+ },
+ "R0310": {
+  "decision": "EXCLUDE",
+  "code": "E1",
+  "reason": "Solar agricultural spray pump fabrication; no PV-crop co-location"
+ },
+ "R0397": {
+  "decision": "EXCLUDE",
+  "code": "E1",
+  "reason": "Wind-solar portfolio deployment analysis; no agriculture"
+ },
+ "R1043": {
+  "decision": "EXCLUDE",
+  "code": "E2",
+  "reason": "Legal and policy article on agrivoltaics"
+ },
+ "R1136": {
+  "decision": "EXCLUDE",
+  "code": "E5",
+  "reason": "Book on agrivoltaics"
+ },
+ "R0827": {
+  "decision": "EXCLUDE",
+  "code": "E2",
+  "reason": "Economic feasibility analysis with measured blueberry growth; no model"
+ },
+ "R1334": {
+  "decision": "EXCLUDE",
+  "code": "E2",
+  "reason": "Farm income comparison under agrivoltaics; economic and agronomic only"
+ },
+ "R0500": {
+  "decision": "EXCLUDE",
+  "code": "E3",
+  "reason": "Regional PV potential of abandoned farmland in Japan"
+ },
+ "R0787": {
+  "decision": "EXCLUDE",
+  "code": "E3",
+  "reason": "GIS site selection for agrophotovoltaics in a county"
+ },
+ "R0800": {
+  "decision": "EXCLUDE",
+  "code": "E5",
+  "reason": "Technical report synthesizing InSPIRE lessons learned"
+ },
+ "R0418": {
+  "decision": "EXCLUDE",
+  "code": "E2",
+  "reason": "Capital cost benchmark report for dual-use PV; economic only"
+ },
+ "R1095": {
+  "decision": "EXCLUDE",
+  "code": "E5",
+  "reason": "Feasibility and stakeholder engagement report for Haiti"
+ },
+ "R0635": {
+  "decision": "EXCLUDE",
+  "code": "E5",
+  "reason": "Thesis on social dimensions of agrivoltaics"
+ },
+ "R1255": {
+  "decision": "EXCLUDE",
+  "code": "E5",
+  "reason": "Journal front cover description"
+ },
+ "R1373": {
+  "decision": "EXCLUDE",
+  "code": "E5",
+  "reason": "Webinar presentation"
+ },
+ "R0501": {
+  "decision": "EXCLUDE",
+  "code": "E5",
+  "reason": "Book chapter on agrivoltaic concept"
+ },
+ "R0410": {
+  "decision": "EXCLUDE",
+  "code": "E2",
+  "reason": "Socio-political barriers and LCA project"
+ },
+ "R1290": {
+  "decision": "EXCLUDE",
+  "code": "E5",
+  "reason": "Introductory webinar presentation"
+ },
+ "R1292": {
+  "decision": "EXCLUDE",
+  "code": "E5",
+  "reason": "Conference talk abstract on organic solar cell materials"
+ },
+ "R3248": {
+  "decision": "EXCLUDE",
+  "code": "E1",
+  "reason": "UK renewable energy land-area analysis; not agrivoltaic"
+ },
+ "R1964": {
+  "decision": "EXCLUDE",
+  "code": "E1",
+  "reason": "Island grid gas turbine dispatch with PV; no agriculture"
+ },
+ "R2752": {
+  "decision": "EXCLUDE",
+  "code": "E2",
+  "reason": "Social acceptance survey of agrivoltaics"
+ },
+ "R3265": {
+  "decision": "EXCLUDE",
+  "code": "E1",
+  "reason": "Rural renewable energy enterprises economics; not agrivoltaic"
+ },
+ "R1749": {
+  "decision": "EXCLUDE",
+  "code": "E2",
+  "reason": "Comparative agrivoltaic policy analysis, Korean language"
+ },
+ "R1635": {
+  "decision": "EXCLUDE",
+  "code": "E5",
+  "reason": "Overview report on agrivoltaic systems"
+ },
+ "R1609": {
+  "decision": "EXCLUDE",
+  "code": "E1",
+  "reason": "Solar irrigation pump deployment report; no PV-crop co-location"
+ },
+ "R1538": {
+  "decision": "EXCLUDE",
+  "code": "E2",
+  "reason": "Farmer adoption intention survey with logit model"
+ },
+ "R1685": {
+  "decision": "EXCLUDE",
+  "code": "E2",
+  "reason": "Resident acceptance and institutional study, Korean language"
+ },
+ "R1925": {
+  "decision": "EXCLUDE",
+  "code": "E5",
+  "reason": "Presentation on social aspects of agrivoltaics"
+ },
+ "R2383": {
+  "decision": "EXCLUDE",
+  "code": "E1",
+  "reason": "Electricity tariff scheme analysis; no agriculture"
+ },
+ "R1479": {
+  "decision": "EXCLUDE",
+  "code": "E5",
+  "reason": "Information network website description"
+ },
+ "R2181": {
+  "decision": "EXCLUDE",
+  "code": "E2",
+  "reason": "Fuzzy AHP policy priority survey of experts"
+ },
+ "R2456": {
+  "decision": "EXCLUDE",
+  "code": "E5",
+  "reason": "bioRxiv preprint"
+ },
+ "R2494": {
+  "decision": "EXCLUDE",
+  "code": "E1",
+  "reason": "Household tariff flexibility assessment; no agriculture"
+ },
+ "R2402": {
+  "decision": "EXCLUDE",
+  "code": "E2",
+  "reason": "Prospective life cycle assessment of agrivoltaic deployment"
+ },
+ "R1970": {
+  "decision": "EXCLUDE",
+  "code": "E2",
+  "reason": "Economic analysis of agrivoltaics on rice farm incomes"
+ },
+ "R2701": {
+  "decision": "EXCLUDE",
+  "code": "E2",
+  "reason": "Conceptual social and gender sustainability framework"
+ },
+ "R0181": {
+  "decision": "EXCLUDE",
+  "code": "E1",
+  "reason": "Solar market value in electricity market; no agriculture"
+ },
+ "R1206": {
+  "decision": "EXCLUDE",
+  "code": "E5",
+  "reason": "SSRN preprint on consumer willingness to pay"
+ }
+}
